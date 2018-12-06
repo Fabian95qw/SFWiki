@@ -1,4 +1,3 @@
-<!-- TITLE: Wilkommen! -->
-<!-- SUBTITLE: A quick summary of Home -->
-
-# Header
+<!-- TITLE: Starface Modul-Wiki -->
+# Vorsicht
+Diese Seite ist aktuell im Aufbau, und deshalb nicht vollständig!
