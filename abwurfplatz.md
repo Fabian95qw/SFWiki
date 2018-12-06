@@ -8,7 +8,7 @@ Mögliche Formate:
 * 0049123456* ==> Alle Nummern die mit 0049123456 beginnen
 * *789 ==> Alle Nummern die mit 789 Aufhören
 * *123* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
-* 12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
+*  12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
 * .23 ==> Alle dreistelligen Nummern, die mit 23 aufhören
 * .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 * ... ==> Alle dreistelligen Nummern
