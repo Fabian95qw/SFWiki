@@ -41,6 +41,9 @@ Gewisse Teilnehmer können es einfach nicht lassen, eigene Tasten zu erfassen. d
 **Tasten vorher löschen 	**	
 Man kann hier einen Tastenbereich definieren, welcher beim Zielbenutzer vorher gelöscht werden soll. Damit 
 
+## Typenfilter
+Verhindert dass gewisse Tastentypen vom Quellbenutzer zur Zielgruppe kopiert werden.
+
 ![3](/uploads/funktionstasten-klonen/3.jpg "3")
 
 # Beispiele
