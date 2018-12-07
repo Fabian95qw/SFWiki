@@ -16,3 +16,7 @@ Mögliche Formate:
 # Bilder
 ![1](/uploads/abwurfplatz/1.png "1")
 
+# Downloads
+Für Downloads besuchen sie bitte http://module.nucom.ch/
+
+
