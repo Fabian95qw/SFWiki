@@ -86,8 +86,8 @@ Für die Konfiguration der individuellen Quellen siehe:
 
 Exchange/Office365 Connector: http://wiki.nucom.ch:8018/adressbuch-importer/exchange-connector
 Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.nucom.ch:8018/adressbuch-importer/datei-import
-Google Contacts
-CardDAV
+Google Contacts: http://wiki.nucom.ch:8018/adressbuch-importer/google-contacts
+CardDAV: 
 Multi-VCard
 Pipedrive-CRM
 
