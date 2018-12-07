@@ -53,11 +53,11 @@ Der Titel ist soweit selbsterklärend.
 **Ergebnisse der Duplikaterkennung als E-Mail Senden**
 Generiert ein E-Mail mit einem CSV im Anhang, welches Aufzeigt welche Kontakte als Duplikat von welchem existierenden Kontakt erkannt wurden.
 Mehr dazu im Kapitel Duplikats Erkennung
+
 Beispiel Duplikaterkennung CSV in Excel geöffnet:
+![Duplikat](/uploads/adressbuch-importer/duplikat.png "Duplikat")
 
-
-Ergebnisse der Importbedingungen als E-Mail Senden
-
+**Ergebnisse der Importbedingungen als E-Mail Senden**
 Es wir dein CSV mit den Kontakten generiert, die Aufgrund der Importbedingungen nicht Importiert wurden. Es werden ebenfalls die Felder markiert, welche der Grund für den Nicht-Import waren.
 Mehr dazu im Kapitel Importbedingungen
 Beispiel Importbedingungen in Excel geöffnet.
