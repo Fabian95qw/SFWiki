@@ -1,6 +1,6 @@
-<!-- TITLE: VCard -->
+<!-- TITLE: Quelle: VCard -->
 # Beschreibung
-
+Hier geht es Spezifisch um die Konfiguration des VCard-Importes im Adressbuch Importer
 # Konfiguration
 
 # Downloads & Lizenzierung
