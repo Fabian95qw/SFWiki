@@ -27,4 +27,4 @@ Das Ergebnis würde dann so aussehen:
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 **Gratislizenz: PKJNZ-CXX5G-X4VC6-YSYEC-A3AR2**
 
-
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
