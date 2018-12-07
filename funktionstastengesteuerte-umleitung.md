@@ -24,7 +24,17 @@ Z.b. wenn ein Benutzer die Instanz "Uml. Zentrale" aktiv hat, und per BLF die In
 Wenn dieses Häkchen aktiviert ist, werden die neuen Umleitungsziele gesetzt, aber an dem Aktivierungsstatus der einzelnen Umleitungen wird nichts geändert. 
 
 ## Konfiguration der Umleitungen
+Für die Konfiguration der Umleitungen gibt es 3 Tabs. Jede nachdem, ob man die Umleitung **Immer/Besetzt/Zeitüberschr**. setzen will.
+
 ![3](/uploads/funktionstastengesteuerte-umleitung/3.jpg "3")
+
+### Nummern umleiten zu 
+Definiert die Art des Ziels, es können Benutzer, Gruppen, Voicemailbox, oder Rufnummern gewählt werden.
+**Zu beachten, bei der Voicemailbox, wird einfach der Punkt "Voicemailbox" aktiviert, und die dahinter Konfigurierte Box verwendet.**
+
+### Umleitungsziele:
+Bie den Umleitungszielen wird zwischen Internen/Externen zielen unterschieden.
+Man kann also pro Konfiguration einmal Ziele für die internen, sowie externen Rufnummenziele setzen.
 # Beispiel
 ![1](/uploads/funktionstastengesteuerte-umleitung/1.gif "1")
 # Downloads & Lizenzierung
