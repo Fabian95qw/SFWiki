@@ -10,6 +10,7 @@ Unterstützt sind:
 * CardDAV(Beta)
 * Google Contacts
 * Multi-VCard's
+* Pipedrive CRM
 # Konfiguration
 ## Automatisierung
 ### Importtimer
@@ -81,7 +82,16 @@ Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
 ## Konfiguration der Quelle
 
+Für die Konfiguration der individuellen Quellen siehe:
 
+Exchange/Office365 Connector
+Datei Import FTP/SMB/HTTP(S)-Get
+Google Contacts
+CardDAV
+Multi-VCard
+Pipedrive-CRM
+
+## Duplikatserkennung
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
