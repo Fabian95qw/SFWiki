@@ -84,8 +84,8 @@ Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
 Für die Konfiguration der individuellen Quellen siehe:
 
-Exchange/Office365 Connector
-Datei Import FTP/SMB/HTTP(S)-Get
+Exchange/Office365 Connector: http://wiki.nucom.ch:8018/adressbuch-importer/exchange-connector
+Datei Import FTP/SMB/HTTP(S)-Get 
 Google Contacts
 CardDAV
 Multi-VCard
