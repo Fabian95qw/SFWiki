@@ -106,6 +106,27 @@ Die Zwingenden Felder müssen immer Übereinstimmen, damit es als Duplikat erkan
 Die „Ja“ Felder müssen in [n] Übereinstimmungen übereinstimmen, damit es als Duplikat erkannt wird.
 Die „Nein“ Felder werden generell ignoriert.
 
+## Verschiebelogik
+![Verschiebelogik](/uploads/adressbuch-importer/verschiebelogik.png "Verschiebelogik")
+
+### Logik
+Die Verschiebelogik kann genutzt werden, um Felder mit Werten von anderen Feldern zu befüllen.
+Z.b. wenn der Vorname leer ist, kann der Firmenname dorthin verschoben werden.
+Oder wenn jemand nur eine Mobiltelefonnummer aber keine Normale/Hausnummer hat, kann die Mobilnr. Ins Rufnummernfeld verschoben werden.
+
+### Kopieren statt Verschieben
+Der Wert wird in das Ziel Feld Kopiert statt Verschoben und bleibt somit im Alten Feld ebenfalls erhalten.
+
+## Importbedingungen
+Ungültige Kontakte, werden in die Ungültige Kontakte Liste eingetragen, welche per E-Mail zugesendet wird.
+
+### Importbedingungen Telefon
+Die Importbedingungen verhindern das Importieren von ungültigen Kontakten, welche  keine Telefonnummern besitzen.
+ 
+### Logik
+Die Logik wird verwendet, um Kontakte auszufiltern, welche gewisse Fehlende Felder haben.
+Eine Liste mit den Fehlerhaften Kontakten wird per E-Mail zugestellt.
+ 
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
