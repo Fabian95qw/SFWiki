@@ -27,31 +27,34 @@ Ignoriert die erste Zeile der CSV’s. Dies wird Z.B. benötigt, wenn die Spalte
 Template für Importdateien
 Beim Export der Adressen aus anderen Programmen sind diese nicht unbedingt gerade Starface Konform Formatiert, deshalb kann man ein eigenes Template für eigene Imports einspielen.
  
- **Eigenes Template verwenden**
+##  Template
+ 
+###  Eigenes Template verwenden
 Das eigene Template für den Import verwenden. Wenn dieses hochgeladen wurde
   
-**Beispiel Template**
-Beispieldaten aus Applikation XY
+### Beispiel Template
+
+**Beispieldaten aus Applikation XY**
+
 ![Vorlageappxy](/uploads/adressbuch-importer/vorlageappxy.png "Vorlageappxy")
 
-
-KdNr	Name	Vorname	Abteilung	Firma	PLZ	Strasse	Admin	Telnr
-1337	Mustermann	Max	Elektronik	Musterfirma AG	1234	Musterstrasse 23	false	+41 234 56 78
-2354	Musterfrau	Maria	Intern		5343	Malerstrasse	True	+41 576 83 23
 Diese sollen in die Starface Importiert werden. Hierfür kann ein Template generiert werden.
-Als Vorlage für das Template benutzen wir die Excel CSV Vorlage der Starface (Adressbuch  Importieren  Excel-Vorlage für CSV-Datei  Herunterladen
+Als Vorlage für das Template benutzen wir die CSV-Import Vorlage der Starface:
+
+![Template](/uploads/adressbuch-importer/template.png "Template")
+
 Die darin enthaltenen Spaltennamen werden von der Starface erkannt.
-Teile der Starface Vorlage
-Vorname [contact:firstname]	Name [contact:familyname]	Firma[contact:company]
-Template mithilfe der Starface Vorlage & den Beispieldaten erstellen
-KdNr	Name	Vorname	Abteilung	Firma	PLZ	Strasse	Admin	Telnr
-1337	Mustermann	Max	Elektronik	Musterfirma AG	1234	Musterstrasse 23	false	+41 234 56 78
-2354	Musterfrau	Maria	Intern		5343	Malerstrasse	True	+41 576 83 23
-Resultierendes Template:
-(LEER)	Name [contact:familyname]	Vorname [contact:firstname]	(LEER)	Firma [contact:company]	PLZ [address:postcode]	Straße [address:street]	(LEER)	Rufnummer [telephone:phone]
-Das Resultierende Template muss im CSV Format Semicolon (;) getrennt & im UTF-8 Format abgespeichert werden.
+
+Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im ApplikationXY.csv Entsprechen:
+
+
+
+**Das Resultierende Template muss im CSV Format Semicolon (;) getrennt & im UTF-8 Format abgespeichert werden.**
+
 In diesem Fall würde der „rohe“ CSV-Code so aussehen:
-[LEER];Name [contact:familyname];Vorname [contact:firstname];;Firma [contact:company];PLZ [address:postcode];Straße [address:street];;Rufnummer [telephone:phone]
+
+> [LEER];Name [contact:familyname];Vorname [contact:firstname];;Firma [contact:company];PLZ [address:postcode];Straße [address:street];;Rufnummer [telephone:phone]
+
 Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Kontakte korrekt zu interpretieren.
  
  
