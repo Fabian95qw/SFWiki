@@ -26,7 +26,13 @@ Wird nur beim Fileimportmodus „Nur Spezifisches CSV Importieren“ benötigt. 
 Ignoriert die erste Zeile der CSV’s. Dies wird Z.B. benötigt, wenn die Spaltenbeschriftungen noch vorhanden sind. 
 Template für Importdateien
 Beim Export der Adressen aus anderen Programmen sind diese nicht unbedingt gerade Starface Konform Formatiert, deshalb kann man ein eigenes Template für eigene Imports einspielen.
- 
+
+**Trennzeichen**
+Das definierte Trennzeichen für die CSV-Datei
+
+**Charset**
+Das vorausgesetzte Encoding der CSV-Datei
+
 ##  Template
  
 ###  Eigenes Template verwenden
