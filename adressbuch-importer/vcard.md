@@ -5,14 +5,14 @@ Hier geht es Spezifisch um die Konfiguration des VCard-Importes im Adressbuch Im
  ![Vcard](/uploads/adressbuch-importer/vcard.png "Vcard")
 # http(s) Get
 ##  HTTPS 
-Die http(s) get Funktion erlaubt es eine CSV. Von einem Webhost abzurufen. 
+Die http(s) get Funktion erlaubt es eine VCard. Von einem Webhost abzurufen. 
 
 ### 302 URL redirection Erlauben 		
 Erlaubt eine Umleitung von der URL während des Importprozesses. Für mehr Infos siehe: https://en.wikipedia.org/wiki/HTTP_302
 
 ### GET Request URL		
 Der Request URL.** Ohne Protokoll!**
-Beispielsweise: meinhost.meinestadt.de/kontakte/adressen.csv?user=test&amp;password=[PASSWORT]
+Beispielsweise: meinhost.meinestadt.de/kontakte/adressen.vcf?user=test&amp;password=[PASSWORT]
 
 ### [PASSWORT] Variable 
 Ermöglicht das Verstecken von Passwörter innerhalb des URLs . 
@@ -34,7 +34,7 @@ Ein Dateiname darf nicht angehängt werden. (Dieser wird oben im Import gesetzt)
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
 
 ## SMB Import Pfad
-Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Slash aufhören. Ein Dateiname darf nicht angehängt werden. (SIEHE Import)
+Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Slash aufhören. Ein Dateiname darf nicht angehängt werden.  (Dieser wird oben im Import gesetzt)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
