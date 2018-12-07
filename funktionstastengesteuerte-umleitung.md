@@ -2,7 +2,7 @@
 # Beschreibung
 Bei jedem Teilnehmer sind mehrere Umleit-Tasten definierbar mit unterschiedlichen Zielen, unabhängiger Konfiguration von internen- und Direktwahl-Nummern 
 # Konfiguration
-## Definition des Quellbenutzer
+## Definition des Quellbenutzers
 ![2](/uploads/funktionstastengesteuerte-umleitung/2.jpg "2")
 
 Die einzelnen Instanzen des Moduls müssen jeweils einem Benutzer/Gruppe zugewiesen werden.
