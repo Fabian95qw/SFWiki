@@ -73,9 +73,36 @@ Aktiviert die Voicemail "Immer" der Externe Nummern für alle Kalendereinträge.
 ### Voicemail extern immer aktivieren 	
 Aktiviert die Voicemail "Immer" der Externe Nummern für alle Kalendereinträge.
 
-![4](/uploads/exchange-kalender-connector/4.png "4")
+## Spezialkategorien
+Erlauben/Verweigern von Speziellen Kategorien im Outlook
 
+### _SF_Ignorieren
+Mit dieser Kategorie wird ein Kalendereintrag von der Starface ignoriert.
+
+### _SF_Funktionstasten_aktivieren
+Kategorie zum erlauben der BLF-Indikation Rot/Blau
+
+### _SF_DND_aktivieren
+Kategorie, die es möglicht macht DND auf der Anlage zu aktivieren, wenn ein Termin ansteht.
+
+## Erlaubte Voicemail Kategorien
+Erlauben/Verweigern von Voicemail Kategorien im Outlook
+
+### _SF_AUL_intern_aktivieren 	
+Erlaubt es Umleitungen für die internen Rufnummern zu setzen.
+
+### _SF_AUL_extern_aktivieren 	
+Erlaubt es Umleitungen für die externen Rufnummern zu setzen.
+
+## Erlaubte Parametisierung
+Ob die Parametisierung von Zielen durch setzen von @Intern/@Extern für Umleitungen erlaubt ist
+### @Extern: 		
+Erlauben von Parametisierung des externen Umleitungsziels
+
+### @Intern:
+Erlauben von Parametisierung des internen Umleitungsziels
 # Beispiel
+![4](/uploads/exchange-kalender-connector/4.png "4")
 
 ![5](/uploads/exchange-kalender-connector/5.gif "5")
 # Downloads & Lizenzierung
