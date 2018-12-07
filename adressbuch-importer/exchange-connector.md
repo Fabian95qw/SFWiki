@@ -31,12 +31,12 @@ Der Ordnername wird in den Kontakten des angegebenen Benutzers gesucht.
 ### Öffentlicher Kontaktordner
 Der Kontaktordnername muss einzigartig sein, damit diese gefunden wird. Ansonsten muss der Absolute Pfad vom Öffentlichen Verzeichnis ausgegeben werden, da sonst die erste Instanz des Ordnernamens gewählt wird.
 
-**Beispiel bei dem der Ordnername ausreicht **
+**Beispiel bei dem der Ordnername ausreicht**
 Position im Öffentlichen Verzeichnis. Gemeinsame Kontakte/Industrie/Lieferanten 
 Hierbei reicht bereits der Kontaktordnername "Lieferanten" aus.
 
-**Beispiel bei dem der Absolute Pfad benötigt wird **
-Position im Öffentlichen Verzeichnis. Gemeinsame Kontakte/**Gemeinsame Kontakte **
+**Beispiel bei dem der Absolute Pfad benötigt wird**
+Position im Öffentlichen Verzeichnis. Gemeinsame Kontakte/**Gemeinsame Kontakte**
 Hierbei muss der ganze Pfad Gemeinsame Kontakte/**Gemeinsame Kontakte** angegeben werden, da er sonst Gemeinsame Kontakte statt **Gemeinsame Kontakte** wählt.
 
 ### Freigegebenes Postfach
