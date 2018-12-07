@@ -8,7 +8,7 @@ Das Modul klont bestimmte Funktionstasten von einem definierten Referenzbenutzer
 ### Automatisieren
 Das Modul hat eine Funktionalität zum Automatisieren des Klonprozesses, damit man es z.b. Täglich über nacht Synchronisieren kann.
 
-### Zuweisung von Quelle, Ziel, und Bereich
+## Zuweisung von Quelle, Ziel, und Bereich
 **Quellbenutzer** 
 Der Benutzer, desse Funktionstasten geklont wereden sollen.
 
