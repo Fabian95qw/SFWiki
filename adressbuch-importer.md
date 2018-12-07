@@ -14,41 +14,48 @@ Unterstützt sind:
 ## Automatisierung
 ### Importtimer
 
-![Automatisierung 1](/uploads/adressbuch-importer/automatisierung-1.png "Automatisierung 1")
-
 Die Automatisierung ist das Kernstück des Moduls. Hier können die allgemeinen Einstellungen für das Modul festgelegt werden.
+
+![Automatisierung 1](/uploads/adressbuch-importer/automatisierung-1.png "Automatisierung 1")
 
 ### Adressbuchmanagement
 
-#### Zieladressbuch Leeren
+**Zieladressbuch Leeren**
 Leert das gegebene Zieladressbuch. Sollte das Zieladressbuch ein Privates Adressbuch sein, so leert er das Private Adressbuch des „Accounts für Automatisierung“.
-Duplikatserkennungslogik anwenden.
+
+**Duplikatserkennungslogik anwenden.**
 Import die Adressen, und wendet Dabei die Konfigurierte Duplikatserkennungslogik an, um Duplikate zu erkennen und zu ersetzen.
 Mehr dazu im Kapitel Duplikats Erkennung
-Account für Automatisierung
+
+**Account für Automatisierung**
 Der Account für die Automatisierung ist der Account, mit dem die Adressbucheinträge erstellt werden. 
 Dies ist weniger wichtig, wenn es sich um ein Öffentliches Adressbuch handelt. 
 Jedoch beim Import in ein Privates Adressbuch wird das Adressbuch dieses Benutzers verwendet.
  
-Zieladressbuch
-
+**Zieladressbuch**
 Das Zieladressbuch, welches für die Aktion gewählt werden soll. Dies Referenziert auf die Ordnerkonfiguration von der Starface Adressbuchkonfiguration. 
-! Zu beachten ist das Adressbuch «0» entspricht dem Adressbuch «all» 
+Zu beachten ist das Adressbuch «0» entspricht dem Adressbuch «all» 
 Automatisierung beim Speichern anwenden
 
+![Adressbuch](/uploads/adressbuch-importer/adressbuch.png "Adressbuch")
+
+**Automatisierung beim Speichern anwenden**
 Wendet die aktuelle Konfiguration unabhängig vom Import-Timer sofort an. 
 Wird vor allem zu Testzwecken benötigt.
-E-Mail Einstellungen
+
+### E-Mail Einstellungen
  
 Hierbei handelt es sich um die E-Mail-Adresse des Benutzers, welcher alle nachfolgenden Fehlermeldungen & Reports erhalten soll.
 Der Titel ist soweit selbsterklärend.
-Spezialmails
- 
-Ergebnisse der Duplikaterkennung als E-Mail Senden
 
+### Spezialmails
+ 
+**Ergebnisse der Duplikaterkennung als E-Mail Senden**
 Generiert ein E-Mail mit einem CSV im Anhang, welches Aufzeigt welche Kontakte als Duplikat von welchem existierenden Kontakt erkannt wurden.
 Mehr dazu im Kapitel Duplikats Erkennung
-Beispiel Duplikaterkennung CSV in Excel geöffnet
+Beispiel Duplikaterkennung CSV in Excel geöffnet:
+
+
 Ergebnisse der Importbedingungen als E-Mail Senden
 
 Es wir dein CSV mit den Kontakten generiert, die Aufgrund der Importbedingungen nicht Importiert wurden. Es werden ebenfalls die Felder markiert, welche der Grund für den Nicht-Import waren.
