@@ -6,9 +6,7 @@ Hier geht es Spezifisch um die Konfiguration des Card-DAV Connector im Adressbuc
 ![Carddav](/uploads/adressbuch-importer/carddav.png "Carddav")
 
 Das CardDAV Modul ist sehr einfach zu Konfigurieren.
-
 Beispielurls:
-
 Nextcloud: http://[ServerIP]/nextcloud/remote.php/dav/addressbooks/users/[Benutzername]/Kontakte
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
