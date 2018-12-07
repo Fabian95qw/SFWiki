@@ -9,7 +9,6 @@ Die einzelnen Instanzen des Moduls müssen jeweils einem Benutzer/Gruppe zugewie
 
 ### Interne Nummernlänge
 Man muss dem Modul Mitteilen, wie lange die internen Rufnummern sind, damit er diese von den externen Rufnummern unterscheiden kann.
-![3](/uploads/funktionstastengesteuerte-umleitung/3.jpg "3")
 
 ### Umleitung setzen für:
 Hier kann man wählen, ob die Umleitung für einen Benutzer, oder eine Gruppe ist.
@@ -23,6 +22,9 @@ Z.b. wenn ein Benutzer die Instanz "Uml. Zentrale" aktiv hat, und per BLF die In
 
 ### Nur neue Umleitungsziele setzen
 Wenn dieses Häkchen aktiviert ist, werden die neuen Umleitungsziele gesetzt, aber an dem Aktivierungsstatus der einzelnen Umleitungen wird nichts geändert. 
+
+## Konfiguration der Umleitungen
+![3](/uploads/funktionstastengesteuerte-umleitung/3.jpg "3")
 # Beispiel
 ![1](/uploads/funktionstastengesteuerte-umleitung/1.gif "1")
 # Downloads & Lizenzierung
