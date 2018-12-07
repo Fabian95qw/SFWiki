@@ -49,7 +49,7 @@ Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im 
 
 ![Vorlageresult](/uploads/adressbuch-importer/vorlageresult.png "Vorlageresult")
 
-**Das Resultierende Template muss im CSV Format Semicolon (;) getrennt & im UTF-8 Format abgespeichert werden.**
+**Das Resultierende Template muss im CSV Format Semicolon ( ; ) getrennt & im UTF-8 Format abgespeichert werden.**
 
 In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 
@@ -59,6 +59,8 @@ Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit 
  
 # http(s) Get
 ##  HTTPS 
+Die http(s) get Funktion erlaubt es eine CSV. Von einem Webhost abzurufen. 
+
 ### 302 URL redirection Erlauben 		
 Erlaubt eine Umleitung von der URL während des Importprozesses. Für mehr Infos siehe: https://en.wikipedia.org/wiki/HTTP_302
 
@@ -67,12 +69,11 @@ Der Request URL.** Ohne Protokoll!**
 Beispielsweise: meinhost.meinestadt.de/kontakte/adressen.csv?user=test&amp;password=[PASSWORT]
 
 ### [PASSWORT] Variable 
-Ermöglicht das Verstecken von Passw&ouml;rtern innerhalb des URLs . 
-Das Wort [PASSWORT] wird innerhalb der URL w&auml;hrend des Vorangs mit dem Passwort beschrieben. Z.B. www.test.ch/adressen.csv?user=test&amp;password=[PASSWORT]
+Ermöglicht das Verstecken von Passwörter innerhalb des URLs . 
+Das Wort [PASSWORT] wird innerhalb der URL wä;hrend des Vorangs mit dem Passwort beschrieben. Z.B. www.test.ch/adressen.csv?user=test&amp;password=[PASSWORT]
 Request Ergebnis
  
-Die http(s) get Funktion erlaubt es eine CSV. Von einem Webhost abzurufen. 
-Request Ergebnis
+### Request Ergebnis
 Das Request Ergebnis gibt das Ergebnis des letzten http(s) Requests zurück. Also Z.b. 404 not found.
 
 # FTP-Konfiguration
