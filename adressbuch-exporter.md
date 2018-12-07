@@ -1,0 +1,19 @@
+<!-- TITLE: Adressbuch Exporter -->
+# Beschreibung
+Das Modul kann einzelne Adressbücher in CSV's Exportieren und diese per E-Mail zustellen. 
+
+# Konfiguration
+## Exporter
+Pro Instanz kann im Modul ein Adressbuch gewählt werden, welches  in eine .CSV Exportiert werden soll.
+Danach muss ein Benutzer für den Vorgang gewählt werden. Dieser Benutzer muss das Recht "Adressbuch" besitzen.
+Das ganze wird danach an eine E-Mail Adresse gesendet.
+![1](/uploads/adressbuch-exporter/1.jpg "1")
+
+## Template
+Mithilfe des Templates kann man das Starface Adressbuch in ein eigenes Format exportieren, wenn man es z.b. für den Import in einem anderen Programm verwenden will.
+
+# Downloads & Lizenzierung
+Für Downloads besuchen sie bitte http://module.nucom.ch/
+**Gratislizenz: PKJNZ-CXX5G-X4VC6-YSYEC-A3AR2**
+
+
