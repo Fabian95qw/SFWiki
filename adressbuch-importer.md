@@ -92,6 +92,25 @@ Multi-VCard
 Pipedrive-CRM
 
 ## Duplikatserkennung
+Bei der Duplikaterkennung werden jeweils die einzelnen Teile des Kontaktes (Name, Vorname, Firma usw...) mit allen Kontakten aus dem Adressbuch verglichen. Bei einer übereinstimmung in [N] Punkten, wird es als Duplikat angesehen.
+![Duplikatskonfiguration](/uploads/adressbuch-importer/duplikatskonfiguration.png "Duplikatskonfiguration")
+
+### Beispiel
+
+|Spalte |Übereinstimmung als Duplikat zählen|
+|Vorname [contact:firstname] |Ja|
+|Name [contact:familyname] |Ja|
+|Firma [contact:company] |Nein|
+|Straße [address:street] |Nein|
+|PLZ [address:postcode] |Nein|
+|Stadt [address:city] |Nein|
+||Bundesland [address:state] |Nein|
+|Rufnummer [telephone:phone] |Ja|
+|Privat [telephone:homephone] |Ja|
+|Mobil [telephone:mobile] |Ja|
+|Fax [telephone:fax] |Ja|
+|E-Mail [email:e-mail] |Ja|
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
