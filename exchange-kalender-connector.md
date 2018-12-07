@@ -49,6 +49,29 @@ Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagiere
 ![3](/uploads/exchange-kalender-connector/3.png "3")
 
 ## Anwenden bei allen Kalendereinträgen
+### Outlook Kategorien aktivieren
+Aktiviert die Grundfunktion für Outlook-Kategorien. 
+
+### Funktionstasten immer Ansprechen
+Die BLF's Indizieren immer Rot/Blau, unabhängig, ob dies per Kategorie gesetzt wurde.
+
+### Gruppenumlt. Miteinbeziehen
+Bei den Umleitungen, die der User per Kategorien setzt, die Gruppeumleitungen miteinbeziehen.
+
+## Eigene Konfiguration
+Hier können Spezifische Event's für alle Kalendereinträge erzwungen werden
+
+### Umleitungen intern immer aktivieren 
+Aktiviert die Umleitung "Immer" der Internen Nummern für alle Kalendereinträge.
+
+### Umleitungen extern immer aktivieren 		
+Aktiviert die Umleitung "Immer" der Externe Nummern für alle Kalendereinträge.
+
+### Voicemail intern immer aktivieren 		
+Aktiviert die Voicemail "Immer" der Externe Nummern für alle Kalendereinträge.
+
+### Voicemail extern immer aktivieren 	
+Aktiviert die Voicemail "Immer" der Externe Nummern für alle Kalendereinträge.
 
 ![4](/uploads/exchange-kalender-connector/4.png "4")
 
