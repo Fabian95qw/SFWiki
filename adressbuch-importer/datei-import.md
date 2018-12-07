@@ -77,19 +77,17 @@ Request Ergebnis
 Das Request Ergebnis gibt das Ergebnis des letzten http(s) Requests zurück. Also Z.b. 404 not found.
 
 # FTP-Konfiguration
-Hier wird die FTP Verbindung Konfiguriert. 
-FTP Status
-
+## FTP Status
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
-FTP Import Pfad
-
-Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Backslash („\“) beginnen und im letzten Ordner ohne Backslash aufhören. Ein Dateiname darf nicht angehängt werden. (SIEHE Import)
+## FTP Import Pfad
+Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Backslash („\“) beginnen und im letzten Ordner ohne Backslash aufhören. 
+Ein Dateiname darf nicht angehängt werden. (Dieser wird oben im Import gesetzt)
  
 # SMB-Konfiguration
-SMB Status
+## SMB Status
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
-Import Dateipfad
 
+## SMB Import Pfad
 Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Slash aufhören. Ein Dateiname darf nicht angehängt werden. (SIEHE Import)
 
 # Downloads & Lizenzierung
