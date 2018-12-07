@@ -60,7 +60,9 @@ Beispiel Duplikaterkennung CSV in Excel geöffnet:
 **Ergebnisse der Importbedingungen als E-Mail Senden**
 Es wir dein CSV mit den Kontakten generiert, die Aufgrund der Importbedingungen nicht Importiert wurden. Es werden ebenfalls die Felder markiert, welche der Grund für den Nicht-Import waren.
 Mehr dazu im Kapitel Importbedingungen
+
 Beispiel Importbedingungen in Excel geöffnet.
+ ![Importfilter](/uploads/adressbuch-importer/importfilter.png "Importfilter")
  
 Alarme
 Alarm bei Fehlerhaftem Dateidownload
