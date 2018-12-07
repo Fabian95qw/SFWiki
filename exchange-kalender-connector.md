@@ -12,7 +12,6 @@ Oder kurz Ausgedrückt:
 
 # Konfiguration
 ![1](/uploads/exchange-kalender-connector/1.png "1")
-
 ## CheckIntervall
 ### Timer
 Hier definiert man den Intervall, in denen der Kalender überprüft wird.
@@ -36,10 +35,13 @@ Im Normall ist diese der Titel des Kalendereintrags im Exchange (Mit Ausnahme vo
 Mithilfe der Haken **Terminuhrzeit Von-Bis im Chatstatustext Anzeigen** 	erhält der Statustext vor dem Text noch ein Feld [Uhrzeit]
 Die Uhrzeit lässt sich im "Simpledateformat" im Feld **Formatierung der Uhrzeit** konfigurieren.
 
-### Alarme
+## Alarme
 Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
 
+# Exchange-Verbindung
+
 ![2](/uploads/exchange-kalender-connector/2.png "2")
+
 
 ![3](/uploads/exchange-kalender-connector/3.png "3")
 
