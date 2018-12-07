@@ -92,24 +92,20 @@ Multi-VCard
 Pipedrive-CRM
 
 ## Duplikatserkennung
-Bei der Duplikaterkennung werden jeweils die einzelnen Teile des Kontaktes (Name, Vorname, Firma usw...) mit allen Kontakten aus dem Adressbuch verglichen. Bei einer übereinstimmung in [N] Punkten, wird es als Duplikat angesehen.
+
 ![Duplikatskonfiguration](/uploads/adressbuch-importer/duplikatskonfiguration.png "Duplikatskonfiguration")
 
-### Beispiel
+### Anzahl Übereinstimmungen
+Die Anzahl Teile eines Kontaktes, die Übereinstimmen müssen, damit der Kontakt als Duplikat des anderen Kontaktes gezählt wird.
+Kontakte welche als Duplikat erkannt werden, werden in die Duplikats Liste eingetragen, welche per E-Mail zugesendet wird.
 
-|Spalte |Übereinstimmung als Duplikat zählen|
-|Vorname [contact:firstname] |Ja|
-|Name [contact:familyname] |Ja|
-|Firma [contact:company] |Nein|
-|Straße [address:street] |Nein|
-|PLZ [address:postcode] |Nein|
-|Stadt [address:city] |Nein|
-||Bundesland [address:state] |Nein|
-|Rufnummer [telephone:phone] |Ja|
-|Privat [telephone:homephone] |Ja|
-|Mobil [telephone:mobile] |Ja|
-|Fax [telephone:fax] |Ja|
-|E-Mail [email:e-mail] |Ja|
+### Logik
+In der Logik wird bestimmt, welche Felder überhaupt bei der Duplikat Erkennung überprüft werden sollen.
+Die Felder können die Werte „Zwingend“ , „Ja“ oder „Nein“ enthalten.
+Die Zwingenden Felder müssen immer Übereinstimmen, damit es als Duplikat erkannt wird. (Wird auch zu den [n] Übereinstimmungen dazugezählt)
+Die „Ja“ Felder müssen in [n] Übereinstimmungen übereinstimmen, damit es als Duplikat erkannt wird.
+Die „Nein“ Felder werden generell ignoriert.
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
