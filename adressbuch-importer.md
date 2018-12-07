@@ -79,6 +79,9 @@ Wenn ein Export aus einer anderen Software fehlerhaft war, die CSV für den Down
 **Alarm, wenn Exchange Connectorfehler**
 Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
+## Konfiguration der Quelle
+
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
