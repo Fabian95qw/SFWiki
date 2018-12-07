@@ -16,8 +16,13 @@ Um ein Template zu generieren, muss man zuerst das Import-Template aus der Starf
 ![Template](/uploads/adressbuch-exporter/template.png "Template")
 
 Dort müssen dann die Spalten entsprechend des Gewünschten Formats platziert werden.
+**Wichtig! Die Datei muss im UTF-8 Format, als CSV Abgespeichert werden!**
 
 ![Templateexcel](/uploads/adressbuch-exporter/templateexcel.png "Templateexcel")
+
+Das Ergebnis würde dann so aussehen:
+
+![Export](/uploads/adressbuch-exporter/export.png "Export")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 **Gratislizenz: PKJNZ-CXX5G-X4VC6-YSYEC-A3AR2**
