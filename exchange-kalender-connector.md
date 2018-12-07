@@ -13,6 +13,32 @@ Oder kurz Ausgedrückt:
 # Konfiguration
 ![1](/uploads/exchange-kalender-connector/1.png "1")
 
+## CheckIntervall
+### Timer
+Hier definiert man den Intervall, in denen der Kalender überprüft wird.
+
+### Exchange Gruppe
+Das Modul wird nur auf alle Mitglieder dieser Gruppe angewendet.
+Jeder User der Gruppe braucht eine Korrekt konfigurierte E-Mail Adresse, da das Modul den Status des Kalenders für diesen Benutzer überprüft.
+
+## Funktionen bei Abwesenheit
+### Funktionstastenindikator
+Man kann Konfigurieren, ob die Funktionstasten bei Abwesenheit einen speziellen Status erhalten. 
+**Bei der Option "Blau" werden die BLF's nur im UCC-Client Blau dargestellt! BLF's an den Telefonen sind dann Rot**
+
+### Chatindikator
+Wenn nun ein Kalendereintrag erreicht wird, erhält der Benutzer diesen Status im Chat.
+
+### Statustext div.
+Während eines Termins wird zusätlich zum Funktionasten- und Chatindikator, auch die Statusnachricht gesetzt.
+Im Normall ist diese der Titel des Kalendereintrags im Exchange (Mit Ausnahme von Privaten Kalendereinträgen).
+
+Mithilfe der Haken **Terminuhrzeit Von-Bis im Chatstatustext Anzeigen** 	erhält der Statustext vor dem Text noch ein Feld [Uhrzeit]
+Die Uhrzeit lässt sich im "Simpledateformat" im Feld **Formatierung der Uhrzeit** konfigurieren.
+
+### Alarme
+Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
+
 ![2](/uploads/exchange-kalender-connector/2.png "2")
 
 ![3](/uploads/exchange-kalender-connector/3.png "3")
