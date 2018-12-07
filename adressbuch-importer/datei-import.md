@@ -47,7 +47,7 @@ Die darin enthaltenen Spaltennamen werden von der Starface erkannt.
 
 Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im ApplikationXY.csv Entsprechen:
 
-
+![Vorlageresult](/uploads/adressbuch-importer/vorlageresult.png "Vorlageresult")
 
 **Das Resultierende Template muss im CSV Format Semicolon (;) getrennt & im UTF-8 Format abgespeichert werden.**
 
@@ -57,8 +57,7 @@ In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 
 Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Kontakte korrekt zu interpretieren.
  
- 
-http(s) Get
+# http(s) Get
  
 Die http(s) get Funktion erlaubt es eine CSV. Von einem Webhost abzurufen. 
 Request Ergebnis
