@@ -36,8 +36,8 @@ Position im Öffentlichen Verzeichnis. Gemeinsame Kontakte/Industrie/Lieferanten
 Hierbei reicht bereits der Kontaktordnername "Lieferanten" aus.
 
 **Beispiel bei dem der Absolute Pfad benötigt wird**
-Position im Öffentlichen Verzeichnis. Gemeinsame Kontakte/**Gemeinsame Kontakte**
-Hierbei muss der ganze Pfad Gemeinsame Kontakte/**Gemeinsame Kontakte** angegeben werden, da er sonst Gemeinsame Kontakte statt **Gemeinsame Kontakte** wählt.
+Position im Öffentlichen Verzeichnis. *Gemeinsame Kontakte*/**Gemeinsame Kontakte**
+Hierbei muss der ganze Pfad *Gemeinsame Kontakte*/**Gemeinsame Kontakte** angegeben werden, da er sonst *Gemeinsame Kontakte* statt **Gemeinsame Kontakte** wählt.
 
 ### Freigegebenes Postfach
 Das Modul meldet sich mithilfe des Angegebenen Benutzers am Freigegebenem Postfach an, und sucht dort nach dem Kontaktordner.
