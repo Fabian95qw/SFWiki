@@ -27,10 +27,14 @@ Ignoriert die erste Zeile der CSV’s. Dies wird Z.B. benötigt, wenn die Spalte
 Template für Importdateien
 Beim Export der Adressen aus anderen Programmen sind diese nicht unbedingt gerade Starface Konform Formatiert, deshalb kann man ein eigenes Template für eigene Imports einspielen.
  
+ **Eigenes Template verwenden**
 Das eigene Template für den Import verwenden. Wenn dieses hochgeladen wurde
   
-Beispiel Template
+**Beispiel Template**
 Beispieldaten aus Applikation XY
+![Vorlageappxy](/uploads/adressbuch-importer/vorlageappxy.png "Vorlageappxy")
+
+
 KdNr	Name	Vorname	Abteilung	Firma	PLZ	Strasse	Admin	Telnr
 1337	Mustermann	Max	Elektronik	Musterfirma AG	1234	Musterstrasse 23	false	+41 234 56 78
 2354	Musterfrau	Maria	Intern		5343	Malerstrasse	True	+41 576 83 23
