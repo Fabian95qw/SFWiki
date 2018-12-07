@@ -127,6 +127,17 @@ Die Importbedingungen verhindern das Importieren von ungültigen Kontakten, welc
 Die Logik wird verwendet, um Kontakte auszufiltern, welche gewisse Fehlende Felder haben.
 Eine Liste mit den Fehlerhaften Kontakten wird per E-Mail zugestellt.
  
+![Importbedingungen](/uploads/adressbuch-importer/importbedingungen.png "Importbedingungen")
+
+## Nummernfilter
+Der Nummernfilter erlaubt es, gewisse Nummernteile durch andere zu ersetzen.
+Es wird immer nur das erste Vorkommen des Nummernteils ersetzt.
+Zb: NummernTeil: 071 == Ersetzen durch: +41(71)
+Nummer: 0715736071 wird zu +41(71)5736071
+
+
+
+### Regex
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
