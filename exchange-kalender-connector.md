@@ -39,13 +39,20 @@ Die Uhrzeit lässt sich im "Simpledateformat" im Feld **Formatierung der Uhrzeit
 Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
 
 # Exchange-Verbindung
-
 ![2](/uploads/exchange-kalender-connector/2.png "2")
 
+Um eine Verbindung mit dem Exchange Server herzustellen, muss ein Konto mit **Applicationimpresination** Rechten angegeben werden..
+
+# Outlook-Kategorien
+Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagieren.
 
 ![3](/uploads/exchange-kalender-connector/3.png "3")
 
+## Anwenden bei allen Kalendereinträgen
+
 ![4](/uploads/exchange-kalender-connector/4.png "4")
+
+# Beispiel
 
 ![5](/uploads/exchange-kalender-connector/5.gif "5")
 # Downloads & Lizenzierung
