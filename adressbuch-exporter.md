@@ -11,6 +11,9 @@ Das ganze wird danach an eine E-Mail Adresse gesendet.
 
 ## Template
 Mithilfe des Templates kann man das Starface Adressbuch in ein eigenes Format exportieren, wenn man es z.b. für den Import in einem anderen Programm verwenden will.
+Um ein Template zu generieren, muss man zuerst das Import-Template aus der Starface herunterladen.
+
+![Template](/uploads/adressbuch-exporter/template.png "Template")
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
