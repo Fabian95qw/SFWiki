@@ -130,15 +130,26 @@ Eine Liste mit den Fehlerhaften Kontakten wird per E-Mail zugestellt.
 ![Importbedingungen](/uploads/adressbuch-importer/importbedingungen.png "Importbedingungen")
 
 ## Nummernfilter
+Wenn Nummern aus Fremdprogrammen importiert werden, welche nicht Starface Konform (Internationales Nummernformat) sind, können diese mithilfe des Nummernfilter korrigiert werden.
 Der Nummernfilter erlaubt es, gewisse Nummernteile durch andere zu ersetzen.
 Es wird immer nur das erste Vorkommen des Nummernteils ersetzt.
 Zb: NummernTeil: 071 == Ersetzen durch: +41(71)
 Nummer: 0715736071 wird zu +41(71)5736071
 
-
+![Nummernfilter](/uploads/adressbuch-importer/nummernfilter.png "Nummernfilter")
 
 ### Regex
+Der Nummernfilter unterstützt Regex.
 
+**Beispiel**
+
+Der Regex : *^(\+41)\(?0?([0-9]{2})\)?* auf Nummern Angewendet:
+
+Ursprüngliche Nummer	                    Nummer nach Regex
++41712345678	                                  +41712345678
++410712345678		              	               +41712345678
++41(71)2345678		              	              +41712345678
++41(071)2345678		                 	           +41712345678
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
