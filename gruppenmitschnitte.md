@@ -23,7 +23,21 @@ Mithilfe der Bereinigung, zwingt man das Modul, auch aktuell geöffnete Dateien 
 
 Die Bereinigung lässt sich ausserdem Automatisiert ausführen.
 
+## Ansage & DTMF vor Aufzeichnung
+
+Das Modul bietet die Möglichkeit, direkt eine Ansage zu platzieren, mit welcher man den Anrufer über die Aufzeichnung Informiert.
+Ausserdem kann man ihm die Möglichkeit geben, die Aufzeichnung abzulehnen.
+
+**Wenn ein Anruf abgelehnt wird, wird dieser trotzdem im Reporting gespeichert (Sofern Reporting aktiviert ist)**
+
 ![2](/uploads/gruppenmitschnitte/2.jpg "2")
+
+## Upload
+Das Modul kann Dateien in Regelmässigen Abständen auf einem SMB/FTP Server hochladen, hier wird alles darum herum Konfiguriert.
+
+### SMB/FTP-Status
+Das Modul Tests regelmässig die SMB/FTP Verbindung, und Speichert das Resultat in der entsprechenden Statuszeile.
+**Während das Modul geöffnet ist aktualisiert sich diese Zeile nicht.**
 
 ![3](/uploads/gruppenmitschnitte/3.jpg "3")
 
