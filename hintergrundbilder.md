@@ -3,6 +3,7 @@
 Ein Modul, welches bei der Anpassung von Hintergrundbildern für Telefone vereinfacht. 
 # Konfiguration
 ## Alle Hintergründe herunterladen
+![Download](/uploads/hintergrundbilder/download.png "Download")
 ## Einzelne Hintergründe hochladen
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
