@@ -11,6 +11,8 @@ Die Hintergründe können direkt von der Starface bezogen werden. mit dem Haken 
 ![Tree](/uploads/hintergrundbilder/tree.png "Tree")
 
 ## Einzelne Hintergründe hochladen
+Nach dem editieren der Einzelnen hintergründe können jeweils die entsprechenden Bilder im einzelnen für die Verschiedenen Telefonmodelle hochgeladen werden.
+Bei jedem Uplaod steht auch exakt, was für eine Datei erwartet wird.
 
 ![Upload](/uploads/hintergrundbilder/upload.png "Upload")
 # Downloads & Lizenzierung
