@@ -34,6 +34,10 @@ Ausserdem kann man ihm die Möglichkeit geben, die Aufzeichnung abzulehnen.
 
 ## Upload
 Das Modul kann Dateien in Regelmässigen Abständen auf einem SMB/FTP Server hochladen, hier wird alles darum herum Konfiguriert.
+**Alternativ Lassen sich alle Aufzeichnungen auch per E-Mail Senden.**
+
+### Dateiformat
+Alle Aufzeichnungsdateien werden grundsätzlich im Format: Aufnahme_[DATUM]_[UHRZEIT]_[VON]_[NACH].wav hochgeladen
 
 ### SMB/FTP-Status
 Das Modul Tests regelmässig die SMB/FTP Verbindung, und Speichert das Resultat in der entsprechenden Statuszeile.
@@ -41,7 +45,20 @@ Das Modul Tests regelmässig die SMB/FTP Verbindung, und Speichert das Resultat 
 
 ![3](/uploads/gruppenmitschnitte/3.jpg "3")
 
+## Reporting
+Das Reporting ist ein Minimalistisches CSV, welches Folgende Infos enthält:
+
+* Anrufer
+* Angerufener
+* Gesprächsstart
+* Gesprächszeit
+* Zugehörige Aufzeichnung
+
 ![4](/uploads/gruppenmitschnitte/4.jpg "4")
+
+### Beispiel
+
+![Reporting](/uploads/gruppenmitschnitte/reporting.png "Reporting")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
