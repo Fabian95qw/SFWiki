@@ -1,6 +1,6 @@
 <!-- TITLE: Gruppenabmeldung Blockieren -->
 # Beschreibung
-Verhindert, dass sich der letzte Benutzer einer Gruppe Abmeldet 
+Verhindert, dass sich der letzte Benutzer einer Gruppe abmeldet 
 # Konfiguration
 Das Modul benötigt keine Konfiguration, einfach Installieren, Instanz anlegen, fertig!
 # Downloads & Lizenzierung
