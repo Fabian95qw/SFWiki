@@ -2,7 +2,26 @@
 # Beschreibung
 Das Modul zeichnet alle ein- und ausgehende Gespräche an Externe von bestimmten Benutzern auf. Interne Gespräche können auf Wunsch auch aufgezeichnet werden. Die Audio-Dateien werden automatisch auf ein externes Speichermedium kopiert resp. verschoben. 
 # Konfiguration
+## Mitschnitt der Gruppe
+Damit das Modul überhaupt funktioniert, muss zuerst eine Gruppe zugewiesen werden.
+
+Danach muss noch definiert werden, welche Anruftypen (Eingehend, Interne, Ausgehende) dass genau aufgezeichnet werden sollen.
+
 ![1](/uploads/gruppenmitschnitte/1.jpg "1")
+
+## Alarme
+Das Modul erlaubt die Alamierung im Falle von Fehlgeschlagener Uploads von der Starface zum FTP/SMB Server
+
+## Speicherverbrauch
+Das Modul stellt u.a. denn aktuellen Speicherverbrauch dar.
+Einerseit den Speicherverbrauch "in Verwendung", welches dem Speicherverbrauch der aktuell aktiven Aufzeichnung entspricht, sowie den Transferordner, wo alle noch zu übertragenden Audiodateien liegen.
+
+## Bereinigung
+Manchmal bleiben Anrufaufzeichnungen "stecken", dies passiert, wenn Asterisk, trotz bereits beendetem Anruf das File nicht schliesst.
+Mithilfe der Bereinigung, zwingt man das Modul, auch aktuell geöffnete Dateien in den Transferordner zu schieben.
+**Dies sollte nicht im aktiven Betrieb, sondern zu Randzeiten ausgeführt werden, da sonst alle aktuell aktiven Aufzeichnungen beendet werden.**
+
+Die Bereinigung lässt sich ausserdem Automatisiert ausführen.
 
 ![2](/uploads/gruppenmitschnitte/2.jpg "2")
 
