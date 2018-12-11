@@ -17,6 +17,27 @@ Bevor der Anruf durch das Modul verarbeitet wird, kann gewählt werden, ob noch 
 
 **Wichtig das Dropdown Menü music on hold füllt sich selbstständig mit den korrekten Einträgen. Dafür muss aber das Modul nach der aktivierung zwingend einmal gespeichert werden (nicht übernehmen)**
 
+### Teams
+Dem Modul muss eine Liste von Teams zugewiesen werden, welche er Verarbeiten soll. Hierbei muss in der Liste die Primäre Rufnummer der Gruppe eingetragen werden.
+Aufgrund des **ursprünglich Angerufenen Benutzers** wird ermittelt, welche Gruppe als nächstes Angerufen werden soll. Hierbei ist die Priorität von oben nach unten.
+
+Das Modul prüft in welchen Gruppen aus der Liste er Mitglied ist, und Ruft diese entsprechend an.
+
+### Szenariowahl
+Das Weitere vorgehen, falls der Anruf von keinem Gruppenmitglied abgenommen wurde.
+
+### Erklärung Ablauf
+Ein Benutzer, Max Mustermann (Interne Rufnummer 123) wird vom Otto Normalverbraucher auf seiner Direktwahl Angerufen, ist jedoch nicht am Platz.
+Nach 15 Sekunden greift seine Zeitüberschr. Umleitung, und der Anruf wird an das Modul weitergeleitet.
+
+Das Modul setzt den Anrufernamen auf 123 Max >> Otto Normalverbraucher (Rufnummernanzeige).
+Otto Normalverbraucher erhält eine Ansage, dass der gewünschte Mitarbeiter nicht aktuell nicht erreichbar ist, und versucht wird ihn an sein Team zu vermitteln.  Anschliessend wird er in der Warteschlange platziert (Ansage vor Teamcalls).
+Das Modul durchsucht nun die Liste der Teams nach einer Gruppe, in der Max Mustermann Mitglied ist. Bei der dritten Gruppe "Support" findet das Modul eine Mitgliedschaft für den Benutzer (Teams).
+Nun Klingelt es 10 Sekunden bei der Gruppe Support. Die anderen Mitarbeiter der Gruppe sehen auf ihrem Display, dass via 123 Max, der Kunde Otto Normalverbraucher be ihnen Angekommen ist.
+
+Wenn nun ein Mitglied der Gruppe den Anruf abnimmt, wird Max aus der Warteschlange geholt, und wird mit dem Mitarbeiter verbunden.  Das Modul ist somit fertig.
+Wenn nun kein Gruppenmitglied abnimmt, wird der Anruf gemäss Szenario1/Szenario2 weiterverarbeitet (Szenariowahl).
+
 ## Szenario1
 ![2](/uploads/intelligenter-teamcall/2.jpg "2")
 ## Szenario2
