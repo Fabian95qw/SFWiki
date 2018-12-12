@@ -37,6 +37,7 @@ Jedoch beim Import in ein Privates Adressbuch wird das Adressbuch dieses Benutze
 Das Zieladressbuch, welches für die Aktion gewählt werden soll. Dies Referenziert auf die Ordnerkonfiguration von der Starface Adressbuchkonfiguration. 
 Zu beachten ist das Adressbuch «0» entspricht dem Adressbuch «all» 
 Automatisierung beim Speichern anwenden
+**WICHTIG das Schreibrecht beim Zieladressbuch muss aktiviert sein!**
 
 ![Adressbuch](/uploads/adressbuch-importer/adressbuch.png "Adressbuch")
 
