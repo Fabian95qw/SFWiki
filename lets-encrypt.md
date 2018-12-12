@@ -13,6 +13,13 @@ Die Let's Encrypt Typsichen Server sind:
 
 * Testumgebung: acme://letsencrypt.org/staging
 * Produktivumgebung: acme://letsencrypt.org
+
+### Datensatz Löschen
+Löscht alle Informationen auf der Starface, welche durch das Modul generiert wurden.
+
+```diff
+- Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA", sowie "Challenge Erfüllt" entfernt wurden.
+```
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
