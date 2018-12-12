@@ -50,8 +50,19 @@ Diese Challenge muss nun zuerst erfüllt werden.
 
 ### Challenge bestätigen
 Wenn die Challenge nun korrekt auf dem DNS-Server, oder Webserver ausgeführt wurde, kann der Haken bei "Challenge Erfüllt" gesetzt werden, um das Modul fortzusetzen.
-
+```diff
+- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+```
 ![Step 5](/uploads/lets-encrypt/step-5.gif "Step 5")
+
+## 3. Zertifikat anfordern
+Wenn die Challenge Erfüllt wurde, kann man nun sein Zertifikat anfordern. 
+Zur Prüfung, ob die Challenge korrekt Erfüllt wurde, kann man den Status im Feld "Challenge Status" prüfen.
+```diff
+- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+```
+![Step 6](/uploads/lets-encrypt/step-6.gif "Step 6")
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
