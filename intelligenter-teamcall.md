@@ -38,6 +38,8 @@ Nun Klingelt es 10 Sekunden bei der Gruppe Support. Die anderen Mitarbeiter der 
 Wenn nun ein Mitglied der Gruppe den Anruf abnimmt, wird Max aus der Warteschlange geholt, und wird mit dem Mitarbeiter verbunden.  Das Modul ist somit fertig.
 Wenn nun kein Gruppenmitglied abnimmt, wird der Anruf gemäss Szenario1/Szenario2 weiterverarbeitet (Szenariowahl).
 
+![Diagramm 1](/uploads/intelligenter-teamcall/diagramm-1.png "Diagramm 1")
+
 ## Szenario1
 ![2](/uploads/intelligenter-teamcall/2.jpg "2")
 ## Szenario2
