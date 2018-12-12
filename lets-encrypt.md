@@ -7,7 +7,12 @@ Modul, welches es erlaubt Let's Encrypt Zertifikate einzurichten inklusive auto-
 - Um einen korrekten Ablauf zu gewährleisten muss das Modul Schritt, für Schritt ausgefüllt werden, und zwischen jedem Schritt zwingend gespeichert werden (nicht übernehmen), um einen korrekten Ablauf zu garantieren.
 ```
 ## Automatisierung & ACME-Konfiguration
+Bevor das Modul überhaupt einen Antrag auf ein SSL-Zertifikat stellen kann, muss ein acme Server gewählt werden.
 
+Die Let's Encrypt Typsichen Server sind:
+
+* Testumgebung: acme://letsencrypt.org/staging
+* Produktivumgebung: acme://letsencrypt.org
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
