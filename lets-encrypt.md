@@ -18,7 +18,7 @@ Die Let's Encrypt Typsichen Server sind:
 Löscht alle Informationen auf der Starface, welche durch das Modul generiert wurden.
 
 ```diff
-- Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA", sowie "Challenge Erfüllt" entfernt wurden.
+- Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA" sowie "Challenge Erfüllt" entfernt wurden.
 ```
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
