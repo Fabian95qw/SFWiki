@@ -20,6 +20,18 @@ Löscht alle Informationen auf der Starface, welche durch das Modul generiert wu
 ```diff
 - Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA" sowie "Challenge Erfüllt" entfernt wurden.
 ```
+
+## 1. Account erstellen & EULA Akzeptieren
+### Account erstellen
+Um den Acme-Dienst zu Nutzen, muss eine E-Mail Adresse angegeben werden. Diese wird genutzt, um z.b. über Auslaufende Zertifikate zu informieren.
+
+### Akzeptiere EULA
+Ihr müsst vorab die EULA von Let's Encrypt Akzeptieren: https://letsencrypt.org/repository/
+```diff
+- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+```
+
+![Step 1](/uploads/lets-encrypt/step-1.gif "Step 1")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
