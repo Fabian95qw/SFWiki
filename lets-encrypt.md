@@ -43,9 +43,15 @@ Im 2. Schritt muss zuerst eine Domäne angegeben werden, für welche die Challen
 
 ### Challenge erfüllen
 Wenn das Modul zuvor korrekt abgespeichert wurde, sollten nun die Felder "Challenge Entry", und "Challenge-Content" gefüllt sein.
+Diese Challenge muss nun zuerst erfüllt werden.
 
 ![Step 3](/uploads/lets-encrypt/step-3.gif "Step 3")
 ![Step 4](/uploads/lets-encrypt/step-4.jpg "Step 4")
+
+### Challenge bestätigen
+Wenn die Challenge nun korrekt auf dem DNS-Server, oder Webserver ausgeführt wurde, kann der Haken bei "Challenge Erfüllt" gesetzt werden, um das Modul fortzusetzen.
+
+![Step 5](/uploads/lets-encrypt/step-5.gif "Step 5")
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
