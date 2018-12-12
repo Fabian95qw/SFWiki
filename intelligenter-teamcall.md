@@ -26,6 +26,10 @@ Das Modul prüft in welchen Gruppen aus der Liste er Mitglied ist, und Ruft dies
 ### Szenariowahl
 Das Weitere vorgehen, falls der Anruf von keinem Gruppenmitglied abgenommen wurde.
 
+### Abfrage Hilfsobjekte
+Die Objekte Abfrage Gruppennummern / Abfrage Voicemailbox sind reine Hilfsobjekte, welche sich automatisch selbst mit den entsprechenden Infos aus der Starface versorgen. 
+Diese Felder haben **keinen Einfluss auf die Modulfunktionalität**
+
 ### Erklärung Ablauf
 Ein Benutzer, Max Mustermann (Interne Rufnummer 123) wird vom Otto Normalverbraucher auf seiner Direktwahl Angerufen, ist jedoch nicht am Platz.
 Nach 15 Sekunden greift seine Zeitüberschr. Umleitung, und der Anruf wird an das Modul weitergeleitet.
@@ -42,10 +46,28 @@ Wenn nun kein Gruppenmitglied abnimmt, wird der Anruf gemäss Szenario1/Szenario
 
 ## Szenario1
 ![2](/uploads/intelligenter-teamcall/2.jpg "2")
+
+Im Szenario 1 ist es möglich keinen Text für ein IVR zu hinterlegen, und unten für die Verschiedenen Ergebnisse ein entsprechendes Ziel zu definieren.
+
+### Spezialziel VOICEMAIL
+Durch das Setzen des Textes "VOICEMAIL" beim Ziel wird das Ziel an die Voicemailbox des ursprünglich Angerufenen Benutzers weitergeleitet.
+
 ## Szenario2
 ![3](/uploads/intelligenter-teamcall/3.jpg "3")
 
+Im Szenario 2 wird, falls Konfiguriert, ein weiterer Text abgespielt, gefolgt von einer Warteschlange.
+Währenddessen versucht das Modul nun eine zweite, spezifische gruppe Anzurufen.
 
+Beim Fehlschlag gibt es eine Möglichkeit, die Rufnummer an eine Voicemailbox zu verteilen.
+
+### Bestimmte Mailbox
+Der Anruf wird an die Mailbox die im Feld "Bestimmte Mailbox" gesetzt wurde weitergeleitet.
+
+### Auf Voicemail Gruppe
+Der Anruf wird an die Voicemailbox der Oben im "Zielgruppe Szenario 2" angegebenen Zielgruppe weitergeleitet.
+
+### Auf Voicemail ursprüngl. DW
+Der Anruf wird an die Voicemailbox des ursprünglich Angerufenen Benutzers weitergeleitet.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
