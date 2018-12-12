@@ -66,8 +66,17 @@ Zur Prüfung, ob die Challenge korrekt Erfüllt wurde, kann man den Status im Fe
 ## 4. Zertifikatserstellungseintrag überprüfen.
 Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen können,
 ![Step 7](/uploads/lets-encrypt/step-7.gif "Step 7")
-![Step 8](/uploads/lets-encrypt/step-8.jpg "Step 8")
 
+## E-Mail Paket
+Ermöglicht das Senden aller Daten des ACME-Vorgangs per E-Mail.
+
+Enthalten sind:
+* Account Registrierungs Private Key File (SessipnPK.pem)
+*  Certificate Private Key File (CertPK.pem) (Exportiert aus dem Tomcat KeyStore, gleicher PK, welcher von der Starface für die Webseitenzertifikate verwendet wird)
+*  RegistrationURI (RegistrationURI.txt). (Dieser URI enthält die Registrierungslocation. Wird u.a. für die Löschung/Deaktivierung des Accounts benötigt.)
+*  Letzten CSR (CertCSR.csr)
+*  Letztes erstelltest Zertifikat (Certificate.cer)
+*  Zertifikatskette für letztes Zertifikat (CACertificate.cer) (RootCA, Intermediate usw..)
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
