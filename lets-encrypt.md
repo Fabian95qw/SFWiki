@@ -66,6 +66,7 @@ Zur Prüfung, ob die Challenge korrekt Erfüllt wurde, kann man den Status im Fe
 ## 4. Zertifikatserstellungseintrag überprüfen.
 Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen können,
 ![Step 7](/uploads/lets-encrypt/step-7.gif "Step 7")
+![Step 8](/uploads/lets-encrypt/step-8.jpg "Step 8")
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
