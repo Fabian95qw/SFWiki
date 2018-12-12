@@ -72,7 +72,7 @@ Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen k�
 Ermöglicht das Senden aller Daten des ACME-Vorgangs per E-Mail.
 
 Enthalten sind:
-* Account Registrierungs Private Key File (SessipnPK.pem)
+* Account Registrierungs Private Key File (SessionPK.pem)
 *  Certificate Private Key File (CertPK.pem) (Exportiert aus dem Tomcat KeyStore, gleicher PK, welcher von der Starface für die Webseitenzertifikate verwendet wird)
 *  RegistrationURI (RegistrationURI.txt). (Dieser URI enthält die Registrierungslocation. Wird u.a. für die Löschung/Deaktivierung des Accounts benötigt.)
 *  Letzten CSR (CertCSR.csr)
