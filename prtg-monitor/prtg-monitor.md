@@ -27,7 +27,11 @@ service iptables save
 
 **Wichtig! Bei einem Update der Starface muss der Port erneut geöffnet werden**
 
-## Installation von Add-Ons
+## Installation von Demo-Add-Ons
+
+### Downloads
+Der Source-Code der Demopakete findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg/sensors
+Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/DemoSensors
 
 ## Erstellung eigener Add-Ons
 # Konfiguration PRTG-Monitor Server
