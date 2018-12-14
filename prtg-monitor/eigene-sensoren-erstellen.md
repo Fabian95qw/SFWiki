@@ -38,7 +38,7 @@ Mithilfe des GetPackage Befehls kann ein bestimmter Sensor bezogen werden, zu de
 		SpeedNet,
 		TimeHours 
 		Alle Infos dazu gibt es bei Paessler: https://prtg.paessler.com/api.htm?username=demo&password=demodemo&tabid=7
-* CustomUnit (STRING): Wenn die Unit auf "Custom" gestellt wurde, kann hier ganz einfach ein
+* CustomUnit (STRING): Wenn die Unit auf "Custom" gestellt wurde, kann hier ganz einfach eine eigene Einheit angegeben werden.
 		
 ### Outputs:**
 Keine
