@@ -1,8 +1,7 @@
 <!-- TITLE: Demo ungenutzte Lizenzen -->
 # Beschreibung
-
+Demopaket, welches Sensoren für ungenutzte Lizenzen zur Verfügung stellt.
 # Konfiguration
-
-# Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+![Unusedlicenses](/uploads/prtg/unusedlicenses.png "Unusedlicenses")
+# Download
+Alle Demosensoren können im Bereich: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/DemoSensors heruntergeladen werden.
