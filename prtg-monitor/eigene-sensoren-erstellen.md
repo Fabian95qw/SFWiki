@@ -46,3 +46,10 @@ Keine
 
 # Erstellung von Add-Ons für den PRTG-Kern
 Hier wird Demonstrativ ein Modul gebaut, welches die eingehenden Anrufe zählt.
+
+## Modul erstellen
+
+![Tutorial 2](/uploads/prtg/tutorial-2.png "Tutorial 2")
+
+
+## Erklärung des Ablaufs
