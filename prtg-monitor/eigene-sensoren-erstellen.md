@@ -72,8 +72,4 @@ Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, 
 
 ![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
 
-![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
-
-![Tutorial 6](/uploads/prtg/tutorial-6.png "Tutorial 6")
-
 ## Erklärung des Ablaufs
