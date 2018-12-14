@@ -25,7 +25,7 @@ iptables -I INPUT 3 -p tcp -m tcp --dport [PORT] -j ACCEPT
 service iptables save
 ```
 
-
+**Wichtig! Bei einem Update der Starface muss der Port erneut geöffnet werden**
 # Konfiguration PRTG-Monitor Server
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
