@@ -61,16 +61,19 @@ Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils
 
 ![Tutorial 3](/uploads/prtg/tutorial-3.png "Tutorial 3")
 
-### GUI-Design
+### GUI-Design & Code für Ablauf
 Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um Folgende Werte Konfigurieren zu können:
 
 * Sensorname
 * Chanellname
 * Timer für Anzahl Aktualisierungen
 
+Diese GUI-Werte werden dann im Code-Bereich für den Eintrittspunkt des Timers benötigt, um den Richtigen Sensor abzurufen, und das Richtige Paket zu beziehen.
+
 ![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
 
-### Eintrittspunkt für 
+### Eintrittspunkt für den Aktualisierungstimer
+Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regelmässig die PRTG_REFRESH Funktion abrufen soll
 
 ![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
 
