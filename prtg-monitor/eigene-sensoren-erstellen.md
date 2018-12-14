@@ -78,3 +78,4 @@ Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regel
 ![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
 
 ## Erklärung des Ablaufs
+
