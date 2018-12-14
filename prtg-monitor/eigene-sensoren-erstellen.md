@@ -68,8 +68,10 @@ Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, 
 * Chanellname
 * Timer für Anzahl Aktualisierungen
 
+![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
+
 ### Eintrittspunkt für 
 
-![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
+
 
 ## Erklärung des Ablaufs
