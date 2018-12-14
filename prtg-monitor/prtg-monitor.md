@@ -11,9 +11,18 @@ Pre-Compiled: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin
 Bevor man irgendwelche Sensoren definiert, muss man auf der Starface das Kernmodul installieren.
 Die vorkompillierte SFM-Datei findet man im Verzeichnis: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/Core
 
-
+![Core](/uploads/prtg/core.png "Core")
 
 ### Port öffnen
+Da das Modul Open-Source ist, werden im Modul keine Root-Scripts Verfügbar gemacht.
+Das beduetet wiederum, dass man zuerst mit Root-Rechten den Port, welchen man im PRTG-Kern definiert hat öffnen muss.
+
+Befehle zum öffnen des Ports:
+
+`iptables -I INPUT 3 -p tcp -m tcp --dport [PORT] -j ACCEPT
+service iptables save`
+
+
 # Konfiguration PRTG-Monitor Server
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
