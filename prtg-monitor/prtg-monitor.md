@@ -19,7 +19,6 @@ Das beduetet wiederum, dass man zuerst mit Root-Rechten den Port, welchen man im
 
 Befehle zum öffnen des Ports:
 
-
 ```text
 iptables -I INPUT 3 -p tcp -m tcp --dport [PORT] -j ACCEPT
 service iptables save
@@ -28,10 +27,22 @@ service iptables save
 **Wichtig! Bei einem Update der Starface muss der Port erneut geöffnet werden**
 
 ## Installation von Demo-Add-Ons
-
 ### Downloads
+
 Der Source-Code der Demopakete findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg/sensors
 Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/DemoSensors
+
+### Demopakete
+Für die Individuellen Demopakete gibt es eigene Artikel:
+
+PRTG Demo: Anlagenverbund On-/Offline 	
+PRTG Demo: Anzahl Gruppenmitglieder 	
+PRTG Demo: CPU Verbrauch 	
+PRTG Demo: Freier Speicherplatz 	
+PRTG Demo: Leitungen On-/Offline 	
+PRTG Demo: RAM Verbrauch 	
+PRTG Demo: Telefone On-/Offline 	
+PRTG Demo: Anzahl ungenutzer Lizenzen 	
 
 ## Erstellung eigener Add-Ons
 # Konfiguration PRTG-Monitor Server
