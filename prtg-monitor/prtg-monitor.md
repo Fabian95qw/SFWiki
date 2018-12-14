@@ -19,8 +19,11 @@ Das beduetet wiederum, dass man zuerst mit Root-Rechten den Port, welchen man im
 
 Befehle zum öffnen des Ports:
 
-`iptables -I INPUT 3 -p tcp -m tcp --dport [PORT] -j ACCEPT
-service iptables save`
+
+```text
+iptables -I INPUT 3 -p tcp -m tcp --dport [PORT] -j ACCEPT
+service iptables save
+```
 
 
 # Konfiguration PRTG-Monitor Server
