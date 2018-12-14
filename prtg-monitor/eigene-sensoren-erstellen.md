@@ -49,16 +49,20 @@ Hier wird Demonstrativ ein Modul gebaut, welches die eingehenden Anrufe zählt.
 
 ## Modul erstellen
 
-### Eintrittspunkt
+### Eintrittspunkt Anruf
 Wir erstellen ein neues Modul, und setzen den Modul Typ (**module-type**) auf erweitert (**Extended**), und wählen anschliessend einen Eintrittspunkt für Anrufverarbeitungen (**Call Processing Entrypoint**), mit dem Aktivierungstyp für Alle eingehenden Anrufe (**on all incoming calls**)
 
 Damit haben wir nun ein Modul, welches einen Eintrittspunkt für alle Eingehenden Anrufe hat. 
 
 ![Tutorial 2](/uploads/prtg/tutorial-2.png "Tutorial 2")
 
-### Code für Eintrittspunkt
+### Code für Eintrittspunkt des Anrufs
 Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils eine Zählervariable zu beziehen, und diese um 1 zu erhöhen.
 
 ![Tutorial 3](/uploads/prtg/tutorial-3.png "Tutorial 3")
+
+### Eintrittspunkt für PRTG-Sensor Aktualisierung
+
+![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
 
 ## Erklärung des Ablaufs
