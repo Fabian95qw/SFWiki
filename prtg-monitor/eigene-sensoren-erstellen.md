@@ -45,4 +45,4 @@ Mithilfe des GetPackage Befehls kann ein bestimmter Sensor bezogen werden, zu de
 Keine
 
 # Erstellung von Add-Ons für den PRTG-Kern
-Das PRTG-Modul ist so gebaut, dass jeder seine eigenen Channels für die Starface Designen kann, hier wird Demonstrativ ein Modul gebaut, welches die eingehenden Anrufe zählt.
+Hier wird Demonstrativ ein Modul gebaut, welches die eingehenden Anrufe zählt.
