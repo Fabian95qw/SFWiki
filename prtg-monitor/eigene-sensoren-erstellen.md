@@ -56,5 +56,9 @@ Damit haben wir nun ein Modul, welches einen Eintrittspunkt für alle Eingehende
 
 ![Tutorial 2](/uploads/prtg/tutorial-2.png "Tutorial 2")
 
+### Code für Eintrittspunkt
+Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils eine Zählervariable zu beziehen, und diese um 1 zu erhöhen.
+
+![Tutorial 3](/uploads/prtg/tutorial-3.png "Tutorial 3")
 
 ## Erklärung des Ablaufs
