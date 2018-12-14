@@ -61,13 +61,19 @@ Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils
 
 ![Tutorial 3](/uploads/prtg/tutorial-3.png "Tutorial 3")
 
-### Eintrittspunkt für PRTG-Sensor Aktualisierung
+### GUI-Design
 Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um Folgende Werte Konfigurieren zu können:
 
 * Sensorname
 * Chanellname
 * Timer für Anzahl Aktualisierungen
 
+### Eintrittspunkt für 
+
 ![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
+
+![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
+
+![Tutorial 6](/uploads/prtg/tutorial-6.png "Tutorial 6")
 
 ## Erklärung des Ablaufs
