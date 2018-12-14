@@ -39,8 +39,9 @@ Mithilfe des GetPackage Befehls kann ein bestimmter Sensor bezogen werden, zu de
 		TimeHours 
 		Alle Infos dazu gibt es bei Paessler: https://prtg.paessler.com/api.htm?username=demo&password=demodemo&tabid=7
 * CustomUnit (STRING): Wenn die Unit auf "Custom" gestellt wurde, kann hier ganz einfach eine eigene Einheit angegeben werden.
+* Addition Parameters (MAP<Elementame, Value>) erleubt es weitere Parameter für den Channel zu setzen. Siehe dafür erneut: https://prtg.paessler.com/api.htm?username=demo&password=demodemo&tabid=7
 		
-### Outputs:**
+### Outputs:
 Keine
 
 # Erstellung von Add-Ons für den PRTG-Kern
