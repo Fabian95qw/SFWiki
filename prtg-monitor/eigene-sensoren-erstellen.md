@@ -48,6 +48,7 @@ Keine
 Hier wird Demonstrativ ein Modul gebaut, welches die eingehenden Anrufe zählt.
 
 ## Modul erstellen
+Wir erstellen ein neues Modul, und setzen den Modul Typ (module-type" auf "Extended", und wählen anschliessend einen Eintrittspunkt für Anrufverarbeitungen (Call Processing Entrypoint), mit dem Aktivierungstyp für Alle eingehenden Anrufe (on all incoming calls)
 
 ![Tutorial 2](/uploads/prtg/tutorial-2.png "Tutorial 2")
 
