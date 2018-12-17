@@ -35,13 +35,13 @@ Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/
 ### Demopakete
 Für die Individuellen Demopakete gibt es eigene Artikel:
 
-PRTG Demo: Anlagenverbund On-/Offline 	
-PRTG Demo: Anzahl Gruppenmitglieder 	
-PRTG Demo: CPU Verbrauch 	
-PRTG Demo: Freier Speicherplatz 	
-PRTG Demo: Leitungen On-/Offline 	
-PRTG Demo: RAM Verbrauch 	
-PRTG Demo: Telefone On-/Offline 	
+PRTG Demo: Anlagenverbund On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-anlagenverbund-on-offline
+PRTG Demo: Anzahl Gruppenmitglieder: http://wiki.nucom.ch:8018/prtg-monitor/demo-anzahl-gruppenmitglieder	
+PRTG Demo: CPU Verbrauch: http://wiki.nucom.ch:8018/prtg-monitor/demo-cpu-verbrauch	
+PRTG Demo: Freier Speicherplatz: http://wiki.nucom.ch:8018/prtg-monitor/demo-freier-speicherplatz
+PRTG Demo: Leitungen On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-leitungen-on-offline
+PRTG Demo: RAM Verbrauch: http://wiki.nucom.ch:8018/prtg-monitor/demo-ram-verbrauch
+PRTG Demo: Telefone On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-telefone-on-offline
 PRTG Demo: Anzahl ungenutzer Lizenzen: http://wiki.nucom.ch:8018/prtg-monitor/demo-ungenutzte-lizenzen
 
 ## Erstellung eigener Add-Ons
