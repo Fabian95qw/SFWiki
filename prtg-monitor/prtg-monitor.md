@@ -54,6 +54,9 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 
 ![Install](/uploads/prtg/install.png "Install")
 
+## Konfiguration des Sensors
+
+![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
 
 
 # Downloads & Lizenzierung
