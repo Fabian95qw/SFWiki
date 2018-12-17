@@ -55,9 +55,18 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 ![Install](/uploads/prtg/install.png "Install")
 
 ## Konfiguration des Sensors
+Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
+Bei der erstellung müssen die Parameter wie folgt angegeben werden: 
+
+%host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [LOGLOCATION]
+
+* %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts
+* PORT ==> Der Port, der im PRTG-Modul auf der Starface definiert wurde.
+* SENSORNAME ==> Der Name des Sensors, der von der Starface abgerufen werden soll. 
+* TRUSTALLCA ==> Vertraut auch Zertifikaten, welcher nicht von einer Offiziellen Stelle kommen. Das Modul verwendet das gleiche Zertifikat für den Verschlüsselten verkehr, wie der Tomcat Server (Starface Webinterface)
+* LOGLOCATION ==> Der Sensor enthält einen minimalistischen Logger, falls mal etwas gar nicht klappt, kann man hier eine Loglocation angeben.
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
-
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
