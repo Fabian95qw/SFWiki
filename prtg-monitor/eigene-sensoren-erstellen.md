@@ -77,5 +77,13 @@ Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regel
 
 ![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
 
-## Erklärung des Ablaufs
+## Konfiguration von Modul & Sensor
+
+### Konfiguration Modul Kern
+Zuerst muss natürlich eine Instanz vom PRTG Monitor Kern existieren (Modul: PRTG-Monitor)
+
+![Tutorial 6](/uploads/prtg/tutorial-6.png "Tutorial 6")
+
+### Konfiguration Instanz
+
 
