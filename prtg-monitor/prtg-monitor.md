@@ -42,7 +42,7 @@ PRTG Demo: Freier Speicherplatz
 PRTG Demo: Leitungen On-/Offline 	
 PRTG Demo: RAM Verbrauch 	
 PRTG Demo: Telefone On-/Offline 	
-PRTG Demo: Anzahl ungenutzer Lizenzen 	
+PRTG Demo: Anzahl ungenutzer Lizenzen: http://wiki.nucom.ch:8018/prtg-monitor/demo-ungenutzte-lizenzen
 
 ## Erstellung eigener Add-Ons
 Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch:8018/prtg-monitor/eigene-sensoren-erstellen
