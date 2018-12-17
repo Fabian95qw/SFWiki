@@ -1,6 +1,6 @@
 <!-- TITLE: Demo Telefone On/Offline -->
 # Beschreibung
-Ein Sensor, welcher Angibt wieviele Telefone aktuell Online/Offline sind.
+Ein Sensor, welcher angibt wieviele Telefone aktuell Online/Offline sind.
 # Konfiguration
 ![Phonesonoffline](/uploads/prtg/phonesonoffline.png "Phonesonoffline")
 
