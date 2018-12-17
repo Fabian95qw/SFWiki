@@ -87,3 +87,7 @@ Zuerst muss natürlich eine Instanz vom PRTG Monitor Kern existieren (Modul: PRT
 ### Konfiguration Instanz
 
 ![Tutorial 7](/uploads/prtg-tutorial/tutorial-7.png "Tutorial 7")
+
+### Konfiguration PRTG-Sensor
+
+![Tutorial 8](/uploads/prtg-tutorial/tutorial-8.png "Tutorial 8")
