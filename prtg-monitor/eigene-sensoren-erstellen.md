@@ -2,7 +2,7 @@
 # PRTG-Kern Komponenten Erklärung
 Wenn das PRTG-Kernmodul installiert ist, stellt dieses zwei Funktionen zur Verfügung, mit welchen eigene Channels erstellt werden können.
 
-![Tutorial 1](/uploads/prtg/tutorial-1.png "Tutorial 1")
+![Tutorial 1](/uploads/prtg-tutorial/tutorial-1.png "Tutorial 1")
 
 ## GetPackage
 Mithilfe des GetPackage Befehls kann ein bestimmter Sensor bezogen werden, zu dem man später den Channel hinzufügen will.
@@ -54,12 +54,12 @@ Wir erstellen ein neues Modul, und setzen den Modul Typ (**module-type**) auf er
 
 Damit haben wir nun ein Modul, welches einen Eintrittspunkt für alle Eingehenden Anrufe hat. 
 
-![Tutorial 2](/uploads/prtg/tutorial-2.png "Tutorial 2")
+![Tutorial 2](/uploads/prtg-tutorial/tutorial-2.png "Tutorial 2")
 
 ### Code für Eintrittspunkt des Anrufs
 Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils eine Zählervariable zu beziehen, und diese um 1 zu erhöhen.
 
-![Tutorial 3](/uploads/prtg/tutorial-3.png "Tutorial 3")
+![Tutorial 3](/uploads/prtg-tutorial/tutorial-3.png "Tutorial 3")
 
 ### GUI-Design & Code für Ablauf
 Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um Folgende Werte Konfigurieren zu können:
@@ -70,19 +70,19 @@ Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, 
 
 Diese GUI-Werte werden dann im Code-Bereich für den Eintrittspunkt des Timers benötigt, um den Richtigen Sensor abzurufen, und das Richtige Paket zu beziehen.
 
-![Tutorial 4](/uploads/prtg/tutorial-4.png "Tutorial 4")
+![Tutorial 4](/uploads/prtg-tutorial/tutorial-4.png "Tutorial 4")
 
 ### Eintrittspunkt für den Aktualisierungstimer
 Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regelmässig die PRTG_REFRESH Funktion abrufen soll
 
-![Tutorial 5](/uploads/prtg/tutorial-5.png "Tutorial 5")
+![Tutorial 5](/uploads/prtg-tutorial/tutorial-5.png "Tutorial 5")
 
 ## Konfiguration von Modul & Sensor
 
 ### Konfiguration Modul Kern
 Zuerst muss natürlich eine Instanz vom PRTG Monitor Kern existieren (Modul: PRTG-Monitor)
 
-![Tutorial 6](/uploads/prtg/tutorial-6.png "Tutorial 6")
+![Tutorial 6](/uploads/prtg-tutorial/tutorial-6.png "Tutorial 6")
 
 ### Konfiguration Instanz
 
