@@ -45,6 +45,7 @@ PRTG Demo: Telefone On-/Offline
 PRTG Demo: Anzahl ungenutzer Lizenzen 	
 
 ## Erstellung eigener Add-Ons
+Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch:8018/prtg-monitor/eigene-sensoren-erstellen
 # Konfiguration PRTG-Monitor Server
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
