@@ -1,6 +1,6 @@
 <!-- TITLE: Demo Cpu Verbrauch -->
 # Beschreibung
-EIn Sensor, welche alle CPU-Cores mit deren aktueller last darstellt.
+EIn Sensor, welche alle CPU-Cores mit deren aktueller Last darstellt.
 # Konfiguration
 ![Cpu](/uploads/prtg/cpu.png "Cpu")
 
