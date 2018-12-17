@@ -1,4 +1,4 @@
-<!-- TITLE: Demo Anlagenverbund On(Offline -->
+<!-- TITLE: Demo Anlagenverbund On/Offline -->
 # Beschreibung
 Ein Sensor, der Angibt wieviele Anlagen im Verbund aktuell Online sind
 # Konfiguration
