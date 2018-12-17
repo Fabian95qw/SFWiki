@@ -85,9 +85,11 @@ Zuerst muss natürlich eine Instanz vom PRTG Monitor Kern existieren (Modul: PRT
 ![Tutorial 6](/uploads/prtg-tutorial/tutorial-6.png "Tutorial 6")
 
 ### Konfiguration Instanz
+Danach muss eine Instanzt des Add-Ons definiert werden, wo dann einerseits der Sensorname, sowie der Refresh Timer gesetzt wird.
 
 ![Tutorial 7](/uploads/prtg-tutorial/tutorial-7.png "Tutorial 7")
 
 ### Konfiguration PRTG-Sensor
+Und zum schluss muss natürlich noch der Sensor im PRTG-Monitor erfasst werden.
 
 ![Tutorial 8](/uploads/prtg-tutorial/tutorial-8.png "Tutorial 8")
