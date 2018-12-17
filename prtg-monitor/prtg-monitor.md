@@ -68,6 +68,10 @@ Bei der erstellung müssen die Parameter wie folgt angegeben werden:
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
 
+## Success Channel
+Mit jedem Sensor kommt automatisch der Success-Channel. Dieser Channel sagt, ob das Passwort beim Login korrekt war.
+1 == O.K
+0 == Passwort falsch.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
