@@ -62,7 +62,7 @@ Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils
 ![Tutorial 3](/uploads/prtg-tutorial/tutorial-3.png "Tutorial 3")
 
 ### GUI-Design & Code für Ablauf
-Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um Folgende Werte Konfigurieren zu können:
+Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um folgende Werte Konfigurieren zu können:
 
 * Sensorname
 * Chanellname
