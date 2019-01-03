@@ -1,4 +1,4 @@
-<!-- TITLE: Gruppenabmeldung Blockieren -->
+<!-- TITLE: Gruppenabmeldung blockieren -->
 # Beschreibung
 Verhindert, dass sich der letzte Benutzer einer Gruppe abmeldet 
 # Konfiguration
