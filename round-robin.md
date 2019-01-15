@@ -1,4 +1,4 @@
-<!-- TITLE: Round Robin -->
+<!-- TITLE: Roundrobin -->
 # Beschreibung
 Das Roundrobin Modul verteilt Anrufe nach dem entsprechenden Prinzip in der Gruppe.
 1. Ruf ==> Beginnt bei Tn.1 == >Weiter zu Tn.2 ==> Weiter zu Tn.3
