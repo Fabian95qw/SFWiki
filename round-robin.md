@@ -14,6 +14,11 @@ Definiert, wie oft das Modul durch alle Teilnehmer Rotiert, bevor es den Anruf w
 
 ## Fehlgeschlagene Anrufe
 Wenn ein Anruf nach den angegebenen Anzahl Iterationen immer noch nicht abgenommen wurde, wird es an diese Rufnummer weitergeleitet.
+
+## Definition der Roundrobin Gruppe
+![Roundrobin 2](/uploads/roundrobin/roundrobin-2.png "Roundrobin 2")
+
+Nun muss einfach die Klingelstrategie auf die Roundrobin Gruppe geändert werden, und fertig.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
