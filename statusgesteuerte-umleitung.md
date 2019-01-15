@@ -3,7 +3,7 @@
 Das Modul überwacht den Chatstatus einer Gruppe von Starface Usern, ändert sich nun der Status eines Users z.b. auf "Abwesend" ändert, sowie aktiviert das Modul Umleitungen vom Typ "Immer, Besetzt, Zeitüberschreitung" (Konfigurierbar) 
 # Konfiguration
 ## Überwachung
-
+![2](/uploads/stateredirect/stateredirect-1.png "stateredirect-1")
 ### Interne Nummernlänge
 Man muss dem Modul Mitteilen, wie lange die internen Rufnummern sind, damit er diese von den externen Rufnummern unterscheiden kann.
 
