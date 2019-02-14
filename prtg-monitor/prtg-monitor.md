@@ -59,13 +59,13 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
 Bei der erstellung müssen die Parameter wie folgt angegeben werden: 
 
-%host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [LOGLOCATION]
+%host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [DEBUG]
 
 * %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts
 * PORT ==> Der Port, der im PRTG-Modul auf der Starface definiert wurde.
 * SENSORNAME ==> Der Name des Sensors, der von der Starface abgerufen werden soll. 
-* TRUSTALLCA ==> Vertraut auch Zertifikaten, welcher nicht von einer Offiziellen Stelle kommen. Das Modul verwendet das gleiche Zertifikat für den Verschlüsselten verkehr, wie der Tomcat Server (Starface Webinterface)
-* LOGLOCATION ==> Der Sensor enthält einen minimalistischen Logger, falls mal etwas gar nicht klappt, kann man hier eine Loglocation angeben.
+* TRUSTALLCA (Boolean true/false)==> Vertraut auch Zertifikaten, welcher nicht von einer Offiziellen Stelle kommen. Das Modul verwendet das gleiche Zertifikat für den Verschlüsselten verkehr, wie der Tomcat Server (Starface Webinterface)
+* DEBUG (Boolean true/false) ==> Der Sensor enthält eine Logging funktion, zum finden von Fehlern. **Warnung! Aktivieren des Debug Logs führt automatisch zu fehlermeldungen im PRTG-Monitor, gibt dafür allerlei Logs aus.**
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
 
