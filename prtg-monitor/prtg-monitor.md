@@ -59,6 +59,8 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
 Bei der erstellung müssen die Parameter wie folgt angegeben werden: 
 
+**Wichtig! Auf dem Server muss Java installiert sein!**
+
 %host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [DEBUG]
 
 * %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts. **Dieser muss genau so eingetragen werden! Nicht durch %192.168.XXX.XXX ersetzen!**
@@ -68,10 +70,6 @@ Bei der erstellung müssen die Parameter wie folgt angegeben werden:
 * DEBUG (Boolean true/false) ==> Der Sensor enthält eine Logging funktion, zum finden von Fehlern. **Warnung! Aktivieren des Debug Logs führt automatisch zu fehlermeldungen im PRTG-Monitor, gibt dafür allerlei Logs aus.**
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
-
-```text
-Wichtig! Auf dem Server muss Java installiert sein!
-```
 
 ## Success Channel
 Mit jedem Sensor kommt automatisch der Success-Channel. Dieser Channel sagt, ob das Passwort beim Login korrekt war.
