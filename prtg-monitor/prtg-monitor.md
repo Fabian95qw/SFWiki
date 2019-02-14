@@ -61,7 +61,7 @@ Bei der erstellung müssen die Parameter wie folgt angegeben werden:
 
 %host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [DEBUG]
 
-* %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts
+* %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts. **Dieser muss genau so eingetragen werden! Nicht durch %192.168.XXX.XXX ersetzen!**
 * PORT ==> Der Port, der im PRTG-Modul auf der Starface definiert wurde.
 * SENSORNAME ==> Der Name des Sensors, der von der Starface abgerufen werden soll. 
 * TRUSTALLCA (Boolean true/false)==> Vertraut auch Zertifikaten, welcher nicht von einer Offiziellen Stelle kommen. Das Modul verwendet das gleiche Zertifikat für den Verschlüsselten verkehr, wie der Tomcat Server (Starface Webinterface)
@@ -69,10 +69,31 @@ Bei der erstellung müssen die Parameter wie folgt angegeben werden:
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
 
+```text
+Wichtig! Auf dem Server muss Java installiert sein!
+```
+
 ## Success Channel
 Mit jedem Sensor kommt automatisch der Success-Channel. Dieser Channel sagt, ob das Passwort beim Login korrekt war.
 1 == O.K
 0 == Passwort falsch.
+
+# Es funktioniert nicht!
+Letzten gab es mehrere Probleme, mit Personen bei denen der PRTG-Monitor nicht korrekt funktioniert hat.
+Hier sind noch einige Hilfestellungen dazu.
+
+## XML: Das zurückgelieferte XML entspricht nicht dem erwarteten Schema. (Code: PE233) -- JSON: Das zurückgelieferte JSON entspricht nicht der erwarteten Struktur (Invalid JSON.). (Code: PE231)
+Dieser Fehler wird von Seitens PRTG-Generiert, wenn der Sensor kein gültiges XML vom Client Sensor erhält.
+
+Um dies zu beheben, können wir Clientseitiges Debugging verwenden.
+
+Die PRTGClient.jar kann von Hand im CMD ausführen, um so fehlermeldungen zu finden.
+Dazu kann man folgenden Befehl ausführen:
+
+> java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" XXX.XXX.XXX.XXX Port Passwort Demosensor true true
+
+
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
