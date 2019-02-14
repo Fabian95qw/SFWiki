@@ -92,7 +92,49 @@ Dazu kann man folgenden Befehl ausführen:
 
 > java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" XXX.XXX.XXX.XXX Port Passwort Demosensor true true
 
+Je nachdem, wo das Problem ist, erhält man ein anderes Ergebnis.
 
+### Java wurde nicht gefunden
+Entweder ist Java nicht installiert, oder nicht korrekt in der Systemungebungsvariable hinterlegt.
+
+### java.net.SocketException: Connection reset
+Es konnte keine Verbindung zum PRTG-Sensor auf der Starface hergestellt werden. Entweder ist der PORT nicht geöffnet, oder der PRTG-Monitor Dienst auf der Starface ist nicht in Betrieb.
+
+### Connection Failed.
+Das ist eine fortlaufende Fehlermeldung, die während der Verarbeitung des Modul auftritt.
+
+>  java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" 192.168.123.123 25590 Passwort Demosensor true true
+>  [EntryPoint] Opeing Connection to: 192.168.123.123 on Port: 25590
+>  [Connection] Encrypting Password
+>  [Connection] Starting Handshake
+>  [Connection]HandShake Completed
+>  [Connection]Writing Password
+>  [Connection] Writing Sensor to Access
+>  [Connection]Waiting for Server Response
+>  [Connection] Connection Failed.
+>  [Connection]java.net.SocketException: Connection reset
+>  at java.net.SocketInputStream.read(Unknown Source)
+>  at java.net.SocketInputStream.read(Unknown Source)
+>  at sun.security.ssl.InputRecord.readFully(Unknown Source)
+>  at sun.security.ssl.InputRecord.read(Unknown Source)
+>  at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+>  at sun.security.ssl.SSLSocketImpl.readDataRecord(Unkn own Source)
+>  at sun.security.ssl.AppInputStream.read(Unknown Source)
+>  at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+>  at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+>  at sun.nio.cs.StreamDecoder.read(Unknown Source)
+>  at java.io.InputStreamReader.read(Unknown Source)
+>  at java.io.BufferedReader.fill(Unknown Source)
+>  at java.io.BufferedReader.readLine(Unknown Source)
+>  at java.io.BufferedReader.readLine(Unknown Source)
+>  at nucom.module.prtg.client.connection.Connection.Ope n(Connection.java:1
+>  30)
+>  at nucom.module.prtg.client.EntryPoint.main(EntryPoin t.java:58)
+
+Dies deutet darauf hin, dass das Modul Probleme mit Verarbeitung der Sensordaten hat.
+
+### javax.net.ssl.SSLHandshakeException
+Die Serververbindung wurde aufgrund eines Problems mit dem SSL-Handshake unterbrochen. Dies kann u.a. passieren, wenn ein Selbstsigniertes Zertifikat verwendet wurde, ohne den entsprechenden **TRUSTALLCA** Parameter auf **True** zu setzen
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
