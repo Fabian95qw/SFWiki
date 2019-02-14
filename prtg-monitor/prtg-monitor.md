@@ -136,6 +136,11 @@ Dies deutet darauf hin, dass das Modul Probleme mit Verarbeitung der Sensordaten
 ### javax.net.ssl.SSLHandshakeException
 Die Serververbindung wurde aufgrund eines Problems mit dem SSL-Handshake unterbrochen. Dies kann u.a. passieren, wenn ein Selbstsigniertes Zertifikat verwendet wurde, ohne den entsprechenden **TRUSTALLCA** Parameter auf **True** zu setzen
 
+## Der Sensor enthält nur einen Success Channel
+Wenn man vom Server einen Sensor verlangt, welcher gar nie existiert, gibt dieser Trotzdem einen Success Channel zurück, da dieser eine Aussage, über den Loginstatus macht. (0==Passwort falsch, 1==Eingeloggt)
+Falls der Channel 0 ist, sollte man das Passwort nochmals überprüfen.
+
+Falls der Sensor nach wie vor nur einen Channel hat, sollte man prüfen, ob Sensorname auf dem Server, sowie Client übereinstimmen, und das Servermodul auch eine korrekte Zeit zur aktualisierung der Daten hat.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
