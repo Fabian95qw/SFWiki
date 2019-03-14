@@ -7,6 +7,9 @@ Das Modul überwacht den Chatstatus einer Gruppe von Starface Usern, und setzt g
 ## Statusreaktion
 Im Modul muss eine Gruppe angegeben werden. Das Modul wird dann nur den Status jedes Mitglieds der Gruppe überwachen.
 Ausserdem muss man Anhaken, auf welche Status genau reagiert werden soll.
+
+# Beispiel
+![Stateblf 2](/uploads/stateblf/stateblf-2.png "Stateblf 2")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
