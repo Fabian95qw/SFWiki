@@ -29,6 +29,19 @@ Nac der platzierung des Downloadlinks muss das installationsscript ausgeführt w
 `cd /usr/src && rm -r -f mpg123*; //Source verzeichnis entfernen`
 `rm -f /etc/yum.repos.d/starface.repo //Repository wieder löschen`
 `mv /etc/yum.repos.d/starface.repo.copy /etc/yum.repos.d/starface.repo //Original Starface Repository wieder platzieren`
+
+# Manuelles Aufzwingen von Livestreams ohne Modul
+* Die Datei: /etc/asterisk/musiconhold.conf editieren
+* Die Warteschlange raussuchen
+
+Die warteschlange Anpassen auf:
+
+[Warteschlangenname]
+mode=**custom**
+application=**/usr/local/bin/mpg123 -q -r 8000 -f 8192 -b 4096 --preload 0 --mono -s [URL zu MP3 stream]**
+Format=**slin**
+
+* Nach Angepasster Warteschlange in der Asterisk Console (**asterisk -rv** im Terminal) den Befehl "**moh reload**" ausführen.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
