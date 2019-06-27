@@ -27,8 +27,20 @@ Hier können MPG 123 Argumente geändert werden, falls etwas mit den Streams nic
 Für Infos über die Argumente siehe: https://linux.die.net/man/1/mpg123
 
 ## Die Warteschlange bleibt still
+Wenn eine Warteschlange leer bleibt heisst das, dass der Stream vermutlich nicht kompatibel ist.
 
-## 
+Man kann dem Maneull nachgehen, indem man per SSH den Befehl: **/usr/local/bin/mpg123 -q -r 8000 -f 8192 -b 4096 --preload 0 --mono -s [URL zu MP3 stream]** eingibt.
+
+Wenn nichts passiert, dann empfängt MPG123 nichts von diesem Stream. Wenn ein haufen Kauderwelsch zurückkommt, empfägt MPG123 Ordnungsgemäss die Daten.
+
+## Die Warteschlange ist nach dem Neustart wieder auf der Standardmusik
+Das Modul prüft in regelmässigen Abständen, ob die Music on Hold Config nocht richtig ist. 
+Diese wird von der Starface überschrieben wenn:
+
+* Die Anlage neu gestartet wurde
+* Etwas im Music on Hold editiert wurde
+
+Das heisst, je nach Timing hat das Modul die Konfiguration noch nicht wieder überschrieben, und es wird die Standardmusik abgespielt.
 # Einblick ins Script
 `mv /etc/yum.repos.d/starface.repo /etc/yum.repos.d/starface.repo.copy //Starface Repository Sichern`
 `cp /var/starface/module/modules/repo/75ad75a3-a423-4c45-b442-9930d2cd7702/res/0efc550c-6bd8-405a-b606-b2a2f070734a.repo /etc/yum.repos.d/starface.repo //Neues Repository platzieren`
