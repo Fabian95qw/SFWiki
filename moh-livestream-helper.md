@@ -17,9 +17,9 @@ Nac der platzierung des Downloadlinks muss das installationsscript ausgeführt w
 ![1](/uploads/moh-livestream-helper/1.jpg "1")
 
 # Einblick ins Script
-`mv /etc/yum.repos.d/starface.repo /etc/yum.repos.d/starface.repo.copy //Starface Repository Sichern
-cp /var/starface/module/modules/repo/75ad75a3-a423-4c45-b442-9930d2cd7702/res/0efc550c-6bd8-405a-b606-b2a2f070734a.repo /etc/yum.repos.d/starface.repo //Neues Repository platzieren
-yum clean all //Yum Cleanup, damit die Repository Daten refresht werden
+`mv /etc/yum.repos.d/starface.repo /etc/yum.repos.d/starface.repo.copy //Starface Repository Sichern`
+`cp /var/starface/module/modules/repo/75ad75a3-a423-4c45-b442-9930d2cd7702/res/0efc550c-6bd8-405a-b606-b2a2f070734a.repo /etc/yum.repos.d/starface.repo //Neues Repository platzieren`
+`yum clean all //Yum Cleanup, damit die Repository Daten refresht werden`
 yum -y groupinstall "Development Tools" //Development Tools herunterladen
 cd /usr/src //Verzeichnis Wechseln
 wget [MPG123 URL] //MPG123.tar.gz herunterladen
@@ -28,7 +28,7 @@ cd /usr/src/mpg123*/ && ./configure;cd /usr/src/mpg123*/ && make;cd /usr/src/mpg
 make clean //Make bereinigen
 cd /usr/src && rm -r -f mpg123*; //Source verzeichnis entfernen
 rm -f /etc/yum.repos.d/starface.repo //Repository wieder löschen
-mv /etc/yum.repos.d/starface.repo.copy /etc/yum.repos.d/starface.repo //Original Starface Repository wieder platzieren`
+mv /etc/yum.repos.d/starface.repo.copy /etc/yum.repos.d/starface.repo //Original Starface Repository wieder platzieren
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
