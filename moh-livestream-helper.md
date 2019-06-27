@@ -4,6 +4,8 @@ Ein Gratistool welches auf der Starface MPG123 installiert, damit Livestreams al
 
 **WARNUNG**
 Das Tool kann nicht mehr entfernt werden, und es könnte zu komplikationen bei Updates kommen
+
+**Gratislizenz: 2VSXC-TDY4K-7SHXG-4RF7W-F7NT7**
 # Konfiguration
 ## Erstinstallation
 Platzieren sie im MPG123 Download URL den Downloadlink zur MPG123 Version, die sie installieren wollen
