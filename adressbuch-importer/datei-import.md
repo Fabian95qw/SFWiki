@@ -86,7 +86,7 @@ Das Request Ergebnis gibt das Ergebnis des letzten http(s) Requests zurück. Als
 ## FTP Status
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
 ## FTP Import Pfad
-Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Backslash („\“) beginnen und im letzten Ordner ohne Backslash aufhören. 
+Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Backslash aufhören. 
 Ein Dateiname darf nicht angehängt werden. (Dieser wird oben im Import gesetzt)
  
 # SMB-Konfiguration
