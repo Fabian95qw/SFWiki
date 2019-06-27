@@ -16,6 +16,19 @@ Nac der platzierung des Downloadlinks muss das installationsscript ausgeführt w
 
 ![1](/uploads/moh-livestream-helper/1.jpg "1")
 
+## Streams Konfigurieren
+In der Tabelle müssen jeweils Link der Warteschlangennamen, und rechts der dazugehörige Livestream der abgespielt werden soll platziert werden.
+
+![2](/uploads/moh-livestream-helper/2.jpg "2")
+
+## MPG123 Argumente
+Hier können MPG 123 Argumente geändert werden, falls etwas mit den Streams nicht Ordnungsgemäss funktioniert.
+
+Für Infos über die Argumente siehe: https://linux.die.net/man/1/mpg123
+
+## Die Warteschlange bleibt still
+
+## 
 # Einblick ins Script
 `mv /etc/yum.repos.d/starface.repo /etc/yum.repos.d/starface.repo.copy //Starface Repository Sichern`
 `cp /var/starface/module/modules/repo/75ad75a3-a423-4c45-b442-9930d2cd7702/res/0efc550c-6bd8-405a-b606-b2a2f070734a.repo /etc/yum.repos.d/starface.repo //Neues Repository platzieren`
@@ -38,6 +51,7 @@ Die warteschlange Anpassen auf:
 
 [Warteschlangenname]
 mode=**custom**
+Directory: **nodir**
 application=**/usr/local/bin/mpg123 -q -r 8000 -f 8192 -b 4096 --preload 0 --mono -s [URL zu MP3 stream]**
 Format=**slin**
 
