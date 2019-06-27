@@ -1,4 +1,4 @@
-<!-- TITLE: IFMC De Aktivieren -->
+<!-- TITLE: IFMC De/Aktivieren -->
 # Beschreibung
 Ein kleines Modul, welches es erlaubt per Modultaste IFMC für einen User zu De-/Aktivieren
 # Konfiguration
