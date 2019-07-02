@@ -95,7 +95,7 @@ Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im 
 - WICHTIG Die Spalte "comment" ist für die LoginID reserviert und muss ZWINGEND vorhanden sein.
 ```
 
-![Vorlageresult](/uploads/adressbuch-importer/vorlageresult.png "Vorlageresult")
+![Templatecolored](/uploads/userimporter/templatecolored.jpg "Templatecolored")
 
 **Das Resultierende Template muss im CSV Format Semicolon ( ; ) getrennt & im UTF-8 Format abgespeichert werden.**
 
