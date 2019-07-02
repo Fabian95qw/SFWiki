@@ -44,6 +44,38 @@ Wird nur benötigt, wenn das Adressbuchmanagement auf „Adressbuch leeren“ st
 Wenn ein Export aus einer anderen Software fehlerhaft war, die CSV für den Download jedoch existiert, und von der Starface heruntergeladen wurde, schlägt diese Alarm, da keine Kontakte im File gefunden werden konnten 
 (Vorsicht mit Header Zeile, wenn „Erste Zeile Ignorieren nicht gesetzt ist!)
 
+## Import
+![Datei Import 1](/uploads/adressbuch-importer/datei-import-1.png "Datei Import 1")
+### Protkoll
+
+Hier muss im Voraus das Protokoll festgelegt werden, dessen Konfiguration verwendet werden soll.
+
+### Fileimportmodus
+
+**Nur spezifisches CSV Importieren**
+In diesem Modus wird nur ein Spezifisches CSV in dem in der Konfiguration angegebenen Pfad gesucht. Dieser muss weiter unten bei „Spezifischer Dateiname“ angegeben werden.
+
+**Alle CSV’s Importieren**
+Die Starface lädt alle Dateien mit der Endung .csv aus dem Ordner herunter. Und Importiert diese nacheinander.
+
+**Neuste CSV Importieren**
+Er lädt die neuste Datei mit der Endung .CSV herunter. Hierbei überprüft er den Wert der letzten Änderung (Siehe Artikel „Wikipedia Changed Date“)
+
+**Spezifischer Dateiname**
+Wird nur beim Fileimportmodus „Nur Spezifisches CSV Importieren“ benötigt. Dieser Dateiname wird hinten an den Konfigurierten FTP/SMB Pfad angehängt.
+
+**Ignoriere erste Zeile**
+Ignoriert die erste Zeile der CSV’s. Dies wird Z.B. benötigt, wenn die Spaltenbeschriftungen noch vorhanden sind. 
+Template für Importdateien
+Beim Export der Adressen aus anderen Programmen sind diese nicht unbedingt gerade Starface Konform Formatiert, deshalb kann man ein eigenes Template für eigene Imports einspielen.
+
+**Trennzeichen**
+Das definierte Trennzeichen für die CSV-Datei
+
+**Charset**
+Das vorausgesetzte Encoding der CSV-Datei
+
+
 ## Nummernfilter
 Wenn Nummern aus Fremdprogrammen importiert werden, welche nicht Starface Konform (Internationales Nummernformat) sind, können diese mithilfe des Nummernfilter korrigiert werden.
 Der Nummernfilter erlaubt es, gewisse Nummernteile durch andere zu ersetzen.
