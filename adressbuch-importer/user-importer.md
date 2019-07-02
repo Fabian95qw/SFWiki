@@ -73,7 +73,34 @@ Regex101 Beispiele:
 * Einfacher Schweizer Nummernfilter: https://regex101.com/r/kV3vW4/1
 * Komplexer Regex für das Filtern von allen +4[0-9] Nummern, inkl. Filterung von Klammern, Abständen, sowie Bindestrichen: https://regex101.com/r/Yb6MUI/1
 
-## 
+## Template für Import definieren
+Um die zu importierenden Daten einem User zuordnen zu können, muss ein entsprechendes Template designt werden.
+
+### Beispiel Template
+
+**Beispieldaten aus Applikation XY**
+
+![Vorlageappxy](/uploads/adressbuch-importer/vorlageappxy.png "Vorlageappxy")
+
+Diese sollen in die Starface Importiert werden. Hierfür kann ein Template generiert werden.
+Als Vorlage für das Template benutzen wir die CSV-Import Vorlage der Starface:
+
+![Template](/uploads/adressbuch-importer/template.png "Template")
+
+Die darin enthaltenen Spaltennamen werden von der Starface erkannt.
+
+Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im ApplikationXY.csv Entsprechen:
+
+![Vorlageresult](/uploads/adressbuch-importer/vorlageresult.png "Vorlageresult")
+
+**Das Resultierende Template muss im CSV Format Semicolon ( ; ) getrennt & im UTF-8 Format abgespeichert werden.**
+
+In diesem Fall würde der „rohe“ CSV-Code so aussehen:
+
+> [LEER];Name [contact:familyname];Vorname [contact:firstname];;Firma [contact:company];PLZ [address:postcode];Straße [address:street];;Rufnummer [telephone:phone]
+
+Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Kontakte korrekt zu interpretieren.
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
