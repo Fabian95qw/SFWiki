@@ -104,7 +104,7 @@ In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 > First name [contact:firstname];Last name [contact:familyname];Company [contact:company];Academic title [contact:academic_title];Job title [contact:job_tilte];Street [address:street];ZIP code [address:postcode];City [address:city];State [address:state];Phone number [telephone:phone];[LEER];[LEER];[LEER];E-mail [email:e-mail];URL [email:url];LoginID[module:comment]
 
 
-Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Kontakte korrekt zu interpretieren.
+Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Daten korrekt zu interpretieren.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
