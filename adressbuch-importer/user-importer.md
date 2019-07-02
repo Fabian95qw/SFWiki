@@ -9,8 +9,6 @@ Die Automatisierung ist das Kernstück des Moduls. Hier können die allgemeinen 
 
 ![Automatisierung 1](/uploads/adressbuch-importer/automatisierung-1.png "Automatisierung 1")
 
-### Adressbuchmanagement
-
 ![Adressbuch](/uploads/adressbuch-importer/adressbuch.png "Adressbuch")
 
 **Automatisierung beim Speichern anwenden**
