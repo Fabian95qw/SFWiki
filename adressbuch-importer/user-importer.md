@@ -44,7 +44,35 @@ Wird nur benötigt, wenn das Adressbuchmanagement auf „Adressbuch leeren“ st
 Wenn ein Export aus einer anderen Software fehlerhaft war, die CSV für den Download jedoch existiert, und von der Starface heruntergeladen wurde, schlägt diese Alarm, da keine Kontakte im File gefunden werden konnten 
 (Vorsicht mit Header Zeile, wenn „Erste Zeile Ignorieren nicht gesetzt ist!)
 
-## Templatedefinition
+## Nummernfilter
+Wenn Nummern aus Fremdprogrammen importiert werden, welche nicht Starface Konform (Internationales Nummernformat) sind, können diese mithilfe des Nummernfilter korrigiert werden.
+Der Nummernfilter erlaubt es, gewisse Nummernteile durch andere zu ersetzen.
+Es wird immer nur das erste Vorkommen des Nummernteils ersetzt.
+Zb: NummernTeil: 071 == Ersetzen durch: +41(71)
+Nummer: 0715736071 wird zu +41(71)5736071
+
+![Nummernfilter](/uploads/adressbuch-importer/nummernfilter.png "Nummernfilter")
+
+### Regex
+Der Nummernfilter unterstützt Regex. **Diese müssen immer mit REGEX: beginnen!**
+
+**Beispiel**
+
+Der REGEX : *^(\+41)\(?0?([0-9]{2})\)?* auf Nummern Angewendet:
+
+Ursprüngliche Nummer	                    Nummer nach Regex
++41712345678	                                  +41712345678
++410712345678		              	               +41712345678
++41(71)2345678		              	              +41712345678
++41(071)2345678		                 	           +41712345678
+
+Zum editieren von Regex sollte ein Hilfsprogramm wie z.b. Regex101 Verwendet werden.
+
+Regex101 Beispiele:
+
+* Einfacher Schweizer Nummernfilter: https://regex101.com/r/kV3vW4/1
+* Komplexer Regex für das Filtern von allen +4[0-9] Nummern, inkl. Filterung von Klammern, Abständen, sowie Bindestrichen: https://regex101.com/r/Yb6MUI/1
+
 ## 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
