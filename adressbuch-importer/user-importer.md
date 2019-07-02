@@ -80,7 +80,7 @@ Um die zu importierenden Daten einem User zuordnen zu können, muss ein entsprec
 
 **Beispieldaten aus Applikation XY**
 
-![Vorlageappxy](/uploads/adressbuch-importer/vorlageappxy.png "Vorlageappxy")
+![Customtemplate](/uploads/userimporter/customtemplate.jpg "Customtemplate")
 
 Diese sollen in die Starface Importiert werden. Hierfür kann ein Template generiert werden.
 Als Vorlage für das Template benutzen wir die CSV-Import Vorlage der Starface:
