@@ -91,6 +91,10 @@ Die darin enthaltenen Spaltennamen werden von der Starface erkannt.
 
 Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im ApplikationXY.csv Entsprechen:
 
+```diff
+- WICHTIG Die Spalte "comment" ist für die LoginID reserviert und muss ZWINGEND vorhanden sein.
+```
+
 ![Vorlageresult](/uploads/adressbuch-importer/vorlageresult.png "Vorlageresult")
 
 **Das Resultierende Template muss im CSV Format Semicolon ( ; ) getrennt & im UTF-8 Format abgespeichert werden.**
