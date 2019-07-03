@@ -29,8 +29,8 @@ service iptables save
 ## Installation von Demo-Add-Ons
 ### Downloads
 
-Der Source-Code der Demopakete findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/demosensors
-Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/DemoSensors
+Der Source-Code der Demopakete findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg/sensors
+Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/demosensors
 
 ### Demopakete
 Für die Individuellen Demopakete gibt es eigene Artikel:
