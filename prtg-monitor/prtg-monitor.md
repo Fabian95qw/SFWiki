@@ -9,7 +9,7 @@ Pre-Compiled: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin
 # Konfiguration Starface Module & Sensoren
 ## Kernmodul Konfigurieren
 Bevor man irgendwelche Sensoren definiert, muss man auf der Starface das Kernmodul installieren.
-Die vorkompillierte SFM-Datei findet man im Verzeichnis: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/Core
+Die vorkompillierte SFM-Datei findet man im Verzeichnis: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/core
 
 ![Core](/uploads/prtg/core.png "Core")
 
