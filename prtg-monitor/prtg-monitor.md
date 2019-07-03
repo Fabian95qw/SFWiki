@@ -1,5 +1,6 @@
 <!-- TITLE: PRTG Monitor -->
 # Beschreibung
+Dies ist das Kernmodul vom PRTG-Monitoring Modul für die Starface
 # Open-Source!
 Dieses Modul ist als Open-Source auf Github Verfügbar: https://github.com/Fabian95qw/PRTG-2-Starface
 
