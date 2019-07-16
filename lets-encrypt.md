@@ -68,6 +68,9 @@ Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen k�
 
 ![Step 7](/uploads/lets-encrypt/step-7.gif "Step 7")
 
+```diff
+- Damit das Zertifikat vom Webserver verwendet wird, muss die Starface neu gestartet werden.
+```
 ## E-Mail Paket
 Ermöglicht das Senden aller Daten des ACME-Vorgangs per E-Mail.
 
