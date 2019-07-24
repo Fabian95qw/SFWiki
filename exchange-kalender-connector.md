@@ -78,6 +78,7 @@ Erlauben/Verweigern von Speziellen Kategorien im Outlook
 
 ### _SF_Ignorieren
 Mit dieser Kategorie wird ein Kalendereintrag von der Starface ignoriert.
+Wenn dies auf einen bereits aktiven Termin angewendet wird, werden die Änderungen (Umleitungen,DND usw...) rückgängig gemacht.
 
 ### _SF_Funktionstasten_aktivieren
 Kategorie zum erlauben der BLF-Indikation Rot/Blau
