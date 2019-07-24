@@ -89,6 +89,15 @@ Kategorie, die es möglicht macht DND auf der Anlage zu aktivieren, wenn ein Ter
 ## Erlaubte Voicemail Kategorien
 Erlauben/Verweigern von Voicemail Kategorien im Outlook
 
+### _SF_Voicemail_intern_aktivieren
+Erlaubt es die internen Nummer auf eine Voicemailbox umzuleiten
+
+### _SF_Voicemail_extern_aktiviern
+Erlaubt es die externen Nummer auf eine Voicemailbox umzuleiten
+
+## Erlaubte Rufumleitungs Kategorien
+Erlauben/Verweigern von Voicemail Kategorien im Outlook
+
 ### _SF_AUL_intern_aktivieren 	
 Erlaubt es Umleitungen für die internen Rufnummern zu setzen.
 
