@@ -96,12 +96,12 @@ Erlaubt es Umleitungen für die internen Rufnummern zu setzen.
 Erlaubt es Umleitungen für die externen Rufnummern zu setzen.
 
 ## Erlaubte Parametisierung
-Ob die Parametisierung von Zielen durch setzen von @Intern/@Extern für Umleitungen erlaubt ist
-### @Extern: 		
-Erlauben von Parametisierung des externen Umleitungsziels
+Ob die Parametisierung von Zielen durch setzen von @@Intern/@@Extern für Umleitungen erlaubt ist
+### @@Extern: 		
+Erlauben von Parametisierung des externen Umleitungsziels durch Platzieren des Tags @@Extern:[Nummer] im Text des Kalendereintrags
 
-### @Intern:
-Erlauben von Parametisierung des internen Umleitungsziels
+### @@Intern:
+Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des Tags @@Intern:[Nummer] im Text des Kalendereintrags
 # Beispiel
 ![4](/uploads/exchange-kalender-connector/4.png "4")
 
