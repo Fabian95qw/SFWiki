@@ -49,8 +49,10 @@ Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagiere
 ![3](/uploads/exchange-kalender-connector/3.png "3")
 
 ## Anwenden bei allen Kalendereinträgen
+Diese Optionen werden automatisch für alle Kalendereinträge aktiviert.
 ### Outlook Kategorien aktivieren
 Aktiviert die Grundfunktion für Outlook-Kategorien. 
+Diese werden Automatisch durch das Modul im Outlook hinzugefügt.
 
 ### Funktionstasten immer Ansprechen
 Die BLF's Indizieren immer Rot/Blau, unabhängig, ob dies per Kategorie gesetzt wurde.
