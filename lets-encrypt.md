@@ -11,8 +11,8 @@ Bevor das Modul überhaupt einen Antrag auf ein SSL-Zertifikat stellen kann, mus
 
 Die Let's Encrypt Typsichen Server sind:
 
-* Testumgebung: acme://letsencrypt.org/staging
-* Produktivumgebung: acme://letsencrypt.org
+* Testumgebung: https://acme-staging-v02.api.letsencrypt.org/directory 
+* Produktivumgebung: https://acme-v02.api.letsencrypt.org/directory
 
 ### Datensatz Löschen
 Löscht alle Informationen auf der Starface, welche durch das Modul generiert wurden.
