@@ -47,7 +47,7 @@ Wenn nun kein Gruppenmitglied abnimmt, wird der Anruf gemäss Szenario1/Szenario
 ## Szenario1
 ![2](/uploads/intelligenter-teamcall/2.jpg "2")
 
-Im Szenario 1 ist es möglich keinen Text für ein IVR zu hinterlegen, und unten für die Verschiedenen Ergebnisse ein entsprechendes Ziel zu definieren.
+Im Szenario 1 ist es möglich einen Text für ein IVR zu hinterlegen, und unten für die Verschiedenen Ergebnisse ein entsprechendes Ziel zu definieren.
 
 ### Spezialziel VOICEMAIL
 Durch das Setzen des Textes "VOICEMAIL" beim Ziel wird das Ziel an die Voicemailbox des ursprünglich Angerufenen Benutzers weitergeleitet.
