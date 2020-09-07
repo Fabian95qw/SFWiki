@@ -7,3 +7,6 @@ Als erstes muss man sich auf https://portal.azure.com mit einem **Globalem Admin
 Danach wechselt man in das Azure-Active-Directory ==> App-Registrations, und erstellt dort eine neue App.
 
 ![Create App](/uploads/office-365-client-app/create-app.png "Create App")
+
+Sobald die App erstellt wurde, speichert als erstes die Application (client) ID, sowie die Directory (tenant) ID.
+Diese werden später im Modul benötigt.
