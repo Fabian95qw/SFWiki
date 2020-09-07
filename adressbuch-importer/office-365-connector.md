@@ -1,4 +1,4 @@
-<!-- TITLE: Quelle: Exchange Connector -->
+<!-- TITLE: Quelle: Office365 Connector -->
 
 # Beschreibung
 
