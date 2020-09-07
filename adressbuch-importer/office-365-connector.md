@@ -4,6 +4,9 @@
 
 Hier geht es spezifisch um die Konfiguration des Office365-Connectors im Adressbuch Importer
 
+# Vorsicht Abhängigkeit!
+**Dieses Modul setzt vorraus, dass das Modul "Microsoft Graph API Library" installiert ist.**
+Dieses finden sie auf http://module.nucom.ch/
 # Konfiguration
 
 ![O 365 Connector](/uploads/adressbuch-importer/o-365-connector.png "O 365 Connector")
