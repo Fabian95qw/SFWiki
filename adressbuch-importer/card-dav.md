@@ -1,4 +1,8 @@
 <!-- TITLE: Quelle: Card DAV -->
+
+```diff
+- Dieses Add-On ist EOL!
+```
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des Card-DAV Connector im Adressbuch Importer
 # Konfiguration
