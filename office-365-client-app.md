@@ -18,6 +18,6 @@ Diese werden später im Modul benötigt.
 ## Secret erstellen
 
 Wenn man die App nun Editiert, kann man im Tab "Certificates & Secrets" nun ein Secret erstellen.
-Dieses Muss ebenfalls gesichert werden, damit wir es später im Modul nachtragen können.
+Dieses muss ebenfalls gesichert werden, damit wir es später im Modul nachtragen können.
 
 ![Create Secret](/uploads/office-365-client-app/app-info.png "App Info")
