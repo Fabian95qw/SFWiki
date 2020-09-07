@@ -31,7 +31,7 @@ Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-
 
 ## Importkonfiguration
 ### E-Mail Adresse für Import
-Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer anzumelden, alle Aktionen im Exchange werden im Namen dieses Benutzers ausgeführt.
+Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer anzumelden (**Applicationimpersination**), alle Aktionen im Exchange werden im Namen dieses Benutzers ausgeführt.
 
 ## Kontakt Import Herkunftswahl
 
