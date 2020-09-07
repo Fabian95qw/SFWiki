@@ -12,23 +12,19 @@ Hier geht es Spezifisch um die Konfiguration des Exchange-Connectors im Adressbu
 
 ### Einzelimport
 
-Wenn der Typ Einzelimport gewählt wird, werden die Untenstehenden Daten für den Import verwendet.
+Wenn der Typ Einzelimport gewählt wird, werden die Daten vom Importkonfiguration normal verwendet.
 
 ### Mehrfachimport
 
-Wenn der Typ Mehrfachimport gewählt wird, werden die Untenstehenden Daten für die **ApplicationImpersonation** der Mehrfachimportliste verwendet. 
+Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfiguration bei der Liste von Usern importiert, welche beim Mehrfachimport angegeben wird.
 
-## Login Daten Exchange
+## Erstellen von App-Login mit Clientsecret
 
-Bei den Login Daten muss man aufpassen ob DOMÄNE\Benutzername oder benutzername@domäne für die Authentifizierung benötigt wird.
+Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie TODO: [hier]
 
-## EWS Url
-
-Der EWS Url muss nur Angegeben, wenn es sich um einen Exchange Server handelt. Im Falle von Office365 muss dieser nicht Angepasst werden.
-
-## Exchange Typ
-
-Hier kann Zwischen Exchange Servern und Office365 unterschieden werden. 
+## Importkonfiguration
+## E-Mail Adresse für Import
+Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer anzumelden, alle Aktionen im Exchange werden im Namen dieses Benutzers ausgeführt.
 
 ## Kontakt Import Herkunftswahl
 
