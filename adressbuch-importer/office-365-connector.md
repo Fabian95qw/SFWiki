@@ -6,7 +6,7 @@ Hier geht es Spezifisch um die Konfiguration des Exchange-Connectors im Adressbu
 
 # Konfiguration
 
-![O365 Connector](/uploads/adressbuch-importer/o365-connector.png "Office365 Connector")
+![O 365 Connector](/uploads/adressbuch-importer/o-365-connector.png "O 365 Connector")
 
 ​
 
