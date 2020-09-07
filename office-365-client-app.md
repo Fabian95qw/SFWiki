@@ -1,6 +1,6 @@
-<!-- TITLE: Vorlage -->
+<!-- TITLE: Office365 App mit ClientSecret erstellen -->
 # Beschreibung
-
+Zur Nutzung einiger Office365 Spezifischen Module wird ein "App Zugang" benötigt, welcher dem Modul erlaubt, Aufträge im Office365 zu erledigen. (Z.b. Exchange Zugriff)
 # Konfiguration
 
 # Downloads & Lizenzierung
