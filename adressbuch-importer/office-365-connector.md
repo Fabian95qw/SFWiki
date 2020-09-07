@@ -2,7 +2,7 @@
 
 # Beschreibung
 
-Hier geht es Spezifisch um die Konfiguration des Exchange-Connectors im Adressbuch Importer
+Hier geht es spezifisch um die Konfiguration des Office365-Connectors im Adressbuch Importer
 
 # Konfiguration
 
