@@ -23,8 +23,11 @@ Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfig
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
+
 Contacts.Read (https://outlook.office365.com/Contacts.Read) (Lesen von Kontakten für alle User)
 full_access_as_app (https://outlook.office365.com/full_access_as_app) (Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer)
+
+Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-Tenant-ID, App-ID, App-Secret)
 
 ## Importkonfiguration
 ### E-Mail Adresse für Import
