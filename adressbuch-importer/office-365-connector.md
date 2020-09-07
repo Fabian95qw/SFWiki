@@ -20,7 +20,8 @@ Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfig
 
 ## Erstellen von App-Login mit Clientsecret
 
-Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie TODO: [hier]
+Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/office-365-client-app
+
 
 ## Importkonfiguration
 ### E-Mail Adresse für Import
