@@ -24,9 +24,8 @@ Dieses muss ebenfalls gesichert werden, damit wir es später im Modul nachtragen
 
 ## App-Berechtigungen vergeben
 
-Damit das Modul das machen kann, was sie braucht, benötigt der dazugehörige App-Zugang die entsprechende Berechtigungen.
-Die Variieren von Modul zu Modul. 
-Diese können im Tab "API permissions" gesetzt werden.
+Damit das Modul das machen kann, was es soll, muss man dem eben erstellten App-Zugang noch Berechtigungen zuweisen. Diese können im Tab "API permissions" gesetzt werden.
+Die benötigten Berechtigungen Variieren von Modul zu Modul. 
 Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden.
 
 ![Admin Consent](/uploads/office-365-client-app/admin-consent.png "Admin Consent")
