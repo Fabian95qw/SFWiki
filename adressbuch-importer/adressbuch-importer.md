@@ -86,12 +86,13 @@ Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
 Für die Konfiguration der individuellen Quellen siehe:
 
-Exchange/Office365 Connector: http://wiki.nucom.ch:8018/adressbuch-importer/exchange-connector
-Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.nucom.ch:8018/adressbuch-importer/datei-import
-Google Contacts: http://wiki.nucom.ch:8018/adressbuch-importer/google-contacts
-CardDAV: http://wiki.nucom.ch:8018/adressbuch-importer/card-dav
-Multi-VCard:  http://wiki.nucom.ch:8018/adressbuch-importer/vcard
-Pipedrive-CRM: http://wiki.nucom.ch:8018/adressbuch-importer/pipedrive
+Exchange Connector: http://wiki.nucom.ch/adressbuch-importer/exchange-connector
+Office365 Connector: http://wiki.nucom.ch/adressbuch-importer/office-365-connector
+Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.nucom.ch/adressbuch-importer/datei-import
+Google Contacts: http://wiki.nucom.ch/adressbuch-importer/google-contacts
+CardDAV: http://wiki.nucom.ch/adressbuch-importer/card-dav
+Multi-VCard:  http://wiki.nucom.ch/adressbuch-importer/vcard
+Pipedrive-CRM: http://wiki.nucom.ch/adressbuch-importer/pipedrive
 
 ## Duplikatserkennung
 
