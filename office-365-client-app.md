@@ -8,5 +8,15 @@ Danach wechselt man in das Azure-Active-Directory ==> App-Registrations, und ers
 
 ![Create App](/uploads/office-365-client-app/create-app.png "Create App")
 
+## App-ID + Tentant ID Sichern
+
 Sobald die App erstellt wurde, speichert als erstes die Application (client) ID, sowie die Directory (tenant) ID.
 Diese werden später im Modul benötigt.
+
+![App Info](/uploads/office-365-client-app/app-info.png "App Info")
+
+## Secret erstellen
+
+Wenn man die App nun Editiert, kann man im Tab "Certificates & Secrets" nun ein Secret erstellen.
+Dieses Muss ebenfalls gesichert werden, damit wir es später im Modul nachtragen können.
+
