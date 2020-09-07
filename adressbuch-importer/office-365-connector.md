@@ -23,7 +23,7 @@ Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfig
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie TODO: [hier]
 
 ## Importkonfiguration
-## E-Mail Adresse für Import
+### E-Mail Adresse für Import
 Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer anzumelden, alle Aktionen im Exchange werden im Namen dieses Benutzers ausgeführt.
 
 ## Kontakt Import Herkunftswahl
