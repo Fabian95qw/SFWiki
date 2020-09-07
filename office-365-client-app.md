@@ -20,12 +20,13 @@ Diese werden später im Modul benötigt.
 Wenn man die App nun Editiert, kann man im Tab "Certificates & Secrets" nun ein Secret erstellen.
 Dieses muss ebenfalls gesichert werden, damit wir es später im Modul nachtragen können.
 
-
+![Create Secret](/uploads/office-365-client-app/create-secret.png "Create Secret")
 
 ## App-Berechtigungen vergeben
 
 Damit das Modul das machen kann, was sie braucht, benötigt der dazugehörige App-Zugang die entsprechende Berechtigungen.
-Die Variieren von Modul zu Modul.
-Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden
+Die Variieren von Modul zu Modul. 
+Diese können im Tab "API permissions" gesetzt werden.
+Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden.
 
 ![Admin Consent](/uploads/office-365-client-app/admin-consent.png "Admin Consent")
