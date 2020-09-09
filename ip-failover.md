@@ -30,7 +30,7 @@ Startet den Webserver, und die damit Verbundenen Dienste neu
 Startet den Asterisk Dienst neu
 
 ### Leitungen neustarten
-Startet den Leitungsdienst neu, dadurch versuchens ich sofort alle Leitungen wieder zu registrieren.
+Startet den Leitungsdienst neu, dadurch versuchen sich sofort alle Leitungen wieder zu registrieren.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
