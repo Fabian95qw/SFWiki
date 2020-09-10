@@ -9,7 +9,7 @@ Die Einrichtung ist sehr Einfach, einfach in der Tabelle jeweils Links die Login
 ## Beispiel
 LoginID: 821
 Pin: :123
-Code für Login: *77821*123 
+Code für Login: \*77821*123 
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
