@@ -12,4 +12,4 @@ Im Falle der Cloud-Version muss man: api.pipedrive.com verwenden.
 Der API-Key ist im Pipedrive auffindbar unter: Einstellungen > Persönlich > Sonstiges > API.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
