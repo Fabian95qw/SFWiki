@@ -39,4 +39,4 @@ Man kann also pro Konfiguration einmal Ziele für die internen, sowie externen R
 ![1](/uploads/funktionstastengesteuerte-umleitung/1.gif "1")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
