@@ -50,4 +50,4 @@ Verhindert dass gewisse Tastentypen vom Quellbenutzer zur Zielgruppe kopiert wer
 ![1](/uploads/funktionstasten-klonen/1.gif "1")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
