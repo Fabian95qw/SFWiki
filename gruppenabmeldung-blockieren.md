@@ -5,4 +5,4 @@ Verhindert, dass sich der letzte Benutzer einer Gruppe abmeldet
 Das Modul benötigt keine Konfiguration, einfach Installieren, Instanz anlegen, fertig!
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
