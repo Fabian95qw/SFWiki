@@ -74,4 +74,4 @@ Das Modul meldet sich mithilfe des Angegebenen Benutzers am Freigegebenem Postfa
 
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
