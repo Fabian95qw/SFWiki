@@ -8,7 +8,11 @@ Danach wechselt man in das Azure-Active-Directory ==> App-Registrations, und ers
 (**Dies funktioniert auch ohne entsprechende Azure AD Lizenzen**)
 
 ![Create App](/uploads/office-365-client-app/create-app.png "Create App")
+## Authentifizierungsplatform setzen
+Um den Gerätelogin zugänglich zu machen, muss eine Platform bestummen werden.
+Wir verwenden hierbei die Plattform für Mobilgeräte.
 
+![Office 365 Devicecode Platform](/uploads/office-365-devicecode-app/office-365-devicecode-platform.png "Office 365 Devicecode Platform")
 ## App-ID + Tentant ID Sichern
 
 Sobald die App erstellt wurde, speichert als erstes die Application (client) ID, sowie die Directory (tenant) ID.
