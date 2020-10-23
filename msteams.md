@@ -11,6 +11,13 @@ Ermöglicht es den Synchronisierungsdienst zu Stoppen
 
 ## Master
 Bestimmt welche der zwei Plattformen als Master dienen soll
+
+## Abgleichsintervall
+
+Prüft, wie oft der Status zwischen den zwei Plattformen abgeglichen werden soll.
+
+## Zu überwachende Gruppe
+Der Status wird nur für Mitglieder dieser Gruppe überwacht.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
