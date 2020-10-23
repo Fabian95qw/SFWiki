@@ -4,7 +4,7 @@ Ein Modul, welches den Chatstatus zwischen der STARFACE und dem MS Teams Synchro
 
 **AKTUELL IN BETA**
 # Konfiguration
-
+![Msteamsconfig](/uploads/msteams/msteamsconfig.png "Msteamsconfig")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
