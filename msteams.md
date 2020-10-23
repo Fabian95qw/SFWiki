@@ -23,6 +23,21 @@ Der Status wird nur für Mitglieder dieser Gruppe überwacht.
 
 # Anbindung MS Teams
 ![Msteamsdevicelogin](/uploads/msteams/msteamsdevicelogin.png "Msteamsdevicelogin")
+
+Das Modul benötigt einen Gerätecode-App-Zugriff auf die Office365 Plattform. Die entsprechenden ID's aus der App müssen hier hinterlegt werden
+
+## App im Azure Active-Directory erstellen.
+
+Für eine Anleitung zur erstellung der App, siehe: http://wiki.nucom.ch/office-365-devicelogin-app
+
+## Benötigte Berechtigungen
+Die Berechtigungen, welche die App benötigt wären:
+
+* openid ==> Das Modul darf einen Benutzer einloggen. Es wird im Namen dieses Benutzers auf die Teams Resourcen zugegriffen
+* offline_access ==> Das Modul kann ohne einwirkung des Benutzers Arbeiten. Ansonsten wird der Zugriff nach einer Stunde unterbrochen
+* Presence.Read ==> Das Modul darf den Status des Users, mit welchem es eingeloggt ist lesen.
+* Presence.Read.All ==> Das Modul darf den Status anderer User lesen
+* profile ==> Darf das Profil des eingeloggten Benutzers ansehen. Wird benötigt um die UUID für die Abfrage des Status zu extrahieren.
 # Statusmapping
 Die beiden Plattformen haben nicht die gleiche Anzahl Status, und haben Teils auch verschiedene Versionen des gleichen Status
 Diese müssen jeweils auf einen Status für die andere Platform gemappt werden,
