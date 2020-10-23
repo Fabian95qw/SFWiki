@@ -16,4 +16,10 @@ Diese werden später im Modul benötigt.
 
 ![App Info](/uploads/office-365-client-app/app-info.png "App Info")
 
+## App-Berechtigungen vergeben
 
+Damit das Modul das machen kann, was es soll, muss man dem eben erstellten App-Zugang noch Berechtigungen zuweisen. Diese können im Tab "API permissions" gesetzt werden.
+Die benötigten Berechtigungen Variieren von Modul zu Modul. 
+Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden.
+
+![Admin Consent](/uploads/office-365-client-app/admin-consent.png "Admin Consent")
