@@ -4,7 +4,7 @@ Ein Modul, welches den Chatstatus zwischen der STARFACE und dem MS Teams Synchro
 
 **AKTUELL IN BETA**
 
-** Das Modul benötigt die MS-GRAPH-API Library! Diese kann gratis auf http://module.nucom.ch heruntergeladen werden **
+**Das Modul benötigt die MS-GRAPH-API Library! Diese kann gratis auf http://module.nucom.ch heruntergeladen werden**
 # Konfiguration
 ![Msteamsconfig](/uploads/msteams/msteamsconfig.png "Msteamsconfig")
 
