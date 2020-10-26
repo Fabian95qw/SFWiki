@@ -5,6 +5,7 @@ Ein Modul, welches den Chatstatus zwischen der STARFACE und dem MS Teams Synchro
 **AKTUELL IN BETA**
 
 **Das Modul benötigt die MS-GRAPH-API Library! Diese kann gratis auf http://module.nucom.ch heruntergeladen werden**
+**Vom der MS-GRAPH-API Library muss zwingend eine Instanz angelegt sein!"
 # Konfiguration
 ![Msteamsconfig](/uploads/msteams/msteamsconfig.png "Msteamsconfig")
 
@@ -40,6 +41,9 @@ Die Berechtigungen, welche die App benötigt wären:
 * Presence.Read ==> Das Modul darf den Status des Users, mit welchem es eingeloggt ist lesen.
 * Presence.Read.All ==> Das Modul darf den Status anderer User lesen
 * profile ==> Darf das Profil des eingeloggten Benutzers ansehen. Wird benötigt um die UUID für die Abfrage des Status zu extrahieren.
+
+## Authentifzierung des Moduls mithilfe eines Gerätecodes
+Damit das Modul die Office365 Resourcen nun nutzen kann, muss es erstmalig 
 # Statusmapping
 Die beiden Plattformen haben nicht die gleiche Anzahl Status, und haben Teils auch verschiedene Versionen des gleichen Status
 Diese müssen jeweils auf einen Status für die andere Platform gemappt werden,
