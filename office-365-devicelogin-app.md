@@ -13,6 +13,10 @@ Um den Gerätelogin zugänglich zu machen, muss eine Platform bestummen werden.
 Wir verwenden hierbei die Plattform für Mobilgeräte.
 
 ![Office 365 Devicecode Platform](/uploads/office-365-devicecode-app/office-365-devicecode-platform.png "Office 365 Devicecode Platform")
+
+Zusätzlich müssen für die Verwendung im Zusammenhang mit der STARFACE zwei Werte im Manifest von Hand gesetzt werden.
+
+![Office 365 Devicecode Implicit Flow](/uploads/office-365-devicecode-app/office-365-devicecode-implicit-flow.png "Office 365 Devicecode Implicit Flow")
 ## App-ID + Tentant ID Sichern
 
 Sobald die App erstellt wurde, speichert als erstes die Application (client) ID, sowie die Directory (tenant) ID.
