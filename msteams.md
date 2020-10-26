@@ -33,6 +33,8 @@ Für eine Anleitung zur erstellung der App, siehe: http://wiki.nucom.ch/office-3
 ## Benötigte Berechtigungen
 Die Berechtigungen, welche die App benötigt wären:
 
+![Msteams Permissions](/uploads/msteams/msteams-permissions.png "Msteams Permissions")
+
 * openid ==> Das Modul darf einen Benutzer einloggen. Es wird im Namen dieses Benutzers auf die Teams Resourcen zugegriffen
 * offline_access ==> Das Modul kann ohne einwirkung des Benutzers Arbeiten. Ansonsten wird der Zugriff nach einer Stunde unterbrochen
 * Presence.Read ==> Das Modul darf den Status des Users, mit welchem es eingeloggt ist lesen.
