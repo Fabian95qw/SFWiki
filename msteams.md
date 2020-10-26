@@ -47,6 +47,14 @@ Damit das Modul die Office365 Resourcen nun nutzen kann, muss es erstmalig mithi
 Der Gerätecode findet man im Log, nachdem man die App-ID + Tenenat-ID hinterlegt hat + den Dienst auf "Starten" gestellt hat.
 
 ![Msteams Devicecode](/uploads/msteams/msteams-devicecode.png "Msteams Devicecode")
+
+Der Gerätecode muss auf https://microsoft.com/devicelogin eingegeben werden, und anschliessend muss das Konto angemeldet werden, in dessem Namen das Modul arbeiten soll.
+
+![Deviceauth Start](/uploads/msteams/deviceauth-start.png "Deviceauth Start")
+
+![Deviceauth Part 2](/uploads/msteams/deviceauth-part-2.png "Deviceauth Part 2")
+
+![Deviceauth Finish](/uploads/msteams/deviceauth-finish.png "Deviceauth Finish")
 # Statusmapping
 Die beiden Plattformen haben nicht die gleiche Anzahl Status, und haben Teils auch verschiedene Versionen des gleichen Status
 Diese müssen jeweils auf einen Status für die andere Platform gemappt werden,
