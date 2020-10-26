@@ -43,7 +43,10 @@ Die Berechtigungen, welche die App benötigt wären:
 * profile ==> Darf das Profil des eingeloggten Benutzers ansehen. Wird benötigt um die UUID für die Abfrage des Status zu extrahieren.
 
 ## Authentifzierung des Moduls mithilfe eines Gerätecodes
-Damit das Modul die Office365 Resourcen nun nutzen kann, muss es erstmalig 
+Damit das Modul die Office365 Resourcen nun nutzen kann, muss es erstmalig mithilfe eines Gerätecodes authentifiziert werden.
+Der Gerätecode findet man im Log, nachdem man die App-ID + Tenenat-ID hinterlegt hat + den Dienst auf "Starten" gestellt hat.
+
+![Msteams Devicecode](/uploads/msteams/msteams-devicecode.png "Msteams Devicecode")
 # Statusmapping
 Die beiden Plattformen haben nicht die gleiche Anzahl Status, und haben Teils auch verschiedene Versionen des gleichen Status
 Diese müssen jeweils auf einen Status für die andere Platform gemappt werden,
