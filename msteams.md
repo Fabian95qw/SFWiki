@@ -42,6 +42,7 @@ Die Berechtigungen, welche die App benötigt wären:
 * Presence.Read ==> Das Modul darf den Status des Users, mit welchem es eingeloggt ist lesen.
 * Presence.Read.All ==> Das Modul darf den Status anderer User lesen
 * profile ==> Darf das Profil des eingeloggten Benutzers ansehen. Wird benötigt um die UUID für die Abfrage des Status zu extrahieren.
+* Users.Read.All ==> Wird benötigt, um die E-Mail Adressen aller Benutzer aus dem Office365 zu lesen, und mit den STARFACE Benutzern zu Vergleichen & zu verknüpfen
 
 ## Authentifzierung des Moduls mithilfe eines Gerätecodes
 Damit das Modul die Office365 Resourcen nun nutzen kann, muss es erstmalig mithilfe eines Gerätecodes authentifiziert werden.
