@@ -21,6 +21,7 @@ Prüft, wie oft der Status zwischen den zwei Plattformen abgeglichen werden soll
 
 ## Zu überwachende Gruppe
 Der Status wird nur für Mitglieder dieser Gruppe überwacht.
+**Wichtig! Die Benutzer werden mithilfe ihrer E-Mail Adresse mit dem Office365 Konto abgeglichen**
 
 # Anbindung MS Teams
 ![Msteamsdevicelogin](/uploads/msteams/msteamsdevicelogin.png "Msteamsdevicelogin")
