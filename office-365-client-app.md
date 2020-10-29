@@ -29,4 +29,6 @@ Damit das Modul das machen kann, was es soll, muss man dem eben erstellten App-Z
 Die benötigten Berechtigungen Variieren von Modul zu Modul. 
 Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden.
 
+**Für die korrekten Berechtigungen, prüfen sie bitte den Wiki-Artikel des entsprechenden Moduls. Der Screenshot unten ist nur als Beispiel gedacht**
+
 ![Admin Consent](/uploads/office-365-client-app/admin-consent.png "Admin Consent")
