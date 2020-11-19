@@ -1,7 +1,8 @@
 <!-- TITLE: Zammad-CTI -->
 # Beschreibung
-Ein Modul zur Anbindung der Zammad-CTI an die STARFACE
+Ein Modul zur Anbindung der STARFACE ans Zammad System via CTI(generic)
 
+# Flow
 ![Zammad Flow](/uploads/zammad-cti/zammad-flow.jpg "Zammad Flow")
 # Konfiguration
 
