@@ -16,8 +16,11 @@ Der Endpunkt URL muss danach auf die STARFACE übertragen werden.
 ### Weitergabe ans Zammad-CTI
 
 Es gibt 2 verschiedene Reaktionsarten, welche gesetzt werden können.
-**Anrufe an Mitglieder der Gruppe** Die Gruppe wird Technisch verwendet, es werden alle Anrufe, Von, und An diese Gruppenmitglieder ans Zammad weitergegeben. (Gemäss den gesetzten Haken)
-**Anrufe an Gruppennummer** Die Weitergabe ans Zammad findet nur auf der Gruppe statt, das heisst alle Eingehenden Anrufe an die Gruppe werden weitergegeben.
+#### Anrufe an Mitglieder der Gruppe
+Die Gruppe wird Technisch verwendet, es werden alle Anrufe, Von, und An diese Gruppenmitglieder ans Zammad weitergegeben. (Gemäss den gesetzten Haken)
+
+#### Anrufe an Gruppennummer
+Die Weitergabe ans Zammad findet nur auf der Gruppe statt, das heisst alle Eingehenden Anrufe an die Gruppe werden weitergegeben.
 
 ```diff
 - In diesem Modus werden ausgehende Anrufe nie ans Zammad weitergegeben, und interne Anrufe werden nur weitergegeben, wenn die Gruppe angerufen wird.
