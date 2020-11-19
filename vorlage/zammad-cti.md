@@ -1,6 +1,6 @@
 <!-- TITLE: Zammad-CTI -->
 # Beschreibung
-Ein Modul zur Anbindung der STARFACE ans Zammad System via CTI(generic)
+Ein Modul zum Übergeben von Anrufinformationen ans Zammad System mithilfe der Zammad-CTI Generic Schnittstelle
 # Flow
 ![Zammad Flow](/uploads/zammad-cti/zammad-flow.jpg "Zammad Flow")
 # Konfiguration
