@@ -13,6 +13,9 @@ Der Endpunkt URL muss danach auf die STARFACE übertragen werden.
 ## Reaktion
 ![Zammad Reaction](/uploads/zammad-cti/zammad-reaction.png "Zammad Reaction")
 
+### Gruppe für Reaktion
+Die Gruppe, welche im Zusammenhang mit der "Weitergabe ans Zammad-CTI verwendet wird"
+
 ### Weitergabe ans Zammad-CTI
 
 Es gibt 2 verschiedene Reaktionsarten, welche gesetzt werden können.
