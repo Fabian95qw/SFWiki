@@ -11,7 +11,8 @@ Der Endpunkt URL muss danach auf die STARFACE übertragen werden.
 
 ![Zammad Cti Activate](/uploads/zammad-cti/zammad-cti-activate.png "Zammad Cti Activate")
 
-
+## Reaktion
+![Zammad Reaction](/uploads/zammad-cti/zammad-reaction.png "Zammad Reaction")
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
