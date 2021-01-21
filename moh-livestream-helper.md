@@ -12,7 +12,7 @@ Platzieren sie im MPG123 Download URL den Downloadlink zur MPG123 Version, die s
 
 Aktuelle URL's können unter: https://sourceforge.net/projects/mpg123/files/mpg123/ gefunden werden
 
-Nac der platzierung des Downloadlinks muss das installationsscript ausgeführt werden, dies kann 5-10 Minuten dauern. Bitte überprüfen sie den **LOG** auf **DEBUG** Level auf den Fortschritt der Installation.
+Nach der platzierung des Downloadlinks muss das installationsscript ausgeführt werden, dies kann 5-10 Minuten dauern. Bitte überprüfen sie den **LOG** auf **DEBUG** Level auf den Fortschritt der Installation.
 
 ![1](/uploads/moh-livestream-helper/1.jpg "1")
 
