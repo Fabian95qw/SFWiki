@@ -41,7 +41,9 @@ Diese wird von der Starface überschrieben wenn:
 * Etwas im Music on Hold editiert wurde
 
 Das heisst, je nach Timing hat das Modul die Konfiguration noch nicht wieder überschrieben, und es wird die Standardmusik abgespielt.
-# Einblick ins Script
+# Manuelles Installationsscript
+Sollte aus irgendeinem grund das automatische Script nicht funktionieren, kann dies per SSH manuell durchgeführt werden.
+
 `mv /etc/yum.repos.d/starface.repo /etc/yum.repos.d/starface.repo.copy //Starface Repository Sichern`
 `cp /var/starface/module/modules/repo/75ad75a3-a423-4c45-b442-9930d2cd7702/res/0efc550c-6bd8-405a-b606-b2a2f070734a.repo /etc/yum.repos.d/starface.repo //Neues Repository platzieren`
 `yum clean all //Yum Cleanup, damit die Repository Daten refresht werden`
