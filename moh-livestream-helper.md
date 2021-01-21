@@ -29,7 +29,7 @@ Für Infos über die Argumente siehe: https://linux.die.net/man/1/mpg123
 ## Die Warteschlange bleibt still
 Wenn eine Warteschlange leer bleibt heisst das, dass der Stream vermutlich nicht kompatibel ist.
 
-Man kann dem Maneull nachgehen, indem man per SSH den Befehl: **/usr/local/bin/mpg123 -q -r 8000 -f 8192 -b 4096 --preload 0 --mono -s [URL zu MP3 stream]** eingibt.
+Man kann dem Manuell nachgehen, indem man per SSH den Befehl: **/usr/local/bin/mpg123 -q -r 8000 -f 8192 -b 4096 --preload 0 --mono -s [URL zu MP3 stream]** eingibt.
 
 Wenn nichts passiert, dann empfängt MPG123 nichts von diesem Stream. Wenn ein haufen Kauderwelsch zurückkommt, empfägt MPG123 Ordnungsgemäss die Daten.
 
