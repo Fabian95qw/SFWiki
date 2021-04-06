@@ -62,11 +62,6 @@ Diese GUI-Werte werden dann im Code-Bereich für den Eintrittspunkt des Timers b
 
 ![Tutorial 4](/uploads/prtg-tutorial/tutorial-4.png "Tutorial 4")
 
-### Eintrittspunkt für den Aktualisierungstimer
-Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regelmässig die PRTG_REFRESH Funktion abrufen soll
-
-![Tutorial 5](/uploads/prtg-tutorial/tutorial-5.png "Tutorial 5")
-
 ## Konfiguration von Modul & Sensor
 
 ### Konfiguration Modul Kern
