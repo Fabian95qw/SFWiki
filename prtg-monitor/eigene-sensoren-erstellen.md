@@ -51,35 +51,4 @@ Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils
 
 ![Tutorial 3](/uploads/prtg-tutorial/tutorial-3.png "Tutorial 3")
 
-### GUI-Design & Code für Ablauf
-Für den Eintrittspunkt der Sensor Aktualisierung Designen wir eine Kleine GUI, um folgende Werte Konfigurieren zu können:
 
-* Sensorname
-* Chanellname
-* Timer für Anzahl Aktualisierungen
-
-Diese GUI-Werte werden dann im Code-Bereich für den Eintrittspunkt des Timers benötigt, um den Richtigen Sensor abzurufen, und das Richtige Paket zu beziehen.
-
-![Tutorial 4](/uploads/prtg-tutorial/tutorial-4.png "Tutorial 4")
-
-### Eintrittspunkt für den Aktualisierungstimer
-Wir definieren einen Timer, welcher mit der Konfiguration aus der GUI dann regelmässig die PRTG_REFRESH Funktion abrufen soll
-
-![Tutorial 5](/uploads/prtg-tutorial/tutorial-5.png "Tutorial 5")
-
-## Konfiguration von Modul & Sensor
-
-### Konfiguration Modul Kern
-Zuerst muss natürlich eine Instanz vom PRTG Monitor Kern existieren (Modul: PRTG-Monitor)
-
-![Tutorial 6](/uploads/prtg-tutorial/tutorial-6.png "Tutorial 6")
-
-### Konfiguration Instanz
-Danach muss eine Instanzt des Add-Ons definiert werden, wo dann einerseits der Sensorname, sowie der Refresh Timer gesetzt wird.
-
-![Tutorial 7](/uploads/prtg-tutorial/tutorial-7.png "Tutorial 7")
-
-### Konfiguration PRTG-Sensor
-Und zum schluss muss natürlich noch der Sensor im PRTG-Monitor erfasst werden.
-
-![Tutorial 8](/uploads/prtg-tutorial/tutorial-8.png "Tutorial 8")
