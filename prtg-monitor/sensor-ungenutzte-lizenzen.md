@@ -6,4 +6,5 @@ Modul, welches Sensoren für ungenutzte Lizenzen zur Verfügung stellt.
 
 ![Licensesensor](/uploads/prtg/licensesensor.png "Licensesensor")
 # Download
-Alle Sensoren können im Bereich: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server heruntergeladen werden.
+Für Downloads besuchen sie bitte http://module.nucom.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
