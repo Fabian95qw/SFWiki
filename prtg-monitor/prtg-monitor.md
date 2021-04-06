@@ -37,6 +37,8 @@ Hierfür wurde ein eigener Artikel erfasst: WIP
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
 
+**Wichtig! Auf dem Server muss Java installiert sein!**
+
 Standardpfad: "C:\Programme(x86)\PRTG Network Monitor\Custom Sensors\EXEXML
 Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClient.jar (muss noch entpackt werden)
 
@@ -44,9 +46,8 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 
 ## Konfiguration des Sensors
 Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
-Bei der erstellung müssen die Parameter wie folgt angegeben werden: 
-
-**Wichtig! Auf dem Server muss Java installiert sein!**
+Zur erstellung der Parameter kann die Create-Sensorstring.bat ausgeführt werden.
+Dann sollt sich ein entsprechendes Fenster zur Erstellung der Parameter öffnen
 
 %host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [DEBUG]
 
