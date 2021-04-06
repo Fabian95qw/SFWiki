@@ -1,4 +1,4 @@
-<!-- TITLE: Demo CPU Verbrauch -->
+<!-- TITLE: Sensor CPU Verbrauch -->
 # Beschreibung
 EIn Sensor, welche alle CPU-Cores mit deren aktueller Last darstellt.
 # Konfiguration
