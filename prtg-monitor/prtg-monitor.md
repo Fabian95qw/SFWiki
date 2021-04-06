@@ -22,14 +22,14 @@ Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/
 ### Sensoren
 Für die Individuellen Sensoren gibt es eigene Artikel:
 
-PRTG Demo: Anlagenverbund On-/Offline: WIP
-PRTG Demo: Anzahl Gruppenmitglieder: WIP
-PRTG Demo: CPU Verbrauch: WIP
-PRTG Demo: Freier Speicherplatz: WIP
-PRTG Demo: Leitungen On-/Offline: WIP
-PRTG Demo: RAM Verbrauch: WIP
-PRTG Demo: Telefone On-/Offline: WIP
-PRTG Demo: Anzahl ungenutzer Lizenzen:WIP
+PRTG Sensor: Anlagenverbund On-/Offline: WIP
+PRTG Sensor: Anzahl Gruppenmitglieder: WIP
+PRTG Sensor: CPU Verbrauch: WIP
+PRTG Sensor: Freier Speicherplatz: WIP
+PRTG Sensor: Leitungen On-/Offline: WIP
+PRTG Sensor: RAM Verbrauch: WIP
+PRTG Sensor: Telefone On-/Offline: WIP
+PRTG Sensor: Anzahl ungenutzer Lizenzen:WIP
 
 ## Erstellung eigener Add-Ons
 Hierfür wurde ein eigener Artikel erfasst: WIP
