@@ -62,7 +62,7 @@ Beispiel: -h %host -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b890
 -i [PRTG-Kern-Name] ==> Der Name der Instanz des Kernmoduls. Muss nur angepasst werden, falls man dieses Umbenennt.
 -d true/false ==> Debugging. Ist standardmässig auf False. **Wenn dieses auf true gesetzt wird, erzeugt der Sensor logs. Gleichzeitig liefert er aber keine Resultate mehr ans PRTG-System zurück**
 
-![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
+![create-sensor](/uploads/prtg/create-sensor.gif "create-sensor")
 # Es funktioniert nicht!
 Letzten gab es mehrere Probleme, mit Personen bei denen der PRTG-Monitor nicht korrekt funktioniert hat.
 Hier sind noch einige Hilfestellungen dazu.
