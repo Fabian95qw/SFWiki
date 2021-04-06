@@ -13,26 +13,23 @@ Bevor man irgendwelche Sensoren definiert, muss man auf der Starface das Kernmod
 Die vorkompillierte SFM-Datei findet man im Verzeichnis: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server
 Vom Kern muss eine Instanz angelegt werden. Der Name der Instanz wird später im PRTG-Monitor benötigt.
 
-![Core](/uploads/prtg/core.png "Core")
-
-
-## Installation von Demo-Add-Ons
+## Installation von Sensoren
 ### Downloads
 
-Der Source-Code der Demopakete findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg/sensors
-Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server/demosensors
+Der Source-Code der Sensoren findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg
+Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server
 
-### Demopakete
-Für die Individuellen Demopakete gibt es eigene Artikel:
+### Sensoren
+Für die Individuellen Sensoren gibt es eigene Artikel:
 
-PRTG Demo: Anlagenverbund On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-anlagenverbund-on-offline
-PRTG Demo: Anzahl Gruppenmitglieder: http://wiki.nucom.ch:8018/prtg-monitor/demo-anzahl-gruppenmitglieder	
-PRTG Demo: CPU Verbrauch: http://wiki.nucom.ch:8018/prtg-monitor/demo-cpu-verbrauch	
-PRTG Demo: Freier Speicherplatz: http://wiki.nucom.ch:8018/prtg-monitor/demo-freier-speicherplatz
-PRTG Demo: Leitungen On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-leitungen-on-offline
-PRTG Demo: RAM Verbrauch: http://wiki.nucom.ch:8018/prtg-monitor/demo-ram-verbrauch
-PRTG Demo: Telefone On-/Offline: http://wiki.nucom.ch:8018/prtg-monitor/demo-telefone-on-offline
-PRTG Demo: Anzahl ungenutzer Lizenzen: http://wiki.nucom.ch:8018/prtg-monitor/demo-ungenutzte-lizenzen
+PRTG Demo: Anlagenverbund On-/Offline: WIP
+PRTG Demo: Anzahl Gruppenmitglieder: WIP
+PRTG Demo: CPU Verbrauch: WIP
+PRTG Demo: Freier Speicherplatz: WIP
+PRTG Demo: Leitungen On-/Offline: WIP
+PRTG Demo: RAM Verbrauch: WIP
+PRTG Demo: Telefone On-/Offline: WIP
+PRTG Demo: Anzahl ungenutzer Lizenzen:WIP
 
 ## Erstellung eigener Add-Ons
 Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch:8018/prtg-monitor/eigene-sensoren-erstellen
@@ -41,7 +38,7 @@ Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch:8018/prtg-monit
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
 
 Standardpfad: "C:\Programme(x86)\PRTG Network Monitor\Custom Sensors\EXEXML
-Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/Client.rar (muss noch entpackt werden)
+Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClient.jar (muss noch entpackt werden)
 
 ![Install](/uploads/prtg/install.png "Install")
 
