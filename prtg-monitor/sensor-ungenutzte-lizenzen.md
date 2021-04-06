@@ -1,4 +1,4 @@
-<!-- TITLE: Demo ungenutzte Lizenzen -->
+<!-- TITLE: Sensor ungenutzte Lizenzen -->
 # Beschreibung
 Demopaket, welches Sensoren für ungenutzte Lizenzen zur Verfügung stellt.
 # Konfiguration
