@@ -1,4 +1,4 @@
-<!-- TITLE: Demo freier Speicherplatz -->
+<!-- TITLE: Sensor freier Speicherplatz -->
 # Beschreibung
 Ein Sensor, welcher den Aktuellen Speicherplatz der Starface angibt.
 
