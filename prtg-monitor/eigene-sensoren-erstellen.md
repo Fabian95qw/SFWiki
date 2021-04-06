@@ -51,4 +51,5 @@ Wir wenden die Funktionen GetVariable/SetVariable an, um bei jedem Anruf jeweils
 
 ![Tutorial 3](/uploads/prtg-tutorial/tutorial-3.png "Tutorial 3")
 
+Danach muss nur noch eine Instanz des Moduls erstellt, werden, und der dazugehörige Sensor im PRTG-Monitoring System erfasst werden.
 
