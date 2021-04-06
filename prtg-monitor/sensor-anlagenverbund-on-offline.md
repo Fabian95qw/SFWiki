@@ -5,4 +5,4 @@ Ein Sensor, der Angibt wieviele Anlagen im Verbund aktuell Online sind
 ![Anlageverbund](/uploads/prtg/anlageverbund.png "Anlageverbund")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
