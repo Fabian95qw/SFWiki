@@ -22,17 +22,17 @@ Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/
 ### Sensoren
 Für die Individuellen Sensoren gibt es eigene Artikel:
 
-PRTG Sensor: Anlagenverbund On-/Offline: WIP
-PRTG Sensor: Anzahl Gruppenmitglieder: WIP
-PRTG Sensor: CPU Verbrauch: WIP
-PRTG Sensor: Freier Speicherplatz: WIP
-PRTG Sensor: Leitungen On-/Offline: WIP
-PRTG Sensor: RAM Verbrauch: WIP
-PRTG Sensor: Telefone On-/Offline: WIP
-PRTG Sensor: Anzahl ungenutzer Lizenzen:WIP
+PRTG Sensor: Anlagenverbund On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-anlagenverbund-on-offline
+PRTG Sensor: Anzahl Gruppenmitglieder: http://wiki.nucom.ch/prtg-monitor/sensor-anzahl-gruppenmitglieder
+PRTG Sensor: CPU Verbrauch: http://wiki.nucom.ch/prtg-monitor/sensor-cpu-verbrauch
+PRTG Sensor: Freier Speicherplatz: http://wiki.nucom.ch/prtg-monitor/sensor-freier-speicherplatz
+PRTG Sensor: Leitungen On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-leitungen-on-offline
+PRTG Sensor: RAM Verbrauch: http://wiki.nucom.ch/prtg-monitor/sensor-ram-verbrauch
+PRTG Sensor: Telefone On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-telefone-on-offline
+PRTG Sensor: Anzahl ungenutzer Lizenzen: http://wiki.nucom.ch/prtg-monitor/sensor-ungenutzte-lizenzen
 
 ## Erstellung eigener Add-Ons
-Hierfür wurde ein eigener Artikel erfasst: WIP
+Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch/prtg-monitor/eigene-sensoren-erstellen
 # Konfiguration PRTG-Monitor Server
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
