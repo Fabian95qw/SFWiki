@@ -1,26 +1,16 @@
 <!-- TITLE: Eigene Sensoren erstellen -->
 # PRTG-Kern Komponenten Erklärung
-Wenn das PRTG-Kernmodul installiert ist, stellt dieses zwei Funktionen zur Verfügung, mit welchen eigene Channels erstellt werden können.
+Wenn das PRTG-Kernmodul installiert ist, stellt dieses eine Funktion zur Verfügung, mit welcher eigene Channels erstellt werden können.
 
 ![Tutorial 1](/uploads/prtg-tutorial/tutorial-1.png "Tutorial 1")
 
-## GetPackage
-Mithilfe des GetPackage Befehls kann ein bestimmter Sensor bezogen werden, zu dem man später den Channel hinzufügen will.
+## AddSensorData
+
+* Fügt einem Sensor einen Channel hinzu, oder updatet diesen.
+* Wenn dieser Sensor in der STARFACE noch nicht exisitert, wird er erstellt.
 
 ### Inputs:
-* Sensorname (STRING): Der Sensor, welcher verwendet werden soll.
-
-### Outputs:
-* _Package (OBJECT): Das Paket, des Sensors
-
-## AddResultToPackage
-
-* Fügt dem Mithilfe von GetPackage geholtem Paket einem Channel des Sensors ein Resultat hinzu
-* Wenn es den Channel auf dem PRTG-Server schon gibt, dann wird dort der neue Wert gesetzt.
-* Wenn es den Channel noch nicht gibt, wird er automatisch erstellt.
-
-### Inputs:
-* Package (OBJECT): Das Paket das Mithilfe von GetPackage bezogen wurde.
+* Sensorname (STRING): Der Name des Sensors, der Verwendet werden soll
 * Channelname (STRING): Der Name des Channels, dem der neue Wert zugewiesen werden soll.
 * Value (STRING): Der Wert, der dem Channel zugewiesen werden soll. Dieser wird als String verlangt, aber man kann auch Zahlen hinterlegen.
 * Unit (STRING|DROPDOWN): Es gibt eine Verschiedene Anzahl vordefinierter Einheiten, auf dem PRTG-Monitor.:
