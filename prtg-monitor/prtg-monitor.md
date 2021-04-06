@@ -45,17 +45,15 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 ![Install](/uploads/prtg/install.png "Install")
 
 ## Konfiguration des Sensors
+**Man muss das Kernmodul, sowie die entsprechenden Sensoren bereits Konfiguriert haben**
 Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
 Zur erstellung der Parameter kann die Create-Sensorstring.bat ausgeführt werden.
 Dann sollt sich ein entsprechendes Fenster zur Erstellung der Parameter öffnen
 
-%host [PORT] [PASSWORT] [SENSORNAME] [TRUSTALLCA] [DEBUG]
+![create-sensorstring](/uploads/prtg/create-sensorstring.png "create-sensorstring")
 
-* %host ==> Ist ein Parameter vom PRTG-System, es entspricht der IP-Adresse des Geräts. **Dieser muss genau so eingetragen werden! Nicht durch %192.168.XXX.XXX ersetzen!**
-* PORT ==> Der Port, der im PRTG-Modul auf der Starface definiert wurde.
-* SENSORNAME ==> Der Name des Sensors, der von der Starface abgerufen werden soll. 
-* TRUSTALLCA (Boolean true/false)==> Vertraut auch Zertifikaten, welcher nicht von einer Offiziellen Stelle kommen. Das Modul verwendet das gleiche Zertifikat für den Verschlüsselten verkehr, wie der Tomcat Server (Starface Webinterface)
-* DEBUG (Boolean true/false) ==> Der Sensor enthält eine Logging funktion, zum finden von Fehlern. **Warnung! Aktivieren des Debug Logs führt automatisch zu fehlermeldungen im PRTG-Monitor, gibt dafür allerlei Logs aus.**
+
+
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
 
