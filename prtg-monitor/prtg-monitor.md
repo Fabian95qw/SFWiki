@@ -48,20 +48,21 @@ Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starfa
 **Man muss das Kernmodul, sowie die entsprechenden Sensoren bereits Konfiguriert haben**
 Wenn die .bat Korrekt platziert wurde, müsste diese nun in den Sensoren unter "Programm/Skript erweitert" zur Verfügung stehen.
 Zur erstellung der Parameter kann die Create-Sensorstring.bat ausgeführt werden.
-Dann sollt sich ein entsprechendes Fenster zur Erstellung der Parameter öffnen
+Dann sollt sich ein entsprechendes Fenster zur Erstellung der Parameter öffnen.
+Man muss den Namen des Kernmoduls, einen STARFACE Login & Passwort, sowie den Sensornamen, den man Abrufen will hinterlegen.
 
 ![create-sensorstring](/uploads/prtg/create-sensorstring.png "create-sensorstring")
 
+Wenn alles korrekt eingegeben wurde, und man auf "Testen" geht, sollte ein entsprechender Sensorstring generiert werden.
+Beispiel: -h %host -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b89051870b37362f8ea26cdece9d87a0cf57909482062949c2353df920a49ba6ba85437f1066e4 -s Festplatten -i PRTG-Kern -d false
 
-
+-h %host  ==> %host wird vom PRTG-Monitor durch den Hostnamen/IP des Gerätes ersetzt. **Bitte nicht anpassen**
+-t [Token]  ==> Der generierte Token aus Benutzernamen und Passwort **Bitte nicht anpassen**
+-s [Sensorname] ==> Der Sensorname, der Abgerufen werden soll. Diesen kann für mehrere Sensoren einfach editiert werden
+-i [PRTG-Kern-Name] ==> Der Name der Instanz des Kernmoduls. Muss nur angepasst werden, falls man dieses Umbenennt.
+-d true/false ==> Debugging. Ist standardmässig auf False. **Wenn dieses auf true gesetzt wird, erzeugt der Sensor logs. Gleichzeitig liefert er aber keine Resultate mehr ans PRTG-System zurück**
 
 ![Prtgdemosensor](/uploads/prtg/prtgdemosensor.gif "Prtgdemosensor")
-
-## Success Channel
-Mit jedem Sensor kommt automatisch der Success-Channel. Dieser Channel sagt, ob das Passwort beim Login korrekt war.
-1 == O.K
-0 == Passwort falsch.
-
 # Es funktioniert nicht!
 Letzten gab es mehrere Probleme, mit Personen bei denen der PRTG-Monitor nicht korrekt funktioniert hat.
 Hier sind noch einige Hilfestellungen dazu.
@@ -74,57 +75,13 @@ Um dies zu beheben, können wir Clientseitiges Debugging verwenden.
 Die PRTGClient.jar kann von Hand im CMD ausführen, um so fehlermeldungen zu finden.
 Dazu kann man folgenden Befehl ausführen:
 
-> java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" XXX.XXX.XXX.XXX Port Passwort Demosensor true true
+> java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" -h testface.nucom.ch -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b89051870b37362f8ea26cdece9d87a0cf57909482062949c2353df920a49ba6ba85437f1066e4 -s Festplatten -i PRTG-Kern -d **true**
 
 Je nachdem, wo das Problem ist, erhält man ein anderes Ergebnis.
 
 ### Java wurde nicht gefunden
-Entweder ist Java nicht installiert, oder nicht korrekt in der Systemungebungsvariable hinterlegt.
+Entweder ist Java nicht installiert, oder nicht korrekt in der Systemungebungsvariable hinterlegt. 
 
-### java.net.SocketException: Connection reset
-Es konnte keine Verbindung zum PRTG-Sensor auf der Starface hergestellt werden. Entweder ist der PORT nicht geöffnet, oder der PRTG-Monitor Dienst auf der Starface ist nicht in Betrieb.
-
-### Connection Failed.
-Das ist eine fortlaufende Fehlermeldung, die während der Verarbeitung des Modul auftritt.
-
->  java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" 192.168.123.123 25590 Passwort Demosensor true true
->  [EntryPoint] Opeing Connection to: 192.168.123.123 on Port: 25590
->  [Connection] Encrypting Password
->  [Connection] Starting Handshake
->  [Connection]HandShake Completed
->  [Connection]Writing Password
->  [Connection] Writing Sensor to Access
->  [Connection]Waiting for Server Response
->  [Connection] Connection Failed.
->  [Connection]java.net.SocketException: Connection reset
->  at java.net.SocketInputStream.read(Unknown Source)
->  at java.net.SocketInputStream.read(Unknown Source)
->  at sun.security.ssl.InputRecord.readFully(Unknown Source)
->  at sun.security.ssl.InputRecord.read(Unknown Source)
->  at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
->  at sun.security.ssl.SSLSocketImpl.readDataRecord(Unkn own Source)
->  at sun.security.ssl.AppInputStream.read(Unknown Source)
->  at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
->  at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
->  at sun.nio.cs.StreamDecoder.read(Unknown Source)
->  at java.io.InputStreamReader.read(Unknown Source)
->  at java.io.BufferedReader.fill(Unknown Source)
->  at java.io.BufferedReader.readLine(Unknown Source)
->  at java.io.BufferedReader.readLine(Unknown Source)
->  at nucom.module.prtg.client.connection.Connection.Ope n(Connection.java:1
->  30)
->  at nucom.module.prtg.client.EntryPoint.main(EntryPoin t.java:58)
-
-Dies deutet darauf hin, dass das Modul Probleme mit Verarbeitung der Sensordaten hat.
-
-### javax.net.ssl.SSLHandshakeException
-Die Serververbindung wurde aufgrund eines Problems mit dem SSL-Handshake unterbrochen. Dies kann u.a. passieren, wenn ein Selbstsigniertes Zertifikat verwendet wurde, ohne den entsprechenden **TRUSTALLCA** Parameter auf **True** zu setzen
-
-## Der Sensor enthält nur einen Success Channel
-Wenn man vom Server einen Sensor verlangt, welcher gar nie existiert, gibt dieser Trotzdem einen Success Channel zurück, da dieser eine Aussage, über den Loginstatus macht. (0==Passwort falsch, 1==Eingeloggt)
-Falls der Channel 0 ist, sollte man das Passwort nochmals überprüfen.
-
-Falls der Sensor nach wie vor nur einen Channel hat, sollte man prüfen, ob Sensorname auf dem Server, sowie Client übereinstimmen, und das Servermodul auch eine korrekte Zeit zur aktualisierung der Daten hat.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
