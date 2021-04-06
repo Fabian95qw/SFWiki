@@ -1,4 +1,4 @@
-<!-- TITLE: Demo Leitungen On/Offline -->
+<!-- TITLE: Sensor Leitungen On/Offline -->
 # Beschreibung
 Ein Modul, welches Anzeigt, wieviele Leitungen aktuell Online/Offline sind.
 
