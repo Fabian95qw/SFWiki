@@ -1,4 +1,4 @@
-<!-- TITLE: Demo Telefone On/Offline -->
+<!-- TITLE: Sensor Telefone On/Offline -->
 # Beschreibung
 Ein Sensor, welcher angibt wieviele Telefone aktuell Online/Offline sind.
 # Konfiguration
