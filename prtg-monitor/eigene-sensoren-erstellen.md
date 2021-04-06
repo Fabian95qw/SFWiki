@@ -74,7 +74,3 @@ Danach muss eine Instanzt des Add-Ons definiert werden, wo dann einerseits der S
 
 ![Tutorial 7](/uploads/prtg-tutorial/tutorial-7.png "Tutorial 7")
 
-### Konfiguration PRTG-Sensor
-Und zum schluss muss natürlich noch der Sensor im PRTG-Monitor erfasst werden.
-
-![Tutorial 8](/uploads/prtg-tutorial/tutorial-8.png "Tutorial 8")
