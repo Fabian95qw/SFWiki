@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.0
 description: 
 published: true
-date: 2021-04-07T14:02:45.956Z
+date: 2021-04-07T14:10:28.095Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
