@@ -2,7 +2,7 @@
 title: Quelle: Exchange Connector
 description: 
 published: true
-date: 2021-04-07T11:38:31.561Z
+date: 2021-04-07T13:42:03.432Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:26.068Z
