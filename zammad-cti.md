@@ -2,7 +2,7 @@
 title: Zammad-CTI
 description: 
 published: true
-date: 2021-04-07T11:37:49.007Z
+date: 2021-04-07T13:43:23.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:43.372Z
