@@ -2,7 +2,7 @@
 title: Lizenzierung
 description: 
 published: true
-date: 2021-04-07T11:35:19.295Z
+date: 2021-04-07T13:53:53.049Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:14.613Z
