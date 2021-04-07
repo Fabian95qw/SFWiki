@@ -2,7 +2,7 @@
 title: PRTG-Monitor Legacy 6.x
 description: 
 published: true
-date: 2021-04-07T11:56:33.019Z
+date: 2021-04-07T13:19:33.707Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:53:47.682Z
