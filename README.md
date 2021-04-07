@@ -1,2 +1,0 @@
-# SFWiki
-Starface Wiki
