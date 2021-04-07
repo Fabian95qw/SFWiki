@@ -2,7 +2,7 @@
 title: Funktionstasten aktualisieren
 description: 
 published: true
-date: 2021-04-07T12:46:48.317Z
+date: 2021-04-07T12:47:44.891Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:27:42.682Z
