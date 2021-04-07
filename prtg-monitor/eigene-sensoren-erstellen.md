@@ -2,7 +2,7 @@
 title: Eigene Sensoren erstellen
 description: 
 published: true
-date: 2021-04-07T11:40:11.712Z
+date: 2021-04-07T13:38:13.142Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:55.241Z
