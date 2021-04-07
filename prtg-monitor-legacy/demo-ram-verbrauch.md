@@ -2,7 +2,7 @@
 title: Demo RAM Verbrauch
 description: 
 published: true
-date: 2021-04-07T11:43:04.506Z
+date: 2021-04-07T13:24:14.523Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:42:58.365Z
