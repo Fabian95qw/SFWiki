@@ -2,7 +2,7 @@
 title: Sensor Leitungen On/Offline
 description: 
 published: true
-date: 2021-04-07T13:32:19.670Z
+date: 2021-04-07T13:32:39.450Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T13:23:26.981Z
