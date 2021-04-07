@@ -2,7 +2,7 @@
 title: Quelle: VCard
 description: 
 published: true
-date: 2021-04-07T11:39:17.894Z
+date: 2021-04-07T13:39:06.189Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:12.400Z
