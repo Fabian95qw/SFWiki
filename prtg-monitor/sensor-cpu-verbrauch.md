@@ -2,7 +2,7 @@
 title: Sensor CPU Verbrauch
 description: 
 published: true
-date: 2021-04-07T11:41:10.567Z
+date: 2021-04-07T13:25:30.763Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:05.127Z
