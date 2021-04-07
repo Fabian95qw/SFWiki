@@ -1,4 +1,13 @@
-<!-- TITLE: Adressbuch Exporter -->
+---
+title: Adressbuch Exporter
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:33:31.948Z
+---
+
 # Beschreibung
 Das Modul kann einzelne Adressbücher in CSV's Exportieren und diese per E-Mail zustellen. 
 

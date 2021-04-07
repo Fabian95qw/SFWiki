@@ -1,4 +1,13 @@
-<!-- TITLE: Gruppenmitschnitte -->
+---
+title: Gruppenmitschnitte
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:34:04.394Z
+---
+
 # Beschreibung
 Das Modul zeichnet alle ein- und ausgehende Gespräche an Externe von bestimmten Benutzern auf. Interne Gespräche können auf Wunsch auch aufgezeichnet werden. Die Audio-Dateien werden automatisch auf ein externes Speichermedium kopiert resp. verschoben. 
 # Konfiguration

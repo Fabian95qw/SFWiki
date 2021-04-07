@@ -1,4 +1,13 @@
-<!-- TITLE: Quelle: Google Contacts -->
+---
+title: Quelle: Google Contacts
+description: 
+published: true
+date: 2021-04-07T11:38:41.361Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:34.426Z
+---
+
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration von Google Contacts im Adressbuch Importer
 # Konfiguration

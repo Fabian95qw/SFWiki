@@ -1,4 +1,13 @@
-<!-- TITLE: Sensor ungenutzte Lizenzen -->
+---
+title: Sensor ungenutzte Lizenzen
+description: 
+published: true
+date: 2021-04-07T11:41:53.144Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:41:47.475Z
+---
+
 # Beschreibung
 Modul, welches Sensoren für ungenutzte Lizenzen zur Verfügung stellt.
 # Konfiguration

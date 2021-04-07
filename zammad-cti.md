@@ -1,4 +1,13 @@
-<!-- TITLE: Zammad-CTI -->
+---
+title: Zammad-CTI
+description: 
+published: true
+date: 2021-04-07T11:37:49.007Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:37:43.372Z
+---
+
 # Beschreibung
 Ein Modul zum Übergeben von Anrufinformationen ans Zammad System mithilfe der Zammad-CTI Generic Schnittstelle
 # Flow

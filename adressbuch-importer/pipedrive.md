@@ -1,4 +1,13 @@
-<!-- TITLE: Quelle: Pipedrive CRM -->
+---
+title: Quelle: Pipedrive CRM
+description: 
+published: true
+date: 2021-04-07T11:38:59.267Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:53.849Z
+---
+
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des Pipedrive-CRM Connector im Adressbuch Importer
 # Konfiguration

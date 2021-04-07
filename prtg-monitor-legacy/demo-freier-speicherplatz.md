@@ -1,4 +1,13 @@
-<!-- TITLE: Demo freier Speicherplatz -->
+---
+title: Demo freier Speicherplatz
+description: 
+published: true
+date: 2021-04-07T11:42:45.297Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:42:37.659Z
+---
+
 # Beschreibung
 Ein Sensor, welcher den Aktuellen Speicherplatz der Starface angibt.
 

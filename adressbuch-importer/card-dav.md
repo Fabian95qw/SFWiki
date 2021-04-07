@@ -1,4 +1,12 @@
-<!-- TITLE: Quelle: Card DAV -->
+---
+title: Quelle: Card DAV
+description: 
+published: true
+date: 2021-04-07T11:38:13.017Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:04.891Z
+---
 
 ```diff
 - Dieses Add-On ist EOL!

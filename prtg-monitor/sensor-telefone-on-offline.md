@@ -1,4 +1,13 @@
-<!-- TITLE: Sensor Telefone On/Offline -->
+---
+title: Sensor Telefone On/Offline
+description: 
+published: true
+date: 2021-04-07T11:41:44.540Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:41:38.919Z
+---
+
 # Beschreibung
 Ein Sensor, welcher angibt wieviele Telefone aktuell Online/Offline sind.
 # Konfiguration

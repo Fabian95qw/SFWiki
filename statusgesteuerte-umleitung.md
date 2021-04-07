@@ -1,4 +1,13 @@
-<!-- TITLE: Statusgesteuerte Umleitung -->
+---
+title: Statusgesteuerte Umleitung
+description: 
+published: true
+date: 2021-04-07T11:37:30.755Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:37:23.912Z
+---
+
 # Beschreibung
 Das Modul überwacht den Chatstatus einer Gruppe von Starface Usern, ändert sich nun der Status eines Users z.b. auf "Abwesend" ändert, sowie aktiviert das Modul Umleitungen vom Typ "Immer, Besetzt, Zeitüberschreitung" (Konfigurierbar) 
 # Konfiguration

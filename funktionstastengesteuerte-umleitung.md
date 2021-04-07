@@ -1,4 +1,13 @@
-<!-- TITLE: Funktionstastengesteuerte Umleitung -->
+---
+title: Funktionstastengesteuerte Umleitung
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:33:49.736Z
+---
+
 # Beschreibung
 Bei jedem Teilnehmer sind mehrere Umleit-Tasten definierbar mit unterschiedlichen Zielen, unabhängiger Konfiguration von internen- und Direktwahl-Nummern 
 # Konfiguration

@@ -1,4 +1,13 @@
-<!-- TITLE: Quelle: VCard -->
+---
+title: Quelle: VCard
+description: 
+published: true
+date: 2021-04-07T11:39:17.894Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:39:12.400Z
+---
+
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des VCard-Importes im Adressbuch Importer
 # Konfiguration

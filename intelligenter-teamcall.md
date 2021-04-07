@@ -1,4 +1,13 @@
-<!-- TITLE: Intelligenter Teamcall -->
+---
+title: Intelligenter Teamcall
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:34:33.932Z
+---
+
 # Beschreibung
 Zeitersparende, einfache Konfiguration einer intelligenten Rufweiterschaltung für Abteilungs-Teams. Weiterleitung auf das Team und auf die persönliche Mailbox in Kombination möglich. Mit der integrierten IVR-Funktion kann sich der Anrufer automatisch auf die Zentrale verbinden lassen. 
 # Konfiguration

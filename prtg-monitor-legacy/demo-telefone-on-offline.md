@@ -1,4 +1,13 @@
-<!-- TITLE: Demo Telefone On/Offline -->
+---
+title: Demo Telefone On/Offline
+description: 
+published: true
+date: 2021-04-07T11:43:12.975Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:43:07.382Z
+---
+
 # Beschreibung
 Ein Sensor, welcher angibt wieviele Telefone aktuell Online/Offline sind.
 # Konfiguration

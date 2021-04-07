@@ -1,4 +1,13 @@
-<!-- TITLE: Gruppenabmeldung blockieren -->
+---
+title: Gruppenabmeldung blockieren
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:33:57.054Z
+---
+
 # Beschreibung
 Verhindert, dass sich der letzte Benutzer einer Gruppe abmeldet 
 # Konfiguration

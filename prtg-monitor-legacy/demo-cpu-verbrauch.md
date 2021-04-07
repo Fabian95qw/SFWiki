@@ -1,4 +1,13 @@
-<!-- TITLE: Demo CPU Verbrauch -->
+---
+title: Demo CPU Verbrauch
+description: 
+published: true
+date: 2021-04-07T11:42:34.208Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:42:26.835Z
+---
+
 # Beschreibung
 EIn Sensor, welche alle CPU-Cores mit deren aktueller Last darstellt.
 # Konfiguration

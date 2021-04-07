@@ -1,4 +1,13 @@
-<!-- TITLE: Statusgesteuerte Besetztlampenfelder -->
+---
+title: Statusgesteuerte Besetztlampenfelder
+description: 
+published: true
+date: 2021-04-07T11:37:16.857Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:37:04.000Z
+---
+
 # Beschreibung
 Das Modul überwacht den Chatstatus einer Gruppe von Starface Usern, und setzt ggfs. bei Änderungen am Status die Besetztlampenfelder auf Rot. Z.B. wenn ein Teilnehmer abwesend ist, wird seine BLF automatisch Rot 
 # Konfiguration

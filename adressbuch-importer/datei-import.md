@@ -1,4 +1,13 @@
-<!-- TITLE: Quelle: Datei Importer -->
+---
+title: Quelle: Datei Importer
+description: 
+published: true
+date: 2021-04-07T11:38:22.966Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:17.884Z
+---
+
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des Datei-Importers im Adressbuch Importer
 # Konfiguration

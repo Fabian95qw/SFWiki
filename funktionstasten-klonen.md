@@ -2,7 +2,7 @@
 title: Funktionstasten Klonen
 description: 
 published: true
-date: 2021-04-07T12:01:43.245Z
+date: 2021-04-07T12:01:51.745Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:01:43.245Z

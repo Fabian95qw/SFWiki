@@ -1,4 +1,13 @@
-<!-- TITLE: Let's Encrypt -->
+---
+title: Let's Encrypt
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:35:06.671Z
+---
+
 # Beschreibung
 Modul, welches es erlaubt Let's Encrypt Zertifikate einzurichten inklusive auto-renewal
 **Gratislizenz: E334T-Y2I2X-X4AZZ-RKZ9F-GVKF6**

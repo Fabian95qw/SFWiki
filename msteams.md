@@ -1,4 +1,13 @@
-<!-- TITLE: MS Teams Statusabgleich -->
+---
+title: MS Teams Statusabgleich
+description: 
+published: true
+date: 2021-04-07T11:36:11.823Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:35:31.049Z
+---
+
 # Beschreibung
 Ein Modul, welches den Chatstatus zwischen der STARFACE und dem MS Teams Synchron hält
 

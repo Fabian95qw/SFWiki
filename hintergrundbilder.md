@@ -1,4 +1,13 @@
-<!-- TITLE: Hintergrundbilder -->
+---
+title: Hintergrundbilder
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:34:12.107Z
+---
+
 # Beschreibung
 Ein Modul, welches bei der Anpassung von Hintergrundbildern für Telefone vereinfacht. 
 # Konfiguration

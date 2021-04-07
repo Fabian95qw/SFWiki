@@ -1,4 +1,13 @@
-<!-- TITLE: Sensor Anzahl Gruppenmitglieder -->
+---
+title: Sensor Anzahl Gruppenmitglieder
+description: 
+published: true
+date: 2021-04-07T11:41:02.147Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:40:55.115Z
+---
+
 # Beschreibung
 Ein Sensor, welcher die  Anzahl Mitglieder ein einer Gruppe zählt.
 # Konfiguration

@@ -1,4 +1,13 @@
-<!-- TITLE: Demo Leitungen On/Offline -->
+---
+title: Demo Leitungen On/Offline
+description: 
+published: true
+date: 2021-04-07T11:42:53.795Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:42:48.417Z
+---
+
 # Beschreibung
 Ein Modul, welches Anzeigt, wieviele Leitungen aktuell Online/Offline sind.
 

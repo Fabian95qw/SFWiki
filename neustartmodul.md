@@ -1,4 +1,13 @@
-<!-- TITLE: Neustartmodul -->
+---
+title: Neustartmodul
+description: 
+published: true
+date: 2021-04-07T11:35:46.580Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:35:40.363Z
+---
+
 # Beschreibung
 Das Modul startet zeitgesteuert einzelne Dienste oder das ganze System neu. Es kann auf Wunsch nach abgeschlossener Neustart-Routine ein Email an den Systemadministrator versendet werden.
 **Gratislizenz: LWUER-R4733-EA69L-MFZXF-BU225**

@@ -1,4 +1,13 @@
-<!-- TITLE: Eigene Sensoren erstellen -->
+---
+title: Eigene Sensoren erstellen
+description: 
+published: true
+date: 2021-04-07T11:40:11.712Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:39:55.241Z
+---
+
 # PRTG-Kern Komponenten Erklärung
 Wenn das PRTG-Kernmodul installiert ist, stellt dieses eine Funktion zur Verfügung, mit welcher eigene Channels erstellt werden können.
 

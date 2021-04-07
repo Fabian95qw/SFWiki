@@ -1,4 +1,13 @@
-<!-- TITLE: Office365 App mit Gerätelogin erstellen -->
+---
+title: Office365 App mit Gerätelogin erstellen
+description: 
+published: true
+date: 2021-04-07T11:36:08.379Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:36:01.232Z
+---
+
 # Beschreibung
 Zur Nutzung einiger Office365 Spezifischen Module wird ein "App Zugang" benötigt, welcher dem Modul erlaubt, Aufträge im Office365 zu erledigen. (Z.b. Exchange Zugriff)
 Hier wird kurz beschrieben, wie man so eine Office365 App erstellt.

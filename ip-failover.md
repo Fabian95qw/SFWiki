@@ -1,4 +1,13 @@
-<!-- TITLE: IP Failover -->
+---
+title: IP Failover
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:34:42.460Z
+---
+
 # Beschreibung
 Schaltet Ihre Netzwerkinfrastruktur automatisch auf Ihren Not-Internetanschluss um, passt das Modul die notwendigen Einstellungen im Bereich Netzwerk NAT Ihrer Starface automatisch an und versendet gleichzeitig eine Alarmmeldung 
 # Konfiguration

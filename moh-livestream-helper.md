@@ -1,4 +1,13 @@
-<!-- TITLE: MOH Livestream Helper -->
+---
+title: MOH Livestream Helper
+description: 
+published: true
+date: 2021-04-07T11:35:26.928Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:35:21.892Z
+---
+
 # Beschreibung
 Ein Gratistool welches auf der Starface MPG123 installiert, damit Livestreams als Warteschlangenmusik hinterlegt werden können.
 

@@ -1,4 +1,13 @@
-<!-- TITLE: Quelle: Exchange Connector -->
+---
+title: Quelle: Exchange Connector
+description: 
+published: true
+date: 2021-04-07T11:38:31.561Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:26.068Z
+---
+
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des Exchange-Connectors im Adressbuch Importer
 # Konfiguration

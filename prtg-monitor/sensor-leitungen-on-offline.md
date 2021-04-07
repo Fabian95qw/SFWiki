@@ -1,4 +1,13 @@
-<!-- TITLE: Sensor Leitungen On/Offline -->
+---
+title: Sensor Leitungen On/Offline
+description: 
+published: true
+date: 2021-04-07T11:41:30.358Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:41:21.697Z
+---
+
 # Beschreibung
 Ein Modul, welches Anzeigt, wieviele Leitungen aktuell Online/Offline sind.
 

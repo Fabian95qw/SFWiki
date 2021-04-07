@@ -1,4 +1,13 @@
-<!-- TITLE: IFMC De/Aktivieren -->
+---
+title: IFMC De/Aktivieren
+description: 
+published: true
+date: 2021-04-07T11:35:21.835Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:34:26.576Z
+---
+
 # Beschreibung
 Ein kleines Modul, welches es erlaubt per Modultaste IFMC für einen User zu De-/Aktivieren
 # Konfiguration

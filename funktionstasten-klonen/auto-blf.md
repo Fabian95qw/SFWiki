@@ -1,4 +1,13 @@
-<!-- TITLE: Add-On: Auto Blf -->
+---
+title: Add-On: Auto Blf
+description: 
+published: true
+date: 2021-04-07T11:39:27.017Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:39:21.519Z
+---
+
 # Beschreibung
 Ein Add-On Modul des Funktionstasten Klonmoduls. Es automatisiert das Anlegen von Funktionstastenstrukturen z.B. Nach Gruppen, alphabetisch und mehr. Es können z.B. Gruppenstrukturen erstellt werden, bei welchen der Benutzer gleichzeitig in mehreren Gruppen aufgelistet wird. 
 # Konfiguration

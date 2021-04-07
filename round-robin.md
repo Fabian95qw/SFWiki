@@ -1,4 +1,13 @@
-<!-- TITLE: Roundrobin -->
+---
+title: Roundrobin
+description: 
+published: true
+date: 2021-04-07T11:36:57.173Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:36:47.170Z
+---
+
 # Beschreibung
 Das Roundrobin Modul verteilt Anrufe nach dem entsprechenden Prinzip in der Gruppe.
 1. Ruf ==> Beginnt bei Tn.1 == >Weiter zu Tn.2 ==> Weiter zu Tn.3

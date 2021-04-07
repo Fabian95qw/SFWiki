@@ -1,4 +1,13 @@
-<!-- TITLE: Demo ungenutzte Lizenzen -->
+---
+title: Demo ungenutzte Lizenzen
+description: 
+published: true
+date: 2021-04-07T11:43:21.509Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:43:16.299Z
+---
+
 # Beschreibung
 Demopaket, welches Sensoren für ungenutzte Lizenzen zur Verfügung stellt.
 # Konfiguration

@@ -1,4 +1,13 @@
-<!-- TITLE: Lizenzierung -->
+---
+title: Lizenzierung
+description: 
+published: true
+date: 2021-04-07T11:35:19.295Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:35:14.613Z
+---
+
 # Wie werden die Module Lizenziert?
 Die Module arbeiten mit einem Cloud-Basierenden Lizenzsystem, und benötigen deshalb eine Internetverbindung.
 Die Lizenz wird nach der Aktivierung alle 30 Tage online überprüft.

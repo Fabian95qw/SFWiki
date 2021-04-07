@@ -1,4 +1,12 @@
-<!-- TITLE: Quelle: Office365 Connector -->
+---
+title: Quelle: Office365 Connector
+description: 
+published: true
+date: 2021-04-07T11:38:50.771Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-07T11:38:44.513Z
+---
 
 # Beschreibung
 
