@@ -2,7 +2,7 @@
 title: Statusgesteuerte Besetztlampenfelder
 description: 
 published: true
-date: 2021-04-07T11:37:16.857Z
+date: 2021-04-07T13:45:19.002Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:04.000Z
