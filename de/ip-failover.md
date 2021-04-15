@@ -42,4 +42,4 @@ Startet den Asterisk Dienst neu
 Startet den Leitungsdienst neu, dadurch versuchen sich sofort alle Leitungen wieder zu registrieren.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

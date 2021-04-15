@@ -16,4 +16,4 @@ Ein Sensor, der den aktuellen Arbeitsspeicherverbrauch darstellt.
 ![Ramsensor](/uploads/prtg/ramsensor.png "Ramsensor")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

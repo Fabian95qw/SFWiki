@@ -152,4 +152,4 @@ Falls der Channel 0 ist, sollte man das Passwort nochmals überprüfen.
 Falls der Sensor nach wie vor nur einen Channel hat, sollte man prüfen, ob Sensorname auf dem Server, sowie Client übereinstimmen, und das Servermodul auch eine korrekte Zeit zur aktualisierung der Daten hat.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

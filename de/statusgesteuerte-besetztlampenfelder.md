@@ -21,4 +21,4 @@ Ausserdem muss man Anhaken, auf welche Status genau reagiert werden soll.
 ![Stateblf 2](/uploads/stateblf/stateblf-2.gif "Stateblf 2")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

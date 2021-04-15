@@ -17,4 +17,4 @@ Fertig!
 ![1](/uploads/ifmc-de-aktivieren/1.jpg "1")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

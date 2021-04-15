@@ -73,4 +73,4 @@ Diese müssen jeweils auf einen Status für die andere Platform gemappt werden,
 ![Msteamsstatemapping](/uploads/msteams/msteamsstatemapping.png "Msteamsstatemapping")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

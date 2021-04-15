@@ -128,4 +128,4 @@ Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des T
 ![5](/uploads/exchange-kalender-connector/5.gif "5")
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung

@@ -80,4 +80,4 @@ Der Anruf wird an die Voicemailbox des ursprünglich Angerufenen Benutzers weite
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
