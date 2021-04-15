@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-04-15T07:52:28.427Z
+date: 2021-04-15T08:42:03.412Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -82,4 +82,4 @@ Das Modul meldet sich mithilfe des Angegebenen Benutzers am Freigegebenem Postfa
 
 Für Downloads besuchen sie bitte http://module.nucom.ch/
 
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/lizenzierung
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
