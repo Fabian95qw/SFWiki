@@ -2,7 +2,7 @@
 title: Add-On: Funktionstasten aktualisieren
 description: 
 published: true
-date: 2021-04-09T08:13:44.136Z
+date: 2021-04-15T08:43:52.681Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:27:42.682Z
