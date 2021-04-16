@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2021-04-09T11:54:59.208Z
+date: 2021-04-16T06:41:58.431Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -82,7 +82,7 @@ Dieser Fehler wird von Seitens PRTG-Generiert, wenn der Sensor kein gültiges XM
 Um dies zu beheben, können wir Clientseitiges Debugging verwenden.
 
 Die PRTGClient.jar kann von Hand im CMD ausführen, um so fehlermeldungen zu finden.
-Dazu kann man folgenden Befehl ausführen:
+Dazu kann man den Folgenden Befehl, mit dem generierten Sensorstring ausführen: 
 
 > java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" -h testface.nucom.ch -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b89051870b37362f8ea26cdece9d87a0cf57909482062949c2353df920a49ba6ba85437f1066e4 -s Festplatten -i PRTG-Kern -d **true**
 
