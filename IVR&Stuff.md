@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: false
-date: 2021-05-05T12:09:45.516Z
+date: 2021-05-05T12:11:48.425Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -85,6 +85,10 @@ Damit wird aus einer Vorlagenummer + dem eingebenen DTMF eine Nummer zusammenges
 Dies kann z.b. im zusammenhang mit Durchwahlen verwendet werden.
 
 ![dtmf-dynamic.png](/uploads/ivr&stuff/dtmf-dynamic.png)
+
+## Stufentyp: Voicemail
+Dieser Stufentyp schickt den Teilnehmer direkt an die hinterlegte Voicemail.
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
