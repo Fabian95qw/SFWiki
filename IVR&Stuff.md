@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: false
-date: 2021-05-05T12:00:15.864Z
+date: 2021-05-05T12:05:17.693Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -47,33 +47,33 @@ Wir diese erreicht, springt das Modul automatisch zu der Stufe welche bei "Anruf
 
 ## Stufentyp: Ansage & DTMF
 
-### DTMF Optionen
-Folgende DTMF Optionen können definiert werden:
-
-#### DTMF aktivieren
+### DTMF aktivieren
 DTMF können komplett deaktiviert werden, falls man nur eine Ansage abspielen will.
-**WICHTIG! Die DTMF dürfen nur im Zusammenhang mit der DTMF-Option Dynamische weiterleitung deaktiviert werden!**
+Dann wird die Ansage abgespielt, und danach greift sofort das "Bei Fehschlag/nur Ansage weite zu Stufe"
 
-#### DTMF Option: Tabelle
-In diesem Modus wird eine Normale Tabelle für die Verarbeitung der DTMF Verwendet.
-
-### DTMF Tabelle 
+### DTMF Option: Tabelle
 In der DTMF Tabelle können klassische Nummern hinterlegt werden, es gibt aber auch einige spezielle Funktionen.
+
 #### DTMF STANDARD
 Wird links statt einer Nummer STANDARD geschrieben, wird diese aktion für alle nicht definierten DTMF Tasten ausgeführt. 
 Z.b. wenn nur die DTMF Tasten 0-2 gebraucht werden, aber der Kunde die 9 eingibt.
 
 #### Ansage Wiederholen
-Wenn bei einem Tastendruck die Ansage wiederholt werden soll, muss Rechts einfach WIEDERHOLEN reingeschrieben werden.
+Wenn bei einem Tastendruck die Ansage wiederholt werden soll, muss rechts einfach WIEDERHOLEN reingeschrieben werden.
 
 #### IVR Stufe
 Um eine andere IVR-Strufe anzusprechen, muss es via STUFE:Instanzname eingesetzt werden.
 Gross-Kleinschreibung muss beachtet werden!
 Z.b. STRUFE:ANSAGE
 
+#### Voicemailboxen
+Um eine Voicemailbox anzusprechen muss einfach die entsprechende *9[Nummer] hinerlegt werden.
 
-#### DTMF Option: Dynamische weiterleitung
+### DTMF Option: Dynamische weiterleitung
+In diesem Modus werden die Nummern verwendet, um eine dynamische Weiterleitung zu erzeugen.
+Damit wird aus einer Vorlagenummer + dem eingebenen DTMF eine Nummer zusammengesetzt und Angerufen.
 
+Dies kann z.b. im zusammenhang mit Durchwahlen verwendet werden.
 
 
 # Downloads & Lizenzierung
