@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-05-05T12:14:30.180Z
+date: 2021-05-05T12:27:42.077Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -88,7 +88,7 @@ Dies kann z.b. im zusammenhang mit Durchwahlen verwendet werden.
 ## Stufentyp: Voicemail
 Dieser Stufentyp schickt den Teilnehmer direkt an die hinterlegte Voicemail.
 
-
+![voicemail.PNG](/uploads/ivr&stuff/voicemail.PNG)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
