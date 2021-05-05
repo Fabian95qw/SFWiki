@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: false
-date: 2021-05-05T11:54:13.206Z
+date: 2021-05-05T12:00:15.864Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -66,7 +66,11 @@ Z.b. wenn nur die DTMF Tasten 0-2 gebraucht werden, aber der Kunde die 9 eingibt
 #### Ansage Wiederholen
 Wenn bei einem Tastendruck die Ansage wiederholt werden soll, muss Rechts einfach WIEDERHOLEN reingeschrieben werden.
 
-####
+#### IVR Stufe
+Um eine andere IVR-Strufe anzusprechen, muss es via STUFE:Instanzname eingesetzt werden.
+Gross-Kleinschreibung muss beachtet werden!
+Z.b. STRUFE:ANSAGE
+
 
 #### DTMF Option: Dynamische weiterleitung
 
