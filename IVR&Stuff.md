@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-05-05T12:12:25.404Z
+date: 2021-05-05T12:14:30.180Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -21,7 +21,6 @@ Jede Instanz des Moduls ist eine Stufe. Der Stufentyp muss jeweils im Tab "Konfi
 Es gibt folgende Stufentypen:
 - Klingeln:Benutzer
 - Klingeln:Gruppe
-- Dynamische Nummer
 - Ansage & DTMF
 - Voicemail
 
