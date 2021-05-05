@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-05-05T12:27:42.077Z
+date: 2021-05-05T12:28:24.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -31,7 +31,8 @@ Listet auf, welche anderen IVR&Stuff Module auf diese Instanz verweisen.
 Dies dient als eine Information, änderung and dieser Liste hat keinen Einfluss auf das Modul.
 
 ## Verknüpfung von Stufen
-Das Modul bietet die möglichkeit, andere Stufen als ziel zu definieren.
+Das Modul bietet die möglichkeit, andere Stufen als Ziel zu definieren.
+**Stufen, können von anderen Stufen angesprochen werden, ohne dass diese eine Rufnummer besitzen muss**
 Diese Liste updatet regelmässig. Falls eine Instanz aus irgendeinem Grund fehlt, sollte es ausreichen, die aktuelle instanz abzuspeichern, und wieder zu öffnen.
 
 ![next-step-example.png](/uploads/ivr&stuff/next-step-example.png)
