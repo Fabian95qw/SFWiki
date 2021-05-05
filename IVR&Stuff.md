@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: false
-date: 2021-05-05T12:11:48.425Z
+date: 2021-05-05T12:12:13.863Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -88,6 +88,7 @@ Dies kann z.b. im zusammenhang mit Durchwahlen verwendet werden.
 
 ## Stufentyp: Voicemail
 Dieser Stufentyp schickt den Teilnehmer direkt an die hinterlegte Voicemail.
+
 
 
 # Downloads & Lizenzierung
