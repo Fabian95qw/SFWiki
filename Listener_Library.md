@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: false
-date: 2021-05-18T08:43:36.448Z
+date: 2021-05-18T08:49:18.919Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -12,6 +12,12 @@ dateCreated: 2021-05-18T07:24:22.585Z
 Eine Library, von Listenern, welche nach der Registrierung die Daten an XML-RPC Einstiegspunkte weitergibt.
 
 # Erstellung eines Listeners
+Um die Listener zu nutzen, müssen die aktiv durch die Modulinstanzen nachregistriert werden. Der Einfachste weg dies zu tun, ist einen Timer zu verwenden, der Z.b. 1 mal in der Minute versucht den Listener zu registrieren.
+
+Wenn der Listener mit einer UUID bereits registriert wurde, wird er nicht erneut registriert.
+
+
+## Flow
 
 ## Listenertypen
 ### onPresenceChangedEvent
