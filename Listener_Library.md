@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-05-18T09:16:17.603Z
+date: 2021-05-18T09:19:10.583Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -11,7 +11,9 @@ dateCreated: 2021-05-18T07:24:22.585Z
 # Beschreibung
 Eine Library, von Listenern, welche nach der Registrierung die Daten an XML-RPC Einstiegspunkte weitergibt.
 
-# Erstellung eines Listeners
+# How-To
+
+## Erstellung eines Listeners
 Um die Listener zu nutzen, müssen die aktiv durch die Modulinstanzen nachregistriert werden. Der Einfachste weg dies zu tun, ist einen Timer zu verwenden, der Z.b. 1 mal in der Minute versucht den Listener zu registrieren.
 
 Wenn der Listener mit einer UUID bereits registriert wurde, wird er nicht erneut registriert.
@@ -21,6 +23,9 @@ Die funktion CreateListener verlangt folgende Inputs:
 - InstanceUUID (STRING: Die UUID der Instanz, dessen Einstiegspunkt verwendet werden soll.
 - XML-RPC-Entrypointname (STRING): Der Name des XML-RPC-Einstiegspunktes
 - ListenerType (Dropdown): Der Typ des Listeners. Die Einzelnen Typen werden weiter unten erklärt.
+
+## Listener entfernen
+Um einen Listener zu Entfernen, muss der Baustein "DeleteListener" mit der Listener_UUID, die entfernt werden soll aufgerufen werden.
 
 ## Flow
 
