@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-05-18T09:19:10.583Z
+date: 2021-05-18T09:39:40.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -23,6 +23,8 @@ Die funktion CreateListener verlangt folgende Inputs:
 - InstanceUUID (STRING: Die UUID der Instanz, dessen Einstiegspunkt verwendet werden soll.
 - XML-RPC-Entrypointname (STRING): Der Name des XML-RPC-Einstiegspunktes
 - ListenerType (Dropdown): Der Typ des Listeners. Die Einzelnen Typen werden weiter unten erklärt.
+
+![createlistener.PNG](/uploads/listener_library/createlistener.PNG)
 
 ## Listener entfernen
 Um einen Listener zu Entfernen, muss der Baustein "DeleteListener" mit der Listener_UUID, die entfernt werden soll aufgerufen werden.
