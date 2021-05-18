@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: false
-date: 2021-05-18T08:59:19.664Z
+date: 2021-05-18T09:15:19.787Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -24,12 +24,14 @@ Die funktion CreateListener verlangt folgende Inputs:
 
 ## Flow
 
-
+![Flow.jpg](/uploads/listener_library/Flow.jpg)
 
 ## XML-RPC Einstiegspunkt für den erhalt des Datenpakets konfigurieren
 Damit der XML-RPC Einstiegspunkt die Daten vom Listener erhält, muss dieser korrekt konfiguriert sein.
 Der Einstiegspunkt muss eine Input-Variable haben, welche "Data" heisst, und vom Typ MAP ist.
 Diese Map wird dann mit den Daten befüllt.
+
+
 
 ## Listenertypen
 ### onPresenceChangedEvent
