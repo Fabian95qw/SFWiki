@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: false
-date: 2021-05-18T08:58:23.798Z
+date: 2021-05-18T08:59:19.664Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -24,7 +24,7 @@ Die funktion CreateListener verlangt folgende Inputs:
 
 ## Flow
 
-(IMAGE)
+
 
 ## XML-RPC Einstiegspunkt für den erhalt des Datenpakets konfigurieren
 Damit der XML-RPC Einstiegspunkt die Daten vom Listener erhält, muss dieser korrekt konfiguriert sein.
