@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: false
-date: 2021-05-18T08:31:16.207Z
+date: 2021-05-18T08:43:36.448Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -39,12 +39,30 @@ Datenpaketinhalt:
 Dieses Event wird bei jeder Änderung an einem aktiven Ruf ausgelöst. (Z.b. Neuer Anruf, Klingelt bei Teilnehmern, wurde Umgeleitet, wurde gehalten usw...)
 Pro Anruf können mehrere Events gleichzeitig ausgelöst werden, da ein Event pro Teilnehmer ausgelöst wird.
 Datenpaketinhalt:
+- CallUUID (STRING): Die UUID des Anrufs.
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account zu dem diese Anrufinformation gehört
 - AvatarHash (STRING): Der Avatar der Angezeigt werden soll
 - CalledName (STRING): Name des Angerufenen
 - CalledNumber (STRING): Nummer des Angerufenen
 - CallerName (STRING): Name des Anrufers
 - CalledName (STRING): Name des Angerufenen
+- GroupID (STRING): ID der Gruppe, zu der der Anruf gehört (Falls vorhanden)
+- CallState (STRING): Zustand des Anrufs. Möglichkeiten sind: CCBS CONFERENCE_ACTIVE CONFERENCE_CONSULT CONFERENCE_INACTIVE CONNECTED CONSULT HANGUP INCOMING LOGIN_LOGOUT MUSICONHOLD_TEST OUTGOING PARKED RINGBACK RINGING VOICEMAIL_LINKED VOICEMAIL_MAIN
+- CallChannels (LIST\<String\>): eine Liste der einzelnen CallChannels
+- ConferenceRoomId (STRING): Die ID des Konferenzraums (Falls vorhanden)
+- DoorlineCamUrl (STRING): Der URL zur Kamera für die Türsprechstelle (Falls vorhanden)
+- DoorlineDTMFCode (STRING): Den DTMF Code, der Ausgelöst werden soll, um die Tür zu öffnen (Falls vorhanden)
+- DoorlineImageProviderID (STRING): Die ID, des Kamerabildproviders. Wird für das Aufzeigen des Bilds auf Endgeräten benötigt (Falls vorhanden)
+- Duration (NUMBER): Wie lange der Anruf schon aktiv ist
+- ForwardCallerIdName (STRING): Name des ursprünglichen Angerufenen, falls der Anruf weitergeleitet wurde (Falls vorhanden)
+- ForwardCallerIdNumber (STRING): Nummer des ursprünglichen Angerufenen, falls der Anruf weitergeleitet wurde. (Falls vorhanden)
+- ForwardType (STRING): Weiterleitungstyp. Möglichkeiten sind: BLINDTRANSFER, BL_BACK, CFB, CFI, CFNR, CFU, NONE, PICKUP, TRANSFER (Falls vorhanden)
+- JabberId (STRING): ???
+- Peernames (STRING): Name der Endgeräte, die in diesen Anruf involviert sind
+- ReferenceOfConsultation (STRING): ???
+- SipCallIds (STRING): ???
+- Timestamp (NUMBER): Die Uhrzeit in Millisekunden (Epoch Zeit).
+
 
 ## XML-RPC Einstiegspunkte
 
