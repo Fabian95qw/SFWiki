@@ -1,8 +1,8 @@
 ---
 title: Listener Library
 description: 
-published: false
-date: 2021-05-18T08:49:18.919Z
+published: true
+date: 2021-05-18T09:19:10.583Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -11,13 +11,33 @@ dateCreated: 2021-05-18T07:24:22.585Z
 # Beschreibung
 Eine Library, von Listenern, welche nach der Registrierung die Daten an XML-RPC Einstiegspunkte weitergibt.
 
-# Erstellung eines Listeners
+# How-To
+
+## Erstellung eines Listeners
 Um die Listener zu nutzen, müssen die aktiv durch die Modulinstanzen nachregistriert werden. Der Einfachste weg dies zu tun, ist einen Timer zu verwenden, der Z.b. 1 mal in der Minute versucht den Listener zu registrieren.
 
 Wenn der Listener mit einer UUID bereits registriert wurde, wird er nicht erneut registriert.
 
+Die funktion CreateListener verlangt folgende Inputs:
+- ListenerUUID (STRING): Die UUID, die dieser Listener erhalten soll
+- InstanceUUID (STRING: Die UUID der Instanz, dessen Einstiegspunkt verwendet werden soll.
+- XML-RPC-Entrypointname (STRING): Der Name des XML-RPC-Einstiegspunktes
+- ListenerType (Dropdown): Der Typ des Listeners. Die Einzelnen Typen werden weiter unten erklärt.
+
+## Listener entfernen
+Um einen Listener zu Entfernen, muss der Baustein "DeleteListener" mit der Listener_UUID, die entfernt werden soll aufgerufen werden.
 
 ## Flow
+
+![Flow.jpg](/uploads/listener_library/Flow.jpg)
+
+## XML-RPC Einstiegspunkt für den erhalt des Datenpakets konfigurieren
+Damit der XML-RPC Einstiegspunkt die Daten vom Listener erhält, muss dieser korrekt konfiguriert sein.
+Der Einstiegspunkt muss eine Input-Variable haben, welche "Data" heisst, und vom Typ MAP ist.
+Diese Map wird dann mit den Daten befüllt.
+
+![RPC-Entrypoints.PNG](/uploads/listener_library/RPC-Entrypoints.PNG)
+![event_example.PNG](/uploads/listener_library/event_example.PNG)
 
 ## Listenertypen
 ### onPresenceChangedEvent
@@ -68,10 +88,6 @@ Datenpaketinhalt:
 - ReferenceOfConsultation (STRING): ???
 - SipCallIds (STRING): ???
 - Timestamp (NUMBER): Die Uhrzeit in Millisekunden (Epoch Zeit).
-
-
-## XML-RPC Einstiegspunkte
-
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.nucom.ch/
