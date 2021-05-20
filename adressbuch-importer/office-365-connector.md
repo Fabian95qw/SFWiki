@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-04-15T08:42:03.412Z
+date: 2021-05-20T08:31:42.573Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -35,8 +35,12 @@ Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nu
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
 
-Contacts.Read (https://outlook.office365.com/Contacts.Read) (Lesen von Kontakten für alle User)
-full_access_as_app (https://outlook.office365.com/full_access_as_app) (Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer)
+Contacts.Read (https://outlook.office365.com/Contacts.Read):Lesen von Kontakten für alle User
+full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer. 
+> Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
+> Office 365 Exchange Online --> Anwendungsberechtigungen
+{.is-info}
+
 
 Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-Tenant-ID, App-ID, App-Secret)
 
