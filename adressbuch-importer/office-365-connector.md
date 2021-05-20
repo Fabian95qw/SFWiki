@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-05-20T08:31:42.573Z
+date: 2021-05-20T08:32:39.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -50,7 +50,8 @@ Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer 
 
 ## Kontakt Import Herkunftswahl
 
-**Diese Konfiguration gilt nur beim Einzelimport**
+> **Diese Konfiguration gilt nur beim Einzelimport**
+{.is-info}
 
 ### Private Kontaktordner
 
@@ -58,7 +59,7 @@ Der Ordnername wird in den Kontakten des angegebenen Benutzers gesucht.
 
 ### Öffentlicher Kontaktordner
 
-Der Kontaktordnername muss einzigartig sein, damit diese gefunden wird. Ansonsten muss der Absolute Pfad vom Öffentlichen Verzeichnis ausgegeben werden, da sonst die erste Instanz des Ordnernamens gewählt wird.
+Der Kontaktordnername muss einzigartig sein, damit dieser gefunden wird. Ansonsten muss der Absolute Pfad vom Öffentlichen Verzeichnis ausgegeben werden, da sonst die erste Instanz des Ordnernamens gewählt wird.
 
 **Beispiel bei dem der Ordnername ausreicht**
 
