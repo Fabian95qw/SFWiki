@@ -2,7 +2,7 @@
 title: Add-On: Funktionstasten aktualisieren
 description: 
 published: true
-date: 2021-04-15T08:43:52.681Z
+date: 2021-05-25T10:00:23.422Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:27:42.682Z
@@ -32,7 +32,7 @@ Bestimmt, ob die Tischtelefone auch neu provisioniert werden soll!
 ## Parametisierung Besetztlampenfelder
 
 ### Länge Vor/Nachname
-Bestimmt, wieviele Zeichen des Vor und Nachnamens angezegit werden sollen. 
+Bestimmt, wieviele Zeichen des Vor und Nachnamens angezeigt werden sollen. 
 **Eine Zeichenlänge von 0 entspricht dem vollständigen Namen**
 Beispiel: 
 Name: Max Mustermann
