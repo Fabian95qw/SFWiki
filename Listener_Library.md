@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-05-18T09:39:40.356Z
+date: 2021-06-02T14:52:55.053Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -43,7 +43,7 @@ Diese Map wird dann mit den Daten befüllt.
 
 ## Listenertypen
 ### onPresenceChangedEvent
-Dieses Event teilt, änderungen am Präsenzstatus, sowie dem dazugehörigen Präsenzstatustextes mit.
+Dieses Event teilt, Änderungen am Präsenzstatus, sowie dem dazugehörigen Präsenzstatustextes mit.
 Datenpaketinhalt:
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account den es betrifft.
 - Presence (STRING): Die Präsenz. Möglichkeiten sind: AVAILABLE, AWAY, DO_NOT_DISTURB, EXTENDED_AWAY, FREE_FOR_CHAT, UNAVAILABLE
