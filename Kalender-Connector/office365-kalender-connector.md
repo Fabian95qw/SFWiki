@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-06-28T12:27:42.060Z
+date: 2021-06-28T13:16:12.161Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -150,8 +150,16 @@ Ob die Parametisierung von Zielen durch setzen von @@Intern/@@Extern für Umleit
 ### @@Extern: 		
 Erlauben von Parametisierung des externen Umleitungsziels durch Platzieren des Tags @@Extern:[Nummer] im Text des Kalendereintrags
 
+> Ab STARFACE 7.0 muss die Rufnummer mit 00 anstatt mit + beginnen.
+{.is-warning}
+
 ### @@Intern:
 Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des Tags @@Intern:[Nummer] im Text des Kalendereintrags
+
+> Ab STARFACE 7.0 muss die Rufnummer mit 00 anstatt mit + beginnen.
+{.is-warning}
+
+
 # Beispiel
 ![4](/uploads/exchange-kalender-connector/4.png "4")
 
