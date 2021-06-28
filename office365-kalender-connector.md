@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: false
-date: 2021-06-28T12:11:18.220Z
+date: 2021-06-28T12:21:07.876Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -26,13 +26,22 @@ Dieses finden sie auf http://module.nucom.ch/
 
 # Konfiguration
 ![1](/uploads/office365-kalender-connector/1.png "1")
-## CheckIntervall
-### Timer
-Hier definiert man den Intervall, in denen der Kalender überprüft wird.
 
-### Exchange Gruppe
+### Dienst
+Erlaubt es den Modulinternen Dienst zu Starten/Stoppen, ohne das Modul zu deaktivieren.
+
+### Office365 Gruppe
 Das Modul wird nur auf alle Mitglieder dieser Gruppe angewendet.
 Jeder User der Gruppe braucht eine Korrekt konfigurierte E-Mail Adresse, da das Modul den Status des Kalenders für diesen Benutzer überprüft.
+
+## Reaktion auf Kalendereintragssystem
+Definiert auf welche Buchungstypen überhaupt reagiert werden soll. 
+Dies beinhaltet:
+- Ausser Haus
+- Gebucht
+- Mit vorbehalt
+- An anderem Ort tätig
+- Frei
 
 ## Funktionen bei Abwesenheit
 ### Funktionstastenindikator
@@ -42,20 +51,30 @@ Man kann Konfigurieren, ob die Funktionstasten bei Abwesenheit einen speziellen 
 ### Chatindikator
 Wenn nun ein Kalendereintrag erreicht wird, erhält der Benutzer diesen Status im Chat.
 
-### Statustext div.
-Während eines Termins wird zusätlich zum Funktionasten- und Chatindikator, auch die Statusnachricht gesetzt.
-Im Normall ist diese der Titel des Kalendereintrags im Exchange (Mit Ausnahme von Privaten Kalendereinträgen).
+### Statustexte
+Das Modul erlaubt es, die Fomatierung des Stautstextes im UCC-Client frei zu wählen. Es können Variablen zum ersetzen verwendet werden.
+Folgende Variablen stehen zur Verfügung:
 
-Mithilfe der Haken **Terminuhrzeit Von-Bis im Chatstatustext Anzeigen** 	erhält der Statustext vor dem Text noch ein Feld [Uhrzeit]
-Die Uhrzeit lässt sich im "Simpledateformat" im Feld **Formatierung der Uhrzeit** konfigurieren.
+!time! ==> Uhrzeit Von-Bis
+!title! ==> Titel des Eintrags, oder "Privat", falls der Eintrag auf Privat gesetzt ist.
+!type! ==> Der Typ des Eintrags Gebucht/Ausser Haus usw...
+Das vordefinierte Format ist: [!time!] [!type!] !title!  welches so aussehen würde: [07:00-12:00] [Gebucht] Kunde ABC
 
 ## Alarme
 Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
 
-# Exchange-Verbindung
+# Office365 Verbindung
 ![2](/uploads/exchange-kalender-connector/2.png "2")
 
-Um eine Verbindung mit dem Exchange Server herzustellen, muss ein Konto mit **Applicationimpresination** Rechten angegeben werden..
+Um eine Verbindung mit dem Exchange Server herzustellen, im Office365 eine entsprechender App-Login erstellt werden.
+
+Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/de/office-365-client-app
+Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
+
+full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer. 
+> Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
+> Office 365 Exchange Online --> Anwendungsberechtigungen
+{.is-info}
 
 # Outlook-Kategorien
 Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagieren.
