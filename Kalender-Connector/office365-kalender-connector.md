@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-06-28T13:18:12.214Z
+date: 2021-06-28T13:19:59.259Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -26,6 +26,12 @@ Dieses finden sie auf http://module.nucom.ch/
 
 # Konfiguration
 ![1](/uploads/office365-kalender-connector/1.png "1")
+
+### CheckIntervall
+Hier definiert man den Intervall, in denen der Kalender überprüft wird.
+
+> Je kleiner der Intervall, umso grösser ist die Last für die STARFACE
+{.is-warning}
 
 ### Dienst
 Erlaubt es den Modulinternen Dienst zu Starten/Stoppen, ohne das Modul zu deaktivieren.
@@ -80,7 +86,7 @@ full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff au
 Definiert, wie lange ein Termin maximal sein darf. Je grösser dieser Wert ist, umso grösser ist der Bereich, in dem das Modul nach gültigen Kalendereinträgen suchen muss.
 Somit erhöht sich auch die Last auf der STARFACE.
 > Kurz gesagt: Je grösser die Terminlänge, umso grösser ist die Last auf der STARFACE.
-{.is-danger}
+{.is-warning}
 
 # Outlook-Kategorien
 Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagieren.
