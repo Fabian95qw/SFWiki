@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-06-28T13:16:12.161Z
+date: 2021-06-28T13:16:54.314Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -140,10 +140,10 @@ Erlaubt es die externen Nummer auf eine Voicemailbox umzuleiten
 Erlauben/Verweigern von Voicemail Kategorien im Outlook
 
 ### _SF_AUL_intern_aktivieren 	
-Erlaubt es Umleitungen für die internen Rufnummern zu setzen.
+Erlaubt es Umleitungen für die internen Rufnummern zu aktivieren.
 
 ### _SF_AUL_extern_aktivieren 	
-Erlaubt es Umleitungen für die externen Rufnummern zu setzen.
+Erlaubt es Umleitungen für die externen Rufnummern zu aktivieren.
 
 ## Erlaubte Parametisierung
 Ob die Parametisierung von Zielen durch setzen von @@Intern/@@Extern für Umleitungen erlaubt ist
