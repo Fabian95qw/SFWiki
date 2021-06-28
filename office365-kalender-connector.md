@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: false
-date: 2021-06-28T12:21:07.876Z
+date: 2021-06-28T12:27:30.454Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -64,9 +64,9 @@ Das vordefinierte Format ist: [!time!] [!type!] !title!  welches so aussehen wü
 Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
 
 # Office365 Verbindung
-![2](/uploads/exchange-kalender-connector/2.png "2")
+![2](/uploads/office365-kalender-connector/2.png "2")
 
-Um eine Verbindung mit dem Exchange Server herzustellen, im Office365 eine entsprechender App-Login erstellt werden.
+Um eine Verbindung mit dem Office365 herzustellen, muss eine ntsprechender App-Login erstellt werden.
 
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/de/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
@@ -75,6 +75,12 @@ full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff au
 > Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
 > Office 365 Exchange Online --> Anwendungsberechtigungen
 {.is-info}
+
+### Maximale Terminlänge
+Definiert, wie lange ein Termin maximal sein darf. Je grösser dieser Wert ist, umso grösser ist der Bereich, in dem das Modul nach gültigen Kalendereinträgen suchen muss.
+Somit erhöht sich auch die Last auf der STARFACE.
+> Kurz gesagt: Je grösser die Terminlänge, umso grösser ist die Last auf der STARFACE.
+{.is-danger}
 
 # Outlook-Kategorien
 Es gibt die Möglichkeit Mithilfe von Kategorien mit der Starface zu interagieren.
