@@ -1,8 +1,8 @@
 ---
 title: Office365 Kalender Connector
 description: 
-published: false
-date: 2021-06-28T12:27:30.454Z
+published: true
+date: 2021-06-28T12:27:42.060Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
