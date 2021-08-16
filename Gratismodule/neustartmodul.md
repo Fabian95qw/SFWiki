@@ -2,7 +2,7 @@
 title: Neustartmodul
 description: 
 published: true
-date: 2021-05-28T12:31:58.027Z
+date: 2021-08-16T09:46:35.538Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:40.363Z
@@ -37,5 +37,5 @@ Dieser DTMF-PIN wir dann Telefonisch abgefragt
 Das Modul gibt einem die Möglichtkeit, vor und nach dem Neustart eine Info-Mail zu schicken.
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
