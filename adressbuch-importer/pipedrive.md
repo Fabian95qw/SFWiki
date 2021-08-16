@@ -2,7 +2,7 @@
 title: Quelle: Pipedrive CRM
 description: 
 published: true
-date: 2021-04-15T08:41:54.188Z
+date: 2021-08-16T09:42:41.591Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:53.849Z
@@ -19,6 +19,7 @@ Im Falle der Cloud-Version muss man: api.pipedrive.com verwenden.
 
 ## API-Key
 Der API-Key ist im Pipedrive auffindbar unter: Einstellungen > Persönlich > Sonstiges > API.
+
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
