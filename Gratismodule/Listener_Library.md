@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-06-02T14:52:55.053Z
+date: 2021-08-16T09:46:26.802Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -92,5 +92,5 @@ Datenpaketinhalt:
 - Timestamp (NUMBER): Die Uhrzeit in Millisekunden (Epoch Zeit).
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
