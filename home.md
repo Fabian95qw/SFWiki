@@ -1,8 +1,8 @@
 ---
-title: Nucom Modul Wiki
+title: SI-Solutions GmbH Modul WIki
 description: 
 published: true
-date: 2021-08-16T09:38:13.263Z
+date: 2021-08-16T09:38:29.415Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:19.264Z
