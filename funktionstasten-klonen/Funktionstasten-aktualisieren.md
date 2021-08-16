@@ -2,7 +2,7 @@
 title: Add-On: Funktionstasten aktualisieren
 description: 
 published: true
-date: 2021-05-25T10:00:23.422Z
+date: 2021-08-16T09:44:07.814Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:27:42.682Z
@@ -60,5 +60,5 @@ Format: ##FIRSTNAME##.##LASTNAME##|##INTERNALNUMBER##
 Ergibt: M.Muster|123
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
