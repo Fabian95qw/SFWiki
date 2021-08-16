@@ -2,7 +2,7 @@
 title: Quelle: Datei Importer
 description: 
 published: true
-date: 2021-04-15T08:05:31.350Z
+date: 2021-08-16T09:42:17.553Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:17.884Z
@@ -106,5 +106,5 @@ Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser 
 Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Slash aufhören. Ein Dateiname darf nicht angehängt werden. (SIEHE Import)
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
