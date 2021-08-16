@@ -2,7 +2,7 @@
 title: Add-On: Auto Blf
 description: 
 published: true
-date: 2021-04-15T08:43:04.489Z
+date: 2021-08-16T09:44:01.868Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:21.519Z
@@ -31,5 +31,5 @@ Erstellt zwsichen den Gruppen jeweils eine Leere Taste, mit dem Gruppennamen als
 # Beispiel
 ![1](/uploads/auto-blf/1.gif "1")
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
