@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-05-05T12:28:24.727Z
+date: 2021-08-16T11:02:13.186Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -92,5 +92,5 @@ Dieser Stufentyp schickt den Teilnehmer direkt an die hinterlegte Voicemail.
 ![voicemail.PNG](/uploads/ivr&stuff/voicemail.PNG)
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
