@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2021-04-15T07:55:42.128Z
+date: 2021-08-16T09:40:58.463Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -171,5 +171,5 @@ Regex101 Beispiele:
 * Komplexer Regex für das Filtern von allen +4[0-9] Nummern, inkl. Filterung von Klammern, Abständen, sowie Bindestrichen: https://regex101.com/r/Yb6MUI/1
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
