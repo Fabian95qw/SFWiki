@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2021-04-16T06:41:58.431Z
+date: 2021-08-16T10:59:09.326Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -31,17 +31,17 @@ Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/
 ### Sensoren
 Für die Individuellen Sensoren gibt es eigene Artikel:
 
-PRTG Sensor: Anlagenverbund On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-anlagenverbund-on-offline
-PRTG Sensor: Anzahl Gruppenmitglieder: http://wiki.nucom.ch/prtg-monitor/sensor-anzahl-gruppenmitglieder
-PRTG Sensor: CPU Verbrauch: http://wiki.nucom.ch/prtg-monitor/sensor-cpu-verbrauch
-PRTG Sensor: Freier Speicherplatz: http://wiki.nucom.ch/prtg-monitor/sensor-freier-speicherplatz
-PRTG Sensor: Leitungen On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-leitungen-on-offline
-PRTG Sensor: RAM Verbrauch: http://wiki.nucom.ch/prtg-monitor/sensor-ram-verbrauch
-PRTG Sensor: Telefone On-/Offline: http://wiki.nucom.ch/prtg-monitor/sensor-telefone-on-offline
-PRTG Sensor: Anzahl ungenutzer Lizenzen: http://wiki.nucom.ch/prtg-monitor/sensor-ungenutzte-lizenzen
+PRTG Sensor: Anlagenverbund On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-anlagenverbund-on-offline
+PRTG Sensor: Anzahl Gruppenmitglieder: http://wiki.si-solutions.ch/prtg-monitor/sensor-anzahl-gruppenmitglieder
+PRTG Sensor: CPU Verbrauch: http://wiki.si-solutions.ch/prtg-monitor/sensor-cpu-verbrauch
+PRTG Sensor: Freier Speicherplatz: http://wiki.si-solutions.ch/prtg-monitor/sensor-freier-speicherplatz
+PRTG Sensor: Leitungen On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-leitungen-on-offline
+PRTG Sensor: RAM Verbrauch: http://wiki.si-solutions.ch/prtg-monitor/sensor-ram-verbrauch
+PRTG Sensor: Telefone On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-telefone-on-offline
+PRTG Sensor: Anzahl ungenutzer Lizenzen: http://wiki.si-solutions.ch/prtg-monitor/sensor-ungenutzte-lizenzen
 
 ## Erstellung eigener Add-Ons
-Hierfür wurde ein eigener Artikel erfasst: http://wiki.nucom.ch/prtg-monitor/eigene-sensoren-erstellen
+Hierfür wurde ein eigener Artikel erfasst: http://wiki.si-solutions.ch/prtg-monitor/eigene-sensoren-erstellen
 # Konfiguration PRTG-Monitor Server
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
@@ -84,7 +84,7 @@ Um dies zu beheben, können wir Clientseitiges Debugging verwenden.
 Die PRTGClient.jar kann von Hand im CMD ausführen, um so fehlermeldungen zu finden.
 Dazu kann man den Folgenden Befehl, mit dem generierten Sensorstring ausführen: 
 
-> java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" -h testface.nucom.ch -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b89051870b37362f8ea26cdece9d87a0cf57909482062949c2353df920a49ba6ba85437f1066e4 -s Festplatten -i PRTG-Kern -d **true**
+> java -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" -h testface.si-solutions.ch -t 123:1ebe2e9249d866e6d9ccea5456cdf7ddbf09aafd8859bf3a75b89051870b37362f8ea26cdece9d87a0cf57909482062949c2353df920a49ba6ba85437f1066e4 -s Festplatten -i PRTG-Kern -d **true**
 
 Je nachdem, wo das Problem ist, erhält man ein anderes Ergebnis.
 
@@ -92,5 +92,5 @@ Je nachdem, wo das Problem ist, erhält man ein anderes Ergebnis.
 Entweder ist Java nicht installiert, oder nicht korrekt in der Systemungebungsvariable hinterlegt. 
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
