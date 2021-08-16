@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-05-20T08:32:39.089Z
+date: 2021-08-16T09:42:36.442Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -84,7 +84,5 @@ Das Modul meldet sich mithilfe des Angegebenen Benutzers am Freigegebenem Postfa
 **Nicht Unterstützt ist sich mit einem Freigegebenem Postfach einzuloggen, und von dort aus die Öffentlichen Verzeichnisse zu durchsuchen.**
 
 # Downloads & Lizenzierung
-
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
