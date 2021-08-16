@@ -2,7 +2,7 @@
 title: Quelle: VCard
 description: 
 published: true
-date: 2021-04-15T08:41:44.988Z
+date: 2021-08-16T09:42:45.683Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:12.400Z
@@ -46,5 +46,5 @@ Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser 
 Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Slash aufhören. Ein Dateiname darf nicht angehängt werden.  (Dieser wird oben im Import gesetzt)
 
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
