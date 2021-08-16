@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-06-28T13:19:59.259Z
+date: 2021-08-16T09:59:53.848Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -171,5 +171,5 @@ Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des T
 
 ![5](/uploads/exchange-kalender-connector/5.gif "5")
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.nucom.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.si-solutions.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
