@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-08-16T09:46:26.802Z
+date: 2021-08-27T13:47:56.412Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -90,6 +90,14 @@ Datenpaketinhalt:
 - ReferenceOfConsultation (STRING): ???
 - SipCallIds (STRING): ???
 - Timestamp (NUMBER): Die Uhrzeit in Millisekunden (Epoch Zeit).
+
+### onModuleInstanceStateChangedEvent
+Dieses Event feuert jedes mal, wenn eine Instanz eines Moduls de-aktiviert
+Datenpaketinhalt:
+- InstanceUUID (STRING): Die InstanceUUID, des Moduls, welches gerade de-aktiviert wurde
+- IsEnabled (BOOLEAN): Ob die Instanz neu Ein-oder Ausgeschaltet ist.
+
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
