@@ -1,8 +1,8 @@
 ---
 title: Ausgehende Rufnummernsignalisierung
 description: 
-published: false
-date: 2021-08-27T11:36:35.709Z
+published: true
+date: 2021-08-27T11:37:17.295Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
