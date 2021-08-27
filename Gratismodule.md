@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: false
-date: 2021-08-27T10:02:56.843Z
+date: 2021-08-27T11:36:35.709Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -13,6 +13,8 @@ Das Modul ermöglicht es die Rufnummerisignalisierung von Benutzer mit mögliche
 
 
 # Konfiguration
+
+![1.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/1.PNG)
 
 ## Zu reagierende Gruppe
 Es werden nur auf Teilnehmer dieser Gruppe reagiert.
