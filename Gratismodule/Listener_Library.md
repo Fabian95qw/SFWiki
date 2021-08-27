@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-08-27T13:47:56.412Z
+date: 2021-08-27T13:49:24.939Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -97,7 +97,12 @@ Datenpaketinhalt:
 - InstanceUUID (STRING): Die InstanceUUID, des Moduls, welches gerade de-aktiviert wurde
 - IsEnabled (BOOLEAN): Ob die Instanz neu Ein-oder Ausgeschaltet ist.
 
-
+### onLineStateChangedEvent
+Dieses Event feuert jedes mal, wenn der Leitungsstatus zwischen On- und Offline wechselt.
+Datenpaketinhalt:
+- LineconfigId (STRING): Die Config ID der Leitung aus der DB
+- LineName (STRING): Den Anzeigenamen der Leitung
+- IsOnline (BOOLEAN): Ob die neue Leitung neu Online ist.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
