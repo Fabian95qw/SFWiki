@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2021-08-16T09:46:21.659Z
+date: 2021-09-03T13:17:22.248Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -12,9 +12,11 @@ dateCreated: 2021-04-07T11:35:06.671Z
 Modul, welches es erlaubt Let's Encrypt Zertifikate einzurichten inklusive auto-renewal
 **Gratislizenz: E334T-Y2I2X-X4AZZ-RKZ9F-GVKF6**
 # Konfiguration
-```diff
-- Um einen korrekten Ablauf zu gewährleisten muss das Modul Schritt, für Schritt ausgefüllt werden, und zwischen jedem Schritt zwingend gespeichert werden (nicht übernehmen), um einen korrekten Ablauf zu garantieren.
-```
+
+> Um einen korrekten Ablauf zu gewährleisten muss das Modul Schritt, für Schritt ausgefüllt werden, und zwischen jedem Schritt zwingend gespeichert werden (nicht übernehmen), um einen korrekten Ablauf zu garantieren.
+> 
+{.is-danger}
+
 ## Automatisierung & ACME-Konfiguration
 Bevor das Modul überhaupt einen Antrag auf ein SSL-Zertifikat stellen kann, muss ein acme Server gewählt werden.
 
