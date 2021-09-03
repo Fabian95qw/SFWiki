@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2021-09-03T13:18:31.361Z
+date: 2021-09-03T13:19:26.221Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -30,8 +30,6 @@ Löscht alle Informationen auf der Starface, welche durch das Modul generiert wu
 > Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA" sowie "Challenge Erfüllt" entfernt wurden.
 {.is-danger}
 
-
-
 ## 1. Account erstellen & EULA Akzeptieren
 ### Account erstellen
 Um den Acme-Dienst zu Nutzen, muss eine E-Mail Adresse angegeben werden. Diese wird genutzt, um z.b. über Auslaufende Zertifikate zu informieren.
@@ -48,9 +46,10 @@ Ihr müsst vorab die EULA von Let's Encrypt Akzeptieren: https://letsencrypt.org
 ## 2. Authorisierung/Challenge
 ### Domäne Angeben
 Im 2. Schritt muss zuerst eine Domäne angegeben werden, für welche die Challenge ausgeführt werden soll, sowie der Challenge Typ DNS/HTTP gewählt werden.
-```diff
-- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
-```
+
+> Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+{.is-danger}
+
 ![Step 2](/uploads/lets-encrypt/step-2.gif "Step 2")
 
 ### Challenge erfüllen
@@ -62,17 +61,19 @@ Diese Challenge muss nun zuerst erfüllt werden.
 
 ### Challenge bestätigen
 Wenn die Challenge nun korrekt auf dem DNS-Server, oder Webserver ausgeführt wurde, kann der Haken bei "Challenge Erfüllt" gesetzt werden, um das Modul fortzusetzen.
-```diff
-- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
-```
+
+> Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+{.is-danger}
+
 ![Step 5](/uploads/lets-encrypt/step-5.gif "Step 5")
 
 ## 3. Zertifikat anfordern
 Wenn die Challenge Erfüllt wurde, kann man nun sein Zertifikat anfordern. 
 Zur Prüfung, ob die Challenge korrekt Erfüllt wurde, kann man den Status im Feld "Challenge Status" prüfen.
-```diff
-- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
-```
+
+> Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+{.is-danger}
+
 ![Step 6](/uploads/lets-encrypt/step-6.gif "Step 6")
 
 ## 4. Zertifikatserstellungseintrag überprüfen.
@@ -80,9 +81,9 @@ Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen k�
 
 ![Step 7](/uploads/lets-encrypt/step-7.gif "Step 7")
 
-```diff
-- Damit das Zertifikat vom Webserver verwendet wird, muss die Starface neu gestartet werden.
-```
+> Damit das Zertifikat vom Webserver verwendet wird, muss die Starface neu gestartet werden.
+{.is-danger}
+
 ## E-Mail Paket
 Ermöglicht das Senden aller Daten des ACME-Vorgangs per E-Mail.
 
