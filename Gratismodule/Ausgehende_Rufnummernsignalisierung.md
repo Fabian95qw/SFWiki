@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-09-03T13:11:50.339Z
+date: 2021-09-03T13:16:08.439Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -50,7 +50,9 @@ Seine jetzige Signalisierte Rufnummer
 
 ## Zielbasiertes Nummernmapping
 Hier können anzuzeigende Rufnummern basierend auf der Gewählten Zielnummer gesetzt werden.
-Zu beachten ist, die Nummern müssen im korrekten internationalisierten Format verwendet werden müssen.
+Zu beachten ist, die Nummern müssen im korrekten internationalisierten Format verwendet werden.
+> Internationale Vorwahlen müssen immer das 00 verwenden, ansonsten funktioniert der Filter nicht.
+{.is-danger}
 
 
 # Downloads & Lizenzierung
