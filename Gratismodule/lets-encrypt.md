@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2021-09-03T13:17:36.560Z
+date: 2021-09-03T13:18:31.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -27,9 +27,10 @@ Die Let's Encrypt Typsichen Server sind:
 ### Datensatz Löschen
 Löscht alle Informationen auf der Starface, welche durch das Modul generiert wurden.
 
-```diff
-- Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA" sowie "Challenge Erfüllt" entfernt wurden.
-```
+> Bitte Sicherstellen, dass die Haken bei "Akzeptiere ACME EULA" sowie "Challenge Erfüllt" entfernt wurden.
+{.is-danger}
+
+
 
 ## 1. Account erstellen & EULA Akzeptieren
 ### Account erstellen
@@ -37,9 +38,10 @@ Um den Acme-Dienst zu Nutzen, muss eine E-Mail Adresse angegeben werden. Diese w
 
 ### Akzeptiere EULA
 Ihr müsst vorab die EULA von Let's Encrypt Akzeptieren: https://letsencrypt.org/repository/
-```diff
-- Nach diesem Schritt muss das Modul zwingend gespeichert werden!
-```
+
+> Nach diesem Schritt muss das Modul zwingend gespeichert werden!
+{.is-danger}
+
 
 ![Step 1](/uploads/lets-encrypt/step-1.gif "Step 1")
 
