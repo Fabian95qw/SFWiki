@@ -2,14 +2,14 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-09-03T13:16:08.439Z
+date: 2021-09-06T14:11:36.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
 ---
 
 # Beschreibung
-Das Modul ermöglicht es die Rufnummerisignalisierung von Benutzer mit möglichen Quell, sowie Zielnummernfiltern zu setzen.
+Das Modul ermöglicht es die Rufnummernsignalisierung von Benutzer mit möglichen Quell, sowie Zielnummernfiltern zu setzen.
 
 
 # Konfiguration
