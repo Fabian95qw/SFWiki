@@ -2,7 +2,7 @@
 title: Zammad-CTI
 description: 
 published: true
-date: 2021-09-09T07:59:41.334Z
+date: 2021-09-09T08:00:08.425Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:43.372Z
@@ -37,10 +37,11 @@ Die Weitergabe ans Zammad findet nur auf der Gruppe statt, das heisst alle Einge
 > In diesem Modus werden ausgehende Anrufe nie ans Zammad weitergegeben, und interne Anrufe werden nur weitergegeben, wenn die Gruppe angerufen wird.
 {.is-danger}
 
-
 ## Zuweisung STARFACE Benutzer <==> Zammad Benutzer
 Damit das Ticket beim korrekten Zammad User aufgeht, muss dieser an einen STARFACE Benutzer gebunden sein.
 Dies ist gelöst, indem man die interne Primäre Rufnummer des Benutzers im Zammad Benutzerfeld "Telefon" hinterlegt.
+
+![zammad-cti-userconnect.png](/uploads/zammad-cti/zammad-cti-userconnect.png)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
