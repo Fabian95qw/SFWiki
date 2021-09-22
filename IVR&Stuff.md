@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-09-22T06:11:39.172Z
+date: 2021-09-22T06:12:03.042Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -27,7 +27,10 @@ Es gibt folgende Stufentypen:
 Details zu den entsprechenden Stufen finden sie weiter unten im Wiki-Artikel.
 
 ## Die Stufenliste ist unvollständig, oder zeigt falsche Einträge
-Die Stufenliste aktualisiert sich jeweils nur, wenn eine Instanz des Moduls **gespeichert** wird. **Beim Übernehmen passiert dies nicht**
+> Die Stufenliste aktualisiert sich jeweils nur, wenn eine Instanz des Moduls **gespeichert** wird.
+**Beim Übernehmen passiert dies nicht**
+{.is-danger}
+
 
 ## Konfigurationen die hierher verweisen
 Listet auf, welche anderen IVR&Stuff Module auf diese Instanz verweisen.
