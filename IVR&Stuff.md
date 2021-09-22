@@ -2,7 +2,7 @@
 title: IVR&Stuff
 description: 
 published: true
-date: 2021-08-16T11:02:13.186Z
+date: 2021-09-22T06:11:39.172Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-05T11:08:21.154Z
@@ -25,6 +25,9 @@ Es gibt folgende Stufentypen:
 - Voicemail
 
 Details zu den entsprechenden Stufen finden sie weiter unten im Wiki-Artikel.
+
+## Die Stufenliste ist unvollständig, oder zeigt falsche Einträge
+Die Stufenliste aktualisiert sich jeweils nur, wenn eine Instanz des Moduls **gespeichert** wird. **Beim Übernehmen passiert dies nicht**
 
 ## Konfigurationen die hierher verweisen
 Listet auf, welche anderen IVR&Stuff Module auf diese Instanz verweisen.
