@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-09-23T12:15:35.150Z
+date: 2021-09-23T12:16:06.661Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -18,8 +18,8 @@ Das Modul ermöglicht es die Rufnummernsignalisierung von Benutzer mit mögliche
 
 ## Zu reagierende Gruppe
 Es werden nur auf Teilnehmer dieser Gruppe reagiert.
-> Falls diese Gruppe leer bleibt, werden auf alle augehenden Anrufe reagiert.
-> 
+
+> Falls keine Gruppe gewählt wird, werden auf alle augehenden Anrufe reagiert.
 {.is-danger}
 
 ## Vorrang
