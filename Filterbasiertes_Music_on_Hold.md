@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:32:40.580Z
+date: 2021-09-27T12:33:20.334Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -26,7 +26,7 @@ Der Anrufer Filter besagt, dass alle Anrufer aus der Schweiz die Wartschlangenmu
 Je nach Vorrang, wird nun die "Jodeln" oder "Schlager" Warteschlangenmusik gesetzt
 
 ## Zeiträume
-Es können Zeiträume Definiert werden, in denen dieses spezifische Konfiguration gilt. 
+Es können Zeiträume definiert werden, in denen dieses spezifische Konfiguration gilt. 
 Das Format hier, ist genau gleich wie bei der [Zeitgesteuerten Umleitung von STARFACE](https://knowledge.starface.de/pages/viewpage.action?pageId=46566379)
 
 ## Filtermöglichkeiten
