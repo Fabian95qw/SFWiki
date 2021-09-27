@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:24:25.262Z
+date: 2021-09-27T12:31:50.450Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -25,6 +25,10 @@ Der Anrufer Filter besagt, dass alle Anrufer aus der Schweiz die Wartschlangenmu
 
 Je nach Vorrang, wird nun die "Jodeln" oder "Schlager" Warteschlangenmusik gesetzt
 
+## Zeiträume
+Es können Zeiträume Definiert werden, in denen dieses spezifische Konfiguration gilt. 
+Das Format hier, ist genau gleich wie bei der [Zeitgesteuerten Umleitung von STARFACE](/de/https://knowledge.starface.de/pages/viewpage.action?pageId=46566379)
+
 ![moh-filter.png](/uploads/music-on-hold/moh-filter.png)
 
 ## Filtermöglichkeiten
@@ -38,6 +42,7 @@ Mögliche Formate:
 .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 ... ==> Alle dreistelligen Nummern
 .23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
+
 
 
 
