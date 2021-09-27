@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:33:20.334Z
+date: 2021-09-27T12:38:08.417Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -10,6 +10,10 @@ dateCreated: 2021-09-27T12:13:36.391Z
 
 # Beschreibung
 Dieses Modul erlaubt es die Warteschlangenmsuik für eingehende Anrufer Zeitgesteuert, sowie basierend auf Filter für die Anrufer & Angerufene Nummer zu setzen.
+
+> IQueue Wartschlangen können nicht überschrieben werden.
+{.is-danger}
+
 
 # Konfiguration
 
@@ -43,8 +47,6 @@ Mögliche Formate:
 .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 ... ==> Alle dreistelligen Nummern
 .23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
-
-
 
 
 # Downloads & Lizenzierung
