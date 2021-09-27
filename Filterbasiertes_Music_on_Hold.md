@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:18:28.550Z
+date: 2021-09-27T12:19:51.386Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -13,7 +13,7 @@ Dieses Modul erlaubt es die Wartemusik für eingehende Anrufer Zeitgesteuert, so
 
 # Konfiguration
 
-
+![moh-config.png](/uploads/music-on-hold/moh-config.png)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
