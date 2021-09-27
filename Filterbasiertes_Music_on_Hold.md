@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:31:59.842Z
+date: 2021-09-27T12:32:40.580Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -29,9 +29,10 @@ Je nach Vorrang, wird nun die "Jodeln" oder "Schlager" Warteschlangenmusik geset
 Es können Zeiträume Definiert werden, in denen dieses spezifische Konfiguration gilt. 
 Das Format hier, ist genau gleich wie bei der [Zeitgesteuerten Umleitung von STARFACE](https://knowledge.starface.de/pages/viewpage.action?pageId=46566379)
 
+## Filtermöglichkeiten
+
 ![moh-filter.png](/uploads/music-on-hold/moh-filter.png)
 
-## Filtermöglichkeiten
 Mögliche Formate:
 00491234567890 ==> Exakte Nummer
 0049123456* ==> Alle Nummern die mit 0049123456 beginnen
