@@ -2,7 +2,7 @@
 title: Add-On: Funktionstasten aktualisieren
 description: 
 published: true
-date: 2021-08-16T09:44:07.814Z
+date: 2021-09-27T09:48:49.396Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:27:42.682Z
@@ -27,7 +27,7 @@ Die Automatische ausführung passiert nur, wenn dieser Haken aktiviert ist
 
 ### Telefone provisionieren
 Bestimmt, ob die Tischtelefone auch neu provisioniert werden soll!
-**Achtung, je nach Tischtelefonw ird dieses neu gestartet**
+**Achtung, je nach Tischtelefon wird dieses neu gestartet**
 
 ## Parametisierung Besetztlampenfelder
 
