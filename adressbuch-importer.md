@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2021-08-16T09:40:58.463Z
+date: 2021-10-06T09:36:43.028Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -95,13 +95,13 @@ Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
 Für die Konfiguration der individuellen Quellen siehe:
 
-Exchange Connector: http://wiki.nucom.ch/adressbuch-importer/exchange-connector
-Office365 Connector: http://wiki.nucom.ch/adressbuch-importer/office-365-connector
-Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.nucom.ch/adressbuch-importer/datei-import
-Google Contacts: http://wiki.nucom.ch/adressbuch-importer/google-contacts
-CardDAV: http://wiki.nucom.ch/adressbuch-importer/card-dav
-Multi-VCard:  http://wiki.nucom.ch/adressbuch-importer/vcard
-Pipedrive-CRM: http://wiki.nucom.ch/adressbuch-importer/pipedrive
+Exchange Connector: http://wiki.si-solutions.ch/adressbuch-importer/exchange-connector
+Office365 Connector: http://wiki.si-solutions.ch/adressbuch-importer/office-365-connector
+Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.si-solutions.ch/adressbuch-importer/datei-import
+Google Contacts: http://wiki.si-solutions.ch/adressbuch-importer/google-contacts
+CardDAV: http://wiki.si-solutions.ch/adressbuch-importer/card-dav
+Multi-VCard:  http://wiki.si-solutions.ch/adressbuch-importer/vcard
+Pipedrive-CRM: http://wiki.si-solutions.ch/adressbuch-importer/pipedrive
 
 ## Duplikatserkennung
 
