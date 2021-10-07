@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-08-16T09:42:36.442Z
+date: 2021-10-07T06:40:09.979Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -14,7 +14,7 @@ Hier geht es spezifisch um die Konfiguration des Office365-Connectors im Adressb
 
 # Vorsicht Abhängigkeit!
 **Dieses Modul setzt vorraus, dass das Modul "Microsoft Graph API Library" installiert ist.**
-Dieses finden sie auf http://module.nucom.ch/
+Dieses finden sie auf http://module.si-solutions.ch
 # Konfiguration
 
 ![O 365 Connector](/uploads/adressbuch-importer/o-365-connector.png "O 365 Connector")
