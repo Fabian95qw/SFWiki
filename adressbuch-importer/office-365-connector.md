@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-10-15T07:53:28.949Z
+date: 2021-10-15T07:53:42.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -48,7 +48,7 @@ Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-
 ### E-Mail Adresse für Import
 Der Office365 Connector nutzt die App-Zugangsdaten, um sich als diesen Benutzer anzumelden (**Applicationimpersination**), alle Aktionen im Exchange werden im Namen dieses Benutzers ausgeführt.
 
-> Benutzer mit aktivierter Multi-Faktor Authentifizierung (MFA) sind nicht unterstützt!{.is-danger}
+> Benutzer mit aktivierter Multi-Faktor Authentifizierung (MFA) werden nicht unterstützt!{.is-danger}
 
 
 ## Kontakt Import Herkunftswahl
