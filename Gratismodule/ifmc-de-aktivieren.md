@@ -2,7 +2,7 @@
 title: IFMC De/Aktivieren
 description: 
 published: true
-date: 2021-08-16T09:46:15.798Z
+date: 2021-10-18T14:06:55.611Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:26.576Z
@@ -17,5 +17,6 @@ Fertig!
 ![1](/uploads/ifmc-de-aktivieren/1.jpg "1")
 
 # Downloads & Lizenzierung
+**Gratislizenz: TZKZ5-F55KX-J7MJP-NPAGV-KWQNK**
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
