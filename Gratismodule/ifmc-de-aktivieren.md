@@ -2,7 +2,7 @@
 title: IFMC De/Aktivieren
 description: 
 published: true
-date: 2021-10-18T14:10:38.505Z
+date: 2021-10-20T06:08:31.233Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:26.576Z
@@ -10,6 +10,7 @@ dateCreated: 2021-04-07T11:34:26.576Z
 
 # Beschreibung
 Ein kleines Modul, welches es erlaubt per Modultaste IFMC für einen User zu De-/Aktivieren
+**Gratislizenz: TZKZ5-F55KX-J7MJP-NPAGV-KWQNK**
 # Konfiguration
 Instanz erstellen, Benutzer für Taste auswählen.
 Speichern und beim Benutzer auf den BLF-Platzieren.
@@ -30,6 +31,5 @@ Beispiele:
 +49*80: Nur +49 er IFMC-Nummern, die mit 80 aufhören 
 
 # Downloads & Lizenzierung
-**Gratislizenz: TZKZ5-F55KX-J7MJP-NPAGV-KWQNK**
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
