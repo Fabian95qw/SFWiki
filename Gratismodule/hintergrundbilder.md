@@ -2,7 +2,7 @@
 title: Hintergrundbilder
 description: 
 published: true
-date: 2021-08-16T09:45:41.998Z
+date: 2021-10-20T06:09:23.917Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:12.107Z
@@ -10,6 +10,8 @@ dateCreated: 2021-04-07T11:34:12.107Z
 
 # Beschreibung
 Ein Modul, welches bei der Anpassung von Hintergrundbildern für Telefone vereinfacht. 
+Dieses Modul funktioniert zwischenzeitlich ohne Lizenzschlüssel.
+
 # Konfiguration
 ![Download](/uploads/hintergrundbilder/download.png "Download")
 ## Prüfintervall
