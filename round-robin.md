@@ -2,7 +2,7 @@
 title: Roundrobin
 description: 
 published: true
-date: 2021-10-21T11:21:54.828Z
+date: 2021-10-21T11:22:59.661Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:36:47.170Z
@@ -44,6 +44,10 @@ Bespiel im RoundRobin Modus:
 2. Ruf ==> Beginnt bei Tn.2 ==> Weiter zu Tn.3 ==> Weiter zu Tn.1 ==> Geht auf Voicemailbox von Tn2
 3. Ruf ==> Beginnt bei Tn.3 ==> Weiter zu Tn.1 ==> Weiter zu Tn.2 ==> Geht auf Voicemailbox von Tn3
 
+Beispiel im Verteilmodus:
+1. Ruf ==> Beginnt bei Tn.1 ==> Bleibt bei Tn1, bis die Klingelzeit abgelaufen ist ==> Geht auf Voicemailbox Tn1
+2. Ruf ==> Beginnt bei Tn.2 ==> Bleibt bei Tn2, bis die Klingelzeit abgelaufen ist ==> Geht auf Voicemailbox Tn2
+3. Ruf ==> Beginnt bei Tn.3 ==> Bleibt bei Tn3, bis die Klingelzeit abgelaufen ist ==> Geht auf Voicemailbox Tn3
 
 ## Voicemail Pre-/Suf-fix
 Wenn ein Benutzer mehrere Voicemailoxen hat, muss mit dem Pre-/Suffix zwischen den verschiedenen Voicemailboxen unterschieden werden. Ansonsten landet der Anruf eventuell auf der falschen Mailbox.
