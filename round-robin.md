@@ -2,7 +2,7 @@
 title: Roundrobin
 description: 
 published: true
-date: 2021-10-21T11:22:59.661Z
+date: 2021-10-21T11:24:53.057Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:36:47.170Z
@@ -20,6 +20,7 @@ Hierbei lassen sich ebenfalls die maximale Anzahl Iterationen durch alle Teilneh
 
 ## Anzahl Iterationen
 Definiert, wie oft das Modul durch alle Teilnehmer Rotiert, bevor es den Anruf weiterleitet.
+0 Iterationen == Unlimitiert. Der Anruf verlässt das Roundrobin nie.
 
 ## Anrufverteilung statt RoundRobin
 Ändert die Funktion des Moduls wie folgt:
@@ -50,7 +51,7 @@ Beispiel im Verteilmodus:
 3. Ruf ==> Beginnt bei Tn.3 ==> Bleibt bei Tn3, bis die Klingelzeit abgelaufen ist ==> Geht auf Voicemailbox Tn3
 
 ## Voicemail Pre-/Suf-fix
-Wenn ein Benutzer mehrere Voicemailoxen hat, muss mit dem Pre-/Suffix zwischen den verschiedenen Voicemailboxen unterschieden werden. Ansonsten landet der Anruf eventuell auf der falschen Mailbox.
+Wenn ein Benutzer mehrere Voicemailboxen hat, muss mit dem Pre-/Suffix zwischen den verschiedenen Voicemailboxen unterschieden werden. Ansonsten landet der Anruf eventuell auf der falschen Mailbox.
 
 Beispiel:
 Benutzer besitzt 3 Mailboxen:
@@ -63,7 +64,7 @@ Um sicherzustellen, dass die Anrufe vom Roundrobin auf der Mailbox RR_Mailbox la
 ## Definition der Roundrobin Gruppe
 ![Roundrobin 2](/uploads/roundrobin/roundrobin-2.png "Roundrobin 2")
 
-Nun muss einfach die Klingelstrategie auf die Roundrobin Gruppe geändert werden, und fertig.
+Nun muss einfach die Klingelstrategie der Gruppe auf die Roundrobin Gruppe geändert werden, und fertig.
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
