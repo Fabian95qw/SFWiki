@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-11T15:49:02.107Z
+date: 2021-11-11T15:50:29.453Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -60,6 +60,30 @@ Zu beachten ist, die Nummern müssen im korrekten internationalisierten Format v
 
 ## Nummernfilter mit einer CallerID
 ![2.png](/uploads/zielabhaengige-rufnummernsignalisierung/2.png)
+
+### Zu reagierende Gruppe
+Es werden nur auf Teilnehmer dieser Gruppe reagiert.
+
+> Falls keine Gruppe gewählt wird, werden auf alle augehenden Anrufe reagiert.
+{.is-danger}
+
+### Zu setzende CallerID
+Die CallerID, die für alle gesetzt wird, die dem Filter entsprechen
+
+### Filtermöglichkeiten
+Mögliche Formate:
+00491234567890 ==> Exakte Nummer
+0049123456* ==> Alle Nummern die mit 0049123456 beginnen
+*789 ==> Alle Nummern die mit 789 Aufhören
+*123* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
+12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
+.23 ==> Alle dreistelligen Nummern, die mit 23 aufhören
+.2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
+... ==> Alle dreistelligen Nummern
+.23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
+
+### Zielummern Filtern mit Black-/Whitelist
+Dieses gibt einem die Möglichkeit, 
 
 
 # Downloads & Lizenzierung
