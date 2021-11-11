@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-11T14:38:46.460Z
+date: 2021-11-11T14:42:21.704Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -14,20 +14,17 @@ Das Modul ermöglicht es die Rufnummernsignalisierung von Benutzer mit mögliche
 # Wahl der Logik
 Das Modul kann zwei verschiedene Logiken: Nummernmapping mit Filtermöglichkeit, oder Nummernfilter mit einer CallerID.
 
-Unterschiede zwischen den zwei Logiken
-
-
-# Konfiguration
+## Nummernmapping mit Filtermöglichkeit
 
 ![1.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/1.PNG)
 
-## Zu reagierende Gruppe
+### Zu reagierende Gruppe
 Es werden nur auf Teilnehmer dieser Gruppe reagiert.
 
 > Falls keine Gruppe gewählt wird, werden auf alle augehenden Anrufe reagiert.
 {.is-danger}
 
-## Vorrang
+### Vorrang
 Wenn nun bei einem Szenario einerseit, eine Benutzerdefinierte Rufnummer, sowie eine Zieldefinierte Rufnummer zutrifft, muss gesetzt werden, welche Vorrang hat.
 
 Z.b.
@@ -35,7 +32,7 @@ Für den Benutzer 100, ist als anzuzeigende Rufnummer die 0041 234 56 78 gesetzt
 
 Je nach Vorrang, wird er nun die 0041 234 56 78 bzw. 0041 786 54 32 gegen aussen Anzeigen.
 
-## Filtermöglichkeiten
+### Filtermöglichkeiten
 Mögliche Formate:
 00491234567890 ==> Exakte Nummer
 0049123456* ==> Alle Nummern die mit 0049123456 beginnen
@@ -47,7 +44,7 @@ Mögliche Formate:
 ... ==> Alle dreistelligen Nummern
 .23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
 
-## Benutzerbasiertes Nummernmapping
+### Benutzerbasiertes Nummernmapping
 Hier können anzuzeigende Rufnummern basierend auf Einzelnummern, Nummernbereichen usw. gesetzt werden.
 
 Beim Filtern werden jeweils Folgende Felder berücksichtigt
@@ -55,11 +52,14 @@ Primäre interne Rufnummer des Benutzers
 Primäre externe Rufnummer des Benutzers
 Seine jetzige Signalisierte Rufnummer
 
-## Zielbasiertes Nummernmapping
+### Zielbasiertes Nummernmapping
 Hier können anzuzeigende Rufnummern basierend auf der Gewählten Zielnummer gesetzt werden.
 Zu beachten ist, die Nummern müssen im korrekten internationalisierten Format verwendet werden.
 > Internationale Vorwahlen müssen immer das 00 verwenden, ansonsten funktioniert der Filter nicht.
 {.is-danger}
+
+## Nummernfilter mit einer CallerID
+Work in progress.
 
 
 # Downloads & Lizenzierung
