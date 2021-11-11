@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-11T14:42:21.704Z
+date: 2021-11-11T15:49:02.107Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -59,7 +59,7 @@ Zu beachten ist, die Nummern müssen im korrekten internationalisierten Format v
 {.is-danger}
 
 ## Nummernfilter mit einer CallerID
-Work in progress.
+![2.png](/uploads/zielabhaengige-rufnummernsignalisierung/2.png)
 
 
 # Downloads & Lizenzierung
