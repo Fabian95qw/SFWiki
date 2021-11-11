@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-11T15:50:29.453Z
+date: 2021-11-11T15:56:49.931Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -70,6 +70,13 @@ Es werden nur auf Teilnehmer dieser Gruppe reagiert.
 ### Zu setzende CallerID
 Die CallerID, die für alle gesetzt wird, die dem Filter entsprechen
 
+### Zielummern Filtern mit Black-/Whitelist
+Dieses gibt einem die Möglichkeit, mehrere Nummernfilter mit den Filtermöglichkeiten zu definieren.
+
+### Black-/Whitelisting
+Wenn der Filter im Blacklist-Modus betrieben wird, wird bei Anrufen an diese Nummer die CallerID nicht geändert.
+Wenn der Filter im Whitelist-Moduls betrieben wird, wird nur bei Anrufen an diese Nummer die CallerID geändert.
+
 ### Filtermöglichkeiten
 Mögliche Formate:
 00491234567890 ==> Exakte Nummer
@@ -82,9 +89,9 @@ Mögliche Formate:
 ... ==> Alle dreistelligen Nummern
 .23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
 
-### Zielummern Filtern mit Black-/Whitelist
-Dieses gibt einem die Möglichkeit, 
-
+### Zielnummern Filterdatei
+Ermöglicht es, eine Liste von Rufnummern im internationalen Format hochzuladen, welche dann ebenfalls für das Black/Whitelist Filtern benützt werden kann.
+Die Rufnummer darf keine Leerzeichen o.ä. enthalten, also Z.b.: 0041715951060
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
