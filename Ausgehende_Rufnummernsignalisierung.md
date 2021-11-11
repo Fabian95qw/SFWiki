@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-09-27T12:59:27.095Z
+date: 2021-11-11T14:38:46.460Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -10,6 +10,11 @@ dateCreated: 2021-08-27T09:55:24.018Z
 
 # Beschreibung
 Das Modul ermöglicht es die Rufnummernsignalisierung von Benutzer mit möglichen Quell, sowie Zielnummernfiltern zu setzen.
+
+# Wahl der Logik
+Das Modul kann zwei verschiedene Logiken: Nummernmapping mit Filtermöglichkeit, oder Nummernfilter mit einer CallerID.
+
+Unterschiede zwischen den zwei Logiken
 
 
 # Konfiguration
