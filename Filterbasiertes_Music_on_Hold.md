@@ -2,7 +2,7 @@
 title: Filterbasiertes Music on Hold
 description: 
 published: true
-date: 2021-09-27T12:38:08.417Z
+date: 2021-11-17T13:12:42.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-27T12:13:36.391Z
@@ -31,7 +31,7 @@ Je nach Vorrang, wird nun die "Jodeln" oder "Schlager" Warteschlangenmusik geset
 
 ## Zeiträume
 Es können Zeiträume definiert werden, in denen dieses spezifische Konfiguration gilt. 
-Das Format hier, ist genau gleich wie bei der [Zeitgesteuerten Umleitung von STARFACE](https://knowledge.starface.de/pages/viewpage.action?pageId=46566379)
+Das Format hier, ist genau gleich wie bei der [Zeitgesteuerten Umleitung von STARFACE](https://knowledge.starface.de/pages/viewpage.action?pageId=46566379) aber nur in Deutsch
 
 ## Filtermöglichkeiten
 
