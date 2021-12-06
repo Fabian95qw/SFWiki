@@ -2,7 +2,7 @@
 title: Gruppenanmeldungsbasierter Chatstatus
 description: 
 published: true
-date: 2021-11-16T09:58:40.561Z
+date: 2021-11-16T09:58:46.519Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T09:30:00.294Z

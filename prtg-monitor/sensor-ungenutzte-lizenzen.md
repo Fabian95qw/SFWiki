@@ -2,7 +2,7 @@
 title: Sensor ungenutzte Lizenzen
 description: 
 published: true
-date: 2021-08-16T11:00:50.902Z
+date: 2021-08-16T11:00:55.374Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:47.475Z

@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-06T14:18:12.900Z
+date: 2021-12-06T14:18:17.848Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z

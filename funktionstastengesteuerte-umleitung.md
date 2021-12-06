@@ -2,7 +2,7 @@
 title: Funktionstastengesteuerte Umleitung
 description: 
 published: true
-date: 2021-08-16T11:01:50.449Z
+date: 2021-08-16T11:01:55.157Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:49.736Z

@@ -1,11 +1,11 @@
 ---
-title: Sensor Telefone On/Offline
+title: Demo Telefone On/Offline
 description: 
 published: true
-date: 2021-08-16T11:00:52.746Z
+date: 2021-04-07T13:22:52.141Z
 tags: 
 editor: markdown
-dateCreated: 2021-04-07T11:41:38.919Z
+dateCreated: 2021-04-07T11:43:07.382Z
 ---
 
 # Beschreibung
@@ -15,5 +15,5 @@ Ein Sensor, welcher angibt wieviele Telefone aktuell Online/Offline sind.
 
 ![Phonesonofflinesensor](/uploads/prtg/phonesonofflinesensor.png "Phonesonofflinesensor")
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.si-solutions.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.nucom.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung

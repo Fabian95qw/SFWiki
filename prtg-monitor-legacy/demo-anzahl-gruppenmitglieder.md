@@ -1,11 +1,11 @@
 ---
-title: Sensor Anzahl Gruppenmitglieder
+title: Demo Anzahl Gruppenmitglieder
 description: 
 published: true
-date: 2021-08-16T11:00:34.760Z
+date: 2021-04-07T13:35:42.253Z
 tags: 
 editor: markdown
-dateCreated: 2021-04-07T11:40:55.115Z
+dateCreated: 2021-04-07T11:42:12.477Z
 ---
 
 # Beschreibung
@@ -15,5 +15,5 @@ Ein Sensor, welcher die  Anzahl Mitglieder ein einer Gruppe zählt.
 
 ![Groupcountsensor](/uploads/prtg/groupcountsensor.png "Groupcountsensor")
 # Downloads & Lizenzierung
-Für Downloads besuchen sie bitte http://module.si-solutions.ch/
-Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
+Für Downloads besuchen sie bitte http://module.nucom.ch/
+Für Infos über die Lizenzierung siehe: http://wiki.nucom.ch:8018/lizenzierung

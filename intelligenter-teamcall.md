@@ -2,7 +2,7 @@
 title: Intelligenter Teamcall
 description: 
 published: true
-date: 2021-08-16T11:02:01.798Z
+date: 2021-08-16T11:02:06.506Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:33.932Z

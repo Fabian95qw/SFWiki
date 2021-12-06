@@ -2,7 +2,7 @@
 title: End of Life: Quelle: Card DAV
 description: 
 published: true
-date: 2021-08-16T09:41:35.410Z
+date: 2021-08-16T09:41:40.008Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:04.891Z
