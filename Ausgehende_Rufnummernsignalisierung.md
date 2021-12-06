@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-11T15:56:49.931Z
+date: 2021-11-24T15:41:29.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -91,7 +91,12 @@ Mögliche Formate:
 
 ### Zielnummern Filterdatei
 Ermöglicht es, eine Liste von Rufnummern im internationalen Format hochzuladen, welche dann ebenfalls für das Black/Whitelist Filtern benützt werden kann.
-Die Rufnummer darf keine Leerzeichen o.ä. enthalten, also Z.b.: 0041715951060
+Die Datei muss im UTF-8 Format sein. Eine Rufnummer pro Zeile.
+Die Rufnummer darf keine Leerzeichen o.ä. enthalten, also Z.b.: 
+0041715951060
+0041715951062
+0041715951061
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/

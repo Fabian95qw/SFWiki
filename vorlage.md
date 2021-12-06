@@ -2,7 +2,7 @@
 title: Vorlage
 description: 
 published: false
-date: 2021-08-27T09:45:59.447Z
+date: 2021-08-27T09:46:06.676Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:34.978Z

@@ -2,7 +2,7 @@
 title: MS Teams Statusabgleich
 description: 
 published: true
-date: 2021-08-16T11:02:19.542Z
+date: 2021-08-16T11:02:24.228Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:31.049Z
