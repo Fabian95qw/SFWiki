@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-06T14:16:59.982Z
+date: 2021-12-06T14:18:12.900Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -42,6 +42,7 @@ Setzt ein Feld in der GUI basierend auf dem GUI_Namen auf einen neuen Wert.
 ### Inputvariablen
 - ModuleInstanceProject (OBJECT): Das Modulisntanzprojekt. welches vom "GetModuleInstance4Edit" erzeugt wurde
 - GUI_NAME (STRING): Name des GUI_ELEMENT dass Editiert werden soll. Z.b. GUI_TEXT
+
 - Value (OBJECT) Der neue Wert, welcher in die GUI geschrieben werden soll. unterstützte Dateitypen sind: BOOLEAN,STRING,NUMBER,STARFACE_ACCOUNT,STARFACE_GROUP,STARFACE_USER,MAP,LIST
 
 ### Outputvariablen
