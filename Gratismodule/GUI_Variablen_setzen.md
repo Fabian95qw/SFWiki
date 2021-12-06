@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-06T14:18:17.848Z
+date: 2021-12-06T14:40:12.445Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -20,10 +20,18 @@ Ein paar Beispiele:
 
 # Modulbausteine laden & verwenden
 
+Der Baustein kann via: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/guichanges.rar heruntergeladen werden
 
+In diesem .rar File enthält es drei Bausteine. diese müssen via "Resources" in das Modul geladen werden, in die sie Verwendet werden sollen.
+
+![1.png](/uploads/gui-variablen-setzen/1.png)
+
+Nachdem die Modulbausteine hochgeladen wurden, müssten diese im "Public" Bereich unter dem eigenen Modulnamen (Im Experten Modus) sichtbar werden.
+
+![2.png](/uploads/gui-variablen-setzen/2.png)
 
 # Modulbausteine
-Das Modul enthält 3 Modulbausteine:
+Die Details zu den drei Modulbausteinen
 
 ## GetModuleInstance4Edit
 Erzeugt ein Modulinstanzprojekt. Dies repräsentiert das gleiche, wie wenn man in der GUI den Bleistift bei einer Instanz getätigt hat. Dieses Objekt muss mit den anderen Bausteinen verwendet werden.
@@ -41,8 +49,8 @@ Setzt ein Feld in der GUI basierend auf dem GUI_Namen auf einen neuen Wert.
 
 ### Inputvariablen
 - ModuleInstanceProject (OBJECT): Das Modulisntanzprojekt. welches vom "GetModuleInstance4Edit" erzeugt wurde
-- GUI_NAME (STRING): Name des GUI_ELEMENT dass Editiert werden soll. Z.b. GUI_TEXT
-
+- GUI_NAME (STRING): Name des GUI_ELEMENT dass Editiert werden soll. Z.b. GUI_STRING_TEST
+![3.png](/uploads/gui-variablen-setzen/3.png)
 - Value (OBJECT) Der neue Wert, welcher in die GUI geschrieben werden soll. unterstützte Dateitypen sind: BOOLEAN,STRING,NUMBER,STARFACE_ACCOUNT,STARFACE_GROUP,STARFACE_USER,MAP,LIST
 
 ### Outputvariablen
@@ -54,6 +62,14 @@ Alle Änderungen, welche mit dem SetFieldbyGUIName4Instance vorbereitet wurden, 
 Dieser Baustein speichert die Änderungen ab.
 > Das durch den Baustein ausgeführte Speichern löst automatisch den Eintrittspunkt "Instance Changed" aus! Falls ihr GUI_Elemente von einem "Instance Changed" Eintrittspunkt aus verwendet sollte unbedingt rücksicht auf "VariableChanged" genommen werden, um einen Loop zu verhindern.{.is-danger}
 
+### Inpuvariablen
+- ModuleInstanceProject (OBJECT): Das Modulisntanzprojekt. welches vom "GetModuleInstance4Edit" erzeugt und anschliessend mit SetFieldbyGUIName4Instance editiert wurde.
+
+### Outputvariablen
+- Success (BOOLEAN): Gibt zurück ob die Änderungen Erfolgreich gespeichert werden konnten.
+
+
+![example.gif](/uploads/gui-variablen-setzen/example.gif)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
