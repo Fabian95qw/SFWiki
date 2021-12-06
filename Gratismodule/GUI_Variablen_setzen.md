@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-06T14:40:12.445Z
+date: 2021-12-06T14:43:52.942Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -68,7 +68,10 @@ Dieser Baustein speichert die Änderungen ab.
 ### Outputvariablen
 - Success (BOOLEAN): Gibt zurück ob die Änderungen Erfolgreich gespeichert werden konnten.
 
+# Beispielmodul
+Ein Beispielmodul für die Anwendung der Bausteine findet man hier: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/GUI_Variablen_editieren_Beispiel_v69.sfm
 
+Das Beispielmodul enthält ein Beispiel für alle unterstützten GUI_Elemente.
 ![example.gif](/uploads/gui-variablen-setzen/example.gif)
 
 # Downloads & Lizenzierung
