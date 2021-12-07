@@ -2,13 +2,14 @@
 title: Adressbuch Exporter
 description: 
 published: true
-date: 2021-08-16T09:45:30.939Z
+date: 2021-12-07T16:01:43.496Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:31.948Z
 ---
 
 # Beschreibung
+**Gratislizenz: PKJNZ-CXX5G-X4VC6-YSYEC-A3AR2**
 Das Modul kann einzelne Adressbücher in CSV's Exportieren und diese per E-Mail zustellen. 
 
 # Konfiguration
@@ -33,6 +34,6 @@ Das Ergebnis würde dann so aussehen:
 
 ![Export](/uploads/adressbuch-exporter/export.png "Export")
 # Downloads & Lizenzierung
-**Gratislizenz: PKJNZ-CXX5G-X4VC6-YSYEC-A3AR2**
+
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
