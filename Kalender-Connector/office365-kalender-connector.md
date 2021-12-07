@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-08-16T09:59:58.704Z
+date: 2021-12-07T16:00:24.861Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -21,8 +21,10 @@ Oder kurz Ausgedrückt:
 
 
 # Vorsicht Abhängigkeit!
-**Dieses Modul setzt vorraus, dass das Modul "Microsoft Graph API Library" installiert ist.**
-Dieses finden sie auf http://module.nucom.ch/
+> **Dieses Modul setzt vorraus, dass das Modul "Microsoft Graph API Library" installiert ist.**
+{.is-danger}
+
+Dieses finden sie auf http://si-solutions.ch
 
 # Konfiguration
 ![1](/uploads/office365-kalender-connector/1.png "1")
