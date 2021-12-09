@@ -2,7 +2,7 @@
 title: IFMC De/Aktivieren
 description: 
 published: true
-date: 2021-10-20T06:08:38.197Z
+date: 2021-12-09T16:00:32.509Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:26.576Z
@@ -21,7 +21,7 @@ Fertig!
 Das Modul erlaubt es einem Mithilfe von Black/Whitelist Filtern gewisse IFMC-Nummern zu inkludieren/exkludieren.
 
 ## Filtermöglichkeiten
-Es gibt eine Filter mit Wildcard möglichkeiten:
+Es gibt einen Filter mit Wildcard möglichkeiten:
 
 Beispiele:
 0041*:Nur IFMC-Nummern die mit 0041 Beginnen
