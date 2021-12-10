@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-06T14:43:52.942Z
+date: 2021-12-10T10:24:40.676Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -22,7 +22,7 @@ Ein paar Beispiele:
 
 Der Baustein kann via: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/guichanges.rar heruntergeladen werden
 
-In diesem .rar File enthält es drei Bausteine. diese müssen via "Resources" in das Modul geladen werden, in die sie Verwendet werden sollen.
+In diesem .rar File enthält es vier Bausteine. diese müssen via "Resources" in das Modul geladen werden, in die sie Verwendet werden sollen.
 
 ![1.png](/uploads/gui-variablen-setzen/1.png)
 
@@ -31,7 +31,7 @@ Nachdem die Modulbausteine hochgeladen wurden, müssten diese im "Public" Bereic
 ![2.png](/uploads/gui-variablen-setzen/2.png)
 
 # Modulbausteine
-Die Details zu den drei Modulbausteinen
+Die Details zu den viel Modulbausteinen
 
 ## GetModuleInstance4Edit
 Erzeugt ein Modulinstanzprojekt. Dies repräsentiert das gleiche, wie wenn man in der GUI den Bleistift bei einer Instanz getätigt hat. Dieses Objekt muss mit den anderen Bausteinen verwendet werden.
@@ -67,6 +67,15 @@ Dieser Baustein speichert die Änderungen ab.
 
 ### Outputvariablen
 - Success (BOOLEAN): Gibt zurück ob die Änderungen Erfolgreich gespeichert werden konnten.
+
+## IsEntryPointTriggeredbySaveChanges
+Damit kann man Prüfen, ob der aktuelle Instance_Changed durch den "SaveChanges" baustein ausgelöst wurde.
+
+### Inputvariablen
+Baustein braucht keine Inputvariablen
+
+### Outputvariablen
+- IsTriggeredbySaveChanges (BOOLEAN): Gibt zurück ob diese Speicherung durch den Baustein "SaveChanges" ausgelöst wurde. Es zählt als ausgelöst, wenn innerhalb von 10 Sekunden nach der Speicherung des Moduls via "SaveChanges" der Instance_Changes erneut ausgelöst wird.
 
 # Beispielmodul
 Ein Beispielmodul für die Anwendung der Bausteine findet man hier: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/GUI_Variablen_editieren_Beispiel_v69.sfm
