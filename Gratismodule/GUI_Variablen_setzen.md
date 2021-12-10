@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-10T10:24:40.676Z
+date: 2021-12-10T10:25:41.521Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -78,7 +78,7 @@ Baustein braucht keine Inputvariablen
 - IsTriggeredbySaveChanges (BOOLEAN): Gibt zurück ob diese Speicherung durch den Baustein "SaveChanges" ausgelöst wurde. Es zählt als ausgelöst, wenn innerhalb von 10 Sekunden nach der Speicherung des Moduls via "SaveChanges" der Instance_Changes erneut ausgelöst wird.
 
 # Beispielmodul
-Ein Beispielmodul für die Anwendung der Bausteine findet man hier: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/GUI_Variablen_editieren_Beispiel_v69.sfm
+Ein Beispielmodul für die Anwendung der Bausteine findet man hier: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/GUI_Variablen_editieren_Beispiel_v73.sfm
 
 Das Beispielmodul enthält ein Beispiel für alle unterstützten GUI_Elemente.
 ![example.gif](/uploads/gui-variablen-setzen/example.gif)
