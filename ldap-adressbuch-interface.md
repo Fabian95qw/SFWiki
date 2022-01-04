@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-01-04T09:38:08.257Z
+date: 2022-01-04T09:43:26.774Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -13,8 +13,17 @@ Dieses Modul ermöglicht es, das in STARFACE integrierte Adressbuch per LDAP ber
 
 # Konfiguration Modul
 
-# LDAP Information über befüllte Felder
+# Verwendete LDAP Attribute
+Folgende LDAP Atrribute werden Verwendet/Befüllt:
 
+- cn: Besteht aus Vorname, Nachname, Firmenname
+- displayname: Besteht aus Vorname, Nachname, Firmenname 
+- givenname: Vorname
+- sn: Nachname
+- telephonenNumber: Die Rufnummer
+- homephone: Die private Rufnummer
+- mobile: Die Mobiltelefonnummer
+- description: Der Firmenname
 
 # LDAP Konfiguration auf Telefonen
 Damit die Telefone auf das LDAP Adressbuch Zugreifen kann, müssen geweisse Einstellungen an den Telefonen konfiguriert werden.
@@ -33,6 +42,16 @@ Um nun auf ein spezifisches Adressbuch zu zeigen würden die Base-DN's z.b. so a
 
 ## Searchstrings
 Als Searchstrings empfehlen wir Folgende:
+
+### Namensfilter
+Namensfilter: (|(cn=%*)(sn=%*)(givenname=%*))
+Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen
+
+
+### Nummernfilter
+
+Nummernfilter: (|(telePhoneNumber=*%*)(homePhone=*%*)(mobile=*%*))
+
 
 
 # Downloads & Lizenzierung
