@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-01-04T09:45:22.699Z
+date: 2022-01-04T09:46:09.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -46,8 +46,7 @@ Als Searchstrings empfehlen wir Folgende:
 
 ### Namensfilter
 Namensfilter: (|(cn=%*)(sn=%*)(givenname=%*)(description=%*))
-Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen
-
+Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie Firmennamen nach Begriffen, die mit der Suchanfrage beginnen.
 
 ### Nummernfilter
 
