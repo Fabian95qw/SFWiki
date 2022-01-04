@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-01-04T09:44:40.171Z
+date: 2022-01-04T09:45:22.699Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -45,7 +45,7 @@ Um nun auf ein spezifisches Adressbuch zu zeigen würden die Base-DN's z.b. so a
 Als Searchstrings empfehlen wir Folgende:
 
 ### Namensfilter
-Namensfilter: (|(cn=%*)(sn=%*)(givenname=%*))
+Namensfilter: (|(cn=%*)(sn=%*)(givenname=%*)(description=%*))
 Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen
 
 
