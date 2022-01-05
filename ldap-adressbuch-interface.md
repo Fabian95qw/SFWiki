@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-05T09:52:39.304Z
+date: 2022-01-05T09:53:11.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -25,7 +25,7 @@ Folgende LDAP Atrribute werden Verwendet/Befüllt:
 - telephoneNumber: Die primäre externe Rufnummer (bei STARFACE Benutzern)
 - homephone: Die private Rufnummer
 - mobile: Die Mobiltelefonnummer
-- description: Der Firmenname
+- description: Firmenname
 
 # LDAP Konfiguration auf Telefonen
 Damit die Telefone auf das LDAP Adressbuch Zugreifen kann, müssen geweisse Einstellungen an den Telefonen konfiguriert werden.
