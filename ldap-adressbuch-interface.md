@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-05T09:53:11.756Z
+date: 2022-01-05T09:54:13.711Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -51,7 +51,7 @@ Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie F
 
 ### Nummernfilter
 Nummernfilter: (|(telePhoneNumber=*%*)(homePhone=*%*)(mobile=*%*))
-Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, interner Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
+Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, primärer interner Rufnummer , primärer externer Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
