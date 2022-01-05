@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-04T09:58:04.392Z
+date: 2022-01-05T09:52:19.287Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -21,7 +21,8 @@ Folgende LDAP Atrribute werden Verwendet/Befüllt:
 - givenname: Vorname
 - sn: Nachname
 - telephonenNumber: Die Rufnummer
-- telephoneNumber: Die interne Rufnummer bei STARFACE Benutzern
+- telephoneNumber: Die primäre interne Rufnummer bei STARFACE Benutzern
+- telephoneNumber: Die primäre externe Rufnummer bei STARFACE Benutzern
 - homephone: Die private Rufnummer
 - mobile: Die Mobiltelefonnummer
 - description: Der Firmenname
