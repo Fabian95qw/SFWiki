@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-05T09:54:13.711Z
+date: 2022-01-13T08:43:18.644Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -46,11 +46,11 @@ Um nun auf ein spezifisches Adressbuch zu zeigen würden die Base-DN's z.b. so a
 Als Searchstrings empfehlen wir Folgende:
 
 ### Namensfilter
-Namensfilter: (|(cn=%*)(sn=%*)(givenname=%*)(description=%*))
+Namensfilter: (|(cn=%\*)(sn=%\*)(givenname=%\*)(description=%\*))
 Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie Firmennamen nach Begriffen, die mit der Suchanfrage beginnen.
 
 ### Nummernfilter
-Nummernfilter: (|(telePhoneNumber=*%*)(homePhone=*%*)(mobile=*%*))
+Nummernfilter: (|(telePhoneNumber=\*%\*)(homePhone=\*%\*)(mobile=\*%\*))
 Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, primärer interner Rufnummer , primärer externer Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
 
 # Downloads & Lizenzierung
