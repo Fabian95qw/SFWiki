@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-14T12:12:26.023Z
+date: 2022-01-14T12:21:56.109Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -31,7 +31,27 @@ Der LDAP Port, auf dem der LDAP Server zur Verfügung stehen soll.
 > Für die Verwendung in der STARFACE Cloud muss ein Port im Bereich 10000-20000 gewählt werden
 {.is-success}
 
+## STARFACE Benutzer für Adressbuchzugriff
+Das Modul lädt die Adressbucheinträge für den LDAP Server im Namen dieses Benutzers aus dem Adressbuch.
 
+## LDAP Zugriff
+
+**Der LDAP Zugriff muss zwingend durch einen Benutzernamen und Passwort abgesichert sein.**
+Dieser Benutzer wird für den Zugriff durch die Telelfone verwendet. Der Loginname ist immer cn=[Login]
+
+Die einzelnen STARFACE Adressbücher können einzeln als LDAP Adressbücher gemappt werden. 
+Dazu wird jeweils Links die Adressbuchnummer, und Rechts der Namen für das LDAP festgelegt. Mehr informationen dazu gibt es unten bei der Konfiguration des LDAP's auf den Telefonen.
+
+![ldap-config3.png](/uploads/ldap-adressbuch-interface/ldap-config3.png)
+
+
+## Arbeitsspeicher-Verbrauch
+Bei den Tests ergab sich etwa das Folgende Verhältnis:
+
+- 100 Kontakte: 1mb Arbeitsspeicher
+- 1000 Kontakte: 10mb Arbeitsspeicher
+- 10'000 Kontakte:100mb Arbeitsspeicher
+- 100'000 Kontakte:1000mb Arbeitsspeicher
 
 # Verwendete LDAP Attribute
 Folgende LDAP Atrribute werden Verwendet/Befüllt:
@@ -49,6 +69,10 @@ Folgende LDAP Atrribute werden Verwendet/Befüllt:
 
 # LDAP Konfiguration auf Telefonen
 Damit die Telefone auf das LDAP Adressbuch Zugreifen kann, müssen geweisse Einstellungen an den Telefonen konfiguriert werden.
+
+## Login
+Der im Modul gesetzte Login muss auf den Telefonen in der Form cn=[Login] eingetragen werden.
+Z.b. cn=Phone
 
 ## Base-DN
 Die Base-DN des Adressbuchs auf der STARFACE beginnt immer **dc=starface,dc=pbx**
