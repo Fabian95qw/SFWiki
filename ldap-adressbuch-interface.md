@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: false
-date: 2022-01-13T08:43:18.644Z
+date: 2022-01-14T12:12:26.023Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -10,8 +10,28 @@ dateCreated: 2022-01-04T09:26:18.627Z
 
 # Beschreibung
 Dieses Modul ermöglicht es, das in STARFACE integrierte Adressbuch per LDAP bereitzustellen.
+Die Adressen werden regelmässig aus dem Adressbuch in einem im RAM laufenden LDAP Server geladen.
 
 # Konfiguration Modul
+
+![ldap-config2.png](/uploads/ldap-adressbuch-interface/ldap-config2.png)
+
+## Adressbuch neu laden
+Das Adressbuch wird zur bereitstellung per LDAP in den RAM geladen, und ist keine Live-Ansicht, der STARFACE Adressen. Die Adressen müssen also regelmässig aus dem STARFACE Adressbuch neu in den LDAP Server geladen werden.
+
+## Dienst
+Ermöglicht es den internen LDAP Server zu starten/stoppen.
+
+## LDAP Port
+Der LDAP Port, auf dem der LDAP Server zur Verfügung stehen soll.
+
+> Der Port muss überhalb des 1000-er bereichs gewählt werden, da die ersten 1000 Ports nur mit Root-Rechten geöffnet werden können.
+{.is-danger}
+
+> Für die Verwendung in der STARFACE Cloud muss ein Port im Bereich 10000-20000 gewählt werden
+{.is-success}
+
+
 
 # Verwendete LDAP Attribute
 Folgende LDAP Atrribute werden Verwendet/Befüllt:
