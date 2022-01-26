@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2021-10-06T09:36:49.924Z
+date: 2022-01-26T14:11:42.803Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -155,13 +155,21 @@ Der Nummernfilter unterstützt Regex. **Diese müssen immer mit REGEX: beginnen!
 
 **Beispiel**
 
-Der REGEX : *^(\+41)\(?0?([0-9]{2})\)?* auf Nummern Angewendet:
+Der REGEX : ^((\\+|00)4[0-9])\\(?0?([0-9]{2})\\)? auf Nummern Angewendet:
 
-Ursprüngliche Nummer	                    Nummer nach Regex
-+41712345678	                                  +41712345678
-+410712345678		              	               +41712345678
-+41(71)2345678		              	              +41712345678
-+41(071)2345678		                 	           +41712345678
+Ursprüngliche Nummer	                    
+
+| Originale Nummer | Nach Regex |
+|------------------|------------|
+|+41712345678 | +41712345678 |
+|+410712345678 |+41712345678 |
+|+41(71)2345678 |+41712345678 |
+|+41(071)2345678 | +41712345678|
+|0049712345678|0049712345678 |
+|0049(071)2345678 |0049712345678 |
+|0049(71)2345678 | 0049712345678|
+|00490712345678 | 0049712345678|
+
 
 Zum editieren von Regex sollte ein Hilfsprogramm wie z.b. Regex101 Verwendet werden.
 
