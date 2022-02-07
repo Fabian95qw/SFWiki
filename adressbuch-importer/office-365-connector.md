@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2021-11-25T08:18:07.971Z
+date: 2022-02-07T07:29:55.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -33,7 +33,7 @@ Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfig
 
 ## Erstellen von App-Login mit Clientsecret + Berechtigungen
 
-Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/de/office-365-client-app
+Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.si-solutions.ch/de/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
 
