@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2022-02-07T07:29:55.910Z
+date: 2022-02-07T10:27:43.237Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -38,9 +38,9 @@ Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
 
 Contacts.Read (https://outlook.office365.com/Contacts.Read):Lesen von Kontakten für alle User
-full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer. 
+full_access_as_app (https://outlook.office365.com/full_access_as_app): Wird benötigt, da sonst die App keinen Zugriff auf Exchange als ganzes erhält. Zu finden Unter
 > Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
-> Office 365 Exchange Online --> Anwendungsberechtigungen
+> Office 365 Exchange Online --> Anwendungsberechtigungen --> 
 {.is-info}
 
 
