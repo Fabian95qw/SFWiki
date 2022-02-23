@@ -2,7 +2,7 @@
 title: STARFACE Komponenten
 description: 
 published: false
-date: 2022-02-23T14:16:56.672Z
+date: 2022-02-23T14:22:26.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:16:56.671Z
