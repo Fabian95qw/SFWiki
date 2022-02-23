@@ -2,7 +2,7 @@
 title: Einrichtung der Entwicklungsumgebung (IntelliJ)
 description: 
 published: true
-date: 2022-02-23T13:38:44.905Z
+date: 2022-02-23T13:39:02.638Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:38:44.905Z
@@ -35,8 +35,7 @@ Man startet ein neues Projekt vom Typ "Java" und wählt als Project SDK die zur 
 v7.x → Java 1.8**
 
 > Achtung! Wenn die falsche Java Version gewählt wird können die Bausteine auf der Anlage nicht geladen werden. 
-> 
-{.is-danger}
+> {.is-danger}
 
 Anschließend öffnet man über "File" die "Project Structure" und fügt unter "Libraries" die heruntergeladenen Pfade hinzu, einmal das "lib" Verzeichnis und einmal das "classes" Verzeichnis.
 
