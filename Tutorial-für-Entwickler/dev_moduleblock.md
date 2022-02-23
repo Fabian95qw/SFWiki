@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: false
-date: 2022-02-23T13:56:24.838Z
+date: 2022-02-23T13:58:20.762Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -39,10 +39,10 @@ Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse 
     	@Override
     	public void execute(IRuntimeEnvironment context) throws Exception
     	{
-    		Log log = context.getLog(); //Hole den STARFACE Logger für die Instanz
-    		log.debug("Hello World!"); //Schreibe Hello World auf Debug level
-    		log.debug(INPUT_DEFAULT); //Schreibe die Inputvariable
-    		OUTPUT_DEFAULT = "10"; //Setze die Outputvariable auf 10
+    		Log log = context.getLog();
+    		log.debug("Hello World!"); 
+    		log.debug(INPUT_DEFAULT); 
+    		OUTPUT_DEFAULT = "10"; 
     	} //END OF EXECUTION
     } 
 
@@ -58,6 +58,7 @@ Rookiefunction: Ob der Baustein normal sichtbar ist, oder nur wenn der Experten-
 Description: Enthält den Text, welcher im "i" des Modulbauesteins angezeigt wird
 Das ganze ist equivalent, zu der Funktionsdefinition im Modul.
 
+![dev_function.png](/uploads/dev_tutorial/dev_function.png)
 
 ### Inputvar/Outputvar
 
@@ -75,6 +76,10 @@ Description: Der Beschreibungstext der entsprechenden Variable
 VariableType: Was für ein Variablentyp das erwartet wird. Z.b. STRING/BOOLEAN/STARFACE_USER/STARFACE_GROUP/FILE usw.. 
 
 Das Modul wird jeweils versuchen den VariableType zur Java-Variable zu Casten. Wenn man z.b. den VariabelType als "STRING" hinterlegt hat, die Java-Variable aber ein Integer ist, wird das Modul versuchen den Wert zu casten, und falls das Ergebnis dabei ungültig wird, würde es ein "null" erzeugen, ausser im Falle von BOOLEAN, dort erzeugt ein Falscher Cast immer ein "false"
+
+Das ganze ist equivalent zu den Input/Output Variables im Modul.
+
+![dev_variables.png](/uploads/dev_tutorial/dev_variables.png)
 
 ### Execute/Context
 
