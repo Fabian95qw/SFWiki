@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: false
-date: 2022-02-23T13:51:16.262Z
+date: 2022-02-23T13:53:51.816Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -56,6 +56,8 @@ Hiermit definiert man den Modulbaustein.
 Visibility: Wo der Baustein ersichtlich sein soll. Privat → Nur im aktuellen Modul, Public → für alle Module. 
 Rookiefunction: Ob der Baustein normal sichtbar ist, oder nur wenn der Experten-Modus aktiviert ist. 
 Description: Enthält den Text, welcher im "i" des Modulbauesteins angezeigt wird
+Das ganze ist equivalent, zu der Funktionsdefinition im Modul.
+
 
 ### Inputvar/Outputvar
 
