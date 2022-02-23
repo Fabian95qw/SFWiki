@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: false
-date: 2022-02-23T13:53:51.816Z
+date: 2022-02-23T13:56:24.838Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -39,10 +39,10 @@ Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse 
     	@Override
     	public void execute(IRuntimeEnvironment context) throws Exception
     	{
-    		Log log = context.getLog();
-    		log.debug("Hello World!");
-    		log.debug(INPUT_DEFAULT);
-    		OUTPUT_DEFAULT = "10";
+    		Log log = context.getLog(); //Hole den STARFACE Logger für die Instanz
+    		log.debug("Hello World!"); //Schreibe Hello World auf Debug level
+    		log.debug(INPUT_DEFAULT); //Schreibe die Inputvariable
+    		OUTPUT_DEFAULT = "10"; //Setze die Outputvariable auf 10
     	} //END OF EXECUTION
     } 
 
@@ -61,20 +61,20 @@ Das ganze ist equivalent, zu der Funktionsdefinition im Modul.
 
 ### Inputvar/Outputvar
 
-    @InputVar(label="DEFAULT", description="DEFAULT",type=VariableType.STRING)
-    public String INPUT_DEFAULT="";
+    @InputVar(label="Inputname", description="Example Input",type=VariableType.STRING)
+    public String Input1="";
     
-    @OutputVar(label="DEFAULT", description="DEFAULT",type=VariableType.OBJECT)
-    public Object OUTPUT_DEFAULT=""; 
+    @OutputVar(label="Outputname", description="Example Output",type=VariableType.STRING)
+    public String Output1="";
 
 Mit den Input-/Outputvars wird definiert, was für Parameter der Baustein im Modul-Editor Annimmt/Zurückgibt. 
-Nach jedem @InputVar/@OutputVar muss immer das dazugehörige Java Variable Folgen, welche mit dem Wert befüllt werden soll. 
+Nach jedem @InputVar/@OutputVar muss immer das dazugehörige **public** Java Variable Folgen, welche mit dem Wert befüllt werden soll. 
 
 Label: Name welcher im Modul-Editor für diese Variable angezeigt wird. 
 Description: Der Beschreibungstext der entsprechenden Variable 
 VariableType: Was für ein Variablentyp das erwartet wird. Z.b. STRING/BOOLEAN/STARFACE_USER/STARFACE_GROUP/FILE usw.. 
 
-Das Modul wird jeweils versuchen den VariableType zur Java-Variable zu Casten. Wenn man z.b. den VariabelType als "STRING" hinterlegt hat, die Java-Variable aber ein Integer ist, wird das Modul versuchen den Wert zu casten, und falls das Ergebnis dabei ungütlgi wird, würde es ein "null" erzeugen, ausser im Falle von BOOLEAN, dort erzeugt ein Falscher Cast immer ein "false"
+Das Modul wird jeweils versuchen den VariableType zur Java-Variable zu Casten. Wenn man z.b. den VariabelType als "STRING" hinterlegt hat, die Java-Variable aber ein Integer ist, wird das Modul versuchen den Wert zu casten, und falls das Ergebnis dabei ungültig wird, würde es ein "null" erzeugen, ausser im Falle von BOOLEAN, dort erzeugt ein Falscher Cast immer ein "false"
 
 ### Execute/Context
 
