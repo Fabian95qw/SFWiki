@@ -2,14 +2,14 @@
 title: Abwurfplatz
 description: 
 published: true
-date: 2021-08-16T09:45:12.127Z
+date: 2022-02-28T10:06:28.598Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:08.231Z
 ---
 
 # Beschreibung
-Ermöglicht es Tabellarisch Abwurfplätze für Einzelnummern / Nummernbereiche zu definieren. Somit kann mehr als en Abwurfplatz für ein Rufnummernblock definiert werden. 
+Ermöglicht es Tabellarisch Abwurfplätze für Einzelnummern / Nummernbereiche zu definieren. Somit kann mehr als ein Abwurfplatz für ein Rufnummernblock definiert werden. 
 Die Bereiche können mithilfe von Platzhaltern definiert werden.
 
 Mögliche Formate:
