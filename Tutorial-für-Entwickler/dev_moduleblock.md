@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-03T10:06:59.834Z
+date: 2022-03-03T10:08:28.872Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -110,7 +110,7 @@ PhoneBusinessObject PBO = (PhoneBusinessObject)context.provider().fetch(PhoneBus
 Mehr Details, wo die verschiedenen Funktionen zu finden sind gibts in einem separaten Wiki-Artikel
 
 #### Aufrufen von anderen Modulbausteinen
-Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben eine Klasse, die genau gleich heisst, wie der dazugehörige baustein.
+Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben eine Klasse, die genau gleich heisst, wie der dazugehörige baustein. Oder teilweise auch mit einem "2,3,4 etc.." dahinter, da es mit STARFACE Updates verschiedene Revisionen des Bausteines gab.
 
 Z.b.:
 
@@ -132,6 +132,8 @@ Z.b.:
 					{
 						log.debug("Member: " + STARFACE_USER);
 					}
+
+
 
 # Exportieren eines Bausteins für die Anlage
 Um einen Baustein auf der Anlage zu importieren, muss man diesen zuerst als kompilierte .class Datei Exportieren. 
