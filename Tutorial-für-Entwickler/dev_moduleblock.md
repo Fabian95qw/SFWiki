@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-03T09:35:07.245Z
+date: 2022-03-03T10:06:59.834Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -108,6 +108,30 @@ Z.b. das PhoneBusinessObject
 PhoneBusinessObject PBO = (PhoneBusinessObject)context.provider().fetch(PhoneBusinessObject.class);
 
 Mehr Details, wo die verschiedenen Funktionen zu finden sind gibts in einem separaten Wiki-Artikel
+
+#### Aufrufen von anderen Modulbausteinen
+Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben eine Klasse, die genau gleich heisst, wie der dazugehörige baustein.
+
+Z.b.:
+
+					GetUsersOfGroup2 GUS = new GetUsersOfGroup2(); //Der Modulbaustein GetUsersofGroup
+ 					//InputVariablen befüllen
+					GUS.groupId = 1000; 
+					GUS.activeOnly = true;
+					GUS.excludeDND=false;
+					try
+					{
+						GUS.execute(context); //Den Modulbaustein ausführen
+					}
+					catch(Exception e) //Alle Bausteine werfen immer eine Exception e
+					{
+						LogHelper.EtoStringLog(log, e);
+					}
+					
+					for(Integer STARFACE_USER : GUS.usersOfGroup)
+					{
+						log.debug("Member: " + STARFACE_USER);
+					}
 
 # Exportieren eines Bausteins für die Anlage
 Um einen Baustein auf der Anlage zu importieren, muss man diesen zuerst als kompilierte .class Datei Exportieren. 
