@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: false
-date: 2022-03-03T09:19:16.976Z
+date: 2022-03-03T09:34:34.412Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -126,4 +126,9 @@ Nach erfolgtem Upload auf "Apply" klicken.
 Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → [Eigener Modulname] → Demo" auffindbar. 
 
 ## Laden Zusätzliche Libraries
+Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden.
+
+> Libraries, welche bereits eine andere Revision von der STARFACE seite beziehen können nicht in zwei Versionen verwendet werden!
+> Die Version, welche im STARFACE Lib Ordner liegt hat immer vorrang.
+{.is-danger}
 
