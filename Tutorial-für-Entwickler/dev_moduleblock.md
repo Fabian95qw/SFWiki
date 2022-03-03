@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-03T10:08:49.952Z
+date: 2022-03-03T10:09:56.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -133,7 +133,7 @@ Z.b.:
 						log.debug("Member: " + STARFACE_USER);
 					}
 
-
+![other_moduleblock_example](/uploads/dev_tutorial/other_moduleblock_example.png)
 
 
 # Exportieren eines Bausteins für die Anlage
