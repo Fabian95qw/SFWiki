@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: false
-date: 2022-02-23T13:58:20.762Z
+date: 2022-03-03T09:19:16.976Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -107,6 +107,8 @@ Klassenname Variablenname = (Klassenname)context.provider().fetch(Klassenname.cl
 Z.b. das PhoneBusinessObject 
 PhoneBusinessObject PBO = (PhoneBusinessObject)context.provider().fetch(PhoneBusinessObject.class);
 
+Mehr Details, wo die verschiedenen Funktionen zu finden sind gibts in einem separaten Wiki-Artikel
+
 # Exportieren eines Bausteins für die Anlage
 Um einen Baustein auf der Anlage zu importieren, muss man diesen zuerst als kompilierte .class Datei Exportieren. 
 
@@ -122,4 +124,6 @@ Rechtsklick auf das Projekt oder Ordner oder Klassendatei → Build Module "Modu
 Anschließend geht man im Starface Modul Editor auf "Resources", und fügt eine neue Resource hinzu. Dort muss man nun die zuvor entpackte bzw. kompilierte .class Datei hochladen. 
 Nach erfolgtem Upload auf "Apply" klicken. 
 Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → [Eigener Modulname] → Demo" auffindbar. 
+
+## Laden Zusätzliche Libraries
 
