@@ -2,7 +2,7 @@
 title: Listener erzeugen
 description: 
 published: false
-date: 2022-03-04T08:47:53.810Z
+date: 2022-03-04T09:37:00.844Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:46:34.978Z
@@ -44,6 +44,26 @@ Es gibt einen Stolperstein mit Listener, diesen findet ihr im Artikel: http://wi
 ## Listener registrieren
 
 Damit ein EventListener die Events erhält, muss dieser beim StarfaceEventService registriert werden.
+
+    @Function(visibility=Visibility.Private, rookieFunction=false, description="")
+    public class RegisterListener implements IBaseExecutable 
+    {
+      private static ExampleListener Example = null;
+
+      @Override
+      public void execute(IRuntimeEnvironment context) throws Exception 
+      {
+        Log log = context.getLog();
+        if(Example == null)
+        {
+          log.debug("Registering new Listener!");
+          Example = new ExampleListener(log);
+          StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
+          SES.subscribe(Example);
+        }
+      }
+    }
+
 
 
 ## Listener de-registrieren
