@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T09:54:37.152Z
+date: 2022-03-04T10:18:57.706Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -115,6 +115,8 @@ Mehr Details, wo die verschiedenen Funktionen zu finden sind gibts in einem sepa
 
 #### Aufrufen von anderen Modulbausteinen
 Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben eine Klasse, die genau gleich heisst, wie der dazugehörige baustein. Oder teilweise auch mit einem "2,3,4 etc.." dahinter, da es mit STARFACE Updates verschiedene Revisionen des Bausteines gab.
+
+Die Klassen findet man im: **WEB-INF\classes\de\vertico\starface\module\core\runtime\functions**\callHandling\call
 
 Z.b.:
 
