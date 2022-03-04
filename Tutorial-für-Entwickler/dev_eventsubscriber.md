@@ -2,31 +2,55 @@
 title: Listener erzeugen
 description: 
 published: false
-date: 2022-03-04T08:15:45.694Z
+date: 2022-03-04T08:47:53.810Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:46:34.978Z
 ---
 
 # Listener erzeugen
-
 Module können passiv an Events im System zuhören, und dann aktionen ausführen.
+Die Listener basieren auf der EventBus API, und arbeiten mit der Annotation @EventSubscriber
+
+## Stolpersteine
+Es gibt einen Stolperstein mit Listener, diesen findet ihr im Artikel: http://wiki.si-solutions.ch/de/Tutorial-f%C3%BCr-Entwickler/dev_known_problems
+
+## Beispielklasse
+
+    import java.util.HashMap;
+    import java.util.Map;
+    import org.apache.commons.logging.Log;
+    import org.bushe.swing.event.annotation.EventSubscriber;
+    import de.vertico.starface.persistence.connector.events.DoNotDistrubSettingChangedEvent;
+
+    public class ExampleListener 
+    {
+      private Log log =null;
+      public ExampleListener(Log log)
+      {
+        this.log=log;
+      }
+
+        @EventSubscriber  //Annotation für EventBus
+        public void onDoNotDistrubSettingChangedEvent(DoNotDistrubSettingChangedEvent Event) //Event, dem Zugehört werden soll
+        {
+          Map<String, Object> EventMap = new HashMap<String, Object>();
+          EventMap.put("STARFACE_ACCOUNT", Event.getAccountId()+"");
+          EventMap.put("DND", Event.isDoNotDisturbSetting()+"");
+          log.debug("New Event:" + Event.toString());
+        }
+    }
+
+## Listener registrieren
+
+Damit ein EventListener die Events erhält, muss dieser beim StarfaceEventService registriert werden.
 
 
-## Tabelle von Listener
-
-| Komponente | Zweck |
-|------------|-------|
-|            |       |
-|            |       |
-|            |       |
-
-# 
+## Listener de-registrieren
 
 
-
-## Listenertypen
-### onPresenceChangedEvent
+## Bekannte Events
+### PresenceChangedEvent
 Dieses Event teilt, Änderungen am Präsenzstatus, sowie dem dazugehörigen Präsenzstatustextes mit.
 Datenpaketinhalt:
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account den es betrifft.
@@ -35,21 +59,27 @@ Datenpaketinhalt:
 - AvatarSha1Has (STRING): Der Sha1Hash des Avatars des Benutzers
 - From (STRING): Die Quelle des Statuswechsels. Diese können z.b. so aussehen: 123/StarfaceAndroidClient, 321/Starface iOS Client, 567/Module
 
-### onTelephonyStateChangedEvent
+### TelephonyStateChangedEvent
 Dieses Event teilt die änderung am Telefoniestatus eines Benutzers mit.
 Datenpaketinhalt:
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account den es betrifft.
 - Telephonystate (STRING): Der neue Telefoniestatus. Möglichkeiten sind: ACTIVE, AVAILABLE, QUEUE_PAUSE, RINGING, UNAVAILABLE
 
-### onDoNotDistrubSettingChangedEvent
+### DoNotDistrubSettingChangedEvent
 Dieses Event teilt mit, wenn einen User seinen DND Status geändert hat.
 Datenpaketinhalt:
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account den es betrifft.
 - DND (BOOLEAN): DND ein(true)/aus(false)
 
-### onNewCallStateEvent
+### NewCallStateEvent
 Dieses Event wird bei jeder Änderung an einem aktiven Ruf ausgelöst. (Z.b. Neuer Anruf, Klingelt bei Teilnehmern, wurde Umgeleitet, wurde gehalten usw...)
 Pro Anruf können mehrere Events gleichzeitig ausgelöst werden, da ein Event pro Teilnehmer ausgelöst wird.
+> 
+> Wichtig. der EventService für dieses Event ist: 	
+@EventSubscriber(eventServiceName = "CallProcessingEventService")
+{.is-danger}
+
+
 Datenpaketinhalt:
 - CallUUID (STRING): Die UUID des Anrufs.
 - STARFACE_ACCOUNT (NUMBER): STARFACE Account zu dem diese Anrufinformation gehört
