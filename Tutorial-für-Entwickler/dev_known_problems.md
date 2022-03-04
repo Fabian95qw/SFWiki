@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T09:12:51.517Z
+date: 2022-03-04T09:18:42.907Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -154,6 +154,7 @@ Dieser wird via Modulbaustein registriert, und in einer statischen Variable gesp
 
 #### Erzeugter Log
 - Registering new Listener!
+- Hello I'm a Example Listener
 
 
 #### Erzeugter Log nach erneutem Speichern
