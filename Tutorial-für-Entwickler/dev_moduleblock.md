@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T10:18:57.706Z
+date: 2022-03-04T11:52:09.015Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -73,7 +73,7 @@ Das ganze ist equivalent, zu der Funktionsdefinition im Modul.
     public String Output1="";
 
 Mit den Input-/Outputvars wird definiert, was für Parameter der Baustein im Modul-Editor Annimmt/Zurückgibt. 
-Nach jedem @InputVar/@OutputVar muss immer das dazugehörige **public** Java Variable Folgen, welche mit dem Wert befüllt werden soll. 
+Nach jedem @InputVar/@OutputVar muss immer die dazugehörige **public** Java Variable Folgen, welche mit dem Wert befüllt werden soll. 
 
 Label: Name welcher im Modul-Editor für diese Variable angezeigt wird. 
 Description: Der Beschreibungstext der entsprechenden Variable 
