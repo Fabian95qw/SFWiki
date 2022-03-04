@@ -1,8 +1,8 @@
 ---
 title: Stolpersteine
 description: 
-published: false
-date: 2022-03-04T09:29:50.855Z
+published: true
+date: 2022-03-04T09:30:13.349Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
