@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T11:58:31.883Z
+date: 2022-03-04T11:58:46.184Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -164,7 +164,7 @@ Nach erfolgtem Upload auf "Apply" klicken.
 Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → \[Eigener Modulname] → Demo" auffindbar. 
 
 Alterantiv kann man diese auch via SSH direkt ins /var/starface/module/modules/repo/\[ModuleID] kopieren.
-Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das 
+Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das aktuelle Änderungsdatum.
 
 ## Laden Zusätzliche Libraries
 Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden.
