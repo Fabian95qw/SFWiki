@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T09:28:46.794Z
+date: 2022-03-04T09:29:50.855Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -175,7 +175,9 @@ Das Modul wird nun im Modul Designer gespeichert, während der Listener registri
 - DND State for: 1000 is true
 - DND State for: 1000 is false
 - \[Modul wird gespeichert]
+**- Registering new Listener!**
+**- Hello I'm a Example Listener**
 - DND State for: 1000 is true
-- DND State for: 1000 is true
+**- DND State for: 1000 is true**
 - DND State for: 1000 is false
-- DND State for: 1000 is false
+**- DND State for: 1000 is false**
