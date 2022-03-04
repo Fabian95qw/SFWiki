@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-03T10:09:56.176Z
+date: 2022-03-04T09:45:53.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -13,6 +13,9 @@ Hier wird demonstriert, wie ein einfacher Modulbaustein in Java geschrieben, kom
 
 ## Beispielbaustein
 Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse erstellen (hier im Beispiel mit Namen "Demo"), welche die "IBaseExecutable" implementiert und die @Function definieren. 
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+  
 
     import de.vertico.starface.module.core.model.VariableType;
     import de.vertico.starface.module.core.model.Visibility;
@@ -46,6 +49,7 @@ Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse 
     	} //END OF EXECUTION
     } 
 
+  </details>
 
 ## Erklärung der einzelnen Teile
 ### Function
@@ -114,6 +118,9 @@ Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben ein
 
 Z.b.:
 
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+
 					GetUsersOfGroup2 GUS = new GetUsersOfGroup2(); //Der Modulbaustein GetUsersofGroup
  					//InputVariablen befüllen
 					GUS.groupId = 1000; 
@@ -133,6 +140,8 @@ Z.b.:
 						log.debug("Member: " + STARFACE_USER);
 					}
 
+  </details>
+  
 ![other_moduleblock_example](/uploads/dev_tutorial/other_moduleblock_example.png)
 
 
