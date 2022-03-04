@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: true
-date: 2022-03-04T09:35:41.628Z
+date: 2022-03-04T09:44:33.465Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -43,6 +43,10 @@ Das Wichtigste deshalb:
 Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, so dass bei einem erneuten Aufruf kein weiteres Thread erzeugt wird.
 
 #### Counter.class
+
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+
     import org.apache.commons.logging.Log;
     public class Counter implements Runnable 
     {
@@ -75,8 +79,13 @@ Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulb
 
     }
 
+  </details>
 
 #### StartCounter.class
+
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+  
     @Function(visibility=Visibility.Private, rookieFunction=false, description="")
     public class StartCounter implements IBaseExecutable 
     {
@@ -96,6 +105,8 @@ Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulb
         }
       }
     }
+  
+  </details>
 
 #### Erzeugter Log:
 - Creating new Counter!
@@ -132,6 +143,10 @@ Wir haben einen Listener, welcher jedes mal, wenn sich der DND Status des Users 
 Dieser wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, damit er nicht wiederholt registriert wird.
 
 #### ExampleListener.class
+
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+
     public class ExampleListener 
     {
       private Log log = null;
@@ -147,8 +162,15 @@ Dieser wird via Modulbaustein registriert, und in einer statischen Variable gesp
           log.debug("DND State for:" + Event.getAccountId() +" is " + Event.isDoNotDisturbSetting());
         }
     }
+  
+  </details>
 
 #### RegisterListener.class
+
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+  
+
     @Function(visibility=Visibility.Private, rookieFunction=false, description="")
     public class RegisterListener implements IBaseExecutable 
     {
@@ -167,7 +189,7 @@ Dieser wird via Modulbaustein registriert, und in einer statischen Variable gesp
         }
       }
     }
-
+</details>
 
 
 #### Erzeugter Log
