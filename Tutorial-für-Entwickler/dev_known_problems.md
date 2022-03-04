@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: true
-date: 2022-03-04T09:30:13.349Z
+date: 2022-03-04T09:35:27.016Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -11,6 +11,17 @@ dateCreated: 2022-03-04T08:44:24.045Z
 # Stolpersteine
 
 Ich erkläre hier kurz einige mir bekannten Stolpersteine mit den Modulkomponenten.
+
+## Modifikationen in der DB haben keinen Unmittelbaren einfluss auf die GUI werte.
+
+Ein grossteil der Informationen der STARFACE wird beim Booten aus der Datenbank in den RAM geladen, und nur änderungen werden Zurückgeschrieben, dies hat zur Folge, dass die Werte in der DB zwar angepasst wurden, die GUI dies aber noch nicht reflektiert hat.
+
+In diesem Fall muss die STARFACE neu gestartet werden, um die Änderung nach dem Neustart zu laden, oder man muss stattdessen das ganze via der passenden Systemkomponente setzen, so dass es aktiv im RAM geändert wird.
+
+### Beispiel
+Der DB-Wert für den Haken "E-Mail-Benachrichtigung für neue Updates wurde via SQL geändert. Dies ist aber in der GUI nciht reflektiert."
+
+![dev_example_known_issue_db.png](/uploads/dev_tutorial/dev_example_known_issue_db.png)
 
 ## Verlust der Kontrolle über Threads/Listener
 Wenn man ein Modul im Modul Designer editiert/speichert, oder das Modul Updatet, wird eine neue revision des Moduls erzeugt. 
