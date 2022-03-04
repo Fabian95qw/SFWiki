@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T11:53:47.999Z
+date: 2022-03-04T11:58:31.883Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -161,7 +161,10 @@ Rechtsklick auf das Projekt oder Ordner oder Klassendatei → Build Module "Modu
 ## Einspielen des Bausteins
 Anschließend geht man im Starface Modul Editor auf "Resources", und fügt eine neue Resource hinzu. Dort muss man nun die zuvor entpackte bzw. kompilierte .class Datei hochladen. 
 Nach erfolgtem Upload auf "Apply" klicken. 
-Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → [Eigener Modulname] → Demo" auffindbar. 
+Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → \[Eigener Modulname] → Demo" auffindbar. 
+
+Alterantiv kann man diese auch via SSH direkt ins /var/starface/module/modules/repo/\[ModuleID] kopieren.
+Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das 
 
 ## Laden Zusätzliche Libraries
 Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden.
