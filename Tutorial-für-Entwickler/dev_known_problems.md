@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: true
-date: 2022-03-04T09:35:27.016Z
+date: 2022-03-04T09:35:41.628Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -19,7 +19,7 @@ Ein grossteil der Informationen der STARFACE wird beim Booten aus der Datenbank 
 In diesem Fall muss die STARFACE neu gestartet werden, um die Änderung nach dem Neustart zu laden, oder man muss stattdessen das ganze via der passenden Systemkomponente setzen, so dass es aktiv im RAM geändert wird.
 
 ### Beispiel
-Der DB-Wert für den Haken "E-Mail-Benachrichtigung für neue Updates wurde via SQL geändert. Dies ist aber in der GUI nciht reflektiert."
+Der DB-Wert für den Haken "E-Mail-Benachrichtigung für neue Updates wurde via SQL geändert. Dies ist aber in der GUI nciht reflektiert.
 
 ![dev_example_known_issue_db.png](/uploads/dev_tutorial/dev_example_known_issue_db.png)
 
