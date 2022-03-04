@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T09:18:42.907Z
+date: 2022-03-04T09:26:51.620Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -155,6 +155,20 @@ Dieser wird via Modulbaustein registriert, und in einer statischen Variable gesp
 #### Erzeugter Log
 - Registering new Listener!
 - Hello I'm a Example Listener
-
+- DND State for: 1000 is true
+- DND State for: 1000 is false
 
 #### Erzeugter Log nach erneutem Speichern
+Wird das Modul nun gespeichert, ohne dass der Listener de-registriert wird, verfallen alle Objekte, inkl. der statischen.
+
+Das Modul wird nun im Modul Designer gespeichert, während der Listener registriert ist. Das folgende ist das Ergebnis:
+
+- Registering new Listener!
+- Hello I'm a Example Listener
+- DND State for: 1000 is true
+- DND State for: 1000 is false
+- \[Modul wird gespeichert]
+- DND State for: 1000 is true
+- DND State for: 1000 is true
+- DND State for: 1000 is false
+- DND State for: 1000 is false
