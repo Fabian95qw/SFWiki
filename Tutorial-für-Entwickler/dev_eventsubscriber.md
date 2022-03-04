@@ -2,7 +2,7 @@
 title: Listener erzeugen
 description: 
 published: false
-date: 2022-03-04T09:37:00.844Z
+date: 2022-03-04T09:38:48.236Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:46:34.978Z
@@ -16,7 +16,8 @@ Die Listener basieren auf der EventBus API, und arbeiten mit der Annotation @Eve
 Es gibt einen Stolperstein mit Listener, diesen findet ihr im Artikel: http://wiki.si-solutions.ch/de/Tutorial-f%C3%BCr-Entwickler/dev_known_problems
 
 ## Beispielklasse
-
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
     import java.util.HashMap;
     import java.util.Map;
     import org.apache.commons.logging.Log;
@@ -40,30 +41,33 @@ Es gibt einen Stolperstein mit Listener, diesen findet ihr im Artikel: http://wi
           log.debug("New Event:" + Event.toString());
         }
     }
-
+  </details>
+  
 ## Listener registrieren
 
 Damit ein EventListener die Events erhält, muss dieser beim StarfaceEventService registriert werden.
 
-    @Function(visibility=Visibility.Private, rookieFunction=false, description="")
-    public class RegisterListener implements IBaseExecutable 
-    {
-      private static ExampleListener Example = null;
-
-      @Override
-      public void execute(IRuntimeEnvironment context) throws Exception 
+<details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+      @Function(visibility=Visibility.Private, rookieFunction=false, description="")
+      public class RegisterListener implements IBaseExecutable 
       {
-        Log log = context.getLog();
-        if(Example == null)
+        private static ExampleListener Example = null;
+
+        @Override
+        public void execute(IRuntimeEnvironment context) throws Exception 
         {
-          log.debug("Registering new Listener!");
-          Example = new ExampleListener(log);
-          StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
-          SES.subscribe(Example);
+          Log log = context.getLog();
+          if(Example == null)
+          {
+            log.debug("Registering new Listener!");
+            Example = new ExampleListener(log);
+            StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
+            SES.subscribe(Example);
+          }
         }
       }
-    }
-
+</details>
 
 
 ## Listener de-registrieren
