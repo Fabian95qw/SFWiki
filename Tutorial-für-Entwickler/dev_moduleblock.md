@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T09:45:53.890Z
+date: 2022-03-04T09:54:37.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-23T13:40:24.642Z
 Hier wird demonstriert, wie ein einfacher Modulbaustein in Java geschrieben, kompiliert, und in die STARFACE Importiert wird.
 
 ## Beispielbaustein
-Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse erstellen (hier im Beispiel mit Namen "Demo"), welche die "IBaseExecutable" implementiert und die @Function definieren. 
+Um einen für die Starface validen Modulbaustein zu bauen, muss man eine Klasse erstellen (hier im Beispiel mit Namen "Demo"), welche die "IBaseExecutable" (Kein Call-Processing) oder "IAGIJavaExecutable"(Call-Processing mit Anruferinformationen) implementiert und die @Function definieren. 
 <details>
   <summary>Code (Klicken zum Anzeigen)</summary>
   
