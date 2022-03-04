@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T08:55:45.809Z
+date: 2022-03-04T09:01:46.268Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -15,7 +15,7 @@ Ich erkläre hier kurz einige mir bekannten Stolpersteine mit den Modulkomponent
 ## Verlust der Kontroller über Threads
 Wenn man ein Modul im Modul Designer editiert/speichert, oder das Modul Updatet, wird eine neue revision des Moduls erzeugt. 
 
-Falls das Modul zu diesem Zeitpunkt ein aktives Thread hat, wird dieses zusammen mit den alten Modulkomponenten weiter ausgeführt. 
+Falls das Modul zu diesem Zeitpunkt ein aktives Thread hat, wird dieses zusammen mit den alten Modulkomponenten weiter ausgeführt.  Alle Modulklassen werden komplett neu instanziert inkl. aller statischen Objekte
 
 Wenn ihr also eigene Dienste, Runnables ect. im Modul erzeugt, welche nach der initialisierung des Moduls unabhängig davon Laufen, müssen diese vorher von Hand gestoppt werden.
 
@@ -24,7 +24,7 @@ Wenn ihr also eigene Dienste, Runnables ect. im Modul erzeugt, welche nach der i
 ### Beispiel Kontrollverlust
 Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, so dass bei einem erneuten Aufruf kein weiteres Thread erzeugt wird.
 
-
+#### Counter.class
     import org.apache.commons.logging.Log;
     public class Counter implements Runnable 
     {
@@ -58,7 +58,7 @@ Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulb
     }
 
 
-
+#### StartCounter.class
     @Function(visibility=Visibility.Private, rookieFunction=false, description="")
     public class StartCounter implements IBaseExecutable 
     {
@@ -79,5 +79,35 @@ Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulb
       }
     }
 
+#### Erzeugter Log:
+- Creating new Counter!
+- Hello I'm a counter
+- Count: 0
+- Count: 1
+- Count: 2 ...
 
+#### Nach weiterem Speichern:
+Wird das Modul nun gespeichert, wenn das Thread bereits läuft, so verfallen alle Objekte, inkl. der statischen.
+
+Das Modul wird nun im Modul Designer gespeichert, während der Counter Läuft, das folgende ist das Ergebnis:
+
+- Creating new Counter!
+- Hello I'm a counter
+- Count: 0
+- Count: 1
+- Count: 2
+- Count: 3
+- \[Modul wird im Deisgner gespeichert]
+**- Creating new Counter!**
+- Count: 4
+**- Hello I'm a counter**
+**- Count: 0**
+- Count: 5
+**- Count: 1**
+- Count: 6
+**- Count: 2**
+- Count: 7
+**- Count: 3**
+...
 ## Verlust der Kontrolle über Listener
+Creating new Counter!
