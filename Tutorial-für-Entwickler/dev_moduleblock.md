@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T11:52:09.015Z
+date: 2022-03-04T11:53:47.999Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -111,12 +111,12 @@ Klassenname Variablenname = (Klassenname)context.provider().fetch(Klassenname.cl
 Z.b. das PhoneBusinessObject 
 PhoneBusinessObject PBO = (PhoneBusinessObject)context.provider().fetch(PhoneBusinessObject.class);
 
-Mehr Details, wo die verschiedenen Funktionen zu finden sind gibts in einem separaten Wiki-Artikel
+Welche Komponenten welchen Zweck erfüllen, sieht man in diesem Artikel: http://wiki.si-solutions.ch/de/Tutorial-f%C3%BCr-Entwickler/dev_components
 
 #### Aufrufen von anderen Modulbausteinen
 Man kann im eigenen Code andere Modulbausteine ausführen, die meisten haben eine Klasse, die genau gleich heisst, wie der dazugehörige baustein. Oder teilweise auch mit einem "2,3,4 etc.." dahinter, da es mit STARFACE Updates verschiedene Revisionen des Bausteines gab.
 
-Die Klassen findet man im: **WEB-INF\classes\de\vertico\starface\module\core\runtime\functions**\callHandling\call
+Die Klassen findet man im: **WEB-INF\classes\de\vertico\starface\module\core\runtime\functions**
 
 Z.b.:
 
