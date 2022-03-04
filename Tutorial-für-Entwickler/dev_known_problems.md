@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T09:01:46.268Z
+date: 2022-03-04T09:12:51.517Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -12,16 +12,16 @@ dateCreated: 2022-03-04T08:44:24.045Z
 
 Ich erkläre hier kurz einige mir bekannten Stolpersteine mit den Modulkomponenten.
 
-## Verlust der Kontroller über Threads
+## Verlust der Kontrolle über Threads/Listener
 Wenn man ein Modul im Modul Designer editiert/speichert, oder das Modul Updatet, wird eine neue revision des Moduls erzeugt. 
 
-Falls das Modul zu diesem Zeitpunkt ein aktives Thread hat, wird dieses zusammen mit den alten Modulkomponenten weiter ausgeführt.  Alle Modulklassen werden komplett neu instanziert inkl. aller statischen Objekte
+Falls das Modul zu diesem Zeitpunkt ein aktives Thread hat, wird dieses zusammen mit den alten Modulkomponenten weiter ausgeführt. Alle Modulklassen werden komplett neu instanziert inkl. aller statischen Objekte
 
-Wenn ihr also eigene Dienste, Runnables ect. im Modul erzeugt, welche nach der initialisierung des Moduls unabhängig davon Laufen, müssen diese vorher von Hand gestoppt werden.
+Wenn ihr also eigene Dienste, Runnables, Listener ect. im Modul erzeugt, welche nach der initialisierung des Moduls unabhängig davon Laufen, müssen diese vorher von Hand gestoppt werden.
 
 > Sobald die kontrolle über die Thread verloren wurde, kann man das System nur noch neu starten, um diese loszuwerden, da diese teil des TomCat Prozesses sind {.is-danger}
 
-### Beispiel Kontrollverlust
+### Beispiel Kontrollverlust Threads
 Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, so dass bei einem erneuten Aufruf kein weiteres Thread erzeugt wird.
 
 #### Counter.class
@@ -109,5 +109,51 @@ Das Modul wird nun im Modul Designer gespeichert, während der Counter Läuft, d
 - Count: 7
 **- Count: 3**
 ...
-## Verlust der Kontrolle über Listener
-Creating new Counter!
+### Beispiel Kontrollverlust Listener
+Wir haben einen Listener, welcher jedes mal, wenn sich der DND Status des Users ändert einen Log-Eintrag erzeugt.
+Dieser wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, damit er nicht wiederholt registriert wird.
+
+#### ExampleListener.class
+    public class ExampleListener 
+    {
+      private Log log = null;
+      public ExampleListener(Log log)
+      {
+        this.log=log;
+        log.debug("Hello I'm a Example Listener");
+      }
+
+        @EventSubscriber 
+        public void onDoNotDistrubSettingChangedEvent(DoNotDistrubSettingChangedEvent Event)
+        {
+          log.debug("DND State for:" + Event.getAccountId() +" is " + Event.isDoNotDisturbSetting());
+        }
+    }
+
+#### RegisterListener.class
+    @Function(visibility=Visibility.Private, rookieFunction=false, description="")
+    public class RegisterListener implements IBaseExecutable 
+    {
+      private static ExampleListener Example = null; //ExampleListener static Storage
+
+      @Override
+      public void execute(IRuntimeEnvironment context) throws Exception 
+      {
+        Log log = context.getLog();
+        if(Example == null)
+        {
+          log.debug("Registering new Listener!");
+          Example = new ExampleListener(log);
+          StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
+          SES.subscribe(Example);
+        }
+      }
+    }
+
+
+
+#### Erzeugter Log
+- Registering new Listener!
+
+
+#### Erzeugter Log nach erneutem Speichern
