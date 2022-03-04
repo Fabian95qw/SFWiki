@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-04T12:24:42.759Z
+date: 2022-03-04T12:26:57.988Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -90,4 +90,8 @@ Passwort: Pass123
   Für das Active-Directory muss das Token anderst berechnet werden.
   Der genaue weg ist mir noch nicht bekannt.
 
+## XML-RPC Einstiegspunkte im Modul definieren
+  
+
+  
   
