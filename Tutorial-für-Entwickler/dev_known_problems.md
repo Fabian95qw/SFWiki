@@ -2,7 +2,7 @@
 title: Stolpersteine
 description: 
 published: false
-date: 2022-03-04T09:26:51.620Z
+date: 2022-03-04T09:28:46.794Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T08:44:24.045Z
@@ -20,6 +20,13 @@ Falls das Modul zu diesem Zeitpunkt ein aktives Thread hat, wird dieses zusammen
 Wenn ihr also eigene Dienste, Runnables, Listener ect. im Modul erzeugt, welche nach der initialisierung des Moduls unabhängig davon Laufen, müssen diese vorher von Hand gestoppt werden.
 
 > Sobald die kontrolle über die Thread verloren wurde, kann man das System nur noch neu starten, um diese loszuwerden, da diese teil des TomCat Prozesses sind {.is-danger}
+
+Das Wichtigste deshalb:
+> Im Modul eine möglichkeit einbauen, alle Threads, Runnabled, Listener etc. zu stoppen/de-registrieren. Z.b. wenn das Modul deaktiviert wird, oder mit einer Checkbox/Dropdown
+{.is-success}
+
+> Partner/Kunden darauf hinweisen, dass sie die Dienste im Modul stoppen müssen
+{.is-success}
 
 ### Beispiel Kontrollverlust Threads
 Wir haben ein Einfaches Thread, welches nur zählen soll. Dieses wird via Modulbaustein registriert, und in einer statischen Variable gespeichert, so dass bei einem erneuten Aufruf kein weiteres Thread erzeugt wird.
