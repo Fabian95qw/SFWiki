@@ -2,7 +2,7 @@
 title: Listener erzeugen
 description: 
 published: false
-date: 2022-03-04T09:38:48.236Z
+date: 2022-03-04T09:42:55.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:46:34.978Z
@@ -18,6 +18,7 @@ Es gibt einen Stolperstein mit Listener, diesen findet ihr im Artikel: http://wi
 ## Beispielklasse
 <details>
   <summary>Code (Klicken zum Anzeigen)</summary>
+  
     import java.util.HashMap;
     import java.util.Map;
     import org.apache.commons.logging.Log;
@@ -49,6 +50,7 @@ Damit ein EventListener die Events erhält, muss dieser beim StarfaceEventServic
 
 <details>
   <summary>Code (Klicken zum Anzeigen)</summary>
+  
       @Function(visibility=Visibility.Private, rookieFunction=false, description="")
       public class RegisterListener implements IBaseExecutable 
       {
@@ -72,6 +74,40 @@ Damit ein EventListener die Events erhält, muss dieser beim StarfaceEventServic
 
 ## Listener de-registrieren
 
+  <details>
+  <summary>Code (Klicken zum Anzeigen)</summary>
+ 
+  
+      @Function(visibility=Visibility.Private, rookieFunction=false, description="")
+    public class RegisterListener implements IBaseExecutable 
+    {
+      private static ExampleListener Example = null;
+
+      @InputVar(label="RegisterListener", description="If true, registers listener, if false unregisters listener",type=VariableType.BOOLEAN)
+      public boolean RegisterListener=false;
+
+
+      @Override
+      public void execute(IRuntimeEnvironment context) throws Exception 
+      {
+        Log log = context.getLog();
+        if(Example == null && RegisterListener)
+        {
+          log.debug("Registering new Listener!");
+          Example = new ExampleListener(log);
+          StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
+          SES.subscribe(Example);
+        }
+        else if (Example != null && !RegisterListener)
+        {
+          log.debug("Unregistering Listener!");
+          StarfaceEventService SES = context.provider().fetch(StarfaceEventService.class);
+          SES.unsubscribe(Example);
+          Example = null;
+        }
+      }
+    }
+</details>
 
 ## Bekannte Events
 ### PresenceChangedEvent
