@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "b98fa2e0-c3c4-4340-a856-33ec31e324eb",
+		"name": "XML-RPC-Example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "XML-RPC-Example",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\"?>\r\n<methodCall>\r\n   <methodName>Example Instancename.Simplemath</methodName>\r\n    <params>\r\n        <param>\r\n            <value>\r\n                <struct>\r\n            \t <member>\r\n                        <name>Num1</name>\r\n                        <value>\r\n                            <string>123</string>\r\n                        </value>\r\n                    </member>\r\n                    <member>\r\n                        <name>Num2</name>\r\n                        <value>\r\n                            <string>321</string>\r\n                        </value>\r\n                    </member>\r\n                </struct>\r\n            </value>\r\n        </param>\r\n    </params>\r\n</methodCall>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.200.240/xml-rpc?de.vertico.starface.auth=123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"200",
+						"240"
+					],
+					"path": [
+						"xml-rpc"
+					],
+					"query": [
+						{
+							"key": "de.vertico.starface.auth",
+							"value": "123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
