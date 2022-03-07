@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2022-03-07T15:25:07.194Z
+date: 2022-03-07T15:26:10.496Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -29,7 +29,7 @@ Beispiel:
 Login: 123
 Passwort: Pass123
 
-| Komponente | Hash |
+| Komponente | Hash/Resultat |
 |------------|------|
 | sha512("Pass123") | d01feaafb5359e1fa2c020a76ebb526fc75786b0b837e0c9a4dcabd58ad734efa469513cf66a272d5ef4b1b9646b4b39f50807afc8f8663e1c6bb23552b04cd6 |
 | sha512("123*"+sha512("Pass123")) | 81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced|
