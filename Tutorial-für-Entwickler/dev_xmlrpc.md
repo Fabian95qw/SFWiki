@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2022-03-07T15:26:10.496Z
+date: 2022-03-07T15:29:10.661Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -116,7 +116,9 @@ Passwort: Pass123
   Wir Empfehlen für einfache Tests das Programm [Postman](https://www.postman.com/)
   
 ### XML-RPC Einstiegspunkt Name
-  Der XML-RPC Einstiegspunkt wird einmal pro instanz generiert, weshalb ein Teil des Namens statisch ist, aber da der Instanzname dynamisch ist, muss man das entsprechend Berücksichtigen.
+  Der XML-RPC Einstiegspunkt wird einmal pro instanz generiert
+	Bedeutet, dass der Instanzname teil des XML-RPC aufrufs ist.
+  Dies muss man entsprechend Berücksichtigen.
   
   Den Namen des XML-RPC Einstiegspunktes findet man in der Instanz im Tab "XML-RPC" (wird erst sichtbar, sobald man einen Einstiegspunkt definiert hat.
   
@@ -222,5 +224,6 @@ Passwort: Pass123
 ### Postman Beispieldatei
 
   Diese kann im Postman Importiert werden, und enthält das Beispiel XML-RPC.
+  [XML-RPC-Example.postman_collection.json](/uploads/dev_tutorial/XML-RPC-Example.postman_collection.json)
   
   
