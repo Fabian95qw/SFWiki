@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-07T15:19:39.082Z
+date: 2022-03-07T15:20:15.127Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -120,7 +120,7 @@ Passwort: Pass123
   
   Den Namen des XML-RPC Einstiegspunktes findet man in der Instanz im Tab "XML-RPC" (wird erst sichtbar, sobald man einen Einstiegspunkt definiert hat.
   
-  (img)
+
   
  ### Aufbau des URLs
   
@@ -222,3 +222,5 @@ Passwort: Pass123
 ### Postman Beispieldatei
 
   Diese kann im Postman Importiert werden, und enthält das Beispiel XML-RPC.
+  
+  
