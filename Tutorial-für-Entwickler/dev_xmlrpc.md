@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-07T14:51:00.326Z
+date: 2022-03-07T14:57:24.893Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -40,7 +40,7 @@ Passwort: Pass123
 <details>
   <summary>Code (Klicken zum Anzeigen)</summary>
   
-      import java.math.BigInteger;
+    import java.math.BigInteger;
     import java.security.MessageDigest;
     import java.security.NoSuchAlgorithmException;
 
@@ -92,6 +92,22 @@ Passwort: Pass123
 
 ## XML-RPC Einstiegspunkte im Modul definieren
   
+### Eine Funktion erstellen
 
+  Vorab muss man eine Funktion erstellen, welche vom XML-RPC Einstiegspunkt genutzt werden soll.
+  Die Hierbei definierten Inputvars, und Outputwars werden dann wie XML-RPC befüllt bzw. abgeholt.
   
+  In diesem Beispiel machen wir eine einfache Funktion, welche zwei Werte Addiert, und das Ergebnis ausgibt.
+  
+  (img)
+  
+### Funktion via XML-RPC Freigeben
+  Im Vordersten Tab kann man diese Funktion nun via "Rpc Entrypoints" freigeben. 
+  Die XML-RPC funktion erhält einen separaten Namen zum effektiven Namen der Funktion.
+  
+  
+  
+  
+  
+ 
   
