@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2022-03-07T15:24:29.861Z
+date: 2022-03-07T15:25:07.194Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -12,7 +12,7 @@ dateCreated: 2022-03-03T10:43:29.587Z
 
 Es besteht die möglichkeit bei Modulen RPC-Einstiegspunkte zu definieren, welche von extern abgefragt werden können.
 
-> Jeder welcher korrekte Logindaten für die STARFACE Besitzt, kann XML-RPC Einstiegspunkte nutzen.
+> Jeder Person, welche korrekte Logindaten für die STARFACE Besitzt, kann XML-RPC Einstiegspunkte nutzen.
 > Wir Empfehlen deshalb die Einstiegspunkte mit einem Zusätzlichem Passwort im Modul, zu schützen, so dass selbst mit gültigen STARFACE Zugangsdaten die Endpunkte nicht missbraucht werden können.
 {.is-danger}
 
