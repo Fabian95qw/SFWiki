@@ -2,7 +2,7 @@
 title: Intercom-SI
 description: 
 published: true
-date: 2022-03-07T14:17:03.163Z
+date: 2022-03-07T14:47:40.760Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-07T14:01:42.355Z
@@ -27,7 +27,7 @@ Je nach Typ wir dein anderer SIP-Header für das automatische Annehmen definiert
 
 Standardmässig sind nur Yealink und SNOM Telefone unterstützt.
 
-> Mit SNOM Telefonen gibt es aktuell ein Problem, ausgelöst durch einen gesetzten Wert im provisionierungsfile, welches dazu führt, dasss die Anrufe auf dem Telefonhörer, anstatt dem Lautsprecher landen. Wir arbeiten mit der STARFACE an einer Lösung
+> Mit SNOM Telefonen gibt es aktuell ein Problem, ausgelöst durch einen gesetzten Wert im provisionierungsfile, welches dazu führt, dass die Anrufe auf dem Telefonhörer, anstatt dem Lautsprecher landen. Wir arbeiten mit der STARFACE an einer Lösung
 {.is-warning}
 
 
