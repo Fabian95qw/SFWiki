@@ -2,7 +2,7 @@
 title: Intercom-SI
 description: 
 published: false
-date: 2022-03-07T14:01:42.355Z
+date: 2022-03-07T14:06:51.305Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-07T14:01:42.355Z
@@ -23,11 +23,15 @@ Hier wird definiert, was für ein Typ das Endgerät ist. Je nach Typ wir dein an
 Standardmässig sind nur Yealink und SNOM Telefone unterstützt.
 Sollte es sich bei dem Telefon um ein Drittanbieter Telefon handeln, so kann man dem Anruf einen, oder mehrere eigene SIP-Header mitgeben.
 
-Da die STARFACE UI die Zeichen "<" und ">" nicht akzeptiert wurden diese durch die "\[\[" und "\]\]" ersetzt.
+Da die STARFACE UI die Zeichen "<",">" und ";" nicht akzeptiert wurden diese durch die "\[\[", "\]\]" und "!!" ersetzt.
 
 Beispiele von SIP-Headern:
-Alert-Info: \[\[http://localhost/\]\]info=alert-autoanswer
-Alert-Info: \[\[http://localhost/]\]\answer-after=0
+| GUI Wert | Ergebnis |
+|----------|----------|
+|Alert-Info: \[\[http://localhost/\]\]!!info=alert-autoanswer| Alert-Info: \<http://localhost/\>;info=alert-autoanswer |
+|Alert-Info: \[\[http://localhost/\]\]!!answer-after=0| Alert-Info: \<http://localhost/\>;answer-after=0 |
+
+
 
 > Für nicht unterstützte Endgeräte wird kein Support geliefert.
 {.is-danger}
