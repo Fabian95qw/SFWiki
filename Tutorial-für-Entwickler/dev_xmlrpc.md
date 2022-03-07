@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-04T12:26:57.988Z
+date: 2022-03-07T14:51:00.326Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -23,7 +23,7 @@ Zur Berechnung des Tokens wird die LoginID, und das Passwort des Benutzers benö
 Das Token wird folgendermassen erzeugt:
 
 Login:sha512(Login*sha512(Passwort))
-Der Asterisk (*) wird als Charakterzeichen verwendet, es muss nichts multiplziert werden.
+Der Asterisk (\*) wird als Charakterzeichen verwendet, **es muss nichts multiplziert werden.**
 
 Beispiel:
 Login: 123
