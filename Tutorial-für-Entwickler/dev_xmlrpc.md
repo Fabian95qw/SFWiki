@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-07T14:57:24.893Z
+date: 2022-03-07T15:04:00.545Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -99,12 +99,28 @@ Passwort: Pass123
   
   In diesem Beispiel machen wir eine einfache Funktion, welche zwei Werte Addiert, und das Ergebnis ausgibt.
   
-  (img)
+  ![dev_module_xml_rpc_function.png](/uploads/dev_tutorial/dev_module_xml_rpc_function.png)
+  
+  ![dev_module_xml_rpc_function_code.png](/uploads/dev_tutorial/dev_module_xml_rpc_function_code.png)
   
 ### Funktion via XML-RPC Freigeben
   Im Vordersten Tab kann man diese Funktion nun via "Rpc Entrypoints" freigeben. 
   Die XML-RPC funktion erhält einen separaten Namen zum effektiven Namen der Funktion.
   
+  ![dev_module_xml_rpc_expose_function.png](/uploads/dev_tutorial/dev_module_xml_rpc_expose_function.png)
+  
+  
+ ## XML-RPC Einstiegspunkte Ansprechen/Testen
+  
+  Der XML-RPC Einstiegspunkt ist nun fertig, und kann getestet werden. 
+  Wir Empfehlen für einfache Tests das Programm [Postman](https://www.postman.com/)
+  
+### XML-RPC Einstiegspunkt Name
+  Der XML-RPC Einstiegspunkt wird einmal pro instanz generiert, weshalb ein Teil des Namens statisch ist, aber da der Instanzname dynamisch ist, muss man das entsprechend Berücksichtigen.
+  
+  Den Namen des XML-RPC Einstiegspunktes findet man in der Instanz im Tab "XML-RPC" (wird erst sichtbar, sobald man einen Einstiegspunkt definiert hat.
+  
+  (img)
   
   
   
