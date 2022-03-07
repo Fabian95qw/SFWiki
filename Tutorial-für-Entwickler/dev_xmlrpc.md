@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-07T15:04:00.545Z
+date: 2022-03-07T15:19:39.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -122,8 +122,103 @@ Passwort: Pass123
   
   (img)
   
+ ### Aufbau des URLs
   
+  Der Zugriffsurl für die XML-RPC ist: http|https://\[IP/DNS-der-STARFACE]//xml-rpc?de.vertico.starface.auth=\[Token]
   
+  Beispiel: http://**192.168.200.240**/xml-rpc?de.vertico.starface.auth=**123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced**
   
- 
+ ### Aufbau eines XML-RPC Requests
+  <details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
+
+    <?xml  version="1.0"?>
+    <methodCall>
+	    <methodName>[XML-RPC-Einstiegspunkt]</methodName>
+	    <params>
+		    <param>
+			    <value>
+				    <struct>
+						    <member>
+							    <name>Variablenname1</name>
+							    <value>
+									    <string>Wert1</string>
+						    </value>
+					    </member>
+					    <member>
+						    <name>Variablenname2</name>
+						    <value>
+							    <string>Wert2</string>
+						    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodCall>
+
+  </details>
+
+#### Beispiel für die Addition:
+
+<details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
+
+    <?xml  version="1.0"?>
+    <methodCall>
+	    <methodName>Example Instancename.Simplemath</methodName>
+	    <params>
+		    <param>
+			    <value>
+				    <struct>
+						    <member>
+							    <name>Num1</name>
+							 <value>
+								<string>123</string>
+						    </value>
+					    </member>
+					    <member>
+						    <name>Num2</name>
+						    <value>
+							    <string>321</string>
+						    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodCall>
+
+</details>
+
+
+
+#### Beispiel Antwort
+
+<details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
   
+    <?xml  version="1.0"?>
+    <methodResponse>
+    <params>
+	    <param>
+		    <value>
+			    <struct>
+				    <member>
+				    <name>Sum</name>
+					    <value>
+						    <double>444.0</double>
+					    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodResponse>
+    
+</details>
+
+  
+### Postman Beispieldatei
+
+  Diese kann im Postman Importiert werden, und enthält das Beispiel XML-RPC.
