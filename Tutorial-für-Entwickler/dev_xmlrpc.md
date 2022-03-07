@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: false
-date: 2022-03-04T12:26:57.988Z
+date: 2022-03-07T15:20:15.127Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -23,7 +23,7 @@ Zur Berechnung des Tokens wird die LoginID, und das Passwort des Benutzers benö
 Das Token wird folgendermassen erzeugt:
 
 Login:sha512(Login*sha512(Passwort))
-Der Asterisk (*) wird als Charakterzeichen verwendet, es muss nichts multiplziert werden.
+Der Asterisk (\*) wird als Charakterzeichen verwendet, **es muss nichts multiplziert werden.**
 
 Beispiel:
 Login: 123
@@ -40,7 +40,7 @@ Passwort: Pass123
 <details>
   <summary>Code (Klicken zum Anzeigen)</summary>
   
-      import java.math.BigInteger;
+    import java.math.BigInteger;
     import java.security.MessageDigest;
     import java.security.NoSuchAlgorithmException;
 
@@ -92,6 +92,135 @@ Passwort: Pass123
 
 ## XML-RPC Einstiegspunkte im Modul definieren
   
+### Eine Funktion erstellen
 
+  Vorab muss man eine Funktion erstellen, welche vom XML-RPC Einstiegspunkt genutzt werden soll.
+  Die Hierbei definierten Inputvars, und Outputwars werden dann wie XML-RPC befüllt bzw. abgeholt.
+  
+  In diesem Beispiel machen wir eine einfache Funktion, welche zwei Werte Addiert, und das Ergebnis ausgibt.
+  
+  ![dev_module_xml_rpc_function.png](/uploads/dev_tutorial/dev_module_xml_rpc_function.png)
+  
+  ![dev_module_xml_rpc_function_code.png](/uploads/dev_tutorial/dev_module_xml_rpc_function_code.png)
+  
+### Funktion via XML-RPC Freigeben
+  Im Vordersten Tab kann man diese Funktion nun via "Rpc Entrypoints" freigeben. 
+  Die XML-RPC funktion erhält einen separaten Namen zum effektiven Namen der Funktion.
+  
+  ![dev_module_xml_rpc_expose_function.png](/uploads/dev_tutorial/dev_module_xml_rpc_expose_function.png)
+  
+  
+ ## XML-RPC Einstiegspunkte Ansprechen/Testen
+  
+  Der XML-RPC Einstiegspunkt ist nun fertig, und kann getestet werden. 
+  Wir Empfehlen für einfache Tests das Programm [Postman](https://www.postman.com/)
+  
+### XML-RPC Einstiegspunkt Name
+  Der XML-RPC Einstiegspunkt wird einmal pro instanz generiert, weshalb ein Teil des Namens statisch ist, aber da der Instanzname dynamisch ist, muss man das entsprechend Berücksichtigen.
+  
+  Den Namen des XML-RPC Einstiegspunktes findet man in der Instanz im Tab "XML-RPC" (wird erst sichtbar, sobald man einen Einstiegspunkt definiert hat.
+  
+
+  
+ ### Aufbau des URLs
+  
+  Der Zugriffsurl für die XML-RPC ist: http|https://\[IP/DNS-der-STARFACE]//xml-rpc?de.vertico.starface.auth=\[Token]
+  
+  Beispiel: http://**192.168.200.240**/xml-rpc?de.vertico.starface.auth=**123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced**
+  
+ ### Aufbau eines XML-RPC Requests
+  <details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
+
+    <?xml  version="1.0"?>
+    <methodCall>
+	    <methodName>[XML-RPC-Einstiegspunkt]</methodName>
+	    <params>
+		    <param>
+			    <value>
+				    <struct>
+						    <member>
+							    <name>Variablenname1</name>
+							    <value>
+									    <string>Wert1</string>
+						    </value>
+					    </member>
+					    <member>
+						    <name>Variablenname2</name>
+						    <value>
+							    <string>Wert2</string>
+						    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodCall>
+
+  </details>
+
+#### Beispiel für die Addition:
+
+<details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
+
+    <?xml  version="1.0"?>
+    <methodCall>
+	    <methodName>Example Instancename.Simplemath</methodName>
+	    <params>
+		    <param>
+			    <value>
+				    <struct>
+						    <member>
+							    <name>Num1</name>
+							 <value>
+								<string>123</string>
+						    </value>
+					    </member>
+					    <member>
+						    <name>Num2</name>
+						    <value>
+							    <string>321</string>
+						    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodCall>
+
+</details>
+
+
+
+#### Beispiel Antwort
+
+<details>
+  <summary>XML (Klicken zum Anzeigen)</summary>
+  
+    <?xml  version="1.0"?>
+    <methodResponse>
+    <params>
+	    <param>
+		    <value>
+			    <struct>
+				    <member>
+				    <name>Sum</name>
+					    <value>
+						    <double>444.0</double>
+					    </value>
+				    </member>
+			    </struct>
+		    </value>
+	    </param>
+    </params>
+    </methodResponse>
+    
+</details>
+
+  
+### Postman Beispieldatei
+
+  Diese kann im Postman Importiert werden, und enthält das Beispiel XML-RPC.
   
   
