@@ -1,8 +1,8 @@
 ---
 title: XML-RPC Aufrufe an Module ausführen
 description: 
-published: false
-date: 2022-03-07T15:24:11.960Z
+published: true
+date: 2022-03-07T15:24:29.861Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
