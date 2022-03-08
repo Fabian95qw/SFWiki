@@ -2,7 +2,7 @@
 title: STARFACE Komponenten
 description: 
 published: true
-date: 2022-03-03T10:45:48.603Z
+date: 2022-03-08T09:26:06.838Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:16:56.671Z
@@ -11,7 +11,9 @@ dateCreated: 2022-02-23T14:16:56.671Z
 # STARFACE Komponenten
 Eine Liste von STARFACE Komponenten, mit der Auflistung, für was diese im Programmieren verwendet werden kann.
 
-Beispiele sind in einem separaten Artikel.
+Grundsätzlich ist im Modul alles möglich, was in der GUI auch möglich ist. Man muss lediglich rausfinden, wo man suchen muss.
+
+Beispiele für einzelne Funktionen findet ihr im Ordner "Beispiele"
 
 | Komponente | Zweck |
 |-----------|----------|
