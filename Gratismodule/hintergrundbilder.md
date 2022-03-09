@@ -2,7 +2,7 @@
 title: Hintergrundbilder
 description: 
 published: true
-date: 2021-10-20T06:09:28.582Z
+date: 2022-03-09T07:39:22.041Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:12.107Z
@@ -16,7 +16,7 @@ Dieses Modul funktioniert zwischenzeitlich ohne Lizenzschlüssel.
 ![Download](/uploads/hintergrundbilder/download.png "Download")
 ## Prüfintervall
 Der Prüfintervall prüft in regelmässigen Abständen, ob die aktuellen Hintergrundbilder auf der Starface noch den hochgeladenen Hintergrundbildern entsprechend, und löst bei Änderungen das Modul aus.
-## Alle Hintergründe herunterladen
+## Aktuelle Hintergründe herunterladen
 Die Hintergründe können direkt von der Starface bezogen werden. mit dem Haken "Aktuelle Hintergründe per E-Mail senden", erhält man ein komplettes Paket, welches alle aktuellen hintergründe der Starface Sammelt, und in eine .tar Datei verwandelt, und diese per E-Mail schickt.
 
 ![Tree](/uploads/hintergrundbilder/tree.png "Tree")
@@ -24,6 +24,9 @@ Die Hintergründe können direkt von der Starface bezogen werden. mit dem Haken 
 ## Einzelne Hintergründe hochladen
 Nach dem editieren der Einzelnen hintergründe können jeweils die entsprechenden Bilder im einzelnen für die Verschiedenen Telefonmodelle hochgeladen werden.
 Bei jedem Uplaod steht auch exakt, was für eine Datei erwartet wird.
+Rechts ist ebenfalls ein preview, aller Hintergründe (sofern preview unterstützt). Falls dieser sich nicht aktualisiert, muss eventuell der Browsercache geleert werden.
+
+## Previews
 
 ![Upload](/uploads/hintergrundbilder/upload.png "Upload")
 # Downloads & Lizenzierung
