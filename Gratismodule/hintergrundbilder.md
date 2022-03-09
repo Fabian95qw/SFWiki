@@ -2,7 +2,7 @@
 title: Hintergrundbilder
 description: 
 published: true
-date: 2022-03-09T07:44:57.416Z
+date: 2022-03-09T07:46:22.468Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:12.107Z
@@ -30,6 +30,7 @@ Rechts ist ebenfalls ein preview, aller Hintergründe (sofern preview unterstüt
 
 <details>
   <summary>Yealink (Klicken zum Anzeigen)</summary>
+  
 		yealink cp960
 		yealink exp50
 		yealink t26
@@ -49,49 +50,62 @@ Rechts ist ebenfalls ein preview, aller Hintergründe (sofern preview unterstüt
 		yealink t57
 		yealink t58
 		yealink v59
+  
   </details>
   
   <details>
   <summary>Tiptel (Klicken zum Anzeigen)</summary>
+  
 		tiptel ip 286
 		tiptel ip 284
 		tiptel 3130
 		tiptel 3120
+  
   </details>
   
   <details>
   <summary>Snom (Klicken zum Anzeigen)</summary>
+  
 		snom snomd785
 		snom snomd375
 		snom snom760
+  
   </details>
   
   <details>
   <summary>Panasonic (Klicken zum Anzeigen)</summary>
+  
 		panasonic hdv330
 		panasonic tgp600
 		panasonic ut670
+  
   </details>
   
   <details>
   <summary>Openstage (Klicken zum Anzeigen)</summary>
+  
 		openstage os80
 		openstage os60
 		openstrage os40
+  
   </details>
   
   <details>
   <summary>alcatel (Klicken zum Anzeigen)</summary>
+  
 		alcatel temporis ip800
 		alcatel temporis ip600
+  
   </details>
     
   <details>
   <summary>fanvil (Klicken zum Anzeigen)</summary>
+  
 		fanvil x3 x4
 		fanvil x5
 		fanvil x6
 		fanvil x7
+  
     </details>
     
 # Downloads & Lizenzierung
