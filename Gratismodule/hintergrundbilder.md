@@ -2,7 +2,7 @@
 title: Hintergrundbilder
 description: 
 published: true
-date: 2022-03-09T07:46:22.468Z
+date: 2022-03-09T07:48:38.424Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:12.107Z
@@ -66,9 +66,9 @@ Rechts ist ebenfalls ein preview, aller Hintergründe (sofern preview unterstüt
   <details>
   <summary>Snom (Klicken zum Anzeigen)</summary>
   
-		snom snomd785
-		snom snomd375
-		snom snom760
+		snomd785
+		snomd375
+		snom760
   
   </details>
   
