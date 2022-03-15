@@ -2,7 +2,7 @@
 title: Index
 description: 
 published: true
-date: 2022-03-08T09:24:38.607Z
+date: 2022-03-15T07:40:46.710Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-08T09:21:09.319Z
@@ -13,6 +13,8 @@ dateCreated: 2022-03-08T09:21:09.319Z
 Wilkommen bei meinem Tutorial, für die Entwicklung von Modulbausteinen, nutzung von XML-RPC, Listener, STARFACE Komponenten ect...
 
 Ich habe mein Wissen so gut es geht niedergeschrieben, um anderen den Einstieg in die Entwicklung von "erweiterten "Modulen für die STARFACE zu erleichtern.
+
+Grundsätzlich gibts zu wissen, alles was über die Weboberfläche möglich ist, kann man aus dem Modul heraus auch machen.
 
 > Bitte beachtet, dass für die Entwicklung der Modulbausteine ein Grund Know-How in Java benötigt wird.
 {.is-warning}
