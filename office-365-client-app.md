@@ -2,7 +2,7 @@
 title: Office365 App mit ClientSecret erstellen
 description: 
 published: true
-date: 2021-04-07T13:47:50.936Z
+date: 2022-03-25T09:12:39.409Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:50.336Z
@@ -38,6 +38,8 @@ Damit das Modul das machen kann, was es soll, muss man dem eben erstellten App-Z
 Die benötigten Berechtigungen Variieren von Modul zu Modul. 
 Gewisse Berechtigungen müssen durch einen Globalen Admin genehmigt werden.
 
-**Für die korrekten Berechtigungen, prüfen sie bitte den Wiki-Artikel des entsprechenden Moduls. Der Screenshot unten ist nur als Beispiel gedacht**
+> Für die korrekten Berechtigungen, prüfen sie bitte den Wiki-Artikel des entsprechenden Moduls. Der Screenshot unten ist nur als Beispiel gedacht
+{.is-warning}
+
 
 ![Admin Consent](/uploads/office-365-client-app/admin-consent.png "Admin Consent")
