@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2021-09-03T13:19:40.463Z
+date: 2022-03-25T07:11:06.255Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -46,6 +46,10 @@ Ihr müsst vorab die EULA von Let's Encrypt Akzeptieren: https://letsencrypt.org
 ## 2. Authorisierung/Challenge
 ### Domäne Angeben
 Im 2. Schritt muss zuerst eine Domäne angegeben werden, für welche die Challenge ausgeführt werden soll, sowie der Challenge Typ DNS/HTTP gewählt werden.
+
+> DNS-Challenges halten wegen einer neuen Richtlinie bei Let's Encrypt nur 30 Tage, bedeutet, dass die Challenge nach 30 Tagen unabhängig von einem erzeugten Zertifikat ausläuft, und eine neue Challenge generiert wird, welche wieder erfüllt werden muss.
+{.is-warning}
+
 
 > Nach diesem Schritt muss das Modul zwingend gespeichert werden!
 {.is-danger}

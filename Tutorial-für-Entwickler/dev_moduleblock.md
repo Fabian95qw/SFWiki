@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T11:58:46.184Z
+date: 2022-03-25T07:38:08.555Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -144,6 +144,7 @@ Z.b.:
 
   </details>
   
+  Die GUI Variante hiervon sieht so aus:   
 ![other_moduleblock_example](/uploads/dev_tutorial/other_moduleblock_example.png)
 
 
@@ -167,7 +168,7 @@ Alterantiv kann man diese auch via SSH direkt ins /var/starface/module/modules/r
 Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das aktuelle Änderungsdatum.
 
 ## Laden Zusätzliche Libraries
-Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden.
+Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden, oder per per SSH Client direkt ins /var/starface/module/modules/repo/\[ModuleID] kopiert werden.
 
 > Libraries, welche bereits eine andere Version von der STARFACE seite beziehen können nicht in zwei Versionen verwendet werden!
 > Die Version, welche im STARFACE Lib Ordner liegt hat immer vorrang.
