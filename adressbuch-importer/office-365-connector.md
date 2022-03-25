@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2022-03-25T09:10:55.801Z
+date: 2022-03-25T09:11:04.794Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -47,8 +47,6 @@ full_access_as_app (https://outlook.office365.com/full_access_as_app): Wird ben√
 {.is-info}
 
 ![full_access_as_app_permission.png](/uploads/adressbuch-importer-office365/full_access_as_app_permission.png)
-
-
 
 ## Importkonfiguration
 ### E-Mail Adresse f√ºr Import
