@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2022-02-07T10:27:43.237Z
+date: 2022-03-25T09:10:05.807Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z
@@ -34,17 +34,21 @@ Wenn der Typ Mehrfachimport gewählt wird, werden die Daten von der Importkonfig
 ## Erstellen von App-Login mit Clientsecret + Berechtigungen
 
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.si-solutions.ch/de/office-365-client-app
+
+Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-Tenant-ID, App-ID, App-Secret)
+
+### Korrekte Permissions
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
-
 Contacts.Read (https://outlook.office365.com/Contacts.Read):Lesen von Kontakten für alle User
-full_access_as_app (https://outlook.office365.com/full_access_as_app): Wird benötigt, da sonst die App keinen Zugriff auf Exchange als ganzes erhält. Zu finden Unter
+full_access_as_app (https://outlook.office365.com/full_access_as_app): Wird benötigt, da sonst die App keinen Zugriff auf Exchange als ganzes erhält. 
 > Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
-> Office 365 Exchange Online --> Anwendungsberechtigungen --> 
+> Office 365 Exchange Online (Oder Resource ID: 00000002-0000-0ff1-ce00-000000000000 --> Anwendungsberechtigungen --> 
 {.is-info}
 
 
-Die entsprechenden Werte müssen in die Felder im Modul eingetragen werden (App-Tenant-ID, App-ID, App-Secret)
+
+
 
 ## Importkonfiguration
 ### E-Mail Adresse für Import
