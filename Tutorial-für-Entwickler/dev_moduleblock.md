@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-04T11:58:46.184Z
+date: 2022-03-25T07:36:56.743Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -144,6 +144,7 @@ Z.b.:
 
   </details>
   
+  Die GUI Variante hiervon sieht so aus:   
 ![other_moduleblock_example](/uploads/dev_tutorial/other_moduleblock_example.png)
 
 
