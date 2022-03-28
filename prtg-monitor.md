@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2021-08-16T10:59:14.088Z
+date: 2022-03-28T06:19:03.123Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -25,7 +25,7 @@ Vom Kern muss eine Instanz angelegt werden. Der Name der Instanz wird später im
 ## Installation von Sensoren
 ### Downloads
 
-Der Source-Code der Sensoren findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/nucom/module/prtg
+Der Source-Code der Sensoren findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/src/server/si/module/prtg
 Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/PRTG-2-Starface/tree/master/bin/server
  
 ### Sensoren
