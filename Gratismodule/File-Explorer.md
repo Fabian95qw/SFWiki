@@ -2,7 +2,7 @@
 title: STARFACE File Explorer
 description: 
 published: true
-date: 2022-03-31T11:34:50.618Z
+date: 2022-03-31T11:36:34.763Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-31T11:16:51.548Z
@@ -40,7 +40,8 @@ Dateien können durch einen Doppelklick heruntergeladen werden.
 
 ## Einschränkungen
 - Es können keine Dateien hochgeladen werden.
-- Alle Dateien werden als TomCat User ausgeführt, bedeutet kein Zugriff auf Dateien/Verzeichnisse, welche Root zugriff benötigen.
+- Der File Explorer Arbeitet unter dem Tomcat User. Dateien/Ordner, auf die der Tomcat keinen Zugriff hat können nicht eingesehen/heruntergeladen werden.
+- Dateien die grösser sind, als der aktuell freie Arbeitsspeicher können nicht heruntergeladen werden, da die Verarbeitung via XML-RPC stattfindet, und die Datei vollständig in den RAM gelsen + Transkodiert werden muss, bevor wir diese per XML-RPC Senden
 
 ## Beispiel
 
