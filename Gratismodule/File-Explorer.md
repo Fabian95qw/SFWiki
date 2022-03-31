@@ -2,14 +2,14 @@
 title: STARFACE File Explorer
 description: 
 published: true
-date: 2022-03-31T11:36:34.763Z
+date: 2022-03-31T11:38:43.781Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-31T11:16:51.548Z
 ---
 
 # Beschreibung
-Ein Modul, welches es ermöglicht auf die Dateinfrastruktur des Unterliegenden Betriebssystems von STARFACE zuzugreifen.
+Ein Modul, welches es ermöglicht auf die Dateinfrastruktur des unterliegenden Betriebssystems von STARFACE zuzugreifen.
 
 Dies Funktioniert für alle STARFACE, inkl. STARFACE-Cloud.
 
