@@ -2,7 +2,7 @@
 title: STARFACE File Explorer
 description: 
 published: false
-date: 2022-03-31T11:25:09.834Z
+date: 2022-03-31T11:26:18.054Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-31T11:16:51.548Z
@@ -28,7 +28,7 @@ Ein Modul, welches es ermöglicht auf die Dateinfrastruktur des Unterliegenden B
 
 ## Beispiel
 
-
+![Example.gif](/uploads/file-explorer/Example.gif)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
