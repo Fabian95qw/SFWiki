@@ -2,11 +2,15 @@
 title: STARFACE File Explorer
 description: 
 published: true
-date: 2022-03-31T11:38:43.781Z
+date: 2022-04-01T07:10:47.882Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-31T11:16:51.548Z
 ---
+
+> Dieses Tool ist als Hilfsmittel für Administratoren gedacht, und sollte auf keinem Fall als permanent aktives Moduls eingesetzt werden. <br/> Wenn die Instanz nicht aktiv verwendet wird, sollte sie deaktiviert werden. <br/> Ansonsten erzeugt man unnötige Sicherheitsrisiken, denn das Modul erlaubt es JEDEM mit einem validen STARFACE Login auf die Betriebssystem ebene zuzugreifen.
+{.is-warning}
+
 
 # Beschreibung
 Ein Modul, welches es ermöglicht auf die Dateinfrastruktur des unterliegenden Betriebssystems von STARFACE zuzugreifen.
