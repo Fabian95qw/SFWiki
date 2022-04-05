@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-04-05T07:11:44.163Z
+date: 2022-04-05T07:43:29.438Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -11,6 +11,14 @@ dateCreated: 2022-01-04T09:26:18.627Z
 # Beschreibung
 Dieses Modul ermöglicht es, das in STARFACE integrierte Adressbuch per LDAP bereitzustellen.
 Die Adressen werden regelmässig aus dem Adressbuch in einem im RAM laufenden LDAP Server geladen.
+
+# Kompatible/Getestete Modelle
+Folgende Telefone/Systeme wurden von uns gegen das Modul getestet:
+
+- SNOM D785
+- SNOM D385
+- Gigaset N720 
+- Gigaset N870
 
 # Konfiguration Modul
 
