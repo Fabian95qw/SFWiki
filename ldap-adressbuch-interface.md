@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-01-14T12:22:08.052Z
+date: 2022-04-05T07:11:44.163Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -24,6 +24,7 @@ Ermöglicht es den internen LDAP Server zu starten/stoppen.
 
 ## LDAP Port
 Der LDAP Port, auf dem der LDAP Server zur Verfügung stehen soll.
+Bitte beachten sie, dass es sich hierbei um LDAP und nicht LDAPS handelt. Die Daten werden also in unverschlüsselter Form übertragen. Support für LDAPS ist aktuell noch in entwicklung.
 
 > Der Port muss überhalb des 1000-er bereichs gewählt werden, da die ersten 1000 Ports nur mit Root-Rechten geöffnet werden können.
 {.is-danger}
