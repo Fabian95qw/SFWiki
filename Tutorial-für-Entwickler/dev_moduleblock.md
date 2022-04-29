@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-03-25T07:38:08.555Z
+date: 2022-04-29T11:19:24.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -164,9 +164,30 @@ Anschließend geht man im Starface Modul Editor auf "Resources", und fügt eine 
 Nach erfolgtem Upload auf "Apply" klicken. 
 Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents → Public → \[Eigener Modulname] → Demo" auffindbar. 
 
-Alterantiv kann man diese auch via SSH direkt ins /var/starface/module/modules/repo/\[ModuleID] kopieren.
-Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das aktuelle Änderungsdatum.
+<details>
+  <summary>Bilder (Klicken zum Anzeigen)</summary>
 
+![dev_import_class_upload_process1.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
+
+![dev_import_class_upload_process2.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
+
+![dev_import_class_upload_process3.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
+
+![dev_import_class_ssh_process.png](/uploads/dev_tutorial/dev_import_class_ssh_process.png)
+
+</details>
+  
+
+Alterantiv kann man diese auch via SSH direkt ins /var/starface/module/modules/repo/\[ModuleID] kopieren.
+**Der einfachste weg die ModuleID zu finden, ist, das aktuelle Modul abzuspeicher. Der Ordner hat dann automatisch das aktuelle Änderungsdatum.**
+
+<details>
+  <summary>Bilder (Klicken zum Anzeigen)</summary>
+  
+![dev_import_class_ssh_process.png](/uploads/dev_tutorial/dev_import_class_ssh_process.png)
+  
+</details>
+  
 ## Laden Zusätzliche Libraries
 Falls Zusätzliche Libraries, welche auf der STARFACE nicht vorhanden sind, für die Bausteine benötigt werden, so können diese Ebenfalls via "Resources" in das Modul hochgeladen werden, oder per per SSH Client direkt ins /var/starface/module/modules/repo/\[ModuleID] kopiert werden.
 
