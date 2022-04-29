@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-04-29T11:20:02.504Z
+date: 2022-04-29T11:20:49.949Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z
@@ -169,7 +169,7 @@ Der Baustein ist nun, sofern alles richtig gemacht wurde, unter "Compontents →
 
 ![dev_import_class_upload_process1.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
 
-![dev_import_class_upload_process2.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
+![dev_import_class_upload_process2.png](/uploads/dev_tutorial/dev_import_class_upload_process2.png)
 
 ![dev_import_class_upload_process3.png](/uploads/dev_tutorial/dev_import_class_upload_process1.png)
 
