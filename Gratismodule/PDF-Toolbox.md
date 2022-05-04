@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:30:25.770Z
+date: 2022-05-04T08:35:47.980Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -29,6 +29,11 @@ Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://gith
 # Offset's
 Bei der Erzeugung des PDF's wird immer mit Offsets, anstatt mit absoluten Positionswerten gearbeitet.
 Der Offset X:0 und Y:0 repräsentiert immer den unteren Linken Ecke der Seite.
+
+Beispiel mit einem Bild:
+Offset X: 50
+Offset Y: 750
+
 
 
 # Funktionen
