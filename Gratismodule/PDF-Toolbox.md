@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T07:54:36.797Z
+date: 2022-05-04T08:14:44.565Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -28,7 +28,32 @@ Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://gith
 
 # Funktionen
 
-## \[PDF\]Create PDF()
+## \[PDF\]Create PDF
+
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+  ### Outputvariablen:
+  PDF (OBJECT) Repräsentiert ein leeres PDF, welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd es auf die Festplatte zu schreiben.
+   
+</details>
+
+## \[PDF\]Loading Existing PDF
+
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+    ### Inputvariablen:
+  Sourcefile (STRING): Der Absolute Pfad, zum PDF, welches fürs editieren geladen werden soll
+  
+>  PDF's welche einen Schreibschutz haben können nicht editiert werden  {.is-warning}
+
+  ### Outputvariablen:
+  PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd die Änderungen am PDF wieder auf die Festplatte zu schreiben-
+   
+  
+  
+</details>
 
 
 # Downloads & Lizenzierung
