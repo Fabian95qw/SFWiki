@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:15:15.072Z
+date: 2022-05-04T08:15:35.210Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -54,9 +54,15 @@ Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://gith
 </details>
 
 ## Template
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+    ### Inputvariablen:
+	  ### Outputvariablen:
 
-## \[PDF\]Loading Existing PDF
+</details>
 
+## Template
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
