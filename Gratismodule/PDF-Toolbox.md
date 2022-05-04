@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T07:52:48.032Z
+date: 2022-05-04T07:54:36.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -24,7 +24,12 @@ Den Quellcode findet man unter: https://github.com/Fabian95qw/SF-Modulefunctions
 Vorkompillierte .class Dateien findet man unter: https://github.com/Fabian95qw/SF-Modulefunctions/tree/master/bin/libraries/pdftoolbox
 
 # Beispielmodul
-Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier:
+Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://github.com/Fabian95qw/SF-Modulefunctions/tree/master/bin/libraries/pdftoolbox
+
+# Funktionen
+
+## \[PDF\]Create PDF()
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
