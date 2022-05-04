@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:46:35.438Z
+date: 2022-05-04T09:47:37.106Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -256,7 +256,6 @@ Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in ei
 - BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
 ### Outputvariablen:
 - Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
-- 
 </details>
   
   
