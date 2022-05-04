@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:58:20.577Z
+date: 2022-05-04T08:58:57.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -160,7 +160,6 @@ Targetfile (STRING): Wo die Ausgefüllte Version abgespeichert werden soll.
 Mapping (MAP) Map<Fieldname, Content> Setzt den Inhalt eines Felds basierend auf dem Felnamen. Z.b.: {'Textbox1', '7.2.0.1'} setzt den Inhalt der "Textbox1" auf den Wert "7.2.0.1"
 Replacement (MAP) Map<Searchstring, Replacementstring>.Ersetzt den Inhalt eines Feldes basierend auf dem Suchbegriff. Z.b. {'%SFVersion%'. '7.2.0.1'} Prüft alle Felder auf den Wert "%SFVersion%" und ersetzt alle gefundenen Instanzen davon mit "7.2.0.1".
 Beispiel: Feld beinhaltet: "STARFACE-Version:%SFVersion%" Ergebnis: "STARFACE-Version:7.2.0.1"
-  
 SetReadOnly (BOOLEAN) Sets edited Fields to readonly, so they can't be edited by hand later on
 
 
