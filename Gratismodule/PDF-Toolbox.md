@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:37:11.317Z
+date: 2022-05-04T08:40:03.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -108,6 +108,22 @@ Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite mus
   Offset Y (NUMBER): Offset in Höhe
   
 </details>
+
+## \[PDF\]Add Text to Page
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+  Text (STRING): Der Text, welcher dort Platziert werden soll
+  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+  Font Size (NUMBER): Schriftgrösse [pt]
+  Offset X (NUMBER): Offset in Breite
+  Offset Y (NUMBER): Offset in Höhe
+  
+</details>
+
 
 ## \[PDF\]
 <details>
