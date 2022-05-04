@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:47:37.106Z
+date: 2022-05-04T09:53:02.329Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -258,6 +258,26 @@ Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in ei
 - Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
 </details>
   
+  ## \[Table\] Insert TableRow into Table
+  Eine Reihe von Zellen in eine Tabelle einfügen.
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+- Table (OBJECT): Die Tabelle, zu der die Reihe hinzugefügt werden soll.
+- Rowdata (OBJECT) Benötigt eine List\<Cell\>. **Die Liste muss genau so viele Zellen enthalten, wie es Spalten gibt** (Ausser bei Zellenverbund, dort muss es mit den verbundenen Zellen aufgehen)
+- Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle, Spalte mit den unten eingestellten Einstellungen überschreiben.
+- Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+- Font Size (NUMBER): Schriftgrösse [pt]
+- FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+- DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+- VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+- HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+- BackGroundColor (STRING): Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
+- BorderColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
+
+</details>
   
 ## \[Table\]
 <details>
