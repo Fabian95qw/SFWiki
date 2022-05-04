@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:28:15.768Z
+date: 2022-05-04T08:28:56.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -89,8 +89,8 @@ Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite mus
   Path to Image (STRING): Der Pfad zum Bild, welches eingefügt werden soll.
   Width (NUMBER): Das Bild wird auf diese Länge Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
   Height (NUMBER): Das Bild wird auf diese Höhe Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
-  Offset X (NUMBER): 
-  Offset Y (NUMBER):
+  Offset X (NUMBER): Offset in Breite
+  Offset Y (NUMBER): Offset in Höhe
   
 </details>
 
