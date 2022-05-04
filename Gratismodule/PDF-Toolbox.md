@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:36:27.461Z
+date: 2022-05-04T08:37:11.317Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -98,7 +98,6 @@ Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite mus
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
-### Inputvariablen:
 ### Inputvariablen:
   PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
   Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
