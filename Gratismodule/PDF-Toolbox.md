@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:02:22.249Z
+date: 2022-05-04T09:02:46.119Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -174,7 +174,7 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
 
 </details>
 
-## \[PDF\]
+## \[Table\]
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
