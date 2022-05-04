@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:44:15.690Z
+date: 2022-05-04T08:53:18.455Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -142,9 +142,9 @@ Ein Textfeld, welches ausgefüllt werden kann auf einer Seite einfügen
   Height (NUMBER): Das Textfeld wird auf diese Höhe skaliert.
   Offset X (NUMBER): Offset in Breite
   Offset Y (NUMBER): Offset in Höhe
-  Bordercolor
-  Backgroundcolor
-  Allow Editing of Textfield
+  Bordercolor (R,G,B): Die Farbe des Feldrandes im Format [R,G,B] Z.b. 255,128,64
+  Backgroundcolor: Die Farbe des Hintergrunds (Bei aktiver selektion)im Format [R,G,B] Z.b. 255,128,64
+  Allow Editing of Textfield: Ob der Inhalt dieses Textfeldes editiert werden darf.
   
 </details>
 
