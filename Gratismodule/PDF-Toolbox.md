@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:38:10.429Z
+date: 2022-05-04T09:40:55.820Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -188,8 +188,8 @@ FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
 DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
 VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
 HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-BackGroundColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
-BorderColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
+BackGroundColor (STRING): Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
+BorderColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
 BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
 BorderWidth (NUMBER): Dicke des Randes [pt]
 Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
@@ -239,13 +239,13 @@ Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLI
 Font Size (NUMBER): Schriftgrösse [pt]
 FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
 DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
-    VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
-    HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-    BackGroundColor (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderColorTop (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderColorBottom (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderColorLeft (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderColorRight (STRING) The Color RGB[0-255] Example: 255,255,255
+VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+BackGroundColor (STRING):Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
+    BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
     BorderStyleTop (STRING)
     BorderStyleBottom (STRING)
     BorderStyleLeft (STRING)
@@ -257,7 +257,7 @@ DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, we
   
   
 
-    BackGroundColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
+    BackGroundColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
     BorderColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
     BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
     BorderWidth (NUMBER): Dicke des Randes [pt]
