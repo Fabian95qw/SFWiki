@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:32:36.747Z
+date: 2022-05-04T09:33:32.227Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -223,6 +223,18 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
     BorderWidthRight (NUMBER): Dicke des Randes [pt]
 
 </details>
+  
+## \[Table\] Create Cell for insertion Into a Row
+Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in eine Liste geladen werden.
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+
+### Outputvariablen:
+
+</details>
+  
   
 ## \[Table\]
 <details>
