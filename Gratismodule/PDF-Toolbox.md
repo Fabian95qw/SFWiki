@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:40:55.820Z
+date: 2022-05-04T09:42:53.399Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -234,7 +234,7 @@ Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in ei
 Content (STRING): Der Inhalt dieser Zelle
 Columnspan (NUMBER): Erlaubt es diese Zelle über mehrer Spalten zu verbinden. Um Spalten zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
 Rowspan (NUMBER): Erlaubt es dieser Zelle über mehrere Reihen zu verbinden. Um Reihen zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
-Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle, Spalte \& Reihe mit den unten eingestellten Einstellungen überschreiben.
+Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle, Spalte \& Reihe mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht gesetzt ist, muss lediglich der Conten, und die Column/Rowspan angegeben werden.
 Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
 Font Size (NUMBER): Schriftgrösse [pt]
 FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
@@ -242,27 +242,18 @@ DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, we
 VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
 HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
 BackGroundColor (STRING):Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
-    BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,128,64
-    BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
-    BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
-    BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
-    BorderStyleTop (STRING)
-    BorderStyleBottom (STRING)
-    BorderStyleLeft (STRING)
-    BorderStyleRight (STRING)
-    BorderWidthTop (NUMBER)
-    BorderWidthBottom (NUMBER)
-    BorderWidthLeft (NUMBER)
-    BorderWidthRight (NUMBER)
-  
-  
-
-    BackGroundColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
-    BorderColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
-    BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
-    BorderWidth (NUMBER): Dicke des Randes [pt]
-    Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
-  
+BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,128,64
+BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
+BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
+BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderStyleTop (SOLID, DOTTED, DASHED): Ob der obere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderStyleBottom (SOLID, DOTTED, DASHED): Ob der untere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderWidthTop (NUMBER): Dicke des oberen Randes [pt]
+    BorderWidthBottom (NUMBER): Dicke des unteren Randes [pt]
+    BorderWidthLeft (NUMBER): Dicke des linken Randes [pt]
+    BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
 ### Outputvariablen:
   Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
 
