@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:35:47.980Z
+date: 2022-05-04T08:36:27.461Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -34,6 +34,12 @@ Beispiel mit einem Bild:
 Offset X: 50
 Offset Y: 750
 
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+	
+![Offset.PNG](/uploads/pdftoolbox/Offset.PNG)
+   
+</details>
 
 
 # Funktionen
