@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:58:57.604Z
+date: 2022-05-04T09:02:22.249Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -161,17 +161,16 @@ Mapping (MAP) Map<Fieldname, Content> Setzt den Inhalt eines Felds basierend auf
 Replacement (MAP) Map<Searchstring, Replacementstring>.Ersetzt den Inhalt eines Feldes basierend auf dem Suchbegriff. Z.b. {'%SFVersion%'. '7.2.0.1'} Prüft alle Felder auf den Wert "%SFVersion%" und ersetzt alle gefundenen Instanzen davon mit "7.2.0.1".
 Beispiel: Feld beinhaltet: "STARFACE-Version:%SFVersion%" Ergebnis: "STARFACE-Version:7.2.0.1"
 SetReadOnly (BOOLEAN) Sets edited Fields to readonly, so they can't be edited by hand later on
-
-
 </details>
 
-## \[PDF\]
+## \[PDF\] Merge Multiple PDF's
+  Ermöglicht es mehrere .pdf Dateien zu einer Datei zusammenzuführen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-
-### Outputvariablen:
+PDF-Files (MAP): Map<Order, Path/to/PDF/File.pdf> Führt die PDF's in der Entsprechenden Reihenfolge zusammen. Z.b.: [{1, /tmp/Deckblatt.pdf}{2, /tmp/Inhalt.pdf}]. Erzeugt ein neues PDF mit dem Inhalt von "Deckblatt.pdf", gefolgt im Inhalt von "Inhalt.pdf".
+Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
 
 </details>
 
