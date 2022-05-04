@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:42:53.399Z
+date: 2022-05-04T09:43:39.951Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -246,16 +246,16 @@ BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,1
 BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
 BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
 BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
-    BorderStyleTop (SOLID, DOTTED, DASHED): Ob der obere Rand Solide, Gestrichelt, oder Gepunktet sein soll
-    BorderStyleBottom (SOLID, DOTTED, DASHED): Ob der untere Rand Solide, Gestrichelt, oder Gepunktet sein soll
-    BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
-    BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
-    BorderWidthTop (NUMBER): Dicke des oberen Randes [pt]
-    BorderWidthBottom (NUMBER): Dicke des unteren Randes [pt]
-    BorderWidthLeft (NUMBER): Dicke des linken Randes [pt]
-    BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
+BorderStyleTop (SOLID, DOTTED, DASHED): Ob der obere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+BorderStyleBottom (SOLID, DOTTED, DASHED): Ob der untere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
+BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
+BorderWidthTop (NUMBER): Dicke des oberen Randes [pt]
+BorderWidthBottom (NUMBER): Dicke des unteren Randes [pt]
+BorderWidthLeft (NUMBER): Dicke des linken Randes [pt]
+BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
 ### Outputvariablen:
-  Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
+Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
 
 </details>
   
