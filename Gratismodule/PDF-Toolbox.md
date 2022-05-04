@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:21:15.622Z
+date: 2022-05-04T08:23:52.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -61,7 +61,20 @@ PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher bef
 PageSize (LEGAL ,LETTER ,A0 ,A1 ,A2 ,A3 ,A4 ,A5 ,A6), die grösse der neu zu erzeugenden Seite
 
 ### Outputvariablen:
-Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher befindet. Diese Seite muss einem PDF Zugewiesen werden, damit diese im entsprechenden PDF abgespeichert wird.
+Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher befindet. **Diese Seite muss einem PDF Zugewiesen werden, damit diese im entsprechenden PDF abgespeichert wird.**
+
+</details>
+
+## \[PDF\] Get Page of an existing PDF
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+  PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet.
+  PageNumber (NUMBER): Die Seitennummer, welche extrahiert werden soll
+  
+### Outputvariablen:
+Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite muss dem PDF nicht erneut zugewiesen werden, damit sie abgespeichert wird.**
 
 </details>
 
@@ -70,15 +83,7 @@ Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
- ### Outputvariablen:
 
-</details>
-
-## \[PDF\]
-<details>
-  <summary>Info (Klicken zum Anzeigen)</summary>
-	
-### Inputvariablen:
 ### Outputvariablen:
 
 </details>
