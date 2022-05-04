@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:14:44.565Z
+date: 2022-05-04T08:15:15.072Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -50,11 +50,20 @@ Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://gith
 
   ### Outputvariablen:
   PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd die Änderungen am PDF wieder auf die Festplatte zu schreiben-
-   
-  
-  
+     
 </details>
 
+## Template
+
+## \[PDF\]Loading Existing PDF
+
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+    ### Inputvariablen:
+	  ### Outputvariablen:
+
+</details>
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
