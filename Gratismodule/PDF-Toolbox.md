@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:23:52.920Z
+date: 2022-05-04T08:28:15.768Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -76,6 +76,22 @@ Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher
 ### Outputvariablen:
 Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite muss dem PDF nicht erneut zugewiesen werden, damit sie abgespeichert wird.**
 
+</details>
+
+## \[PDF\]Add Image to Page
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+### Inputvariablen:
+  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+  Path to Image (STRING): Der Pfad zum Bild, welches eingefügt werden soll.
+  Width (NUMBER): Das Bild wird auf diese Länge Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
+  Height (NUMBER): Das Bild wird auf diese Höhe Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
+  Offset X (NUMBER): 
+  Offset Y (NUMBER):
+  
 </details>
 
 ## \[PDF\]
