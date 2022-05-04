@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:43:39.951Z
+date: 2022-05-04T09:44:37.191Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -50,7 +50,7 @@ Ein neues leeres PDF erzeugen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
   ### Outputvariablen:
-  PDF (OBJECT) Repräsentiert ein leeres PDF, welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd es auf die Festplatte zu schreiben.
+- PDF (OBJECT) Repräsentiert ein leeres PDF, welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd es auf die Festplatte zu schreiben.
    
 </details>
 
@@ -60,12 +60,12 @@ Ein bestehendes PDF laden
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-Sourcefile (STRING): Der Absolute Pfad, zum PDF, welches fürs editieren geladen werden soll
+- Sourcefile (STRING): Der Absolute Pfad, zum PDF, welches fürs editieren geladen werden soll
   
 >  PDF's welche einen Schreibschutz haben können nicht editiert werden  {.is-warning}
 
 ### Outputvariablen:
-PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd die Änderungen am PDF wieder auf die Festplatte zu schreiben-
+- PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet. Dieses Objekt wird am schluss benötigt, umd die Änderungen am PDF wieder auf die Festplatte zu schreiben-
      
 </details>
 
@@ -75,10 +75,10 @@ Eine neue leere Seite erzeugen
   <summary>Info (Klicken zum Anzeigen)</summary>
 
 ### Inputvariablen:
-PageSize (LEGAL ,LETTER ,A0 ,A1 ,A2 ,A3 ,A4 ,A5 ,A6), die grösse der neu zu erzeugenden Seite
+- PageSize (LEGAL ,LETTER ,A0 ,A1 ,A2 ,A3 ,A4 ,A5 ,A6), die grösse der neu zu erzeugenden Seite
 
 ### Outputvariablen:
-Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher befindet. **Diese Seite muss einem PDF Zugewiesen werden, damit diese im entsprechenden PDF abgespeichert wird.**
+- Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher befindet. **Diese Seite muss einem PDF Zugewiesen werden, damit diese im entsprechenden PDF abgespeichert wird.**
 
 </details>
 
@@ -88,11 +88,11 @@ Eine PDF Seite von einem existierenden PDF Abrufen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-  PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet.
-  PageNumber (NUMBER): Die Seitennummer, welche extrahiert werden soll
+- PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher befindet.
+- PageNumber (NUMBER): Die Seitennummer, welche extrahiert werden soll
   
 ### Outputvariablen:
-Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite muss dem PDF nicht erneut zugewiesen werden, damit sie abgespeichert wird.**
+- Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite muss dem PDF nicht erneut zugewiesen werden, damit sie abgespeichert wird.**
 
 </details>
 
@@ -102,13 +102,13 @@ Ein Bild auf einer Seite einfügen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
-  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
-  Path to Image (STRING): Der Pfad zum Bild, welches eingefügt werden soll.
-  Width (NUMBER): Das Bild wird auf diese Länge Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
-  Height (NUMBER): Das Bild wird auf diese Höhe Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
-  Offset X (NUMBER): Offset in Breite
-  Offset Y (NUMBER): Offset in Höhe
+- PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+- Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+- Path to Image (STRING): Der Pfad zum Bild, welches eingefügt werden soll.
+- Width (NUMBER): Das Bild wird auf diese Länge Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
+- Height (NUMBER): Das Bild wird auf diese Höhe Skaliert. Wenn 0 gesetzt wird, bleibt es auf Originalgrösse
+- Offset X (NUMBER): Offset in Breite
+- Offset Y (NUMBER): Offset in Höhe
   
 </details>
 
@@ -118,13 +118,13 @@ Reiner Text auf einer Seite einfügen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
-  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
-  Text (STRING): Der Text, welcher dort Platziert werden soll
-  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
-  Font Size (NUMBER): Schriftgrösse [pt]
-  Offset X (NUMBER): Offset in Breite
-  Offset Y (NUMBER): Offset in Höhe
+- PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+- Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+- Text (STRING): Der Text, welcher dort Platziert werden soll
+- Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+- Font Size (NUMBER): Schriftgrösse [pt]
+- Offset X (NUMBER): Offset in Breite
+- Offset Y (NUMBER): Offset in Höhe
   
 </details>
 
