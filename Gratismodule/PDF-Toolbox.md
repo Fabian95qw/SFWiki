@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:44:37.191Z
+date: 2022-05-04T09:45:37.269Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -134,17 +134,17 @@ Ein Textfeld, welches ausgefüllt werden kann auf einer Seite einfügen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
-  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
-  Fieldname (STRING): Der Name des Formularfelds. Dies wird bei der Auswertung von Formularen benötigt.
-  Text (STRING): Der Text, der Vorbefüllt werden soll
-  Width (NUMBER): Das Textfeld wird auf diese Länge skaliert. 
-  Height (NUMBER): Das Textfeld wird auf diese Höhe skaliert.
-  Offset X (NUMBER): Offset in Breite
-  Offset Y (NUMBER): Offset in Höhe
-  Bordercolor (R,G,B): Die Farbe des Feldrandes im Format [R,G,B] Z.b. 255,128,64
-  Backgroundcolor: Die Farbe des Hintergrunds (Bei aktiver selektion)im Format [R,G,B] Z.b. 255,128,64
-  Allow Editing of Textfield: Ob der Inhalt dieses Textfeldes editiert werden darf.
+-   PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+-   Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+-   Fieldname (STRING): Der Name des Formularfelds. Dies wird bei der Auswertung von Formularen benötigt.
+-   Text (STRING): Der Text, der Vorbefüllt werden soll
+-   Width (NUMBER): Das Textfeld wird auf diese Länge skaliert. 
+-   Height (NUMBER): Das Textfeld wird auf diese Höhe skaliert.
+-   Offset X (NUMBER): Offset in Breite
+-   Offset Y (NUMBER): Offset in Höhe
+-   Bordercolor (R,G,B): Die Farbe des Feldrandes im Format [R,G,B] Z.b. 255,128,64
+-   Backgroundcolor: Die Farbe des Hintergrunds (Bei aktiver selektion)im Format [R,G,B] Z.b. 255,128,64
+-   Allow Editing of Textfield: Ob der Inhalt dieses Textfeldes editiert werden darf.
   
 </details>
 
@@ -155,12 +155,12 @@ Füllt das Formular eines bestehenden PDF's aus, und Speichert es in einer neuen
 	
 ### Inputvariablen:
 
-Template (STRING): Das Originale Formular/die Vorlage, die Befüllt werden soll.
-Targetfile (STRING): Wo die Ausgefüllte Version abgespeichert werden soll.
-Mapping (MAP) Map<Fieldname, Content> Setzt den Inhalt eines Felds basierend auf dem Felnamen. Z.b.: {'Textbox1', '7.2.0.1'} setzt den Inhalt der "Textbox1" auf den Wert "7.2.0.1"
-Replacement (MAP) Map<Searchstring, Replacementstring>.Ersetzt den Inhalt eines Feldes basierend auf dem Suchbegriff. Z.b. {'%SFVersion%'. '7.2.0.1'} Prüft alle Felder auf den Wert "%SFVersion%" und ersetzt alle gefundenen Instanzen davon mit "7.2.0.1".
-Beispiel: Feld beinhaltet: "STARFACE-Version:%SFVersion%" Ergebnis: "STARFACE-Version:7.2.0.1"
-SetReadOnly (BOOLEAN) Sets edited Fields to readonly, so they can't be edited by hand later on
+- Template (STRING): Das Originale Formular/die Vorlage, die Befüllt werden soll.
+- Targetfile (STRING): Wo die Ausgefüllte Version abgespeichert werden soll.
+- Mapping (MAP) Map<Fieldname, Content> Setzt den Inhalt eines Felds basierend auf dem Felnamen. Z.b:"Textbox1', '7.2.0.1'} setzt den Inhalt der "Textbox1" auf den Wert "7.2.0.1"
+- Replacement (MAP) Map<Searchstring, Replacementstring>.Ersetzt den Inhalt eines Feldes basierend auf dem Suchbegriff. Z.b. {'%SFVersion%'. '7.2.0.1'} Prüft alle Felder auf den Wert "%SFVersion%" und ersetzt alle gefundenen Instanzen davon mit "7.2.0.1".
+- Beispiel: Feld beinhaltet: "STARFACE-Version:%SFVersion%" Ergebnis: "STARFACE-Version:7.2.0.1"
+- SetReadOnly (BOOLEAN) Sets edited Fields to readonly, so they can't be edited by hand later on
 </details>
 
 ## \[PDF\] Merge Multiple PDF's
