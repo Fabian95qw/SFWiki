@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:53:02.329Z
+date: 2022-05-04T09:53:53.419Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -276,18 +276,9 @@ Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in ei
 - BackGroundColor (STRING): Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
 - BorderColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
 - BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
-
+- BorderWidth (NUMBER): Dicke des Randes [pt]
 </details>
   
-## \[Table\]
-<details>
-  <summary>Info (Klicken zum Anzeigen)</summary>
-	
-### Inputvariablen:
-
-### Outputvariablen:
-
-</details>
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
