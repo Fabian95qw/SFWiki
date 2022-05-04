@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:41:53.793Z
+date: 2022-05-04T08:44:15.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -136,11 +136,15 @@ Ein Textfeld, welches ausgefüllt werden kann auf einer Seite einfügen
 ### Inputvariablen:
   PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
   Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
-  Text (STRING): Der Text, welcher dort Platziert werden soll
-  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
-  Font Size (NUMBER): Schriftgrösse [pt]
+  Fieldname (STRING): Der Name des Formularfelds. Dies wird bei der Auswertung von Formularen benötigt.
+  Text (STRING): Der Text, der Vorbefüllt werden soll
+  Width (NUMBER): Das Textfeld wird auf diese Länge skaliert. 
+  Height (NUMBER): Das Textfeld wird auf diese Höhe skaliert.
   Offset X (NUMBER): Offset in Breite
   Offset Y (NUMBER): Offset in Höhe
+  Bordercolor
+  Backgroundcolor
+  Allow Editing of Textfield
   
 </details>
 
