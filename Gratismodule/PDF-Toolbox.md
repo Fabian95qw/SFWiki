@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:02:46.119Z
+date: 2022-05-04T09:10:47.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -164,7 +164,7 @@ SetReadOnly (BOOLEAN) Sets edited Fields to readonly, so they can't be edited by
 </details>
 
 ## \[PDF\] Merge Multiple PDF's
-  Ermöglicht es mehrere .pdf Dateien zu einer Datei zusammenzuführen
+Ermöglicht es mehrere .pdf Dateien zu einer Datei zusammenzuführen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
@@ -174,6 +174,32 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
 
 </details>
 
+## \[Table\]
+  Erzeugt eine leere Tabelle mit den Designeinstellungen.
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+
+    TableWidth (NUMBER): Vollständige Breite der Tabelle
+  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+  Font Size (NUMBER): Schriftgrösse [pt]
+    FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+    DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+    VerticalAlignment (BOTTOM, MIDDLE, TOP): 
+    HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY):
+    BackGroundColor (STRING) The Color RGB[0-255] Example: 255,255,255
+    BorderColor (STRING) The Color RGB[0-255] Example: 255,255,255
+    BorderStyle (STRING)
+    BorderWidth (NUMBER)
+    Padding (NUMBER)
+
+
+### Outputvariablen:
+   Table (OBJECT) Represents an empty Table. Add Columns using [Table] Add Column to Table
+
+</details>
+  
 ## \[Table\]
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
