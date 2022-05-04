@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:40:03.700Z
+date: 2022-05-04T08:41:53.793Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -45,7 +45,7 @@ Offset Y: 750
 # Funktionen
 
 ## \[PDF\]Create PDF
-
+Ein neues leeres PDF erzeugen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
@@ -55,7 +55,7 @@ Offset Y: 750
 </details>
 
 ## \[PDF\]Loading Existing PDF
-
+Ein bestehendes PDF laden
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
@@ -70,9 +70,10 @@ PDF (OBJECT) Repräsentiert das geladene PDF welches sich im Arbeitsspeicher bef
 </details>
 
 ## \[PDF\] Create new Page
+Eine neue leere Seite erzeugen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
-	
+
 ### Inputvariablen:
 PageSize (LEGAL ,LETTER ,A0 ,A1 ,A2 ,A3 ,A4 ,A5 ,A6), die grösse der neu zu erzeugenden Seite
 
@@ -82,6 +83,7 @@ Page (OBJECT): Repräsentiert eine leeres Seite, welches sich im Arbeitsspeicher
 </details>
 
 ## \[PDF\] Get Page of an existing PDF
+Eine PDF Seite von einem existierenden PDF Abrufen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
@@ -95,6 +97,7 @@ Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite mus
 </details>
 
 ## \[PDF\]Add Image to Page
+Ein Bild auf einer Seite einfügen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
@@ -110,6 +113,23 @@ Page (OBJECT): Repräsentiert die entsprechende Seite vom PDF. **Diese Seite mus
 </details>
 
 ## \[PDF\]Add Text to Page
+Reiner Text auf einer Seite einfügen
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+  PDF (OBJECT) Das PDF, zu dem das Bild hinzugefügt werden soll.
+  Page (OBJECT): Die Seite in diesem PDF, zu dem das Bild hinzugefügt werden soll.
+  Text (STRING): Der Text, welcher dort Platziert werden soll
+  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+  Font Size (NUMBER): Schriftgrösse [pt]
+  Offset X (NUMBER): Offset in Breite
+  Offset Y (NUMBER): Offset in Höhe
+  
+</details>
+
+## \[PDF\]Add Textfield to Page
+Ein Textfeld, welches ausgefüllt werden kann auf einer Seite einfügen
 <details>
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
