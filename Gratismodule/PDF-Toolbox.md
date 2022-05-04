@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:45:37.269Z
+date: 2022-05-04T09:46:35.438Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -169,8 +169,8 @@ Ermöglicht es mehrere .pdf Dateien zu einer Datei zusammenzuführen
   <summary>Info (Klicken zum Anzeigen)</summary>
 	
 ### Inputvariablen:
-PDF-Files (MAP): Map<Order, Path/to/PDF/File.pdf> Führt die PDF's in der Entsprechenden Reihenfolge zusammen. Z.b.: [{1, /tmp/Deckblatt.pdf}{2, /tmp/Inhalt.pdf}]. Erzeugt ein neues PDF mit dem Inhalt von "Deckblatt.pdf", gefolgt im Inhalt von "Inhalt.pdf".
-Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
+- PDF-Files (MAP): Map<Order, Path/to/PDF/File.pdf> Führt die PDF's in der Entsprechenden Reihenfolge zusammen. Z.b.: [{1, /tmp/Deckblatt.pdf}{2, /tmp/Inhalt.pdf}]. Erzeugt ein neues PDF mit dem Inhalt von "Deckblatt.pdf", gefolgt im Inhalt von "Inhalt.pdf".
+- Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
 
 </details>
 
@@ -181,21 +181,21 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
 	
 ### Inputvariablen:
 
-TableWidth (NUMBER): Vollständige Breite der Tabelle
-  Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
-Font Size (NUMBER): Schriftgrösse [pt]
-FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
-DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
-VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
-HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-BackGroundColor (STRING): Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
-BorderColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
-BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderWidth (NUMBER): Dicke des Randes [pt]
-Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
+- TableWidth (NUMBER): Vollständige Breite der Tabelle
+- Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+- Font Size (NUMBER): Schriftgrösse [pt]
+- FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+- DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+- VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+- HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+- BackGroundColor (STRING): Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
+- BorderColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderWidth (NUMBER): Dicke des Randes [pt]
+- Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
 
 ### Outputvariablen:
-   Table (OBJECT): Repräsentiert die leere Tabelle mit den Designeinstellungen. Diese muss noch mit Spalten befüllt werden.
+- Table (OBJECT): Repräsentiert die leere Tabelle mit den Designeinstellungen. Diese muss noch mit Spalten befüllt werden.
  
 </details>
   
@@ -206,21 +206,21 @@ Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
 	
 ### Inputvariablen:
 
-Table (OBJECT): Die Tabelle, zu der die Spalte hinzugefügt werden soll.
-ColumnWidth (NUMBER): Die Breite der Spalte.
-Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht aktiv ist, muss nur die Tabelle, und Spaltenbreite angegeben werden.
-Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
-Font Size (NUMBER): Schriftgrösse [pt]
-FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
- DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
-VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
-HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-BorderColorLeft (R,G,B): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
-BorderColorRight(R,G,B): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
-BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderWidthLeft (NUMBER): Dicke des Randes [pt]
-BorderWidthRight (NUMBER): Dicke des Randes [pt]
+- Table (OBJECT): Die Tabelle, zu der die Spalte hinzugefügt werden soll.
+- ColumnWidth (NUMBER): Die Breite der Spalte.
+- Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht aktiv ist, muss nur die Tabelle, und Spaltenbreite angegeben werden.
+- Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+- Font Size (NUMBER): Schriftgrösse [pt]
+- FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+-  DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+- VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+- HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+- BorderColorLeft (R,G,B): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderColorRight(R,G,B): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderWidthLeft (NUMBER): Dicke des Randes [pt]
+- BorderWidthRight (NUMBER): Dicke des Randes [pt]
 
 </details>
   
@@ -231,32 +231,32 @@ Um eine Reihe zu erzeugen, muss zuerst der Inhalt jeder Zelle erzeugt, und in ei
 	
 ### Inputvariablen:
 
-Content (STRING): Der Inhalt dieser Zelle
-Columnspan (NUMBER): Erlaubt es diese Zelle über mehrer Spalten zu verbinden. Um Spalten zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
-Rowspan (NUMBER): Erlaubt es dieser Zelle über mehrere Reihen zu verbinden. Um Reihen zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
-Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle, Spalte \& Reihe mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht gesetzt ist, muss lediglich der Conten, und die Column/Rowspan angegeben werden.
-Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
-Font Size (NUMBER): Schriftgrösse [pt]
-FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
-DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
-VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
-HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-BackGroundColor (STRING):Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
-BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,128,64
-BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
-BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
-BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
-BorderStyleTop (SOLID, DOTTED, DASHED): Ob der obere Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderStyleBottom (SOLID, DOTTED, DASHED): Ob der untere Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
-BorderWidthTop (NUMBER): Dicke des oberen Randes [pt]
-BorderWidthBottom (NUMBER): Dicke des unteren Randes [pt]
-BorderWidthLeft (NUMBER): Dicke des linken Randes [pt]
-BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
+- Content (STRING): Der Inhalt dieser Zelle
+- Columnspan (NUMBER): Erlaubt es diese Zelle über mehrer Spalten zu verbinden. Um Spalten zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
+- Rowspan (NUMBER): Erlaubt es dieser Zelle über mehrere Reihen zu verbinden. Um Reihen zu verbinden muss ein Wert von 2 oder Grösser angegeben werden.
+- Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle, Spalte \& Reihe mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht gesetzt ist, muss lediglich der Conten, und die Column/Rowspan angegeben werden.
+- Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+- Font Size (NUMBER): Schriftgrösse [pt]
+- FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+- DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+- VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+- HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+- BackGroundColor (STRING):Die Farbe des Hintergrunds im Format [R,G,B] Z.b. 255,128,64
+- BorderColorTop (STRING):Die Farbe des oberen Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderColorBottom (STRING): Die Farbe des unteren Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderColorLeft (STRING): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderColorRight (STRING): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
+- BorderStyleTop (SOLID, DOTTED, DASHED): Ob der obere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderStyleBottom (SOLID, DOTTED, DASHED): Ob der untere Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
+- BorderWidthTop (NUMBER): Dicke des oberen Randes [pt]
+- BorderWidthBottom (NUMBER): Dicke des unteren Randes [pt]
+- BorderWidthLeft (NUMBER): Dicke des linken Randes [pt]
+- BorderWidthRight (NUMBER): Dicke des rechten Randes [pt]  
 ### Outputvariablen:
-Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
-
+- Cell (OBJECT): Die Fertige Zelle. diese muss in eine LIST hinzugefügt, werden.
+- 
 </details>
   
   
