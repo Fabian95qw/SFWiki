@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:16:11.442Z
+date: 2022-05-04T09:32:36.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -190,13 +190,37 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
     HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
     BackGroundColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
     BorderColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
-    BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet seins oll
+    BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet sein soll
     BorderWidth (NUMBER): Dicke des Randes [pt]
     Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
 
-
 ### Outputvariablen:
-   Table (OBJECT) Represents an empty Table. Add Columns using [Table] Add Column to Table
+   Table (OBJECT): Repräsentiert die leere Tabelle mit den Designeinstellungen. Diese muss noch mit Spalten befüllt werden.
+ 
+</details>
+  
+## \[Table\] Add Column to Table
+  Eine neue Spalte zur Tabelle hinzufügen
+<details>
+  <summary>Info (Klicken zum Anzeigen)</summary>
+	
+### Inputvariablen:
+
+    Table (OBJECT): Die Tabelle, zu der die Spalte hinzugefügt werden soll.
+    ColumnWidth (NUMBER): Die Breite der Spalte.
+    Overridesettings (BOOLEAN): Die Designeinstellungen der Tabelle mit den unten eingestellten Einstellungen überschreiben. Falls dies nicht aktiv ist, muss nur die Tabelle, und Spaltenbreite angegeben werden.
+    Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
+  Font Size (NUMBER): Schriftgrösse [pt]
+    FontColor (R,G,B): Die Farbe der Schrift im Format [R,G,B] Z.b. 255,128,64
+    DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
+    VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
+    HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
+    BorderColorLeft (R,G,B): Die Farbe des linken Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderColorRight(R,G,B): Die Farbe des rechten Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderStyleLeft (SOLID, DOTTED, DASHED): Ob der linke Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderStyleRight (SOLID, DOTTED, DASHED): Ob der rechte Rand Solide, Gestrichelt, oder Gepunktet sein soll
+    BorderWidthLeft (NUMBER): Dicke des Randes [pt]
+    BorderWidthRight (NUMBER): Dicke des Randes [pt]
 
 </details>
   
