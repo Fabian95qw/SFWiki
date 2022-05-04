@@ -1,8 +1,8 @@
 ---
 title: PDF-Toolbox für STARFACE
 description: 
-published: false
-date: 2022-05-04T09:53:53.419Z
+published: true
+date: 2022-05-04T09:59:27.905Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
