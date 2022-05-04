@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T09:11:40.399Z
+date: 2022-05-04T09:16:11.442Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -188,11 +188,11 @@ Targetfile (STRING): Wohin das zusammengeführte PDF Exportiert werden soll.
     DoWordbreak (BOOLEAN): Der Text soll automatisch auf eine neue Zeile brechen, wenn er nicht in die Felder passt.
     VerticalAlignment (BOTTOM, MIDDLE, TOP): Vertikale Ausrichtung
     HorizontalAlignment (LEFT, CENTER, RIGHT, JUSTIFY): Horizontale Ausrichtung
-    BackGroundColor (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderColor (STRING) The Color RGB[0-255] Example: 255,255,255
-    BorderStyle (STRING)
-    BorderWidth (NUMBER)
-    Padding (NUMBER)
+    BackGroundColor (STRING): Die Farbe des Randes im Format [R,G,B] Z.b. 255,128,64
+    BorderColor (STRING): Die Farbe des Hintergrundes im Format [R,G,B] Z.b. 255,128,64
+    BorderStyle (SOLID, DOTTED, DASHED): Ob der Rand Solide, Gestrichelt, oder Gepunktet seins oll
+    BorderWidth (NUMBER): Dicke des Randes [pt]
+    Padding (NUMBER): Abstandhalter zwischen Zellenrand und Inhalt [pt]
 
 
 ### Outputvariablen:
