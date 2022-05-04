@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: false
-date: 2022-05-04T08:28:56.007Z
+date: 2022-05-04T08:29:41.850Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -25,6 +25,10 @@ Vorkompillierte .class Dateien findet man unter: https://github.com/Fabian95qw/S
 
 # Beispielmodul
 Ein Beispielmodul zur Anwendung der Modulbausteine findet ihr hier: https://github.com/Fabian95qw/SF-Modulefunctions/tree/master/bin/libraries/pdftoolbox
+
+# Offset's
+Bei der Erzeugung des PDF's wird immer mit Offsets, anstatt mit absoluten Positionswerten gearbeitet.
+
 
 # Funktionen
 
