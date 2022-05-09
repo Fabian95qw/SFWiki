@@ -2,7 +2,7 @@
 title: PDF-Toolbox für STARFACE
 description: 
 published: true
-date: 2022-05-04T09:59:27.905Z
+date: 2022-05-09T10:00:37.988Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-04T07:40:20.498Z
@@ -123,6 +123,7 @@ Reiner Text auf einer Seite einfügen
 - Text (STRING): Der Text, welcher dort Platziert werden soll
 - Font (DEFAULT, HELVETICA, HELVETICA_BOLD, HELVETICA_BOLD_OBLIQUE, HELVETICA_OBLIQUE, COURIER, COURIER_BOLD, COURIER_BOLD_OBLIQUE, COURIER_OBLIQUE, SYMBOL, TIMES_BOLD, TIMES_BOLD_ITALIC, TIMES_ITALIC, TIMES_ROMAN, ZAPF_DINGBATS): Die Schriftart
 - Font Size (NUMBER): Schriftgrösse [pt]
+- Font Color (R,G,B): Die Farbe des Textes im Format [R,G,B] Z.b. 255,128,64
 - Offset X (NUMBER): Offset in Breite
 - Offset Y (NUMBER): Offset in Höhe
   
