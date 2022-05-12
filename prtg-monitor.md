@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2022-05-12T07:36:54.315Z
+date: 2022-05-12T07:37:18.973Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -98,7 +98,7 @@ Zur aktivierung der Ausgabe müssen sie bei "Umgang mit dem Ergebnis" den Wert a
 Nach einem Ausgeführten check sollten im Verzeichnis C:\ProgramData\Paessler\PRTG Network Monitor\Logs\sensors zwei Dateien welche mit Sensor \[Nummer\] beginnen, vorhanden sein.
 Diese enthalten das Ergebnis der Abfrage.
 
-### Fehler: Der Befehl " pushd" ist entweder falsch geschrieben oder konnte nicht gefunden werden
+### Fehler: Der Befehl "pushd" ist entweder falsch geschrieben oder konnte nicht gefunden werden
 Je Betriebssystem, und Rechten kann es sein, dass pushd als Befehl im Umfeld nicht verfügbar ist.
 Pushd sollte das Verzeichnis auf das Verzeichnis ändern, in dem die .bat Datei liegt.
 
