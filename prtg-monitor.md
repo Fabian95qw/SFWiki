@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2022-05-12T07:37:18.973Z
+date: 2022-05-12T07:37:35.967Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -108,7 +108,7 @@ Der einfache weg hierbei ist es, den Absoluten Pfad in die STARFACE.bat zu schre
 `java -jar C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar %*`
 
 ### Der Befehl "java" ist entweder falsch geschrieben oder konnte nicht gefunden werden.
-Dies Tritt auf, wenn java nicht installiert ist, oder der PRTG Service kein zugriff auf die JAVA_HOME Variable hat.
+Dies Tritt auf, wenn java nicht installiert ist, oder der PRTG Service kein Zugriff auf die JAVA_HOME Variable hat.
 In diesem Fall muss im Starface.bat file der Pfad zur java.exe vollständig eingetragen werden, oder
 vorab ein cd ins Verzeichnis der Java Datei vorgenommen werden.
 
