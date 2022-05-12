@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2022-05-12T07:37:35.967Z
+date: 2022-05-12T07:38:08.972Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -93,7 +93,7 @@ Wenn beim Manuellen Test alles zu klappen scheint, kann man für einzelne Sensor
 
 Zur aktivierung der Ausgabe müssen sie bei "Umgang mit dem Ergebnis" den Wert auf "Ergebnis Speichern" ändern.
 
-![activate-output](/uploads/prtg/activate-output "activate-output")
+![activate-output](/uploads/prtg/activate-output.png "activate-output")
 
 Nach einem Ausgeführten check sollten im Verzeichnis C:\ProgramData\Paessler\PRTG Network Monitor\Logs\sensors zwei Dateien welche mit Sensor \[Nummer\] beginnen, vorhanden sein.
 Diese enthalten das Ergebnis der Abfrage.
