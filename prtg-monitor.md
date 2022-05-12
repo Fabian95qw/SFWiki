@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2022-03-28T06:19:03.123Z
+date: 2022-05-12T07:36:54.315Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -88,9 +88,34 @@ Dazu kann man den Folgenden Befehl, mit dem generierten Sensorstring ausführen:
 
 Je nachdem, wo das Problem ist, erhält man ein anderes Ergebnis.
 
-### Java wurde nicht gefunden
-Entweder ist Java nicht installiert, oder nicht korrekt in der Systemungebungsvariable hinterlegt. 
+### PRTG Monitor Sensor Debug-Log
+Wenn beim Manuellen Test alles zu klappen scheint, kann man für einzelne Sensoren im PRTG-Monitor die Ergebnisse auf die Festplatte schreiben lassen. So können weitere Fehlerquellen ermittelt werden.
 
+Zur aktivierung der Ausgabe müssen sie bei "Umgang mit dem Ergebnis" den Wert auf "Ergebnis Speichern" ändern.
+
+![activate-output](/uploads/prtg/activate-output "activate-output")
+
+Nach einem Ausgeführten check sollten im Verzeichnis C:\ProgramData\Paessler\PRTG Network Monitor\Logs\sensors zwei Dateien welche mit Sensor \[Nummer\] beginnen, vorhanden sein.
+Diese enthalten das Ergebnis der Abfrage.
+
+### Fehler: Der Befehl " pushd" ist entweder falsch geschrieben oder konnte nicht gefunden werden
+Je Betriebssystem, und Rechten kann es sein, dass pushd als Befehl im Umfeld nicht verfügbar ist.
+Pushd sollte das Verzeichnis auf das Verzeichnis ändern, in dem die .bat Datei liegt.
+
+Wird dies nicht gemacht, kommt danach der Folgefehler: "Error: Unable to access jarfile PRTGClient.jar", da die Batch Datei nicht im korrekten Pfad ist.
+
+Der einfache weg hierbei ist es, den Absoluten Pfad in die STARFACE.bat zu schreiben:
+`java -jar C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar %*`
+
+### Der Befehl "java" ist entweder falsch geschrieben oder konnte nicht gefunden werden.
+Dies Tritt auf, wenn java nicht installiert ist, oder der PRTG Service kein zugriff auf die JAVA_HOME Variable hat.
+In diesem Fall muss im Starface.bat file der Pfad zur java.exe vollständig eingetragen werden, oder
+vorab ein cd ins Verzeichnis der Java Datei vorgenommen werden.
+
+Z.b. so: 
+`cd "C:\Program Files\Java\jre1.8.0_333\bin"
+java.exe -jar "C:\Program Files (x86)\PRTG Network Monitor\Custom Sensors\EXEXML\PRTGClient.jar" %*
+`
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
