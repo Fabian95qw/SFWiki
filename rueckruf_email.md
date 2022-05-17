@@ -2,14 +2,15 @@
 title: Rückrufbitte mit E-Mail Versand
 description: 
 published: false
-date: 2022-05-17T09:44:39.276Z
+date: 2022-05-17T09:45:20.630Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-17T09:41:31.411Z
 ---
 
 # Beschreibung
-Das Modul nimmt Anrufe entgegenen, und nimmt dort die Informationen für die Rückrufbitte auf, mit der Möglichkeit die Rürckrufnummer zu ändern.
+Das Modul nimmt Anrufe entgegenen, und nimmt dort die Informationen für die Rückrufbitte auf, mit der Möglichkeit die Rürckrufnummer zu ändern, und einen Text zu hinterlegen.
+Diese Informationen werden dann an eine vordefinierte E-Mail Adresse gesendet.
 Es besteht die Möglichkeit alle Ansagen im Modul zu ersetzen.
 
 # Konfiguration
