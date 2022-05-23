@@ -2,7 +2,7 @@
 title: Quelle: Google Contacts
 description: 
 published: true
-date: 2021-08-16T09:42:36.035Z
+date: 2022-05-23T07:16:51.399Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:34.426Z
@@ -12,7 +12,7 @@ dateCreated: 2021-04-07T11:38:34.426Z
 Hier geht es Spezifisch um die Konfiguration von Google Contacts im Adressbuch Importer
 # Konfiguration
 ## API Zugriff
-**Der API Zugriff muss durch die Firma Nucom AG zuerst genehmigt werden.**
+**Der API Zugriff muss durch die Firma SI-Solutions GmbH zuerst genehmigt werden.**
 Wenn der Zugriff genehmigt wurde, erhalten sie eine API-ID, und API-Schlüssel, welche in die entsprechenden Felder eingetragen werden müssen
 
 Nach dem Eintragen des Schlüssels muss das Modul **abgespeichert** werden.
