@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2021-12-07T16:00:24.861Z
+date: 2022-05-30T08:53:27.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -76,7 +76,7 @@ Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umle
 
 Um eine Verbindung mit dem Office365 herzustellen, muss eine ntsprechender App-Login erstellt werden.
 
-Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.nucom.ch/de/office-365-client-app
+Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.si-solutions.ch/de/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
 full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff auf alle Exchange Web Services. Wird benötigt für Öffentliche Ordner / Freigegeben Postfächer. 
