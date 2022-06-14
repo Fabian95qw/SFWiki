@@ -2,7 +2,7 @@
 title: Gigaset N870 Klingeltöne Modul
 description: 
 published: false
-date: 2022-06-14T09:40:04.155Z
+date: 2022-06-14T09:53:25.162Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T09:06:16.883Z
@@ -42,6 +42,27 @@ Es können 4 paare von Ein- und Ausgehenden Nummernfiltern mit separaten Klingen
 ... ==> Alle dreistelligen Nummern 
 .23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören
 </details>
+
+> Die Handsets müssen nach dieser Anpassung neu provisioniert werden!{.is-info}
+
+## Eigene Klingeltöne
+Es können bis zu 4 eigene Klingeltöne auf die Handsets geladen werden. (**SUOTA muss aktiviert sein**)
+
+Diese müssen im G722 Format mit der Endung .722 ins Modul hochgeladen werden.
+Es gibt ein einfaches Tool für die Onlinekonvertierung: https://g711.org/
+Das Zielformat auf "Asterisk G.722 (16Khz, Mono, G.722)" setzen.
+
+> Die Handsets müssen nach dieser Anpassung neu provisioniert werden! Die provisionierung kann hierbei Aufgrund des SUOTA Updates mehrere Minuten dauern. {.is-info}
+
+## Handset Provisioning
+Um das Klingelton Feature zur verwenden muss aktuell auf jedem Handset der Provisionierungs-URL hinterlegt werden.
+Dieser wird dynamisch vom Modul generiert.
+
+> Bei weniger als 50% Batterie lässt sich die provisionierung nicht durchführen, ausser das Gerät befindet sich in einer ladeschale. {.is-warning}
+
+> Die Handsets provisionieren sich nur einmal pro Tag! Wenn man Änderungen mehrmals provisionieren will, muss der N870 Dect Manager neu gestartet werden!{.is-warning}
+
+
 
 
 # Downloads & Lizenzierung
