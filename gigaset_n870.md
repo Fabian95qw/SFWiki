@@ -2,7 +2,7 @@
 title: Gigaset N870 Klingeltöne Modul
 description: 
 published: false
-date: 2022-06-14T09:36:35.758Z
+date: 2022-06-14T09:40:04.155Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T09:06:16.883Z
@@ -27,7 +27,21 @@ Es können jeweils ein Standardklingelton für interne & externe Anrufe ,sowie d
 > Die Handsets müssen nach dieser Anpassung neu provisioniert werden!{.is-info}
 
 ## Klingeltöne nach Filter
+Es können 4 paare von Ein- und Ausgehenden Nummernfiltern mit separaten Klingentönen definiert werden.
 
+<details>
+  <summary>Mögliche Formate (Aufklappen)</summary>
+
+00491234567890 ==> Exakte Nummer
+0049123456* ==> Alle Nummern die mit 0049123456 beginnen
+*789 ==> Alle Nummern die mit 789 Aufhören
+*123* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
+12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
+.23 ==> Alle dreistelligen Nummern, die mit 23 aufhören
+.2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
+... ==> Alle dreistelligen Nummern 
+.23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören
+</details>
 
 
 # Downloads & Lizenzierung
