@@ -2,7 +2,7 @@
 title: Gigaset N870 Klingeltöne Modul
 description: 
 published: false
-date: 2022-06-14T09:53:25.162Z
+date: 2022-06-16T11:24:05.026Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T09:06:16.883Z
@@ -61,8 +61,6 @@ Dieser wird dynamisch vom Modul generiert.
 > Bei weniger als 50% Batterie lässt sich die provisionierung nicht durchführen, ausser das Gerät befindet sich in einer ladeschale. {.is-warning}
 
 > Die Handsets provisionieren sich nur einmal pro Tag! Wenn man Änderungen mehrmals provisionieren will, muss der N870 Dect Manager neu gestartet werden!{.is-warning}
-
-
 
 
 # Downloads & Lizenzierung
