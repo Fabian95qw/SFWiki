@@ -2,7 +2,7 @@
 title: Gigaset N870 Klingeltöne Modul
 description: 
 published: false
-date: 2022-06-16T11:24:05.026Z
+date: 2022-06-16T11:26:22.669Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T09:06:16.883Z
@@ -14,6 +14,8 @@ Dieses Modul ermöglicht es, Klingeltöne für interne & externe Anrufe 4 zusät
 Zusätzlich können bis zu 4 eigene Klingeltöne hochgeladen werden.
 
 # Konfiguration
+
+
 
 ## SUOTA
 Dieses Modul benötigt dass SUOTA (The Software Update Over The Air)Feature, um die Klingeltöne auf die Handsets zu laden.
