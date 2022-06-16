@@ -2,7 +2,7 @@
 title: Gigaset N870 Klingeltöne Modul
 description: 
 published: false
-date: 2022-06-16T11:26:22.669Z
+date: 2022-06-16T11:27:47.755Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-14T09:06:16.883Z
@@ -15,13 +15,12 @@ Zusätzlich können bis zu 4 eigene Klingeltöne hochgeladen werden.
 
 # Konfiguration
 
-
+![config.png](/uploads/gigaset_n870_ringtones/config.png)
 
 ## SUOTA
 Dieses Modul benötigt dass SUOTA (The Software Update Over The Air)Feature, um die Klingeltöne auf die Handsets zu laden.
 Dies kann mithilfe des Moduls aktiviert werden.
 > Das Gigaset N870 muss danach neu provisioniert werden, um die Änderungen anzuwenden.{.is-info}
-
 
 ## Klingeltöne für interne & externe Anrufe
 Es können jeweils ein Standardklingelton für interne & externe Anrufe ,sowie die dazugehörige Lautstärke festgelegt werden.
@@ -29,6 +28,9 @@ Es können jeweils ein Standardklingelton für interne & externe Anrufe ,sowie d
 > Die Handsets müssen nach dieser Anpassung neu provisioniert werden!{.is-info}
 
 ## Klingeltöne nach Filter
+
+![filter.png](/uploads/gigaset_n870_ringtones/filter.png)
+
 Es können 4 paare von Ein- und Ausgehenden Nummernfiltern mit separaten Klingentönen definiert werden.
 
 <details>
@@ -48,6 +50,9 @@ Es können 4 paare von Ein- und Ausgehenden Nummernfiltern mit separaten Klingen
 > Die Handsets müssen nach dieser Anpassung neu provisioniert werden!{.is-info}
 
 ## Eigene Klingeltöne
+
+![custom_ringtones.png](/uploads/gigaset_n870_ringtones/custom_ringtones.png)
+
 Es können bis zu 4 eigene Klingeltöne auf die Handsets geladen werden. (**SUOTA muss aktiviert sein**)
 
 Diese müssen im G722 Format mit der Endung .722 ins Modul hochgeladen werden.
@@ -57,6 +62,9 @@ Das Zielformat auf "Asterisk G.722 (16Khz, Mono, G.722)" setzen.
 > Die Handsets müssen nach dieser Anpassung neu provisioniert werden! Die provisionierung kann hierbei Aufgrund des SUOTA Updates mehrere Minuten dauern. {.is-info}
 
 ## Handset Provisioning
+
+![handset_provisioning.png](/uploads/gigaset_n870_ringtones/handset_provisioning.png)
+
 Um das Klingelton Feature zur verwenden muss aktuell auf jedem Handset der Provisionierungs-URL hinterlegt werden.
 Dieser wird dynamisch vom Modul generiert.
 
