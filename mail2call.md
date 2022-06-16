@@ -2,7 +2,7 @@
 title: Mail 2 Call - Meldungstexte
 description: 
 published: false
-date: 2022-06-16T10:58:11.274Z
+date: 2022-06-16T11:07:00.604Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T10:58:11.274Z
@@ -13,7 +13,10 @@ Dieses Module Ruft in Regelmässigen Abständen die E-Mails von einem IMAP Konto
 
 # Konfiguration
 
+## Checkintervall
+Wie oft die E-Mails vom Mailserver abgerufen werden.
 
+##
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
