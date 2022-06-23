@@ -1,8 +1,8 @@
 ---
-title: Quelle: Google Contacts
+title: End of Life: Quelle: Google Contacts
 description: 
 published: true
-date: 2022-05-23T07:16:51.399Z
+date: 2022-06-23T06:09:19.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:34.426Z
