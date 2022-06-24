@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2022-01-26T14:11:42.803Z
+date: 2022-06-24T06:27:33.289Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -16,10 +16,8 @@ Unterstützt sind:
 
 * Exchange/Office365
 * CSV Dateien mit beliebigem Trennzeichen, und Codec
-* CardDAV(Beta)
-* Google Contacts
 * Multi-VCard's
-* Pipedrive CRM
+
 # Konfiguration
 ## Automatisierung
 ### Importtimer
