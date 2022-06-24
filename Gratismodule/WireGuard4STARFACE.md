@@ -2,7 +2,7 @@
 title: Wireguard 4 STRARFACe
 description: 
 published: false
-date: 2022-06-24T09:30:39.746Z
+date: 2022-06-24T09:42:55.292Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
@@ -52,7 +52,7 @@ Sofern das Interface auf "Starten" steht, wird der Tunnel nach dem Systemneustar
 
 ## Interface
 Hier erfolgt die Interfaceeinstellung gemäss WireGuard. 
-Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard seite. https://www.wireguard.com/quickstart/
+Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard Seite. https://www.wireguard.com/quickstart/
 
 > Um Änderungen aus der GUI anzuwenden, muss das Interface gestoppt (Interface auf Stoppen + Speichern), und wieder gestartet (Interface auf Starten + Speichern) werden.
 {.is-warning}
@@ -60,9 +60,9 @@ Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard seite
 ### PrivateKey
 Der PrivateKey wird von der STARFACE beim **Speichern (nicht übernehmen)** des Moduls automatisch generiert, und anschliessend in die GUI geschrieben. Dieser darf nicht geändert werden.
 
-
 # Peers
 Hier können die Peers vom WireGuard Konfiguriert werden.
+Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard Seite. https://www.wireguard.com/quickstart/
 
 # Verbindung zwischen zwei STARFACE herstellen
 
