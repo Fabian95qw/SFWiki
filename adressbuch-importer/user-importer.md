@@ -2,7 +2,7 @@
 title: User-Importer
 description: 
 published: true
-date: 2021-08-16T09:42:56.216Z
+date: 2022-06-24T06:30:17.674Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:01.873Z
@@ -24,13 +24,12 @@ Die Userdaten können mithilfe des Timers regelmässig Synchronisiert werden.
 
 Der Account, welcher für die Anpassung der Namen angewendet werden muss.
 
-```diff
-- WICHTIG Der User muss ein Admin sein, sonst schlägt der Vorgang fehl!
-```
 
-```diff
-- WICHTIG Das Adressbuch "users" muss aktivierte Schreibrechte haben
-```
+>WICHTIG Der User muss ein Admin sein, sonst schlägt der Vorgang fehl!{.is-warning}
+
+>WICHTIG Das Adressbuch "users" muss aktivierte Schreibrechte haben{.is-warning}
+
+
 
 ### Automatisierung beim Speichern anwenden
 Wendet die aktuelle Konfiguration unabhängig vom Import-Timer sofort an. 
@@ -132,9 +131,11 @@ Die darin enthaltenen Spaltennamen werden von der Starface erkannt.
 
 Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im ApplikationXY.csv Entsprechen:
 
-```diff
-- WICHTIG Die Spalte "comment" ist für die LoginID reserviert und muss ZWINGEND vorhanden sein.
-```
+
+> WICHTIG Die Spalte "comment" ist für die LoginID reserviert und muss ZWINGEND vorhanden sein.
+{.is-warning}
+
+
 
 ![Templatecolored](/uploads/userimporter/templatecolored.jpg "Templatecolored")
 
@@ -142,7 +143,7 @@ Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im 
 
 In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 
-> First name [contact:firstname];Last name [contact:familyname];Company [contact:company];Academic title [contact:academic_title];Job title [contact:job_tilte];Street [address:street];ZIP code [address:postcode];City [address:city];State [address:state];Phone number [telephone:phone];[LEER];[LEER];[LEER];E-mail [email:e-mail];URL [email:url];LoginID[module:comment]
+`First name [contact:firstname];Last name [contact:familyname];Company [contact:company];Academic title [contact:academic_title];Job title [contact:job_tilte];Street [address:street];ZIP code [address:postcode];City [address:city];State [address:state];Phone number [telephone:phone];[LEER];[LEER];[LEER];E-mail [email:e-mail];URL [email:url];LoginID[module:comment]`
 
 
 Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Daten korrekt zu interpretieren.
