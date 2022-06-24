@@ -2,7 +2,7 @@
 title: Wireguard 4 STRARFACe
 description: 
 published: false
-date: 2022-06-24T09:43:33.720Z
+date: 2022-06-24T09:50:26.229Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
@@ -13,7 +13,7 @@ Ein Modul, welches direkt den WireGuard VPN auf der STARFACE installiert und via
 
 # Konfiguration
 
-
+![Config.PNG](/uploads/wireguard4starface/Config.PNG)
 
 ## Name des Interface
 Der Namen des Interface wird vom Modul automatisch vergeben, und kann nicht geändert werden.
@@ -63,10 +63,19 @@ Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard Seite
 Der PrivateKey wird von der STARFACE beim **Speichern (nicht übernehmen)** des Moduls automatisch generiert, und anschliessend in die GUI geschrieben. Dieser darf nicht geändert werden.
 
 # Peers
+![Peers.PNG](/uploads/wireguard4starface/Peers.PNG)
+
 Hier können die Peers vom WireGuard Konfiguriert werden.
 Mehr Informationen, was hier einzurichten ist finden sie auf der WireGuard Seite. https://www.wireguard.com/quickstart/
 
 # Verbindung zwischen zwei STARFACE herstellen
+Um die Verbindung zwischen zwei STARFACE herzustellen, muss auf beiden das WireGuard Modul installiert sein.
+
+Es müssen jeweils die Public-Keys, sowie IP-Adressen + Port des jeweilig anderen Endpunktes auf jeder STARFACE eingetragen werden.
+
+> Das Modul öffnet keine Ports. Ports müssen selbser geöffnet werden, Oder es muss ein Port > 20000 gewählt werden.{.is-warning}
+
+
 
 
 # Downloads & Lizenzierung
