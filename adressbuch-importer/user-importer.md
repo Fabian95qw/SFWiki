@@ -2,7 +2,7 @@
 title: User-Importer
 description: 
 published: true
-date: 2022-06-24T06:30:17.674Z
+date: 2022-06-24T06:30:28.451Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:39:01.873Z
@@ -144,7 +144,6 @@ Wir platzieren nun die Header in den Spalten, die den entsprechenden Spalten im 
 In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 
 `First name [contact:firstname];Last name [contact:familyname];Company [contact:company];Academic title [contact:academic_title];Job title [contact:job_tilte];Street [address:street];ZIP code [address:postcode];City [address:city];State [address:state];Phone number [telephone:phone];[LEER];[LEER];[LEER];E-mail [email:e-mail];URL [email:url];LoginID[module:comment]`
-
 
 Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Daten korrekt zu interpretieren.
 
