@@ -2,7 +2,7 @@
 title: Wireguard 4 STRARFACe
 description: 
 published: false
-date: 2022-06-24T09:50:26.229Z
+date: 2022-06-24T09:51:19.085Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
@@ -75,8 +75,15 @@ Es müssen jeweils die Public-Keys, sowie IP-Adressen + Port des jeweilig andere
 
 > Das Modul öffnet keine Ports. Ports müssen selbser geöffnet werden, Oder es muss ein Port > 20000 gewählt werden.{.is-warning}
 
+![p2psf1.PNG](/uploads/wireguard4starface/p2psf1.PNG)
 
+![p2psf2.PNG](/uploads/wireguard4starface/p2psf2.PNG)
 
+![p2psf1peer.PNG](/uploads/wireguard4starface/p2psf1peer.PNG)
+
+![p2psf2.PNG](/uploads/wireguard4starface/p2psf2.PNG)
+
+![pingtest.png](/uploads/wireguard4starface/pingtest.png)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
