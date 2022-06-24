@@ -2,7 +2,7 @@
 title: Wireguard 4 STRARFACe
 description: 
 published: true
-date: 2022-06-24T09:56:11.143Z
+date: 2022-06-24T10:00:34.656Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
@@ -10,6 +10,9 @@ dateCreated: 2022-06-24T09:22:28.739Z
 
 # Beschreibung
 Ein Modul, welches direkt den WireGuard VPN auf der STARFACE installiert und via GUI Konfigurieren lässt.
+
+> NICHT STARFACE CLOUD KOMPATIBEL{.is-danger}
+
 
 # Konfiguration
 
