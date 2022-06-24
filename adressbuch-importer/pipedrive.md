@@ -1,8 +1,8 @@
 ---
-title: Quelle: Pipedrive CRM
+title: End of Life: Quelle: Pipedrive CRM
 description: 
 published: true
-date: 2021-08-16T09:42:45.970Z
+date: 2022-06-24T06:26:36.669Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:53.849Z
