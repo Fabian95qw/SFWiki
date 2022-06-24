@@ -1,8 +1,8 @@
 ---
 title: Wireguard 4 STRARFACe
 description: 
-published: false
-date: 2022-06-24T09:51:19.085Z
+published: true
+date: 2022-06-24T09:56:11.143Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
