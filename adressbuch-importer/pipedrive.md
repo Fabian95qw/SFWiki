@@ -2,11 +2,14 @@
 title: End of Life: Quelle: Pipedrive CRM
 description: 
 published: true
-date: 2022-06-24T06:26:36.669Z
+date: 2022-06-24T06:27:18.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:53.849Z
 ---
+
+> Aufgrund ein Problem mit einer zu schwachen Verschlüsselung von Seitens Pipedrive funktioniert dieses Modul aktuell nicht mehr.
+{.is-danger}
 
 # Beschreibung
 Hier geht es Spezifisch um die Konfiguration des Pipedrive-CRM Connector im Adressbuch Importer
