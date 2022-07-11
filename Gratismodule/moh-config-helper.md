@@ -2,7 +2,7 @@
 title: Music on Hold Konfigurations Editor
 description: 
 published: false
-date: 2022-07-11T09:26:25.033Z
+date: 2022-07-11T09:30:27.815Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:53:07.797Z
@@ -10,7 +10,6 @@ dateCreated: 2022-07-08T09:53:07.797Z
 
 # Beschreibung
 Dieses Modul ermöglicht es die MusicOnHold.conf aus der STARFACE oberfläche zu editieren.
-
 
 # Konfiguration
 
@@ -35,6 +34,11 @@ Wenn das Modul die Konfiguration der Warteschlange geladen hat, kann man die Wer
 In dem Beispielbild oben wird der neue Schlüsel "sort" mit dem "wert" Random hinzufügt. 
 Dies erzeugt den Eintrag "sort=random" im Music On Hold Config file. Somit
 
+Damit die im Modul gesetzten Änderungen ins File geschrieben wird muss der Haken bei "Modulkonfiguration Anwenden" gesetzt werden.
+
+> Wenn der Haken bei "Konfiguration der Warteschlange laden (Modul Speichern)" und "Modulkonfiguration Anwenden" gleichzeitig gesetzt ist. wir das Modul nicht mehr ausgeführt.
+{.is-info}
+
 ## Duplicate Keys umgehen
 
 ![keyduplicate.png](/uploads/music-on-hold-config-editor/keyduplicate.png)
@@ -51,7 +55,13 @@ Also z.b.
 
 Die vorausgehenden Doppelpunkte werden vor dem schreiben ins Configfile entfernt.
 
-##
+## Config-File Checker
+Da gewisse vorgänge auf der STARFACE wie z.b. das Editieren von Warteschlangen oder ein Systemneustart dazu führt, dass das Config File neu geschrieben wird, muss da Modul dieses regelmässig prüfen und ggf. die Änderungen aus dem Modul wieder im Configfile hinterlegen.
+
+Hier kann festgelegt werden, in welchem Intervall, dass das Configfile geprüft wird.
+
+> Der Haken bei "Modulkonfiguration anwenden" muss gesetzt sein, damit der Config-File Checker seinen Dienst tut.
+{.is-warning}
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
