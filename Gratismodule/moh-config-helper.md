@@ -2,7 +2,7 @@
 title: Music on Hold Konfigurations Editor
 description: 
 published: false
-date: 2022-07-11T09:24:44.496Z
+date: 2022-07-11T09:26:25.033Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:53:07.797Z
@@ -50,6 +50,8 @@ Also z.b.
 - ::entry = /var/lib/asterisk/moh/macroform-robot_dity
 
 Die vorausgehenden Doppelpunkte werden vor dem schreiben ins Configfile entfernt.
+
+##
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
