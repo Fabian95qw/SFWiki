@@ -2,7 +2,7 @@
 title: Music on Hold Konfigurations Editor
 description: 
 published: false
-date: 2022-07-11T09:30:27.815Z
+date: 2022-07-11T11:32:31.305Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:53:07.797Z
@@ -56,6 +56,8 @@ Also z.b.
 Die vorausgehenden Doppelpunkte werden vor dem schreiben ins Configfile entfernt.
 
 ## Config-File Checker
+![configfilechecker.png](/uploads/music-on-hold-config-editor/configfilechecker.png)
+
 Da gewisse vorgänge auf der STARFACE wie z.b. das Editieren von Warteschlangen oder ein Systemneustart dazu führt, dass das Config File neu geschrieben wird, muss da Modul dieses regelmässig prüfen und ggf. die Änderungen aus dem Modul wieder im Configfile hinterlegen.
 
 Hier kann festgelegt werden, in welchem Intervall, dass das Configfile geprüft wird.
