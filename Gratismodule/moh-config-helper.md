@@ -2,7 +2,7 @@
 title: Music on Hold Konfigurations Editor
 description: 
 published: true
-date: 2022-07-12T08:54:28.894Z
+date: 2022-07-12T08:59:37.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:53:07.797Z
@@ -30,6 +30,8 @@ Dafür muss zu oberst der Warteschlangenname hinterlegt werden.
 ![writeconfig.png](/uploads/music-on-hold-config-editor/writeconfig.png)
 
 Wenn das Modul die Konfiguration der Warteschlange geladen hat, kann man die Werte editieren, oder neue Wert hinzufügen.
+
+Ein Beispiel was es für Werte gibt findet man z.b. hier: https://github.com/asterisk/asterisk/blob/master/configs/samples/musiconhold.conf.sample
 
 In dem Beispielbild oben wird der neue Schlüsel "sort" mit dem "wert" Random hinzufügt. 
 Dies erzeugt den Eintrag "sort=random" im Music On Hold Config file. Somit
