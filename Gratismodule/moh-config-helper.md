@@ -2,7 +2,7 @@
 title: Music on Hold Konfigurations Editor
 description: 
 published: true
-date: 2022-07-12T08:59:37.325Z
+date: 2022-07-12T09:02:37.927Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-08T09:53:07.797Z
@@ -19,9 +19,10 @@ Dieses Modul ermöglicht es die MusicOnHold.conf aus der STARFACE oberfläche zu
 
 ![loadconfig.png](/uploads/music-on-hold-config-editor/loadconfig.png)
 
-Bevor eine Konfiguration editiert werden kann, muss die bestehende Konfiguration der Warteschlange in das Modul geladen werden.
+Bevor eine Konfiguration editiert werden kann, muss die bestehende Konfiguration der Warteschlange in das Modul geladen werden. 
 
 Dafür muss zu oberst der Warteschlangenname hinterlegt werden.
+Der Name entspricht hier dem Namen der im Admin ==> Erweiterte Einstellungen ==> Wartemusik.
 
 > Das Modul muss anschliessend gespeichert (nicht übernommen) werden. Ansonsten können die Werte vom Config file nicht in die GUI geschrieben werden.
 {.is-warning}
