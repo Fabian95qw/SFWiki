@@ -2,7 +2,7 @@
 title: PRTG-Monitor 7.X
 description: 
 published: true
-date: 2022-05-12T07:38:08.972Z
+date: 2022-07-20T08:09:26.581Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -46,7 +46,9 @@ Hierfür wurde ein eigener Artikel erfasst: http://wiki.si-solutions.ch/prtg-mon
 ## Installieren des Sensors
 Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Runterladen (oder selbst Kompilieren), und anschliessend im "EXEXML" Verzeichnis des PRTG-Monitors Platzieren.
 
-**Wichtig! Auf dem Server muss Java installiert sein!**
+> Wichtig! Auf dem Server muss Java installiert sein!
+{.is-warning}
+
 
 Standardpfad: "C:\Programme(x86)\PRTG Network Monitor\Custom Sensors\EXEXML
 Vorkompilliertes Installationspaket: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClient.rar (muss noch entpackt werden)
