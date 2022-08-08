@@ -2,7 +2,7 @@
 title: Chatstatus für einen Benutzer setzen.
 description: 
 published: true
-date: 2022-03-04T09:47:56.679Z
+date: 2022-08-08T14:13:26.838Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:08:47.870Z
@@ -78,4 +78,4 @@ In diesem Beispiel wird gezeigt, wie man den Chatstatus für einen Benutzer setz
         ES.publish(Update, context.getLog()); //Fire the new Event
 
       }//END OF EXECUTION
-
+}
