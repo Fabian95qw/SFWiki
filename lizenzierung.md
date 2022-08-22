@@ -2,7 +2,7 @@
 title: Lizenzierung
 description: 
 published: true
-date: 2022-02-07T09:04:40.554Z
+date: 2022-08-22T05:40:12.804Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:14.613Z
@@ -24,7 +24,7 @@ Jeder kann neuere Versionen des Moduls jeweils auf http://module.si-solutions.ch
 Ein Modul kann von uns jederzeit auf "End of Life" gesetzt werden, wenn eines der folgenden Ereignisse eintritt:
 
 - Der Aufwand zur Wartung des Moduls ist viel zu gross.
-- Das Intresse am Modul ist zu klein
+- Das Interesse am Modul ist zu klein
 - Das Modul ist nicht profitabel
-- Das Modul ist zu instabil, und es gibt keine möglichkeit dies zu verbessern.
+- Das Modul ist zu instabil, und es gibt keine möglichkeit dies zu Verbessern.
 - Ein Update der STARFACE hat dazu geführt, dass das Modul nicht mehr funktioniert, und die Funktionalität kann nicht mehr wiederhergestellt werden.
