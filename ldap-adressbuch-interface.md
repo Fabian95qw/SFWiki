@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:37:36.724Z
+date: 2022-09-07T08:39:49.423Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -121,13 +121,16 @@ Entweder kann der Haken "N720 - Adressbuch in prov. File auf LDAP umstellen" in 
 Im Datei: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/einstein/template.xml
 Die Zeilen:
 
-\<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="20"/>
-\<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="21"/>`
+	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="20"/>
+	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="21"/>
 
 ändern zu:
 
-\<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
-\<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
+	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
+	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
+
+### N720 Beispiel
+
 
 ### Anpassung N870
 Entweder kann der Haken "N870 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
@@ -137,9 +140,10 @@ In den Dateien:
 - handset_update.xml
 - handset_add.xml
 
-Die Zeilen:`\<param name="hs.#IPUI#.IntKeyDir" value="10"/>
-\<param name="hs.#IPUI#.DirectAccessDir" value="10"/>
-\<param name="hs.#IPUI#.AutoLookupDir" value="10"/>`
+Die Zeilen:
+`		<param name="hs.#IPUI#.IntKeyDir" value="10"/>`
+`		<param name="hs.#IPUI#.DirectAccessDir" value="10"/>`
+`		<param name="hs.#IPUI#.AutoLookupDir" value="10"/>`
 
 hinzufügen.
 
