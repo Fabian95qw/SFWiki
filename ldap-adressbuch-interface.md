@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:46:59.538Z
+date: 2022-09-07T08:47:33.521Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -153,6 +153,8 @@ Die Zeilen:
 `		<param name="hs.#IPUI#.AutoLookupDir" value="10"/>`
 
 hinzufügen.
+
+### N870 LDAP Adressbuch Einrichtung Beispiel
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
