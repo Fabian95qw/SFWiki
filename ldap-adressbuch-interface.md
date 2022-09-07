@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:39:49.423Z
+date: 2022-09-07T08:45:31.252Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -129,7 +129,14 @@ Die Zeilen:
 	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
 	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
 
-### N720 Beispiel
+### N720 LDAP Adressbuch einrichtung Beispiel
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  
+  
+</details>
 
 
 ### Anpassung N870
