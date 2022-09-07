@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T06:59:25.839Z
+date: 2022-09-07T08:19:23.038Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -109,6 +109,25 @@ Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie F
 ### Nummernfilter
 Nummernfilter: (|(telePhoneNumber=\*%\*)(homePhone=\*%\*)(mobile=\*%\*))
 Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, primärer interner Rufnummer , primärer externer Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
+
+## Standardadressbuch bei Gigaset Anpassen
+Damit das LDAP Adressbuch bei den Gigaset Handsets zur Verfügung muss dieses pro Handset einmal die Einstellung für die Adressbuchtaste, sowie INT-Taste angepasst werden.
+
+Diese Einstellung fällt aber leider nach jeder provisionierung Raus. Deshalb muss es im provisionierungsfile Angepasst werden.
+
+### Anpassung N720
+Entweder kann der Haken "N720 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
+
+Im Pfad: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/einstein/template.xml
+Die Zeilen:
+
+`<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="20"/>
+<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="21"/>`
+
+ändern zu:
+
+`<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
+<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
