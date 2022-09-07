@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:39:49.423Z
+date: 2022-09-07T08:47:33.521Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -55,7 +55,7 @@ Dieser Benutzer wird für den Zugriff durch die Telelfone verwendet. Der Loginna
 Die einzelnen STARFACE Adressbücher können einzeln als LDAP Adressbücher gemappt werden. 
 Dazu wird jeweils Links die Adressbuchnummer, und Rechts der Namen für das LDAP festgelegt. Mehr informationen dazu gibt es unten bei der Konfiguration des LDAP's auf den Telefonen.
 
-![ldap-config3.png](/uploads/ldap-adressbuch-interface/ldap-config3.png)
+![gigaset_n720_example.png](/uploads/ldap-adressbuch-interface/ldap-config3.png)
 
 
 ## Arbeitsspeicher-Verbrauch
@@ -129,7 +129,14 @@ Die Zeilen:
 	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
 	<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
 
-### N720 Beispiel
+### N720 LDAP Adressbuch Einrichtung Beispiel
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![ldap-config1.png](/uploads/ldap-adressbuch-interface/ldap-config1.png)
+  
+</details>
 
 
 ### Anpassung N870
@@ -146,6 +153,8 @@ Die Zeilen:
 `		<param name="hs.#IPUI#.AutoLookupDir" value="10"/>`
 
 hinzufügen.
+
+### N870 LDAP Adressbuch Einrichtung Beispiel
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
