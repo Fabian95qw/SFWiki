@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:23:13.713Z
+date: 2022-09-07T08:31:26.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -133,7 +133,7 @@ Die Zeilen:
 Entweder kann der Haken "N870 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
 
 Im Pfad: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/n870
-Die Dateien:
+In den Dateien:
 - handset_update.xml
 - handset_add.xml
 
