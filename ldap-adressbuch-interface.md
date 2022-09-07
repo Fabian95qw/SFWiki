@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-04-05T07:43:29.438Z
+date: 2022-09-07T06:59:25.839Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -11,6 +11,10 @@ dateCreated: 2022-01-04T09:26:18.627Z
 # Beschreibung
 Dieses Modul ermöglicht es, das in STARFACE integrierte Adressbuch per LDAP bereitzustellen.
 Die Adressen werden regelmässig aus dem Adressbuch in einem im RAM laufenden LDAP Server geladen.
+
+> Dieses Modul funktioniert in der STARFACE Cloud nur mit Cloudanlagen mit einer dedizierten Öffentlichen IP!
+{.is-warning}
+
 
 # Kompatible/Getestete Modelle
 Folgende Telefone/Systeme wurden von uns gegen das Modul getestet:
