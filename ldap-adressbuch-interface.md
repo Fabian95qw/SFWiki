@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:19:23.038Z
+date: 2022-09-07T08:23:13.713Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -118,7 +118,7 @@ Diese Einstellung fällt aber leider nach jeder provisionierung Raus. Deshalb mu
 ### Anpassung N720
 Entweder kann der Haken "N720 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
 
-Im Pfad: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/einstein/template.xml
+Im Datei: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/einstein/template.xml
 Die Zeilen:
 
 `<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="20"/>
@@ -128,6 +128,21 @@ Die Zeilen:
 
 `<SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForDirectAccess[%]" class="symb_item" value="10"/>
 <SYMB_ITEM ID="BS_XML_Netdirs.aucNetdirSelForIntKey[%]" class="symb_item" value="10"/>`
+
+### Anpassung N870
+Entweder kann der Haken "N870 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
+
+Im Pfad: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/n870
+Die Dateien:
+- handset_update.xml
+- handset_add.xml
+
+Die Zeilen:
+		<param name="hs.#IPUI#.IntKeyDir" value="10"/>
+		<param name="hs.#IPUI#.DirectAccessDir" value="10"/>
+		<param name="hs.#IPUI#.AutoLookupDir" value="10"/>
+
+hinzufügen.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
