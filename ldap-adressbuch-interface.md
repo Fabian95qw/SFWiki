@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:58:39.693Z
+date: 2022-09-07T09:19:58.177Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -116,7 +116,7 @@ Damit das LDAP Adressbuch bei den Gigaset Handsets zur Verfügung muss dieses pr
 Diese Einstellung fällt aber leider nach jeder provisionierung Raus. Deshalb muss es im provisionierungsfile Angepasst werden.
 
 ### Anpassung N720
-Entweder kann der Haken "N720 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
+Entweder kann der Haken "N720 - Int- und Adressbuch-taste in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
 
 Im Datei: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/einstein/template.xml
 Die Zeilen:
@@ -140,7 +140,7 @@ Die Zeilen:
 
 
 ### Anpassung N870
-Entweder kann der Haken "N870 - Adressbuch in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
+Entweder kann der Haken "N870 - Int- und Adressbuch-taste in prov. File auf LDAP umstellen" in der GUI im Tab "Provisionierung" des Moduls gesetzt werden, oder es müssen folgende Einträge auf der STARFACE Manuell ersetzt werden:
 
 Im Pfad: /opt/tomcat/webapps/localhost/starface/WEB-INF/filetemplates/gigasetConfig/n870
 In den Dateien:
