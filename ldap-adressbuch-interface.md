@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:56:32.591Z
+date: 2022-09-07T08:58:39.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -148,9 +148,14 @@ In den Dateien:
 - handset_add.xml
 
 Die Zeilen:
+
+`		<param name="hs.#IPUI#.IntKeyDir" value="253"/>`
+`		<param name="hs.#IPUI#.DirectAccessDir" value="252"/>`
+
+ändern auf:
+
 `		<param name="hs.#IPUI#.IntKeyDir" value="10"/>`
 `		<param name="hs.#IPUI#.DirectAccessDir" value="10"/>`
-`		<param name="hs.#IPUI#.AutoLookupDir" value="10"/>`
 
 hinzufügen.
 
