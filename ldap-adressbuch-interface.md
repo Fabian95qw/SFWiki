@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:53:47.120Z
+date: 2022-09-07T08:56:32.591Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -155,6 +155,13 @@ Die Zeilen:
 hinzufügen.
 
 ### N870 LDAP Adressbuch Einrichtung Beispiel
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![gigaset_n870_example](/uploads/ldap-adressbuch-interface/gigaset_n870_example.png)
+  
+</details>
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
