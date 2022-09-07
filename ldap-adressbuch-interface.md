@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2022-09-07T08:47:33.521Z
+date: 2022-09-07T08:53:47.120Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -134,7 +134,7 @@ Die Zeilen:
 <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![ldap-config1.png](/uploads/ldap-adressbuch-interface/ldap-config1.png)
+  ![gigaset_n720_example](/uploads/ldap-adressbuch-interface/gigaset_n720_example.png)
   
 </details>
 
