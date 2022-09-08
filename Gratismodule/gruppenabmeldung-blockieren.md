@@ -2,7 +2,7 @@
 title: Gruppenabmeldung blockieren
 description: 
 published: true
-date: 2022-09-08T09:38:15.594Z
+date: 2022-09-08T09:38:38.891Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:57.054Z
@@ -13,7 +13,7 @@ Das Modul ermögtlicht es die generelle Abmeldung, oder das Abmelden des letzten
 
 # Konfiguration
 
-
+![config.png](/uploads/gruppeabmeldung-blockieren/config.png)
 
 ## Modus
 Das Modul kanna auf Zwei Arten betrieben werden:
