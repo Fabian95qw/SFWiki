@@ -2,14 +2,15 @@
 title: Gruppenabmeldung blockieren
 description: 
 published: true
-date: 2022-09-08T09:38:38.891Z
+date: 2022-09-08T09:42:42.843Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:57.054Z
 ---
 
 # Beschreibung
-Das Modul ermögtlicht es die generelle Abmeldung, oder das Abmelden des letzten Mitglieds einer Gruppe zu verhinden.
+Das Modul ermögtlicht es die generelle Abmeldung, oder das Abmelden des letzten Mitglieds einer Gruppe zu verhindern.
+Ebenfalls ist das generieren von E-Mails bei Verstössen möglich.
 
 # Konfiguration
 
