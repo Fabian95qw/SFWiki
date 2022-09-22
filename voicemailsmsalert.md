@@ -2,7 +2,7 @@
 title: Voicemail SMS Alamierung
 description: 
 published: false
-date: 2022-09-22T07:47:57.067Z
+date: 2022-09-22T07:54:03.446Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-22T07:28:36.859Z
@@ -27,6 +27,10 @@ Es muss eine Zielvoicemailbox für das Modul gewählt werden.
 
 ## Auszuführender User
 Voicemailboxen können nur im Namen eines Benutzers abgerufen werden, das Modul versucht in Namen dieses Benutzers auf die Voicemailbox zuzugreifen.
+
+# Zeitplan & SMS Text
+
+![timeplan.png](/uploads/voicemailsmsalert/timeplan.png)
 
 ## Prüfungsintervall
 In diesem Intervall wird auf neue Voicemails geprüft, standardmässig wird die Voicemailbox alle 5 Minuten überprüft.
@@ -63,6 +67,31 @@ Der SMS Text, welcher an die Nummer gesendet werden soll. Diese kann mit einer H
 ## Datumsformat
 Für die Darstellung des Datums im SMS wird dieses Format verwendet.
 Für die Konfigurationsmöglichkeiten siehe: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+
+# Alamierung bei Problemen
+
+![alarmsettings.png](/uploads/voicemailsmsalert/alarmsettings.png)
+
+# SMS-Dienst Zugangsdaten
+
+## Websms
+Bei Websms.com muss für das Versenden von SMS der Benutzername & das Passwort des Kontos hinterlegt werden.
+![websms.com.png](/uploads/voicemailsmsalert/websms.com.png)
+
+## Testmodus
+Im Testmodus wird die API des SMS-Dienstes angesprochen, aber das effektive SMS nicht versendet.
+
+# SMS-Log
+Das Modul führt einen internen SMS-Log, dort werden alle bereits versendeten SMS angezeigt.
+Das Modul nutzt diese Liste, um zu verhindern, dass für das gleiche Voicemail mehrere SMS versendet werden.
+
+> Werden Einträge aus dieser Liste gelöscht, und das entsprechende Voicemail befindet sich noch im Tab "Neu" der Voicemailbox wird ein neues SMS für diese Voicemail generiert!
+{.is-danger}
+
+![sms-log.png](/uploads/voicemailsmsalert/sms-log.png)
+
+
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
