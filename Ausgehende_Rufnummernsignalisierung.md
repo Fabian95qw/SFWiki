@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2021-11-24T15:41:29.143Z
+date: 2022-09-30T07:09:14.485Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -35,14 +35,14 @@ Je nach Vorrang, wird er nun die 0041 234 56 78 bzw. 0041 786 54 32 gegen aussen
 ### Filtermöglichkeiten
 Mögliche Formate:
 00491234567890 ==> Exakte Nummer
-0049123456* ==> Alle Nummern die mit 0049123456 beginnen
-*789 ==> Alle Nummern die mit 789 Aufhören
-*123* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
+0049123456\* ==> Alle Nummern die mit 0049123456 beginnen
+\*789 ==> Alle Nummern die mit 789 Aufhören
+\*123\* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
 12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
 .23 ==> Alle dreistelligen Nummern, die mit 23 aufhören
 .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 ... ==> Alle dreistelligen Nummern
-.23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
+.23\* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
 
 ### Benutzerbasiertes Nummernmapping
 Hier können anzuzeigende Rufnummern basierend auf Einzelnummern, Nummernbereichen usw. gesetzt werden.
@@ -80,14 +80,14 @@ Wenn der Filter im Whitelist-Moduls betrieben wird, wird nur bei Anrufen an dies
 ### Filtermöglichkeiten
 Mögliche Formate:
 00491234567890 ==> Exakte Nummer
-0049123456* ==> Alle Nummern die mit 0049123456 beginnen
-*789 ==> Alle Nummern die mit 789 Aufhören
-*123* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
+0049123456\* ==> Alle Nummern die mit 0049123456 beginnen
+\*789 ==> Alle Nummern die mit 789 Aufhören
+\*123\* ==> Alle Nummern die 123 irgendwo in der Nummer enthalten
 12. ==> Alle dreistelligen Nummern, die mit 12 beginnen
 .23 ==> Alle dreistelligen Nummern, die mit 23 aufhören
 .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 ... ==> Alle dreistelligen Nummern
-.23* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
+.23\* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
 
 ### Zielnummern Filterdatei
 Ermöglicht es, eine Liste von Rufnummern im internationalen Format hochzuladen, welche dann ebenfalls für das Black/Whitelist Filtern benützt werden kann.
