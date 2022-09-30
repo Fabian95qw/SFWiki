@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2022-09-30T07:09:14.485Z
+date: 2022-09-30T07:37:31.794Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -70,12 +70,31 @@ Es werden nur auf Teilnehmer dieser Gruppe reagiert.
 ### Zu setzende CallerID
 Die CallerID, die für alle gesetzt wird, die dem Filter entsprechen
 
+### Quellnummern Filtern mit Black-/Whitelist
+Dieses gibt einem die Möglichkeit, mehrere Nummernfilter mit den Filtermöglichkeiten zu definieren.
+Hierbei wird die Interne Rufnummer, sowie die aktuelle Signalisierungsrummer/CallerID des Benutzers geprüft.
+
 ### Zielummern Filtern mit Black-/Whitelist
 Dieses gibt einem die Möglichkeit, mehrere Nummernfilter mit den Filtermöglichkeiten zu definieren.
 
+> Zu beachten gibt es, dass im Whitelisting Modus eine Leere Liste nicht einem "\*" entspricht. Wenn eine Whitelist also Leer ist, führt dies automatisch zu einem Non-Match, und das Modul macht nichts mehr.
+{.is-warning}
+
+
 ### Black-/Whitelisting
-Wenn der Filter im Blacklist-Modus betrieben wird, wird bei Anrufen an diese Nummer die CallerID nicht geändert.
-Wenn der Filter im Whitelist-Moduls betrieben wird, wird nur bei Anrufen an diese Nummer die CallerID geändert.
+Man kann 4 Logiken aus dem Quell & Zielnummernfilter erzeugen:
+
+#### Quellnummer & Zielnummer Blacklist
+Die CallerID wird für alle Benutzer, ausser die auf der Liste definierten STARFACE Benutzer/Internen Nummernbereiche, und Zielnummern gesetzt.
+
+#### Quellnummer Whitelist & Zielnummer Blacklist
+Die CallerID wird für die auf der Liste definierten STARFACE Benutzer/Internen Nummernbereiche gesetzt, ausser es werden die im Modul definierten Zielnummern angerufen.
+
+#### Quellnummer Whitelist & Zielnummer Whitelist
+Die CallerID wird nur für die auf der Quellnummern Liste definierten STARFACE Benutzer/Internen Nummernbereiche gesetzt, wenn diese spezifische Zielnummern anrufen.
+
+#### Quellnummer Blacklist & Zielnummer Whitelsit
+Die CallerID wird für Bestimmte Zielnummern gesetzt, ausser der wählende STARFACE Benutzer ist auf der Quelnummern Liste von STARFACE Benutzer/Internen Nummernbereiche.
 
 ### Filtermöglichkeiten
 Mögliche Formate:
