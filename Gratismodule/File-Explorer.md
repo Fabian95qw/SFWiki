@@ -2,7 +2,7 @@
 title: STARFACE File Explorer
 description: 
 published: true
-date: 2022-04-01T07:10:47.882Z
+date: 2022-10-14T08:35:01.923Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-31T11:16:51.548Z
@@ -21,7 +21,7 @@ Dies Funktioniert für alle STARFACE, inkl. STARFACE-Cloud.
 {.is-info}
 
 # Download
-Download Modul: http://module.si-solutions.ch/file-explorer/7.X/STARFACE_File_explorer_v151.sfm
+Download Modul: Neuste Version immer auf https://module.si-solutions.ch
 Download Client: http://module.si-solutions.ch/file-explorer/7.X/File-Explorer.zip
 
 
