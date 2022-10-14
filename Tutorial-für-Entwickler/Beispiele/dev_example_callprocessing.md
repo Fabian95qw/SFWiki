@@ -2,7 +2,7 @@
 title: Anrufverarbeitung
 description: 
 published: true
-date: 2022-08-31T09:46:57.656Z
+date: 2022-10-14T08:27:20.333Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T09:53:12.685Z
@@ -12,7 +12,10 @@ dateCreated: 2022-03-04T09:53:12.685Z
 In diesem Beispiel wird gezeigt, wie ein Anruf in einem eigenen Modulblock verarbeitet wird
  
 
-## Beispielcode seit 7.3
+## Beispielcode
+
+<details>
+  <summary> Code 7.3 (Klicken zum Anzeigen)</summary>
 
     package si.module.examples.callprocessing;
     import org.apache.logging.log4j.Logger;
@@ -101,9 +104,10 @@ In diesem Beispiel wird gezeigt, wie ein Anruf in einem eigenen Modulblock verar
       }//END OF EXECUTION
     }
 
+</details>
 
-## Beispielcode vor 7.3
-
+<details>
+  <summary> Code 7.2 (Klicken zum Anzeigen)</summary>
 
    	import org.apache.commons.logging.Log;
     import de.starface.bo.callhandling.actions.ModuleBusinessObject;
@@ -191,3 +195,5 @@ In diesem Beispiel wird gezeigt, wie ein Anruf in einem eigenen Modulblock verar
         }
 
       }//END OF EXECUTION
+  
+  </details>
