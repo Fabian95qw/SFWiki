@@ -2,7 +2,7 @@
 title: Intelligenter Teamcall
 description: 
 published: true
-date: 2021-08-16T11:02:06.506Z
+date: 2022-10-17T09:01:16.114Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:33.932Z
@@ -23,8 +23,10 @@ Bei der Rufnummernanzeige stehen mehrere Optionen zur Darstellung zur Verfügung
 
 ### Ansage
 Bevor der Anruf durch das Modul verarbeitet wird, kann gewählt werden, ob noch eine Ansage kommen soll, und ob der Anrufer in einer warteschlange Parkiert werden soll.
+> 
+> Wichtig das Dropdown Menü music on hold füllt sich selbstständig mit den korrekten Einträgen. Dafür muss aber das Modul nach der aktivierung zwingend einmal gespeichert werden (nicht übernehmen)
+{.is-warning}
 
-**Wichtig das Dropdown Menü music on hold füllt sich selbstständig mit den korrekten Einträgen. Dafür muss aber das Modul nach der aktivierung zwingend einmal gespeichert werden (nicht übernehmen)**
 
 ### Teams
 Dem Modul muss eine Liste von Teams zugewiesen werden, welche er Verarbeiten soll. Hierbei muss in der Liste die Primäre Rufnummer der Gruppe eingetragen werden.
@@ -37,14 +39,17 @@ Das Weitere vorgehen, falls der Anruf von keinem Gruppenmitglied abgenommen wurd
 
 ### Abfrage Hilfsobjekte
 Die Objekte Abfrage Gruppennummern / Abfrage Voicemailbox sind reine Hilfsobjekte, welche sich automatisch selbst mit den entsprechenden Infos aus der Starface versorgen. 
-Diese Felder haben **keinen Einfluss auf die Modulfunktionalität**
+> Diese Felder haben keinen Einfluss auf die Modulfunktionalität
+{.is-info}
+
 
 ### Erklärung Ablauf
 Ein Benutzer, Max Mustermann (Interne Rufnummer 123) wird vom Otto Normalverbraucher auf seiner Direktwahl Angerufen, ist jedoch nicht am Platz.
 Nach 15 Sekunden greift seine Zeitüberschr. Umleitung, und der Anruf wird an das Modul weitergeleitet.
 
 Das Modul setzt den Anrufernamen auf 123 Max >> Otto Normalverbraucher (Rufnummernanzeige).
-Otto Normalverbraucher erhält eine Ansage, dass der gewünschte Mitarbeiter nicht aktuell nicht erreichbar ist, und versucht wird ihn an sein Team zu vermitteln.  Anschliessend wird er in der Warteschlange platziert (Ansage vor Teamcalls).
+Otto Normalverbraucher erhält eine Ansage, dass der gewünschte Mitarbeiter aktuell nicht erreichbar ist, und versucht wird ihn an sein Team zu vermitteln.  
+Anschliessend wird er in der Warteschlange platziert (Ansage vor Teamcalls).
 Das Modul durchsucht nun die Liste der Teams nach einer Gruppe, in der Max Mustermann Mitglied ist. Bei der dritten Gruppe "Support" findet das Modul eine Mitgliedschaft für den Benutzer (Teams).
 Nun Klingelt es 10 Sekunden bei der Gruppe Support. Die anderen Mitarbeiter der Gruppe sehen auf ihrem Display, dass via 123 Max, der Kunde Otto Normalverbraucher be ihnen Angekommen ist.
 
