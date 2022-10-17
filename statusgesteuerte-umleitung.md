@@ -2,7 +2,7 @@
 title: Statusgesteuerte Umleitung
 description: 
 published: true
-date: 2021-08-16T11:02:46.690Z
+date: 2022-10-17T12:14:35.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:23.912Z
@@ -28,6 +28,9 @@ Es sind einige Status, auf die Reagiert werden kann bereits vordefiniert. Diese 
 
 ### Eigene Statustexte
 Es gibt die Möglichkeit eigene Statustexte, auf die Reagiert werden soll in der Liste einzutragen.
+Hierbei kann * als Wildcard verwendet werden.
+
+Z.b. "In den Ferien bis \*"
 
 ## Ergebnis
 ![stateredirect](/uploads/stateredirect/stateredirect-2.gif "stateredirect-2")
