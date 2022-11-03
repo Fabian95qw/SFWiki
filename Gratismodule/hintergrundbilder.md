@@ -2,7 +2,7 @@
 title: Hintergrundbilder
 description: 
 published: true
-date: 2022-03-09T07:48:38.424Z
+date: 2022-10-25T13:03:14.455Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:34:12.107Z
@@ -100,14 +100,13 @@ Rechts ist ebenfalls ein preview, aller Hintergründe (sofern preview unterstüt
     
   <details>
   <summary>fanvil (Klicken zum Anzeigen)</summary>
-  
+
 		fanvil x3 x4
 		fanvil x5
 		fanvil x6
 		fanvil x7
-  
-    </details>
-    
+</details>
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
