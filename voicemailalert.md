@@ -2,7 +2,7 @@
 title: Voicemail Alamierung
 description: 
 published: false
-date: 2022-11-23T09:58:19.538Z
+date: 2022-11-23T10:04:38.765Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T09:44:28.591Z
@@ -54,7 +54,31 @@ Setzt die CallerID auf diesen Namen. So wird dieser z.b. in der STARFACE App ang
 ## Anzuzeigende Rufnummer
 Die Rufnummer, welche das Modul ausgehenden Anzeigen soll.
 
+## Eskalationsstufen
+Die Verschiedenen Eskalationsstufen, und die Nummer die Angerufen werden soll.
+Das Modul beginnt bei der Eskalationsstufe 1, und geht dann fortlaufend zu den höheren Stufen, wenn die Maximale Anzahl Versuche pro Eskalationsstufe erreicht wurden.
 
+# Annahme
+Um zu verhindern, dass der Alarm auf einer Voicemailbox landet, muss dieser nach Abnehmen des Hörer mit einer DTMF bestätigt werden.
+
+![3](/uploads/voicemailalert/3.png)
+
+## Aufforderung zur Annahme der Nachricht.
+Hier kann eine eigene Audiodatei für die Aufforderung zur Drücken der DTMF Taste hinterlegt werden.
+
+Standardmässig ist eine Frauenstimme mit dem Text **"Es wurde ein Alarm ausgelöst. Drücken sie eine Beliebige Taste um anzunehmen"** hinterlegt.
+
+## DTMF Taste zum Annehmen
+Es kann definiert werden, ob eine beliebige DTMF Taste gedrückt werden kann, oder ob man eine Spezifische Taste oder sogar Tatstenkombination nehmen will
+
+## Spezifische DTMF
+Hier kann ein spezifischer DTMF Code hinterlegt werden z.b. 1234
+
+## DTMF Länge
+Es muss mitgegeben werden, wie lange der DTMF Code ist, oder wie viele beliebige DTMF Tasten gedrückt werden sollen, um das Voicemail anzunehmen
+
+## DTMF Timeout
+Wie lange das Modul auf die DTMF Tasten wartet, bevor es den Anruf als nicht Erfolgreich ansieht.
 
 
 # Downloads & Lizenzierung
