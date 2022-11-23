@@ -2,7 +2,7 @@
 title: Voicemail Alamierung
 description: 
 published: false
-date: 2022-11-23T10:04:38.765Z
+date: 2022-11-23T10:10:42.252Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T09:44:28.591Z
@@ -79,6 +79,45 @@ Es muss mitgegeben werden, wie lange der DTMF Code ist, oder wie viele beliebige
 
 ## DTMF Timeout
 Wie lange das Modul auf die DTMF Tasten wartet, bevor es den Anruf als nicht Erfolgreich ansieht.
+
+# Keine weiteren Eskalationsstufen
+Wenn alle Eskalationsstufen durchgelaufen sind, und niemand abgenommen hat, wird eine Alarm E-Mail generiert
+
+![4](/uploads/voicemailalert/4.png)
+
+## Alarm E-Mail versenden an:
+Alarm E-Mail wird an diese Adresse versendet.
+
+## E-Mail Formatierungsmöglichkeiten
+Der E-Mail Betreff & Text kann mit div. Parametern befüllt werden:
+
+#DATE# ==> Datum im Format: \[dd.MM.yyyy HH:mm\]
+#CALLERNUMBER# ==> Nummer des Anrufers
+#CALLERNAME# ==> Name des Anrufers (Falls auflösbar)
+#CALLEDNUMBER# ==> Angerufene Nummer
+#ID# ==> ID dieser Voicemail
+#MAILBOXID# ==> ID der Voicemailbox
+#MAILBOXNAME# ==> Name der Voicemailbox
+
+## E-Mail Absender
+Der Absendername, welcher angezeigt werden soll
+
+## E-Mail Betreff
+Betreff des E-Mails mit entsprechenden Parametern.
+Standard: **Eskalationsmodul Alarm #DATE#**
+
+## E-Mail Text
+Text des E-Mails mit entsprechenden Parametern.
+Standard: **Die Voicemail #CALLERNUMBER# #CALLERNAME# #DATE# wurde von keiner Eskalationsstufe angenommen!**
+
+## Voicemail Anhängen
+Hängt die .wav Datei des Voicemails direkt am E-Mail an.
+
+# Alarmlog
+Alle ausgeführten Alarme werden im Modul Alarmlog Dokumentiert.
+
+![5](/uploads/voicemailalert/5.png)
+
 
 
 # Downloads & Lizenzierung
