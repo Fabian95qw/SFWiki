@@ -2,7 +2,7 @@
 title: Voicemail Alamierung
 description: 
 published: false
-date: 2022-11-23T09:44:28.591Z
+date: 2022-11-23T09:46:52.092Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T09:44:28.591Z
@@ -11,9 +11,9 @@ dateCreated: 2022-11-23T09:44:28.591Z
 # Beschreibung
 
 Dieses Modul überwacht eine spezifische Voicemailbox auf neue Voicemails.
-Das Modul enthält eine Zeitplanung, mit verschiedenen Nummernzielen.
-Wenn eine Voicemail eintrifft, wird der auf der Zeitplanung basierten Nummer eine SMS mit frei definierbarem Text via dem websms.com Dienst gesendet.
-Trifft kein Zeitraum zu, so kann ein Alarm E-Mail generiert werden.
+Wenn eine neue Voicemail ankommt, werden mehrere Benutzer gemäss einer Eskalatiosnstufe nacheinander angerufen. 
+Wenn ein Benutzer den Anruf annimmt, wird er aufgefordert eine DTMF Taste zu drücken. Anschliessend wird ihm das Voicemail abgespielt.
+Sind alle Eskalationsstufen durch, und der Anruf wurde nicht zugestellt, so wird ein Alarm E-Mail verschickt.
 
 # Konfiguration
 
