@@ -2,7 +2,7 @@
 title: Voicemail Alamierung
 description: 
 published: false
-date: 2022-11-23T10:13:16.122Z
+date: 2022-11-23T10:16:18.371Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T09:44:28.591Z
@@ -125,8 +125,9 @@ Alle ausgeführten Alarme werden im Modul Alarmlog Dokumentiert.
 Die Datenbank Voicemail ID, um welche es sich handelt.
 
 ## Ergebnis
-Das Ergebnis dieses Voicemails.
-
+Es gibt aktuell zwei Ergebnisse:
+\[dd.MM.yyyy HH:mm\] Angenommen von: \[Rufnummer der Eskalationsstufe\] | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
+\[dd.MM.yyyy HH:mm\] Fehlgeschlagen! Alarm E-Mail Versendet!  | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
