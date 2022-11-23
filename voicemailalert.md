@@ -2,7 +2,7 @@
 title: Voicemail Alamierung
 description: 
 published: false
-date: 2022-11-23T10:10:42.252Z
+date: 2022-11-23T10:13:16.122Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-23T09:44:28.591Z
@@ -116,8 +116,16 @@ Hängt die .wav Datei des Voicemails direkt am E-Mail an.
 # Alarmlog
 Alle ausgeführten Alarme werden im Modul Alarmlog Dokumentiert.
 
+> Das löschen von Zeilen führt dazu, dass diese Voicemail als neu angesehen wird, und das Modul führt den Alarm für diese spezifische Voicemail erneut aus, sofern diese sich noch im Tab "Neu" befindet!
+{.is-danger}
+
 ![5](/uploads/voicemailalert/5.png)
 
+## Voicemailid
+Die Datenbank Voicemail ID, um welche es sich handelt.
+
+## Ergebnis
+Das Ergebnis dieses Voicemails.
 
 
 # Downloads & Lizenzierung
