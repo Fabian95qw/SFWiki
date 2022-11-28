@@ -2,7 +2,7 @@
 title: Eigene GUI Elemente via XML-RPC erzeugen.
 description: 
 published: false
-date: 2022-11-28T14:49:29.523Z
+date: 2022-11-28T14:53:05.367Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T14:10:31.575Z
@@ -35,4 +35,4 @@ Die Inhalte im Modul sind extrem "flüchtig". Wenn der Modul Tab gewechselt werd
 
 ![tab_switching.gif](/uploads/dev_tutorial/tab_switching.gif)
 
-# Beispiel Eigener Button mit JavaScript & XML-RPC Abfragen
+## Infotext HTML/CSS/JavaScript Injection
