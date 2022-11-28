@@ -2,7 +2,7 @@
 title: Eigene GUI Elemente via XML-RPC erzeugen.
 description: 
 published: false
-date: 2022-11-28T14:43:45.582Z
+date: 2022-11-28T14:49:29.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T14:10:31.575Z
@@ -26,6 +26,13 @@ Per JavaScript können Nachträglich per XML-RPC zusätzliche Informationen nach
 ![Custom_UI_Elements.drawio.png](/uploads/dev_tutorial/Custom_UI_Elements.drawio.png)
 
 ### Stolpersteine
+
+#### Inhalte Speichern
 Wenn per XML-RPC Inhalte nachgeladen werden, müssen Änderungen an diesen Elementen irgendwie per XML-RPC an das Modul ebenfalls zurück ins  Modul geschrieben werden.
 
-Die
+#### Tab-Wechsel
+Die Inhalte im Modul sind extrem "flüchtig". Wenn der Modul Tab gewechselt werden Änderungen an normalen STARFACE Elementen in einen Temporären Cache gesichert, und die Webseite wird jedes mal, wenn man einen Tab ändert neu Gerendet und mit den Werten befüllt. Dies bedeutet, alles was mit JavaScript geladen wurde verfällt, sobald man im Modul den Tab wechselt.
+
+![tab_switching.gif](/uploads/dev_tutorial/tab_switching.gif)
+
+# Beispiel Eigener Button mit JavaScript & XML-RPC Abfragen
