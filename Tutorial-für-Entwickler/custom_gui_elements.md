@@ -2,7 +2,7 @@
 title: Eigene GUI Elemente via XML-RPC erzeugen.
 description: 
 published: false
-date: 2022-11-28T14:38:31.318Z
+date: 2022-11-28T14:43:45.582Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T14:10:31.575Z
@@ -23,6 +23,9 @@ Dies kann jedoch einfach Umgangen werden, somit können eigene Javascript , HTML
 Diese neu Hinzugefügten Elemente, werden dann zwar dargestellt, aber müssen auch noch auf Informationen von der STARFACE zugreifen. hier kommen die XML-RPC Eintrittspunkte für die Module ins spiel.
 Per JavaScript können Nachträglich per XML-RPC zusätzliche Informationen nachgeladen werden.
 
+![Custom_UI_Elements.drawio.png](/uploads/dev_tutorial/Custom_UI_Elements.drawio.png)
 
 ### Stolpersteine
+Wenn per XML-RPC Inhalte nachgeladen werden, müssen Änderungen an diesen Elementen irgendwie per XML-RPC an das Modul ebenfalls zurück ins  Modul geschrieben werden.
 
+Die
