@@ -2,7 +2,7 @@
 title: Eigene GUI Elemente via XML-RPC erzeugen.
 description: 
 published: false
-date: 2022-11-28T14:53:05.367Z
+date: 2022-11-28T15:01:38.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T14:10:31.575Z
@@ -22,7 +22,7 @@ Dies kann jedoch einfach Umgangen werden, somit können eigene Javascript , HTML
 
 Diese neu Hinzugefügten Elemente, werden dann zwar dargestellt, aber müssen auch noch auf Informationen von der STARFACE zugreifen. hier kommen die XML-RPC Eintrittspunkte für die Module ins spiel.
 Per JavaScript können Nachträglich per XML-RPC zusätzliche Informationen nachgeladen werden.
-
+  
 ![Custom_UI_Elements.drawio.png](/uploads/dev_tutorial/Custom_UI_Elements.drawio.png)
 
 ### Stolpersteine
@@ -33,6 +33,16 @@ Wenn per XML-RPC Inhalte nachgeladen werden, müssen Änderungen an diesen Eleme
 #### Tab-Wechsel
 Die Inhalte im Modul sind extrem "flüchtig". Wenn der Modul Tab gewechselt werden Änderungen an normalen STARFACE Elementen in einen Temporären Cache gesichert, und die Webseite wird jedes mal, wenn man einen Tab ändert neu Gerendet und mit den Werten befüllt. Dies bedeutet, alles was mit JavaScript geladen wurde verfällt, sobald man im Modul den Tab wechselt.
 
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
 ![tab_switching.gif](/uploads/dev_tutorial/tab_switching.gif)
+  
+</details>  
 
 ## Infotext HTML/CSS/JavaScript Injection
+Wir verwenden dafür meinen Baustein "SetDescriptionByID".
+[Download Modulbaustein](https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/modulefunction/setdescriptionbyid/SetDescriptionbyID.class)
+[Download Source Code](https://github.com/Fabian95qw/SF-Modulefunctions/blob/master/src/modulefunction/setdescriptionbyid/SetDescriptionbyID.java)
+
