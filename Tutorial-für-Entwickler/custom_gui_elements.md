@@ -2,7 +2,7 @@
 title: Eigene GUI Elemente via XML-RPC erzeugen.
 description: 
 published: false
-date: 2022-11-28T15:01:38.057Z
+date: 2022-11-28T15:03:38.785Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-28T14:10:31.575Z
@@ -45,4 +45,5 @@ Die Inhalte im Modul sind extrem "flüchtig". Wenn der Modul Tab gewechselt werd
 Wir verwenden dafür meinen Baustein "SetDescriptionByID".
 [Download Modulbaustein](https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/modulefunction/setdescriptionbyid/SetDescriptionbyID.class)
 [Download Source Code](https://github.com/Fabian95qw/SF-Modulefunctions/blob/master/src/modulefunction/setdescriptionbyid/SetDescriptionbyID.java)
+
 
