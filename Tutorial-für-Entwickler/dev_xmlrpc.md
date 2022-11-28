@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2022-03-07T15:29:10.661Z
+date: 2022-11-28T14:08:32.618Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -227,3 +227,34 @@ Passwort: Pass123
   [XML-RPC-Example.postman_collection.json](/uploads/dev_tutorial/XML-RPC-Example.postman_collection.json)
   
   
+  ## XML-RPC Einstiegspunkt ohne Authentifizierung
+  
+ Es gibt die möglichkeit XML-RPC Einstiegspunkte ohne Tokenauthentifizierung zu erstellen.
+ Hierfür muss man im Modul die Einstiegspunkte wie gewohnt definieren, und danach das Modul als .sfm Herunterladen.
+ 
+ Die .sfm Datei muss nachher mit einem Entzipper (z.b. 7-Zip, WinRar usw..) entpackt werden.
+ In der .sfm Datei befindet sich ein **module-descriptor.xml** dieser muss mit einem Editor geöffnet werden.
+ 
+Hier sollte nun nach dem Namen des XML-RPC Einstiegspunktes gesucht werden.
+Beim Type muss der Typ auf XMLRPC_noauth gewechselt werden.
+
+Z.b für den XML-RPC Einstiegspunkt "getservicestate"
+
+\<rpcEntryPoint id="6a76daa5-a10d-4566-9de1-e4b1bf37249d" name="**getservicestate**">
+\<functionReference targetDomainId="95ac8f4b-715e-4384-84fe-0cc8ff40582f" targetId="e74e5cf9-e4b7-4102-b6c3-c329fb57e4c4" targetName="NewFunction2" targetVersion="0"/>
+\<type>**XMLRPC_noauth**\</type>
+\</rpcEntryPoint>
+
+Nachdem man die .xml Editiert hat, muss man die modifizierte Datei zurück ins .sfm Packen, und dieses in der Modul-Library über das vorhandene Modul importieren.
+
+> Bitte stellt sicher dass kein Modul-Editor Fenster von diesem Modul geöffnet ist, bevor ihr das Modul erneut importiert. Ansonsten könnte die Änderungen im xml Verloren gehen, und der Vorgang muss wiederholt werden.
+{.is-warning}
+
+
+Danach kann das Modul ohne Authentifizierung via: http://\[IP-der-STARFACE\]/xml-rpc angesprochen werden.
+
+> Es ist zu Empfehlen, hier eine manuelle Authentifizierungslogik zu verbauen, um missbrauch zu verhindern. Dies kann z.b. durch einen eigens Statisch/Dynamischem Token gelöst werden, welcher bei jedem Request mitgesendet wird.
+{.is-warning}
+
+
+
