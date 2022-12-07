@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2022-12-07T08:49:03.552Z
+date: 2022-12-07T08:52:38.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -75,8 +75,8 @@ Die Datenbank Voicemail ID, um welche es sich handelt.
 
 ## Ergebnis
 Es gibt aktuell zwei Ergebnisse:
-\[dd.MM.yyyy HH:mm\] Angenommen von: \[Rufnummer der Eskalationsstufe\] | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
-\[dd.MM.yyyy HH:mm\] Fehlgeschlagen! Alarm E-Mail Versendet!  | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
+\[dd.MM.yyyy HH:mm\] E-Mail Erfolgreich! | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
+\[dd.MM.yyyy HH:mm\] E-Mail Fehlgeschlagen!  | Anrufer:  #CALLERNUMER# | Angerufen: #CALLEDNUMBER#
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
