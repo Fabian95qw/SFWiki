@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-02T14:32:37.691Z
+date: 2023-01-02T14:36:51.257Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -15,7 +15,7 @@ Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge ges
 
 # Konfiguration
 
-
+![1.png](/uploads/swiss-lookup/1.png)
 
 ## Lookup Timeout \[s\]
 Definiert wie viel Zeit das Modul maximal aufwenden darf, um die Rufnummer gegen externe Telefonbücher aufzulösen. Sollte der Timeout erreicht werden, so wird der Anruf unaufgelöst weitergegeben.
@@ -33,6 +33,8 @@ Hier muss die Rufnummer ohne leerzeichen Vollständig internationalisiert einget
 Hier wird entweder die in der internen DB abgelegte CallerID angezeigt, oder es kommt eine Meldung, dass dieser nicht gefunden wurde.
 
 # Tel.Search<span></span>.ch Einstellungen
+
+![2.png](/uploads/swiss-lookup/2.png)
 
 ## API-Key
 Hier wird der von der Tel.search<span></span>.ch zur Verfügung gestellte API Key benötigt.
