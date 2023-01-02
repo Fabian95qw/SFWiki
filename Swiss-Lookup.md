@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-02T14:18:05.809Z
+date: 2023-01-02T14:30:14.835Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -29,6 +29,36 @@ Hier muss die Rufnummer ohne leerzeichen Vollständig internationalisiert einget
 
 ## Sucheregebnis
 Hier wird entweder die in der internen DB abgelegte CallerID angezeigt, oder es kommt eine Meldung, dass dieser nicht gefunden wurde.
+
+# Tel.Search<span></span>.ch Einstellungen
+
+## API-Key
+Hier wird der von der Tel.search<span></span>.ch zur Verfügung gestellte API Key benötigt.
+Einen API-Key kann man unter: https://tel.search.ch/api/getkey.en.html anfordern.
+
+## Sprache der Ausgabe
+Tel.search.<span></span>ch kann die Suchergebnisse in allen Landessprachen + Englisch liefern. Hier kann definiert werden, welche davon für die Suchergebnisse verwendet wird.
+
+## Formatierung CallerID
+Wenn der Anruf durch die Tel.Search.<span></span>ch aufgelöst wird, wir die CallerID entsprechend Formatiert. Hier können alle unter von Tel.Search.ch unter dem Link: https://tel.search.ch/api/help.en.html unter "Format of Response" angegebene Parameter verwendet werden.
+
+> Die CallerID wird in diesem Format in die DB gespeichert. Nachträgliche Änderungen haben keine Einfluss auf bereits abgespeicherte Einträge. 
+{.is-warning}
+
+## Maximale Zeichenlänge der Werte
+Für alle Werte, welche in der CallerID verwendet werden, muss jeweils die Maximale Zeichenlänge hinterlegt werden. Bei einer länge von 0 wird dieser nicht gekürzt.
+
+### Beispiel:
+CallerID Format: #name# #firstname# #company#
+
+| Wert | Maximale Zeichenlänge|
+|---|---|
+| name | 6 |
+| firstname | 0 |
+| company | 10 |
+
+Der Anrufer ist "Max Mustermann Musterfirma".
+Der Vorname Max, wird nicht gekürzt, der Nachname wird auf 6 Zeichen "Muster" gekürzt, und der Firmenname auf "Musterfirm" gekürtzt. das Ergebnis wäre "Max Muster Musterfirm"
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
