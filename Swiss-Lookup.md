@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-02T14:36:51.257Z
+date: 2023-01-02T14:40:30.133Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -53,7 +53,7 @@ Wenn der Anruf durch die Tel.Search.<span></span>ch aufgelöst wird, wir die Cal
 Für alle Werte, welche in der CallerID verwendet werden, muss jeweils die Maximale Zeichenlänge hinterlegt werden. Bei einer länge von 0 wird dieser nicht gekürzt.
 
 ### Beispiel:
-CallerID Format: #name# #firstname# #company#
+CallerID Format: #name# #firstname# #org#
 
 | Wert | Maximale Zeichenlänge|
 |---|---|
