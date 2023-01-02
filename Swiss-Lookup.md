@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-02T14:30:14.835Z
+date: 2023-01-02T14:32:37.691Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -14,6 +14,8 @@ Dieses Modul macht einen Lookup gegen Schweizer Telefonbücher. Aktuell wird nur
 Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge gespeichert werden können, damit sie nicht wiederholt bei den Telefonbuchanbietern abgefragt werden, da es dort Limitierungen zu den Anzahl anfragen pro Stunde/Tag/Monat gibt.
 
 # Konfiguration
+
+
 
 ## Lookup Timeout \[s\]
 Definiert wie viel Zeit das Modul maximal aufwenden darf, um die Rufnummer gegen externe Telefonbücher aufzulösen. Sollte der Timeout erreicht werden, so wird der Anruf unaufgelöst weitergegeben.
