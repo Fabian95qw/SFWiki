@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-03T10:09:31.210Z
+date: 2023-01-03T10:11:05.467Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -27,7 +27,9 @@ Die Standardeinstellung ist:
 2. Intern
 3. TelSearch
 
-Bitte beachtet, 
+> Die Namen sind Case Sensitive, und müssen genau so eingegeben werden, ansonsten wird das Adressbuch nicht erkannt bzw. nicht verwendet.
+{.is-warning}
+
 
 Somit wird das STARFACE interne Adressbuch zuerst nach der Rufnummer durchsucht, bevor die Interne DB geprüft wird, und dann schlussendlich wird eine Anfrage bei Tel.Search<span></span>.ch ausgeführt.
 
