@@ -2,14 +2,14 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-02T14:40:30.133Z
+date: 2023-01-03T10:09:31.210Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
 ---
 
 # Beschreibung
-Dieses Modul macht einen Lookup gegen Schweizer Telefonbücher. Aktuell wird nur das Tel.Search.ch (Swissdirectories) unterstützt, es ist noch die Unterstützung für weitere Telefonbücher geplant.
+Dieses Modul macht einen Lookup gegen Schweizer Telefonbücher. Aktuell wird nur das Tel.Search<span></span>.ch (Swissdirectories) unterstützt, es ist noch die Unterstützung für weitere Telefonbücher geplant.
 
 Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge gespeichert werden können, damit sie nicht wiederholt bei den Telefonbuchanbietern abgefragt werden, da es dort Limitierungen zu den Anzahl anfragen pro Stunde/Tag/Monat gibt.
 
@@ -20,11 +20,29 @@ Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge ges
 ## Lookup Timeout \[s\]
 Definiert wie viel Zeit das Modul maximal aufwenden darf, um die Rufnummer gegen externe Telefonbücher aufzulösen. Sollte der Timeout erreicht werden, so wird der Anruf unaufgelöst weitergegeben.
 
+##Adressbuch Prioritäten
+Definiert, welches Adressbuch die höhere Priorität hat. 
+Die Standardeinstellung ist: 
+1. STARFACE
+2. Intern
+3. TelSearch
+
+Bitte beachtet, 
+
+Somit wird das STARFACE interne Adressbuch zuerst nach der Rufnummer durchsucht, bevor die Interne DB geprüft wird, und dann schlussendlich wird eine Anfrage bei Tel.Search<span></span>.ch ausgeführt.
+
 ## Aufgelöste Adressen in interner DB Speichern.
 Sofern aktiviert, wird die Vollständige internationalisierte Rufnummer in einer internen DB abgespeichert.
 
 ## Interne DB - Funktionen
+
+![2.png](/uploads/swiss-lookup/2.png)
+
 Man kann entweder eine Rufnummer gegen die interne DB Abfragen, oder diese aus der internen DB löschen. Dies wird z.b. benötigt, wenn die CallerID geändert wurde, oder die interne Beschriftung generell nicht mehr stimmt.
+
+> Zur Verwendung, muss die Funktion ausgewählt, der Suchbegriff eingegeben & das Modul abgespeichert (nicht übernommen) werden.
+{.is-warning}
+
 
 ## Suchbegriff
 Hier muss die Rufnummer ohne leerzeichen Vollständig internationalisiert eingetippt werden.
@@ -32,9 +50,51 @@ Hier muss die Rufnummer ohne leerzeichen Vollständig internationalisiert einget
 ## Sucheregebnis
 Hier wird entweder die in der internen DB abgelegte CallerID angezeigt, oder es kommt eine Meldung, dass dieser nicht gefunden wurde.
 
+# STARFACE Adressbuch Einstellungen
+
+![3.png](/uploads/swiss-lookup/3.png)
+
+## STARFACE Benutzer für Adressbuchsuche
+Definiert, im Namen welches Benutzers im Adressbuch gesucht wird. Dies ist für die Öffentlichen Ordner nicht weiter relevant, lediglich wenn auch ein bestimmter privater Ordner nach Adressbucheinträgen durchsucht werden soll.
+
+## Zu durchsuchende Adressbücher
+Definiert, welche Adressbücher auf der STARFACE nach dieser Nummer durchsucht werden soll. Standardmässig sind alle Adressbücher aufgelistet.
+
+## Standard CallerID überschreiben.
+
+![4.png](/uploads/swiss-lookup/4.png)
+
+Wenn das Modul den Adressbucheintrag im normalen STARFACE Adressbuch findet, überlässt das Modul die Formatierung der CallerID normalerweise der STARFACE bzw. es wird die unter Telefone ==> ID-Anzeige gesetzte CallerID verwendet.
+
+Es kann jedoch definiert werden, dass das Modul eine eigene CallerID setzt, und somit die ID-Anzeige ausser kraft setzt.
+
+## STARFACE Formatierung CallerID
+Der Wert, welcher statt der Standard CallerID verwendet werden soll.
+
+Mögliche Werte:
+firstname => Vorname
+lastname=> Nachname
+company => Firmenname
+number => Vollständig internationalisierte Rufnummer
+
+## Maximale Zeichenlänge der Werte
+Für alle Werte, welche in der CallerID verwendet werden, muss jeweils die Maximale Zeichenlänge hinterlegt werden. Bei einer länge von 0 wird dieser nicht gekürzt.
+
+### Beispiel:
+CallerID Format: #lastname# #firstname# #company#
+
+| Wert | Maximale Zeichenlänge|
+|---|---|
+| lastname | 6 |
+| firstname | 0 |
+| company | 10 |
+
+Der Anrufer ist "Max Mustermann Musterfirma".
+Der Vorname Max, wird nicht gekürzt, der Nachname wird auf 6 Zeichen "Muster" gekürzt, und der Firmenname auf "Musterfirm" gekürtzt. das Ergebnis wäre "Max Muster Musterfirm"
+
 # Tel.Search<span></span>.ch Einstellungen
 
-![2.png](/uploads/swiss-lookup/2.png)
+![5.png](/uploads/swiss-lookup/5.png)
 
 ## API-Key
 Hier wird der von der Tel.search<span></span>.ch zur Verfügung gestellte API Key benötigt.
@@ -59,7 +119,7 @@ CallerID Format: #name# #firstname# #org#
 |---|---|
 | name | 6 |
 | firstname | 0 |
-| company | 10 |
+| org | 10 |
 
 Der Anrufer ist "Max Mustermann Musterfirma".
 Der Vorname Max, wird nicht gekürzt, der Nachname wird auf 6 Zeichen "Muster" gekürzt, und der Firmenname auf "Musterfirm" gekürtzt. das Ergebnis wäre "Max Muster Musterfirm"
