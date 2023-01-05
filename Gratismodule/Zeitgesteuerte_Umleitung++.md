@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: false
-date: 2023-01-05T14:25:37.115Z
+date: 2023-01-05T14:28:00.794Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -30,6 +30,10 @@ Ignoriert Anlageninterne Anrufe
 Sagt, ob die CallerID erweitert werden soll
 Wenn ja, wird sie um den Entsprechenden Präfix & Suffix erweitert.
 Z.b. mit einem Präfix von "Uml. " und einem Suffix von \[E\] würde aus "Max Mustermann" "Uml. Max Mustermann\[E\]
+
+> Module, welche die CallerID Formatieren (Z.b. eine Rückwärttsuche, oder lookup in externen DB) stehen in dem Modul konflikt, und es kann sein, dass die CallerID wieder überschrieben wird. 
+Bitte beachten sie entsprechend die Ausführreihenfolge der Module.
+{.is-warning}
 
 # Nummernfilter
 Es muss definiert werden, auf welche Anrufer & Angerufene Nummern reagiert wird.
