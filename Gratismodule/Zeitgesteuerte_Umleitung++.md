@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: false
-date: 2023-01-05T14:28:00.794Z
+date: 2023-01-05T14:29:06.982Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -19,6 +19,8 @@ Dies Enthält u.a.:
 - Konfigurationen können exportiert & importiert werden, so kann man z.b. eine Vorlage Datei erstellen, welche man bei verschiedenen Kunden importieren kann.
 
 # Konfiguration
+
+![1.PNG](/uploads/zeitgesteuerte_umleitung_si/1.PNG)
 
 ## Interne Anrufe ingorieren
 Ignoriert Anlageninterne Anrufe
@@ -52,6 +54,9 @@ Mögliche Formate:
 .23\* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
 
 ## Nummer des Anrufers Filter & Ausnahmen
+
+![2.PNG](/uploads/zeitgesteuerte_umleitung_si/2.PNG)
+
 Filter, welche hier gesetzt werden, werden auf die Nummer des Anrufers angewendet.
 
 Er Prüft folgende Nummern:
@@ -62,7 +67,11 @@ Er Prüft folgende Nummern:
 ## Nummer des Angerufenen Filter & Ausnahmen
 Filter, welche hier gesetzt werden, werden auf die Angerufene Nummer angewendet.
 
+![3.PNG](/uploads/zeitgesteuerte_umleitung_si/3.PNG)
+
 # Zeiten
+![4.PNG](/uploads/zeitgesteuerte_umleitung_si/4.PNG)
+
 Hier werden die Zeitfenster in denen reagiert, oder nicht reagiert werden soll, definiert.
 
 ## Reaktion
@@ -85,6 +94,8 @@ Samstag-Sonntag ==> Gilt an jedem Samstag und Sonntag von 00:00 Uhr bis 23:59 Uh
 Samstag 12:00-14:00 ==> Gilt jeden Samstag von 12:00 Uhr bis 14:00 Uhr 
 
 # Ziele
+![5.PNG](/uploads/zeitgesteuerte_umleitung_si/5.PNG)
+
 Es muss auch ein Ziel definiert werden, an welches das Modul weitergeleitet wird.
 
 ## Rufnummer / Mailbox (\*9)
