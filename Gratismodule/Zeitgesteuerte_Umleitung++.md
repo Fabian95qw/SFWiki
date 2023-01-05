@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: false
-date: 2023-01-05T14:29:06.982Z
+date: 2023-01-05T14:34:14.892Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -112,6 +112,25 @@ Anruf wird an einen Benutzer weitergeleitet
 
 ## Gruppe
 Anruf wird an eine Gruppe weitergeleitet.
+
+# Konfigurationen Exportieren/Importieren
+![6.PNG](/uploads/zeitgesteuerte_umleitung_si/6.PNG)
+
+Das Modul kann die Einstellungen per E-Mail Senden, und man kann sie wieder zurück in die Instanz laden.
+
+> Die Exportdatei ist ein Serialisierter Java Objectstream. 
+Auch wenn sie auf den ersten Blick lesbar aussieht, sollte sie auf keinem Fall von Hand editiert werden.
+{.is-danger}
+
+
+## Exportieren
+Für den Export muss die E-Mail Adresse ausgefüllt werden, und der haken bei "Konfiguration per E-Mail senden" gesetzt sein. Man erhält dann eine \[UUID\].sfinstance. 
+
+Die Datei kann ohne Probleme umbenannt werden. Die Endung .sfinstance muss aber behaltet werden!
+
+## Importieren
+Zum Importieren muss man einfach die .sfinstance Datei hochladen, unten den Haken "Konfiguration Importieren" Anhaken, **und das Modul Abspeichern (nicht Übernehmen)!**
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
