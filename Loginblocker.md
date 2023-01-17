@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: false
-date: 2023-01-17T15:20:16.761Z
+date: 2023-01-17T15:24:31.149Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -18,7 +18,12 @@ Dieses Modul ermöglicht es, Benutzern die Anmeldung per UCI für bestimmte Endg
 > Bei einem Systemneustart der STARFACE, gibt es ein kurzes Zeitfenster, in dem die Module noch nicht wieder aktiv sind, aber Benutzer sich bereits wieder an der Anlage anmelden können. In diesem Zeitfenster können sich auch Mobilbenutzer Anmelden, welche sonst blockiert wären. Dies lässt sich nicht verhindern.
 {.is-danger}
 
+# Flow
+![Flow.png](/uploads/loginblocker/Flow.png)
+
 # Konfiguration
+
+![1.png](/uploads/loginblocker/1.png)
 
 ## Gruppenmodus
 Definiert, ob nur die Mitglieder der Gruppe überwacht werden sollen (Blacklist), oder alle, ausser die Mitglieder in der Gruppe (Whitelist)
@@ -37,6 +42,16 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 - Android
 - IOS
 
+# Beispiele
+
+## Beispiel 1:
+
+
+## Beispiel 2:
+
+## Beispiel 3:
+
+## Beispiel 4:
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
