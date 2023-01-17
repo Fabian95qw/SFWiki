@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: false
-date: 2023-01-17T15:24:44.602Z
+date: 2023-01-17T15:26:20.028Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -46,6 +46,9 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 
 ## Beispiel 1:
 
+![Example1.PNG](/uploads/loginblocker/Example1.PNG)
+
+Die Mitglieder der Gruppe "Zentrale" dürfen sich lediglich an der STARFACE App für Windows oder Mac anmelden.
 
 ## Beispiel 2:
 
