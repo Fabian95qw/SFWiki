@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: true
-date: 2023-01-17T15:59:22.866Z
+date: 2023-01-17T16:02:21.794Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -42,7 +42,7 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 {.is-warning}
 
 - Windows
-- MacClient
+- Mac
 - Android
 - iOS
 
