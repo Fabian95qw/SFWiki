@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: true
-date: 2023-01-17T15:55:51.330Z
+date: 2023-01-17T15:56:35.638Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -42,7 +42,7 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 {.is-warning}
 
 - StarfaceWindows
-- StarfaceMac
+- STARFACE_MacClient
 - Android
 - Starface iOS Client iPhone
 
