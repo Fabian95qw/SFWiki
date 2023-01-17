@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: false
-date: 2023-01-17T15:26:20.028Z
+date: 2023-01-17T15:29:04.179Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -17,6 +17,10 @@ Dieses Modul ermöglicht es, Benutzern die Anmeldung per UCI für bestimmte Endg
 
 > Bei einem Systemneustart der STARFACE, gibt es ein kurzes Zeitfenster, in dem die Module noch nicht wieder aktiv sind, aber Benutzer sich bereits wieder an der Anlage anmelden können. In diesem Zeitfenster können sich auch Mobilbenutzer Anmelden, welche sonst blockiert wären. Dies lässt sich nicht verhindern.
 {.is-danger}
+
+> Der Zugriff auf das Webinterface wird durch dieses Modul nicht eingeschränkt.
+{.is-danger}
+
 
 # Flow
 ![Flow.jpg](/uploads/loginblocker/Flow.jpg)
@@ -48,13 +52,25 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 
 ![Example1.PNG](/uploads/loginblocker/Example1.PNG)
 
-Die Mitglieder der Gruppe "Zentrale" dürfen sich lediglich an der STARFACE App für Windows oder Mac anmelden.
+Die Mitglieder der Gruppe "Zentrale" dürfen sich lediglich an der STARFACE App für Windows oder Mac anmelden. Alle anderen Benutzer der Anlage können einen beliebigen Client verwenden.
 
 ## Beispiel 2:
 
+![Example2.PNG](/uploads/loginblocker/Example2.PNG)
+
+Alle Benutzer der STARFACE mit ausnahme der Mitglieder der "Zentrale" können sich lediglich an der STARFACE App für Windows oder Mac anmelden.
+
 ## Beispiel 3:
 
+![Example3.PNG](/uploads/loginblocker/Example3.PNG)
+
+Das Modul hat keine Funktionalität, da keine Gruppe angegeben wurde, die Blockiert werden sollte.
+
 ## Beispiel 4:
+
+![Example4.PNG](/uploads/loginblocker/Example4.PNG)
+
+Alle Benutzer der STARFACE können sich lediglich an der STARFACE App für Windows oder Mac anmelden.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
