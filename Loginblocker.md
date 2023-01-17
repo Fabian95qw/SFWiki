@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: true
-date: 2023-01-17T15:31:33.699Z
+date: 2023-01-17T15:38:51.348Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -13,17 +13,14 @@ Dieses Modul ermöglicht es, Benutzern die Anmeldung per UCI für bestimmte Endg
 
 # Hinweise
 
-> Bei einem Systemneustart der STARFACE, gibt es ein kurzes Zeitfenster, in dem die Module noch nicht wieder aktiv sind, aber Benutzer sich bereits wieder an der Anlage anmelden können. In diesem Zeitfenster können sich auch Mobilbenutzer Anmelden, welche sonst blockiert wären. Dies lässt sich nicht verhindern.
+> Bei einem Systemneustart der STARFACE, gibt es ein kurzes Zeitfenster, in dem die Module noch nicht wieder aktiv sind, aber Benutzer sich bereits wieder an der Anlage anmelden können. In diesem Zeitfenster können sich auch Benutzer Anmelden, welche sonst blockiert wären. Dies lässt sich nicht verhindern.
 {.is-danger}
 
-> Bereits eingeloggte Mobile-Clients können durch das Modul nicht ausgeloggt werden.
+> Bereits eingeloggte UCI-Clients können durch das Modul nicht ausgeloggt werden. Es wird lediglich das Abrufen von neuen Informationen unterdrückt, bereits Abgerufene Informationen stehen auf der App nach wie vor zur Verfügung.
 {.is-warning}
 
 > Der Zugriff auf das Webinterface wird durch dieses Modul nicht eingeschränkt.
 {.is-info}
-
-
-
 
 # Flow
 ![Flow.jpg](/uploads/loginblocker/Flow.jpg)
