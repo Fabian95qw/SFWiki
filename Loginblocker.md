@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: false
-date: 2023-01-17T15:19:31.013Z
+date: 2023-01-17T15:20:16.761Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -31,6 +31,11 @@ Welche Clients für die Überwachte Gruppe Zugelassen werden sollen.
 
 > Gross Kleinschreibung muss korrekt sein.
 {.is-warning}
+
+- StarfaceWindows
+- StarfaceMac
+- Android
+- IOS
 
 
 # Downloads & Lizenzierung
