@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: false
-date: 2023-01-17T15:24:31.149Z
+date: 2023-01-17T15:24:44.602Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -19,7 +19,7 @@ Dieses Modul ermöglicht es, Benutzern die Anmeldung per UCI für bestimmte Endg
 {.is-danger}
 
 # Flow
-![Flow.png](/uploads/loginblocker/Flow.png)
+![Flow.jpg](/uploads/loginblocker/Flow.jpg)
 
 # Konfiguration
 
