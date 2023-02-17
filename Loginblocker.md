@@ -2,7 +2,7 @@
 title: Loginblocker
 description: 
 published: true
-date: 2023-01-17T16:02:21.794Z
+date: 2023-02-17T07:45:11.968Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T14:50:02.779Z
@@ -17,6 +17,9 @@ Dieses Modul ermöglicht es, Benutzern die Anmeldung per UCI für bestimmte Endg
 {.is-danger}
 
 > Bereits eingeloggte UCI-Clients können durch das Modul nicht ausgeloggt werden. Es wird lediglich das Abrufen von neuen Informationen unterdrückt, bereits Abgerufene Informationen stehen auf der App nach wie vor zur Verfügung.
+{.is-warning}
+
+> Der Login bei der iOS App kann nicht vollständig unterdrückt werden. Uns war es bis jetzt nicht möglich zu ermitteln, weshalb das so ist.
 {.is-warning}
 
 > Der Zugriff auf das Webinterface wird durch dieses Modul nicht eingeschränkt.
