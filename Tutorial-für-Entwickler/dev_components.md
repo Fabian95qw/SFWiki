@@ -2,7 +2,7 @@
 title: STARFACE Komponenten
 description: 
 published: true
-date: 2023-02-17T09:17:57.918Z
+date: 2023-02-17T09:18:38.132Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:16:56.671Z
@@ -33,7 +33,7 @@ Beispiele für einzelne Funktionen findet ihr im Ordner "Beispiele"
 |SipAndPhonesHandler.class | -Telefone anlegen/editieren/löschen <br/> - IFMC Konfigurationen de-aktivieren/erstellen/editieren/löschen
 | StarfaceEventService.class | - Zum Feuern von div. Events <br/> - Benutzer Chatstatusänderungen publizieren <br/> - Benutzer Telefoneistatusänderungen publizieren <br/> -  \[n]changedEvent können hier Abonniert werden
 | Serverbusinessobject.class | -Anpassung der Einstellungen für die ECSTA-Konfiguration <br/> - Zeitserver <br/> - Informationen zu Serverlast |
-|SystemUtils.class | - Div. Systemtools <br/> - Neustart von STARFACE oder einzelnen Diensten <br/> - De-Aktivierung des SSH Zugriffs <br/> - Ausführn von div. Systemscripts
+|SystemUtils.class | - Div. Systemtools <br/> - Neustart von STARFACE oder einzelnen Diensten <br/> - De-Aktivierung des SSH Zugriffs <br/> - Ausführen von div. Systemscripts
 | UserStateBusinessObject | - Aktuellen Benutzerstatus abfragen <br/> - Benutzeravatar Abrufen
 | VCloudComponent.class | - Prüfen, ob aktuelle STARFACE eine Cloud ist
 |VoicemailListBusinessObject | - Abrufen von Voicemailinformationen für Benutzer/Gruppen <br/> - Voicemails verschieben/löschen
