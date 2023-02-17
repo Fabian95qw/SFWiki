@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2023-02-17T09:08:37.521Z
+date: 2023-02-17T09:09:00.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
@@ -12,7 +12,6 @@ dateCreated: 2023-02-17T08:57:39.954Z
 
 Hier geht es spezifisch um die Konfiguration des SQL-Connectors im Adressbuch Importer
 
-Dieses finden sie auf http://module.si-solutions.ch
 # Konfiguration
 
 ## Datenbanktyp
