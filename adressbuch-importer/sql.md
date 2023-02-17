@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2023-02-17T09:09:00.308Z
+date: 2023-02-17T09:09:21.450Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
@@ -13,6 +13,8 @@ dateCreated: 2023-02-17T08:57:39.954Z
 Hier geht es spezifisch um die Konfiguration des SQL-Connectors im Adressbuch Importer
 
 # Konfiguration
+
+![sql-config.png](/uploads/adressbuch-importer-sql/sql-config.png)
 
 ## Datenbanktyp
 Hier wird definiert, was für ein Datenbank Typ verwendet werden soll.
