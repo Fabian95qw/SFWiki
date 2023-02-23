@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2022-06-24T06:27:33.289Z
+date: 2023-02-23T07:26:30.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -37,6 +37,7 @@ Mehr dazu im Kapitel Duplikats Erkennung
 
 **Account für Automatisierung**
 Der Account für die Automatisierung ist der Account, mit dem die Adressbucheinträge erstellt werden. 
+Hierbei muss es sich nicht um einen Admin Account handeln.
 Dies ist weniger wichtig, wenn es sich um ein Öffentliches Adressbuch handelt. 
 Jedoch beim Import in ein Privates Adressbuch wird das Adressbuch dieses Benutzers verwendet.
  
