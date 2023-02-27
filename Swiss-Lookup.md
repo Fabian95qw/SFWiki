@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-01-03T10:11:05.467Z
+date: 2023-02-27T15:00:46.897Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -73,12 +73,40 @@ Es kann jedoch definiert werden, dass das Modul eine eigene CallerID setzt, und 
 ## STARFACE Formatierung CallerID
 Der Wert, welcher statt der Standard CallerID verwendet werden soll.
 
+<details>
+  <summary>Klicken zum öffnen</summary>
 Mögliche Werte:
-firstname => Vorname
-lastname=> Nachname
-company => Firmenname
-number => Vollständig internationalisierte Rufnummer
+  
+| Wert           | Kommentar                               |
+|----------------|-----------------------------------------|
+| number         | Vollständig internationalisierte Nummer |
+| academic_title | Akademischer Titel                      |
+| birthday       | Geburtstag                              |
+| city1          | Stadt                                   |
+| city2          | ''                                      |
+| city3          | ''                                      |
+| comment        | Kommentar                               |
+| company        | Firma                                   |
+| country        | Land                                    |
+| country2       | ''                                      |
+| e-mail         | E-Mail                                  |
+| e-mail2        | ''                                      |
+| familyname     | Nachname                                |
+| firstname      | Vorname                                 |
+| job_title      | Berufsbezeichnung                       |
+| postcode       | PLZ                                     |
+| postcode2      | ''                                      |
+| postcode3      | ''                                      |
+| state          | Bundesland                              |
+| street         | Strasse                                 |
+| street2        | ''                                      |
+| street3        | ''                                      |
+| title          | Titel                                   |
+| url            | Webseite                                |
+| url2           | ''                                      |
 
+</details>
+  
 ## Maximale Zeichenlänge der Werte
 Für alle Werte, welche in der CallerID verwendet werden, muss jeweils die Maximale Zeichenlänge hinterlegt werden. Bei einer länge von 0 wird dieser nicht gekürzt.
 
