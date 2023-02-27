@@ -2,7 +2,7 @@
 title: Abwurfplatz
 description: 
 published: true
-date: 2023-02-27T15:57:30.982Z
+date: 2023-02-27T15:57:54.559Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:08.231Z
@@ -40,6 +40,7 @@ Das Modul gibt die Möglichkeit der CallerID noch einen Präfix / Suffix hinzuzu
 
 ## Abwurfplatz & Ausnahmen
 Hier wird definiert, für welche Rufnummern, welcher Abwurfplatz verwendet werden soll.
+Ebenso können bei der Ausnahme, wieder Ausnahme zu diesen Filtern definiert werden.
 
 Mögliche Formate:
 * 00491234567890 ==> Exakte Nummer
