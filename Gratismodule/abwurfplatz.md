@@ -2,7 +2,7 @@
 title: Abwurfplatz
 description: 
 published: true
-date: 2022-02-28T10:06:28.598Z
+date: 2023-02-27T15:54:56.102Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:08.231Z
@@ -11,6 +11,25 @@ dateCreated: 2021-04-07T11:33:08.231Z
 # Beschreibung
 Ermöglicht es Tabellarisch Abwurfplätze für Einzelnummern / Nummernbereiche zu definieren. Somit kann mehr als ein Abwurfplatz für ein Rufnummernblock definiert werden. 
 Die Bereiche können mithilfe von Platzhaltern definiert werden.
+
+# Konfiguration
+
+## Leere Gruppen abfangen
+Das Modul reagiert neben nicht zugewiesenen Nummern, ebenfalls auf leere Gruppen. 
+"Leere Gruppen" sind definiert als:
+
+- Gruppen ohne Mitglieder
+- Gruppen bei denen kein Mitglied aktiv (Angehakt ist)
+- Gruppen bei denen alle aktiven Mitglieder DND geschalten haben
+
+## Benutzer ohne Telefone abfangen
+Das Modul kann zusätzlich noch Benutzer, ohne aktive Telefone abfangen.
+Ein Benutzer zählt als "ohne Telefon" wenn:
+
+- Dem Benutzer kein Telefon zugewiesen ist
+- Alle Telefone des Benutzers Offline/Rot sind
+
+
 
 Mögliche Formate:
 * 00491234567890 ==> Exakte Nummer
