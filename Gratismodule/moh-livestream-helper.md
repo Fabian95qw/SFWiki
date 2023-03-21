@@ -2,7 +2,7 @@
 title: MOH Livestream Helper
 description: 
 published: true
-date: 2023-03-21T14:58:03.499Z
+date: 2023-03-21T15:13:55.306Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:21.892Z
@@ -36,6 +36,13 @@ Zu beachten gibt es:
 ![2](/uploads/moh-livestream-helper/2.jpg "2")
 
 ## Wandeln nicht kompatibler Streams mit VLC
+Wenn ein Stream nicht direkt kompatibel ist, so kann er mithilfe des Re-Streamings durch ein drittanbieter Programm kompatibel gemacht werden.
+
+In diesem Beispiel wir der VLC Media Player verwendet.
+
+### Re-Streaming
+
+
 
 
 ## MPG123 Argumente
