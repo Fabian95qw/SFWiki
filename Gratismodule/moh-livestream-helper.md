@@ -2,7 +2,7 @@
 title: MOH Livestream Helper
 description: 
 published: true
-date: 2023-03-21T15:17:29.710Z
+date: 2023-03-21T15:25:49.511Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:21.892Z
@@ -40,17 +40,30 @@ Wenn ein Stream nicht direkt kompatibel ist, so kann er mithilfe des Re-Streamin
 
 In diesem Beispiel wir der VLC Media Player verwendet.
 
-### Re-Streaming
-
+Zuerst öffnet man den Original Stream in VLC.
+Dann kan man ihn Rechtsklicken und "Stream" auswählen.
 ![3](/uploads/moh-livestream-helper/3.jpg "3")
-![4](/uploads/moh-livestream-helper/4.jpg "4")
-![5](/uploads/moh-livestream-helper/5.jpg "5")
-![6](/uploads/moh-livestream-helper/6.jpg "6")
-![7](/uploads/moh-livestream-helper/7.jpg "7")
-![8](/uploads/moh-livestream-helper/8.jpg "8")
-![9](/uploads/moh-livestream-helper/9.jpg "9")
-![10](/uploads/moh-livestream-helper/10.jpg "10")
 
+Auf der nächsten Seite sollte die Quelle nun schon vorausgefüllt sein. Und man kann auf "Nächstes" drücken.
+![4](/uploads/moh-livestream-helper/4.jpg "4")
+
+Nun wird gefragt, was für eine Zielplattform fürs Streaming verwendet werden soll, hier muss auf "HTTP" geändert werden, und dann "Hinzufügen".
+![5](/uploads/moh-livestream-helper/5.jpg "5")
+
+Nun kann man noch Anpassungen bezgl. Streamingport und Streamingverzeichnis machen. Wenn hier die Standardwerte nicht angepasst werden, ist der Stream unter http://\[IP-des-Geräts\]:8080 erreichbar.
+![6](/uploads/moh-livestream-helper/6.jpg "6")
+
+Wichtig ist, dass der Stream zu mp3 Transkodiert wird, ansonsten kann MPG123 diesen nicht lesen.
+![7](/uploads/moh-livestream-helper/7.jpg "7")
+
+Auf der letzten Seite kann nun der Stream gestartet werden. Oben werden im Textfeld noch die Command Line Argumente dargestellt, wenn man dieses Stream-Konfiguration mit einer Quelle zu einem späteren Zeitpunkt per CMD starten will.
+![8](/uploads/moh-livestream-helper/8.jpg "8")
+
+Um den Stream zu starten muss man nun im Player die neue Datei "Converting \[Streamname\]" anklicken". Der VLC Stream sollte danach still sein, aber unten Links sollte die Zeit trotzdem hochzählen. Das heisst, der Stream läuft erfolgreich.
+![9](/uploads/moh-livestream-helper/9.jpg "9")
+
+Um zu prüfen, ob der Stream läuft, kann nun der Streamurl in einem Webbrowser aufgerufen werden, wenn man einen Unendlich langen Download erhält, läuft der Stream auf diesem Port, und der URL kann so ins Modul übernommen werden.
+![10](/uploads/moh-livestream-helper/10.jpg "10")
 
 ## MPG123 Argumente
 Hier können MPG 123 Argumente geändert werden, falls etwas mit den Streams nicht Ordnungsgemäss funktioniert.
