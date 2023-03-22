@@ -2,7 +2,7 @@
 title: MOH Livestream Helper
 description: 
 published: true
-date: 2023-03-22T06:43:23.698Z
+date: 2023-03-22T06:47:16.774Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:21.892Z
@@ -17,9 +17,11 @@ Ein Gratistool welches auf der Starface MPG123 installiert, damit Livestreams al
 
 # Konfiguration
 ## Erstinstallation
-Platzieren sie im MPG123 Download URL den Downloadlink zur MPG123 Version, die sie installieren wollen
+Platzieren sie im MPG123 Download URL den Downloadlink zur MPG123 Version als tar.bz2, die sie installieren wollen
 
 Aktuelle URL's können unter: https://sourceforge.net/projects/mpg123/files/mpg123/ gefunden werden
+
+Z.b. Aktuell hinterlegter URL. http://ufpr.dl.sourceforge.net/project/mpg123/mpg123/1.23.6/mpg123-1.23.6.tar.bz2
 
 Nach der platzierung des Downloadlinks muss das installationsscript ausgeführt werden, dies kann 5-10 Minuten dauern. Bitte überprüfen sie den **LOG** auf **DEBUG** Level auf den Fortschritt der Installation.
 
