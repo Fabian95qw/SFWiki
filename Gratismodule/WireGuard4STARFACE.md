@@ -2,7 +2,7 @@
 title: Wireguard 4 STRARFACe
 description: 
 published: true
-date: 2022-06-24T10:00:34.656Z
+date: 2023-03-22T08:09:53.598Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z
@@ -87,6 +87,25 @@ Es müssen jeweils die Public-Keys, sowie IP-Adressen + Port des jeweilig andere
 ![p2psf2.PNG](/uploads/wireguard4starface/p2psf2.PNG)
 
 ![pingtest.png](/uploads/wireguard4starface/pingtest.png)
+
+# Wireguard Installation Repository URL's
+
+Da sich die Repository URL's für die Installation des Wiregaurd sich regelmässig Ändert, sind die Repository URL's in der GUI anzupassen.
+
+Der URL muss im Format: https://repo.almalinux.org/almalinux/\[Version\]/\[Typ\]/x86_64/os/
+Eingetragen werden.
+
+Z.b. die Aktuellen URLS sind:
+\[AlmaLinux-BaseOS\]: https://repo.almalinux.org/almalinux/8.7/BaseOS/x86_64/os/
+\[AlmaLinux-AppStream\]: https://repo.almalinux.org/almalinux/8.7/AppStream/x86_64/os/
+\[AlmaLinux-PowerTools\]: https://repo.almalinux.org/almalinux/8.7/PowerTools/x86_64/os/
+\[AlmaLinux-Extras\]: https://repo.almalinux.org/almalinux/8.7/extras/x86_64/os/
+
+Es kann aber sein, dass in einigen Monaten die Version 8.7 abgekündigt wurde, und die Repositories nicht mehr verfügbar sind, dann müssen die URL's z.b. auf 8.8 geupdatet werden:
+
+Die aktuellsten URL's findet man am einfachsten via: https://repo.almalinux.org/almalinux/
+
+![repository.png](/uploads/wireguard4starface/repository.png)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
