@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:45:45.621Z
+date: 2023-03-28T13:48:08.500Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -37,13 +37,24 @@ Das Modul kann in Regelmässigen abständen, oder auf Wunsch eine Dokumentation 
 Die erzeugung des Download Links hängt stark von der Leistung der STARFACE, und der Anzahl zu erzeugenden Seiten ab.
 {.is-warning}
 
-![1.png](/uploads/documentation/1.png)
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![1.png](/uploads/documentation/1.png)
+  
+  </details>
 
 ## Blätter wählen
 Hier kann definiert werden, welche Blätter überhaupt für die Dokumentation erzeugt werden sollen.
 Mehr Details zu den verschiedenen Blättern finden sie weiter unten.
 
-![2.png](/uploads/documentation/2.png)
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![2.png](/uploads/documentation/2.png)
+  
+  </details>
 
 ## Konfiguration Sichern/Wiederherstellen
 
@@ -53,7 +64,13 @@ Man erhält per E-Mail eine entsprechende .sfinstance Datei, diese kann im Modul
 
 Die Konfigurationen können auch auf anderen Anlagen importiert werden, so können z.b. eigene Vorlagen mit eigenen Deckblättern bequem eingespielt werden.
 
-![3.png](/uploads/documentation/3.png)
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![3.png](/uploads/documentation/3.png)
+  
+  </details>
 
 # Seiten-Zähler, Design & Schriftart
 
@@ -62,11 +79,18 @@ Man kann im Modul konfigurieren, ob und wie Seiten gezählt werden.
 Hierbei kann festgelegt werden, ob der Zählen linksbündig, rechtsbündig oder zentriert sein soll.
 Die Positin, ob es oben oder unten ist, ist via dem Y-Offset zu definieren. Mehr Informationen zu den Offsets finden sie unter: http://wiki.si-solutions.ch/de/Gratismodule/PDF-Toolbox
 
-![4.PNG](/uploads/documentation/4.PNG)
 
-![5.PNG](/uploads/documentation/5.PNG)
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+	
+  ![4.PNG](/uploads/documentation/4.PNG)
+ 	<br/>
+	![5.PNG](/uploads/documentation/5.PNG)
 
-
+  </details>
+  
+  
+  
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
