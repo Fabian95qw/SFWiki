@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:38:52.246Z
+date: 2023-03-28T13:45:45.621Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -45,6 +45,26 @@ Mehr Details zu den verschiedenen Blättern finden sie weiter unten.
 
 ![2.png](/uploads/documentation/2.png)
 
+## Konfiguration Sichern/Wiederherstellen
+
+Da das Modul extrem viele Parameter hat, wurde der Einfachheit, eine Funktion verbaut, mit der man die Konfiguration exportieren kann.
+
+Man erhält per E-Mail eine entsprechende .sfinstance Datei, diese kann im Modul dann wieder importiert werden.
+
+Die Konfigurationen können auch auf anderen Anlagen importiert werden, so können z.b. eigene Vorlagen mit eigenen Deckblättern bequem eingespielt werden.
+
+![3.png](/uploads/documentation/3.png)
+
+# Seiten-Zähler, Design & Schriftart
+
+## Seiten-Zähler
+Man kann im Modul konfigurieren, ob und wie Seiten gezählt werden.
+Hierbei kann festgelegt werden, ob der Zählen linksbündig, rechtsbündig oder zentriert sein soll.
+Die Positin, ob es oben oder unten ist, ist via dem Y-Offset zu definieren. Mehr Informationen zu den Offsets finden sie unter: http://wiki.si-solutions.ch/de/Gratismodule/PDF-Toolbox
+
+![4.PNG](/uploads/documentation/4.PNG)
+
+![5.PNG](/uploads/documentation/5.PNG)
 
 
 # Downloads & Lizenzierung
