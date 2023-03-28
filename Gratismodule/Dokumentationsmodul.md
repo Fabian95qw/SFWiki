@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-01T08:52:01.695Z
+date: 2023-03-28T13:38:52.246Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -28,6 +28,24 @@ Unter anderem:
 - Die Gesamte Konfiguration des Dokumentationsmoduls kann im Tab "Konfiguration ==> Konfiguration Exportieren/Importieren" Exportiert werden. Dies Exportiert die Modulkonfiguration inkl. Hochgeladenen Dateien, (Eigene Deckblätter, Folgeblätter, Schriftarten usw..), so dass ihr euer eigenes Design auch auf anderen STARFACE wieder importieren könnt, und nicht jedes mal das ganze Modul konfigurieren müsst.
 
 # Konfiguration
+
+## Erzeugung & Timer
+
+Das Modul kann in Regelmässigen abständen, oder auf Wunsch eine Dokumentation erzeugen und per E-Mail Versenden, oder als Download Link zur Verfügung stellen.
+
+> Zur erzeugung der Downloadlinks muss das Modul abgespeichert werden, wenn man das Modul wieder öffnet, und der Download link immer noch nicht vorhanden ist, muss man es nochmals schliessen und wieder öffnen.
+Die erzeugung des Download Links hängt stark von der Leistung der STARFACE, und der Anzahl zu erzeugenden Seiten ab.
+{.is-warning}
+
+![1.png](/uploads/documentation/1.png)
+
+## Blätter wählen
+Hier kann definiert werden, welche Blätter überhaupt für die Dokumentation erzeugt werden sollen.
+Mehr Details zu den verschiedenen Blättern finden sie weiter unten.
+
+![2.png](/uploads/documentation/2.png)
+
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
