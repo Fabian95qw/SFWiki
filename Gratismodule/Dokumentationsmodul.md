@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:52:06.470Z
+date: 2023-03-28T13:56:13.785Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -105,6 +105,26 @@ Werden keine eigene Designs hochgeladen, wird ein Standarddesign verwendet.
   ![7.png](/uploads/documentation/7.png)
   
   </details>
+  
+ ## Schriftarten 
+ 
+In der Dokumentation müssen zwei Schriftarten hinterlegt werden. Einmal Normal, sowie Bold.
+Wenn CUSTOM gewählt ist, und keine Schriftart hinterlegt wird, lädt das Modul automatisch Arial und Arial-Bold.
+
+Es können auch eigene TrueType Schriftarten (.ttf) hochgeladen werden. 
+
+> Für problemen mit eigenen Schriftarten gibt es keinen Support
+{.is-warning}
+
+ 
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![8.png](/uploads/documentation/8.png)
+  
+  </details>
+
+  
   
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
