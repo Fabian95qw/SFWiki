@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:34:37.335Z
+date: 2023-03-28T14:43:21.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -166,20 +166,10 @@ Auf der ersten Seite soll an Position x260, y470, eine neue Schrift mit der grö
   
   </details>
 
-## Maximale Tabellengrösse Unterschied erste Seite / Folgeseiten
+## Maximale Tabellengrösse Unterschied Startseite / Folgeseiten
 
-Werden auf der ersten Seite z.b. Felder für den Titel platziert, so muss dort die Tabelle an einem anderen Punkt beginnen, bzw. hat weniger Platz als auf der Folgeseite. Siehe Beispiel vom Modul:
-
-Die Tabelle beginnt auf der Startseite bei 320, also 40 Pixel weiter unten, als auf der Folgeseite, dies ist um Rücksicht auf den Titel zu nehmen.
-
-  <details>
-  <summary>Bild (Klicken zum Anzeigen)</summary>
-  
-  ![12.png](/uploads/documentation/12.png)
-  
-  ![13.png](/uploads/documentation/13.png)
-  
-  </details>
+Werden auf der ersten Seite z.b. Felder für den Titel platziert, so hat weniger Platz als auf der Folgeseite. 
+Deshalb muss die Tabelle gekürzt werden, damit sie nicht unten aus der Seite geht.
 
 ## Tabellendesign
 
@@ -198,6 +188,11 @@ Beispiel aus der Benutzerliste:
   ![15.png](/uploads/documentation/15.png)
   
   </details>
+  
+### Tabellen Design Poisition Startseite & Folgeseite
+
+Ähnlich der Maximalen Tabellengrösse, muss auch die Startposition der Tabelle für die Start & Folgeseite definiert werden.
+
 
 # Deckblatt
 
