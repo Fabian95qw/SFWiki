@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:20:41.923Z
+date: 2023-03-28T14:43:21.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -155,6 +155,8 @@ Ebenfalls ist zu definieren, ob die Sortierungsreihenfolge Aufsteigend, oder Abs
 
 Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim Benutzer:
 
+Auf der ersten Seite soll an Position x260, y470, eine neue Schrift mit der grösse 30 mit dem Text "STARFACE Benutzer erzeugt werden"
+
   <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
@@ -164,8 +166,33 @@ Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur a
   
   </details>
 
+## Maximale Tabellengrösse Unterschied Startseite / Folgeseiten
+
+Werden auf der ersten Seite z.b. Felder für den Titel platziert, so hat weniger Platz als auf der Folgeseite. 
+Deshalb muss die Tabelle gekürzt werden, damit sie nicht unten aus der Seite geht.
 
 ## Tabellendesign
+
+Bei der Tabelle kann div. eingestellt werden, von Anzuziegenden Feldern, über die Positionierung auf der Seite, bis hin zu den Spaltenbreiten, Schriftgrösse, Schriftfarbe, Headerfarbe ect..
+
+### Anzuzeigende Felder
+Definiert, welche Felder generell angezeigt werden sollen. Die Felder variieren hier wieder je nach Liste. 
+Beispiel aus der Benutzerliste:
+
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![14.png](/uploads/documentation/14.png)
+  
+  ![15.png](/uploads/documentation/15.png)
+  
+  </details>
+  
+### Tabellen Design Poisition Startseite & Folgeseite
+
+Ähnlich der Maximalen Tabellengrösse, muss auch die Startposition der Tabelle für die Start & Folgeseite definiert werden.
+
 
 # Deckblatt
 
