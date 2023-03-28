@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:53:43.086Z
+date: 2023-03-28T14:58:41.812Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -205,9 +205,31 @@ Beispiel aus der Benutzerliste:
   <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![16.png](/uploads/documentation/14.png)
+  ![16.png](/uploads/documentation/16.png)
   
-  ![17.png](/uploads/documentation/15.png)
+  ![17.png](/uploads/documentation/17.png)
+  
+  </details>
+
+### Spaltenbreiten
+Für Jede Spalte muss eine statische Spaltengrösse definiert werden.
+
+Man muss darauf achten, dass das Total im Hochformat nicht über 600 bzw. im Querformat nicht über 800 geht, denn eine A4 Seite ist genau 800X600
+
+Ansonsten gehen spalten Rechts aus dem Blatt.
+
+Beispiel von den Benutzern. 
+Wenn alle Spalten mit den Standardwerten aktiviert werden, so beläuft sich das Total auf auf 1310 Pixel, somit weit über den Seitenrand hinaus.
+
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![18.png](/uploads/documentation/18.png)
+  
+  ![19.png](/uploads/documentation/19.png)
+  
+  ![20.png](/uploads/documentation/20.png)
   
   </details>
 
