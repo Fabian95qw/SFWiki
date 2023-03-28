@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:56:13.785Z
+date: 2023-03-28T13:57:38.366Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -124,6 +124,15 @@ Es können auch eigene TrueType Schriftarten (.ttf) hochgeladen werden.
   
   </details>
 
+# Deckblatt
+
+## Felder Platzieren
+
+## STARFACE Infos
+
+## Tabelle Platzieren
+
+## Tabellen Design
   
   
 # Downloads & Lizenzierung
