@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:48:08.500Z
+date: 2023-03-28T13:52:06.470Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -89,7 +89,22 @@ Die Positin, ob es oben oder unten ist, ist via dem Y-Offset zu definieren. Mehr
 
   </details>
   
+## Seitendesign
+
+Es können ein eigenes Deckblatt, sowie Folgeblatt im Hochformat & Querformat gesetzt werden.
+Diese müssen jeweils im A4 Format hoch und quer entsprechend Hochgeladen werden.
+Werden keine eigene Designs hochgeladen, wird ein Standarddesign verwendet.
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
   
+  ![6.png](/uploads/documentation/6.png)
+  
+  Links Vorlage , Rechts Ergebnis
+  
+  ![7.png](/uploads/documentation/7.png)
+  
+  </details>
   
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
