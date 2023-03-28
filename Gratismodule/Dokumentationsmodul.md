@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:20:16.186Z
+date: 2023-03-28T14:20:41.923Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -160,7 +160,7 @@ Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur a
   
   ![10.png](/uploads/documentation/10.png)
   
-  ![11.png](/uploads/documentation/10.png)
+  ![11.png](/uploads/documentation/11.png)
   
   </details>
 
