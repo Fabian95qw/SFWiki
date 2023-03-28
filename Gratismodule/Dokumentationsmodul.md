@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:07:52.444Z
+date: 2023-03-28T14:13:21.989Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -128,9 +128,15 @@ Es können auch eigene TrueType Schriftarten (.ttf) hochgeladen werden.
 
 Die verschiedenen Seiten haben alle eine Vielzahl von gleichen oder ähnlichen Einstellungsmöglichkeiten, hier werden die allgemeinen Einstellungsmöglichkeiten gedeckt, spezifische Einstellungen sind unten in eigenen Kapiteln verfügbar.
 
-## Seitenformat
-
+## Seitenformat, Sortierung, Felder
 Für jede Folgeseite können eigene Einstellungen was das Seitenformat angeht gesetzt werden.
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![9.png](/uploads/documentation/9.png)
+  
+  </details>
 
 ### Seitenformat
 
@@ -149,6 +155,12 @@ Ebenfalls ist zu definieren, ob die Sortierungsreihenfolge Aufsteigend, oder Abs
 
 Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim benutzer:
 
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![10.png](/uploads/documentation/10.png)
+  
+  </details>
 
 
 ## Tabellendesign
