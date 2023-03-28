@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:58:41.812Z
+date: 2023-03-28T15:04:22.595Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -232,17 +232,25 @@ Wenn alle Spalten mit den Standardwerten aktiviert werden, so beläuft sich das 
   ![20.png](/uploads/documentation/20.png)
   
   </details>
+  
+### Schriftgrösse & Farben
+Für die Tabelle können die Schriftgrösse, sowie Farben für den Hintergrund, und Schriftarten festgelegt werden.
+Die Farben müssen immer im RGB Spektrum definiert werden. 
+
+Um an diese Werte zu kommen kann ein Color-Picker wie z.b.: [Google Farbwähler](https://g.co/kgs/DM1a8N) verwendet werden.
+
+### Vertikale & Horizontale Positionierung
+Man kann Definieren, wie die Werte Horizontal und Wertikal in der Tabelle Positioniert werden. Z.b. Linksbündig Mittig (MIDDLE LEFT), oder Zentriert, Oben (TOP, CENTER)
+
+### Randdesign
+Beim Tabellenrand kann die Dicke, Farbe des Randes, und Design des Randes festgelegt werden.
+
+### Padding
+Definiert, wie viele Pixel Abstand der Text in der Tabelle zum Tabellenrand mindestens haben muss.
 
 # Deckblatt
 
-## Felder Platzieren
 
-## STARFACE Infos
-
-## Tabelle Platzieren
-
-## Tabellen Design
-  
   
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
