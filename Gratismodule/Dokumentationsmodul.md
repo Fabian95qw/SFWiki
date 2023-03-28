@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:00:24.361Z
+date: 2023-03-28T14:07:52.444Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -125,14 +125,33 @@ Es können auch eigene TrueType Schriftarten (.ttf) hochgeladen werden.
   </details>
 
 # Seitendesigns - Allgemeine Informationen
+
+Die verschiedenen Seiten haben alle eine Vielzahl von gleichen oder ähnlichen Einstellungsmöglichkeiten, hier werden die allgemeinen Einstellungsmöglichkeiten gedeckt, spezifische Einstellungen sind unten in eigenen Kapiteln verfügbar.
+
 ## Seitenformat
-## Sortierungsspalte
-## Sortierungsreihenfolge
-## Felder Platzieren
-## Maximale Tabellengrösse
-## Maximale Tabellengrösse für Folgeseiten
-## Anzuzeigende Felder
-## Tabellen Design
+
+Für jede Folgeseite können eigene Einstellungen was das Seitenformat angeht gesetzt werden.
+
+### Seitenformat
+
+Die Seite kann in Hoch oder Queformat gesetzt werden.
+
+### Sortierungsspalte
+
+Es muss eine Spalte, nach der der Inhalt Sortiert werden soll definiert werden.
+Welche Spalten zur Sortierung bereitstehen, variiert je nach Blatt, um welches sich handelt.
+
+### Sortierungsreihenfolge
+
+Ebenfalls ist zu definieren, ob die Sortierungsreihenfolge Aufsteigend, oder Absteigens ist, also z.b. bei Alphabetisch A-Z, oder Z-A, bei Nummern 0-9, oder 9-0
+
+### Felder 
+
+Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim benutzer:
+
+
+
+## Tabellendesign
 
 # Deckblatt
 
