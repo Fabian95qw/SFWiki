@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:13:21.989Z
+date: 2023-03-28T14:20:41.923Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -153,12 +153,14 @@ Ebenfalls ist zu definieren, ob die Sortierungsreihenfolge Aufsteigend, oder Abs
 
 ### Felder 
 
-Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim benutzer:
+Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim Benutzer:
 
   <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
   ![10.png](/uploads/documentation/10.png)
+  
+  ![11.png](/uploads/documentation/11.png)
   
   </details>
 
