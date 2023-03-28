@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:43:21.586Z
+date: 2023-03-28T14:53:43.086Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -171,6 +171,16 @@ Auf der ersten Seite soll an Position x260, y470, eine neue Schrift mit der grö
 Werden auf der ersten Seite z.b. Felder für den Titel platziert, so hat weniger Platz als auf der Folgeseite. 
 Deshalb muss die Tabelle gekürzt werden, damit sie nicht unten aus der Seite geht.
 
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![12.png](/uploads/documentation/14.png)
+  
+  ![13.png](/uploads/documentation/15.png)
+  
+  </details>
+
 ## Tabellendesign
 
 Bei der Tabelle kann div. eingestellt werden, von Anzuziegenden Feldern, über die Positionierung auf der Seite, bis hin zu den Spaltenbreiten, Schriftgrösse, Schriftfarbe, Headerfarbe ect..
@@ -178,7 +188,6 @@ Bei der Tabelle kann div. eingestellt werden, von Anzuziegenden Feldern, über d
 ### Anzuzeigende Felder
 Definiert, welche Felder generell angezeigt werden sollen. Die Felder variieren hier wieder je nach Liste. 
 Beispiel aus der Benutzerliste:
-
 
   <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
@@ -193,6 +202,14 @@ Beispiel aus der Benutzerliste:
 
 Ähnlich der Maximalen Tabellengrösse, muss auch die Startposition der Tabelle für die Start & Folgeseite definiert werden.
 
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![16.png](/uploads/documentation/14.png)
+  
+  ![17.png](/uploads/documentation/15.png)
+  
+  </details>
 
 # Deckblatt
 
