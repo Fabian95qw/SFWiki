@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:20:41.923Z
+date: 2023-03-28T14:31:59.233Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -155,6 +155,8 @@ Ebenfalls ist zu definieren, ob die Sortierungsreihenfolge Aufsteigend, oder Abs
 
 Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur auf der Ersten generierten Seite Angezeigt, Beispiel beim Benutzer:
 
+Auf der ersten Seite soll an Position x260, y470, eine neue Schrift mit der grösse 30 mit dem Text "STARFACE Benutzer erzeugt werden"
+
   <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
@@ -164,6 +166,20 @@ Es können auf der Seite zusätzliche Texte platziert werden, diese werden nur a
   
   </details>
 
+## Maximale Tabellengrösse Unterschied erste Seite / Folgeseiten
+
+Werden auf der ersten Seite z.b. Felder für den Titel platziert, so muss dort die Tabelle an einem anderen Punkt beginnen, bzw. hat weniger Platz als auf der Folgeseite. Siehe Beispiel vom Modul:
+
+Die Tabelle beginnt auf der Startseite bei 320, also 40 Pixel weiter unten, als auf der Folgeseite, dies ist um Rücksicht auf den Titel zu nehmen.
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![12.png](/uploads/documentation/12.png)
+  
+  ![13.png](/uploads/documentation/13.png)
+  
+  </details>
 
 ## Tabellendesign
 
