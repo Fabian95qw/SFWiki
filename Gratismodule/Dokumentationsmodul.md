@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T14:31:59.233Z
+date: 2023-03-28T14:34:37.335Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -182,6 +182,22 @@ Die Tabelle beginnt auf der Startseite bei 320, also 40 Pixel weiter unten, als 
   </details>
 
 ## Tabellendesign
+
+Bei der Tabelle kann div. eingestellt werden, von Anzuziegenden Feldern, über die Positionierung auf der Seite, bis hin zu den Spaltenbreiten, Schriftgrösse, Schriftfarbe, Headerfarbe ect..
+
+### Anzuzeigende Felder
+Definiert, welche Felder generell angezeigt werden sollen. Die Felder variieren hier wieder je nach Liste. 
+Beispiel aus der Benutzerliste:
+
+
+  <details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![14.png](/uploads/documentation/14.png)
+  
+  ![15.png](/uploads/documentation/15.png)
+  
+  </details>
 
 # Deckblatt
 
