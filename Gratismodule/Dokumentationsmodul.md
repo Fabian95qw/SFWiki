@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T15:04:22.595Z
+date: 2023-03-28T15:04:45.642Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -247,9 +247,6 @@ Beim Tabellenrand kann die Dicke, Farbe des Randes, und Design des Randes festge
 
 ### Padding
 Definiert, wie viele Pixel Abstand der Text in der Tabelle zum Tabellenrand mindestens haben muss.
-
-# Deckblatt
-
 
   
 # Downloads & Lizenzierung
