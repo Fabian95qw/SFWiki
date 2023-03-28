@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T13:57:38.366Z
+date: 2023-03-28T14:00:24.361Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -123,6 +123,16 @@ Es können auch eigene TrueType Schriftarten (.ttf) hochgeladen werden.
   ![8.png](/uploads/documentation/8.png)
   
   </details>
+
+# Seitendesigns - Allgemeine Informationen
+## Seitenformat
+## Sortierungsspalte
+## Sortierungsreihenfolge
+## Felder Platzieren
+## Maximale Tabellengrösse
+## Maximale Tabellengrösse für Folgeseiten
+## Anzuzeigende Felder
+## Tabellen Design
 
 # Deckblatt
 
