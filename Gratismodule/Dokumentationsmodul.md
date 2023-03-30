@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: false
-date: 2023-03-28T15:04:45.642Z
+date: 2023-03-30T08:50:42.839Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -63,6 +63,9 @@ Da das Modul extrem viele Parameter hat, wurde der Einfachheit, eine Funktion ve
 Man erhält per E-Mail eine entsprechende .sfinstance Datei, diese kann im Modul dann wieder importiert werden.
 
 Die Konfigurationen können auch auf anderen Anlagen importiert werden, so können z.b. eigene Vorlagen mit eigenen Deckblättern bequem eingespielt werden.
+
+> Die Konfigurationsdatei sollte nicht von hand editiert werden.
+{.is-warning}
 
 
 <details>
