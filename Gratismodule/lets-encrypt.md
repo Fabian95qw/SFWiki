@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2022-05-12T10:01:00.554Z
+date: 2023-04-11T12:55:24.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -47,8 +47,11 @@ Ihr müsst vorab die EULA von Let's Encrypt Akzeptieren: https://letsencrypt.org
 ### Domäne Angeben
 Im 2. Schritt muss zuerst eine Domäne angegeben werden, für welche die Challenge ausgeführt werden soll, sowie der Challenge Typ DNS/HTTP gewählt werden.
 
-Ab STARFACE 7.2.0.4 erfüllt die STARFACE die HTTP-Challenge selbstständig, und es kann direkt der Haken bei "Challenge Erfüllt" gesetzt werden.
-Es muss lediglich sichergestellt werden, dass die STARFACE **von aussen auf dem Port 80 erreichbar ist,** **und der Punkt "Umleitung auf HTTPS erzwingen" unter "Admin ==> Server ==> Webserver deaktiviert ist**
+> Ab STARFACE 7.2.0.4 erfüllt die STARFACE die HTTP-Challenge selbstständig, und es kann direkt der Haken bei "Challenge Erfüllt" gesetzt werden.
+Es muss lediglich sichergestellt werden, dass die STARFACE **von aussen auf dem Port 80 erreichbar ist**
+{.is-success}
+
+
 
 
 > DNS-Challenges halten wegen einer neuen Richtlinie bei Let's Encrypt nur 30 Tage, bedeutet, dass die Challenge nach 30 Tagen unabhängig von einem erzeugten Zertifikat ausläuft, und eine neue Challenge generiert wird, welche wieder erfüllt werden muss.
