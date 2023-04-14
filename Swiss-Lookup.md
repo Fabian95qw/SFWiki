@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-02-27T15:00:46.897Z
+date: 2023-04-14T07:16:46.444Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -49,7 +49,7 @@ Man kann entweder eine Rufnummer gegen die interne DB Abfragen, oder diese aus d
 ## Suchbegriff
 Hier muss die Rufnummer ohne leerzeichen Vollständig internationalisiert eingetippt werden.
 
-## Sucheregebnis
+## Suchergebnis
 Hier wird entweder die in der internen DB abgelegte CallerID angezeigt, oder es kommt eine Meldung, dass dieser nicht gefunden wurde.
 
 # STARFACE Adressbuch Einstellungen
