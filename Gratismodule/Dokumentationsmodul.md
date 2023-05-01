@@ -1,8 +1,8 @@
 ---
 title: STARFACE Dokumentationsmodul
 description: 
-published: false
-date: 2023-03-30T08:50:56.335Z
+published: true
+date: 2023-05-01T07:14:33.242Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
