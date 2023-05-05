@@ -2,7 +2,7 @@
 title: Prometheus Zugriff freischalten
 description: 
 published: true
-date: 2023-05-04T14:10:00.570Z
+date: 2023-05-05T05:52:25.804Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-04T14:04:49.316Z
@@ -17,6 +17,10 @@ Dieses Modul schaltet den Zugriff auf die Prometheus Plattform auf der STARFACE 
 
 ## Listener Adresse
 Standardmässig hört der Prometheus nur auf localhost (127.0.0.1) zu. Damit dieser von aussen erreichbar wird, muss diese auf die STARFACE IP geändert werden. 
+
+> Der Port von Prometheus weicht vom Standardport ab, es wird der Port 9999 statt 9090 verwendet.
+{.is-info}
+
 
 ## Zugelassene IP's
 Da es keinen Passwortschutz gibt, müssen zwingend IP's fürs Whitelsiting angegeben werden.
