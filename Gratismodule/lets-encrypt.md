@@ -2,7 +2,7 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2023-04-11T12:55:24.956Z
+date: 2023-05-09T14:14:00.065Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
@@ -51,12 +51,8 @@ Im 2. Schritt muss zuerst eine Domäne angegeben werden, für welche die Challen
 Es muss lediglich sichergestellt werden, dass die STARFACE **von aussen auf dem Port 80 erreichbar ist**
 {.is-success}
 
-
-
-
 > DNS-Challenges halten wegen einer neuen Richtlinie bei Let's Encrypt nur 30 Tage, bedeutet, dass die Challenge nach 30 Tagen unabhängig von einem erzeugten Zertifikat ausläuft, und eine neue Challenge generiert wird, welche wieder erfüllt werden muss.
 {.is-warning}
-
 
 > Nach diesem Schritt muss das Modul zwingend gespeichert werden!
 {.is-danger}
@@ -86,6 +82,16 @@ Zur Prüfung, ob die Challenge korrekt Erfüllt wurde, kann man den Status im Fe
 {.is-danger}
 
 ![Step 6](/uploads/lets-encrypt/step-6.gif "Step 6")
+
+## 3.1 Alternatives Root-Zertifikat
+Je nach Acme Provider, gibt es die Möglichkeit alternative Zertifikatketten anzufordern.
+Für gewisse Geräte ist dies eventuell Nötig.
+
+Mehr dazu finden sie unter:
+[Providing a longer certificate chain by default](https://community.letsencrypt.org/t/providing-a-longer-certificate-chain-by-default/148738)
+[Fixing Let’s Encrypt Root CA X3 Expiry on Yealink Phones](https://emak.tech/support/fixing-lets-encrypt-root-ca-x3-expiry-on-yealink-phones/)
+
+![preffered-chain.png](/uploads/lets-encrypt/preffered-chain.png)
 
 ## 4. Zertifikatserstellungseintrag überprüfen.
 Wenn bis jetzt alles korrekt abgelaufen ist, müsste man nun im Modul prüfen können, ob das Zertifikat ausgestellt wurde.
