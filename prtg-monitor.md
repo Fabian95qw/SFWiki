@@ -1,8 +1,8 @@
 ---
-title: PRTG-Monitor 7.X
+title: PRTG-Monitor
 description: 
 published: true
-date: 2022-07-20T08:09:26.581Z
+date: 2023-05-15T06:31:17.134Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
