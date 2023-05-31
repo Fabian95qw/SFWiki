@@ -2,7 +2,7 @@
 title: IQueue dynamische Optionen
 description: 
 published: false
-date: 2023-05-31T09:45:25.310Z
+date: 2023-05-31T09:48:33.760Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T09:10:56.210Z
@@ -42,6 +42,7 @@ Man kann jeweils einen von 3 Modus festlegen.
 
 ![2.PNG](/uploads/dynamic-iqueue-config/2.PNG)
 
+
 ### Modus: -
 Dieser Wert wird vom Modul nicht angefasst
 
@@ -55,10 +56,10 @@ Wenn 7 Agenten in der Gruppe wäre, würde hier der Wert von 5 Agenten zählen, 
 
 ![3.PNG](/uploads/dynamic-iqueue-config/3.PNG)
 
-### Modus: Erhöhung pro Agent positiv
+### Modus: Erhöhung pro Agent mit positivem Wert
 
 In diesem Modus wird folgende Formel für die Kalkulierung angewendet:
-\[Minimalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\]
+\[Minimalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\])
 
 ![4.PNG](/uploads/dynamic-iqueue-config/4.PNG)
 
@@ -77,9 +78,9 @@ Dies würde also die Verweildauer von Kunden auf 21 Minuten setzen, wenn es nich
 
 ![4.PNG](/uploads/dynamic-iqueue-config/4.PNG)
 
-### Modus: Erhöhung pro Agent negativ
+### Modus: Erhöhung pro Agent mit negativem Wert
 Wenn der Wert für die dynamische Erhöhung auf einen negativen Wert gesetzt wird Ändert sich die Formel wie folgt:
-\[Maximalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\]
+\[Maximalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\])
 
 #### Beispiel
 Der Wert für die dynamische Erhöhung ist auf -5 Sekunden gesetzt. 
@@ -87,10 +88,10 @@ Der Minimalwert ist: 30 Sekunden
 Der Maximalwert ist 60 Sekunden
 Es sind 3 Agenten in der Gruppe.
 
-Dies würde folgendes Ergebnis bringen: 60 + (3\*-5) ==> 1260 Sekunden ==> 21 Minuten.
+Dies würde folgendes Ergebnis bringen: 60 + (3\*-5) ==> 45 Sekunden
+Dies heisst, die Klingelzeit pro Benutzer reduziert sich um 5 Sekunden, je mehr Agenten angemeldet sind, bis auf ein Minimum von 30 Sekunden.
 
 ![5.PNG](/uploads/dynamic-iqueue-config/5.PNG)
-
 
 
 # Downloads & Lizenzierung
