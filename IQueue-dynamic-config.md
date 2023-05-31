@@ -2,7 +2,7 @@
 title: IQueue dynamische Optionen
 description: 
 published: true
-date: 2023-05-31T09:49:10.327Z
+date: 2023-05-31T09:54:19.782Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T09:10:56.210Z
@@ -52,7 +52,7 @@ Wenn ein Wert in der Tabelle nicht exisitiert, wird der nächst Tiefer angelegt 
 
 #### Beispiel
 
-Wenn 7 Agenten in der Gruppe wäre, würde hier der Wert von 5 Agenten zählen, es würde somit die Maximale Länge der Queue auf 15 ansetzen.
+Wenn 7 Agenten in der Gruppe wären, würde hier der Wert von 5 Agenten zählen, es würde somit die Maximale Länge der Queue auf 15 ansetzen.
 
 ![3.PNG](/uploads/dynamic-iqueue-config/3.PNG)
 
