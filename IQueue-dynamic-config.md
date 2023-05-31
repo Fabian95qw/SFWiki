@@ -2,7 +2,7 @@
 title: IQueue dynamische Optionen
 description: 
 published: false
-date: 2023-05-31T09:28:11.121Z
+date: 2023-05-31T09:30:53.522Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T09:10:56.210Z
@@ -55,9 +55,15 @@ Wenn 7 Agenten in der Gruppe wäre, würde hier der Wert von 5 Agenten zählen, 
 
 ![3.PNG](/uploads/dynamic-iqueue-config/3.PNG)
 
-### Erhöhung pro Agent
+### Modus: Erhöhung pro Agent
 
+In diesem Modus wird folgende Formel für die Kalkulierung angewendet:
 
+\[Minimalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\]
+
+#### Beispiel
+
+![3.PNG](/uploads/dynamic-iqueue-config/4.PNG)
 
 
 
