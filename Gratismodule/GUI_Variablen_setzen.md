@@ -2,7 +2,7 @@
 title: Library zum setzen von GUI Variablen
 description: 
 published: true
-date: 2021-12-10T10:25:41.521Z
+date: 2023-05-30T13:47:28.104Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-06T13:59:46.396Z
@@ -20,7 +20,7 @@ Ein paar Beispiele:
 
 # Modulbausteine laden & verwenden
 
-Der Baustein kann via: https://github.com/Fabian95qw/SF-Modulefunctions/raw/master/bin/libraries/guichanges/guichanges.rar heruntergeladen werden
+Der Baustein kann via: https://github.com/Fabian95qw/SF-Modulefunctions/tree/master/bin/libraries/guichanges heruntergeladen werden
 
 In diesem .rar File enthält es vier Bausteine. diese müssen via "Resources" in das Modul geladen werden, in die sie Verwendet werden sollen.
 
