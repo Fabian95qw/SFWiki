@@ -2,7 +2,7 @@
 title: IQueue dynamische Optionen
 description: 
 published: false
-date: 2023-05-31T09:30:53.522Z
+date: 2023-05-31T09:39:17.261Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T09:10:56.210Z
@@ -58,12 +58,25 @@ Wenn 7 Agenten in der Gruppe wäre, würde hier der Wert von 5 Agenten zählen, 
 ### Modus: Erhöhung pro Agent
 
 In diesem Modus wird folgende Formel für die Kalkulierung angewendet:
-
 \[Minimalwert\]+(\[Anzahl Agenten\] \* \[Wert für dynamische Erhöhung\]
 
-#### Beispiel
+![4.PNG](/uploads/dynamic-iqueue-config/4.PNG)
 
-![3.PNG](/uploads/dynamic-iqueue-config/4.PNG)
+### MinimalWert / Maximalwert
+Dies Verhindert, dass diese Formel unendlich skaliert.
+Man möchte z.b. die Warteschlangenzeit nicht ins Unendliche verlängern.
+
+#### Beispiel
+Der Wert für die dynamische Erhöhung ist auf 30 Sekunden gesetzt. 
+Der Minimalwert ist: 60 ==> 1 Minute
+Der Maximalwert ist 600 ==> 10 Minuten.
+Es gibt 40 Agenten in der Gruppe
+
+Dies würde folgendes Ergebnis bringen: 60 + (40\*30) ==> 1260 Sekunden ==> 21 Minuten.
+Dies würde also die Verweildauer von Kunden auf 21 Minuten setzen, wenn es nicht druch den Maximalwert Limitiert wäre. Aber da dieser gesetzt ist, würde die Verweildauer aber auf 10 Minuten gesetzt.
+
+![4.PNG](/uploads/dynamic-iqueue-config/4.PNG)
+
 
 
 
