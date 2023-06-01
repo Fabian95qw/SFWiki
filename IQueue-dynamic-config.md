@@ -2,7 +2,7 @@
 title: IQueue dynamische Optionen
 description: 
 published: true
-date: 2023-05-31T09:54:19.782Z
+date: 2023-06-01T07:19:49.245Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-31T09:10:56.210Z
@@ -21,6 +21,9 @@ Das Modul erlaubt es folgende Werte anzupassen:
 - Klingeldauer
 - Klingelpause
 - Nachbearbeitungszeit
+
+> Wenn andere, nicht vom Modul gedeckte Werte in der IQueue editiert werden soll, muss das Modul vorab deaktiviert werden, da es sonst zu einem Konflikt beim editieren der IQueue kommen kann, und die Änderungen ggf. verworfen werden, da das Modul zwischenzeitlich "durch einen anderen Benutzer" editiert wurde{.is-warning}
+
 
 Bei jedem Wert gibt es jeweils die gleichen Optionen, deshalb wird das ganze nur einmal beschrieben.
 
