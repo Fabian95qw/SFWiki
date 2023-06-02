@@ -2,7 +2,7 @@
 title: Listener Library
 description: 
 published: true
-date: 2021-08-27T13:49:30.138Z
+date: 2023-06-02T07:53:55.283Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T07:24:22.585Z
@@ -103,6 +103,18 @@ Datenpaketinhalt:
 - LineconfigId (STRING): Die Config ID der Leitung aus der DB
 - LineName (STRING): Den Anzeigenamen der Leitung
 - IsOnline (BOOLEAN): Ob die neue Leitung neu Online ist.
+
+### onUserAssignmendSettingsChangedEvent
+Dieses Event feuert, wenn sich jemand an einer Gruppe Ab-/Anmeldet
+Datenpaketinhalt: 
+- STARFACE_GROUP (NUMBER): Die AccountID der Gruppe, die sich geändert hat.
+
+### onAnyEvent
+Dies ist ein Globaler Eventlistener, dieser wird bei jedem Event, welches die STARFACE besitzt ausgelöst.
+Datenpaketinhalt:
+- Type (STRING): Der Eventtyp.
+- ??? (???): Je nach Eventtyp werden unterschiedliche Informationen geliefert. Es gibt auf der STARFACE so viele Eventtypen mit X-Parameter, so dass alles Abzudecken ein viel zu grosser aufwand wäre.
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
