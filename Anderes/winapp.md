@@ -2,7 +2,7 @@
 title: STARFACE 8.X Client Tipps & Tricks
 description: 
 published: false
-date: 2023-06-22T12:21:44.509Z
+date: 2023-06-22T12:28:57.917Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T09:42:31.829Z
@@ -12,13 +12,13 @@ dateCreated: 2023-06-20T09:42:31.829Z
 
 Hier sind einige Tipps & Tricks für den neuen STARFACE 8.X Client.
 
+## Workspace Location
+Die Workspace.xml Datei kann im Pfad: "C:\Users\\\[Benutzername\]\AppData\Roaming\STARFACE GmbH\winapp" gefunden werden.
+Diese kann mit einem normalen Editor geöffnet & editiert werden.
+
 ## Standardworkspaces Editieren
 Die Standardworkspaces sind normalerweise Vorgegeben, und können nicht editiert werden.
 Durch Anpassung der Workspace.xml Files können auch die Standardworkspaces editierbar machen.
-
-Die Workspace.xml Datei kann im Pfad: "C:\Users\\\[Benutzername\]\AppData\Roaming\STARFACE GmbH\winapp" gefunden werden.
-
-Diese kann mit einem normalen Editor geöffnet & editiert werden.
 
 Im Dokument müssen die Werte  \<Deletable>false\</Deletable> zu     \<Deletable>true\</Deletable> geändert werden.
 
