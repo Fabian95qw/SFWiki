@@ -2,7 +2,7 @@
 title: STARFACE 8.X Client Tipps & Tricks
 description: 
 published: false
-date: 2023-06-20T09:53:49.921Z
+date: 2023-06-22T12:21:44.509Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-20T09:42:31.829Z
@@ -20,10 +20,11 @@ Die Workspace.xml Datei kann im Pfad: "C:\Users\\\[Benutzername\]\AppData\Roamin
 
 Diese kann mit einem normalen Editor geöffnet & editiert werden.
 
+Im Dokument müssen die Werte  \<Deletable>false\</Deletable> zu     \<Deletable>true\</Deletable> geändert werden.
+
+Danach können die Standardworkspaces Editiert/Gelöscht werden.
+
 > Der STARFACE Client muss geschlossen sein, ansonsten haben die Änderungen keinen Effekt!
 {.is-warning}
-
-
-
 
 ## Workspace Icon's Ersetzen / Eigene Icon's einsetzen
