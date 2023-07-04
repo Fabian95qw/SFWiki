@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2023-01-05T14:38:12.743Z
+date: 2023-07-04T13:28:33.468Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -112,6 +112,12 @@ Anruf wird an einen Benutzer weitergeleitet
 
 ## Gruppe
 Anruf wird an eine Gruppe weitergeleitet.
+
+# Auto-Deaktivierung
+Das Modul kann sich nun zu einem gewissen Zeitpunkt selbt deaktivieren, falls Konfiguriert.
+Damit lassen sich z.b. Fälle abdecken, wenn ein User eine Spezielle Umleitung aktiviert, und diese am nächsten Morgen aber spätestens wieder deaktiviert sein soll.
+
+![7.PNG](/uploads/zeitgesteuerte_umleitung_si/7.PNG)
 
 # Konfigurationen Exportieren/Importieren
 ![6.PNG](/uploads/zeitgesteuerte_umleitung_si/6.PNG)
