@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:32:33.727Z
+date: 2023-07-14T08:35:57.338Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -28,6 +28,20 @@ Das Modul muss deshalb regelmässig die E-Mail Vorlagen prüfen und ggf. nach ei
 # Design
 
 ## Header Design
+
+### Logo 
+Das Logo kann jede Grösse haben, empfohlen ist jedoch B:228px, H:63px.
+Als Dateiformat sind zugelassen: jpg, jpeg, png, gif.
+
+### Logo URL
+Der URL, welcher hinter dem Logo hinterlegt ist.
+
+### Header Farbe Betreff:
+
+### Header Farbe Hintergrund 1:
+
+### Header Farbe Hintergrund 2:
+
 
 ## Footer Design
 
