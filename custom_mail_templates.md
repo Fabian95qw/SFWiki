@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:41:20.485Z
+date: 2023-07-14T08:44:16.351Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -26,6 +26,10 @@ Die E-Mail Vorlagen in der STARFACE werden in Regelmässigen abständen von eine
 Das Modul muss deshalb regelmässig die E-Mail Vorlagen prüfen und ggf. nach einem Update der Vorlagen diese wieder korrigieren.
 
 # Design
+
+## Farben
+Die Farben müssen im HEX Format angegeben werden.
+Um Farben zu HEX zu Konvertieren kann z.b. der [Google Farbwähler](https://g.co/kgs/fR7nEH) verwendet werden.
 
 ## Header Design
 
@@ -59,12 +63,31 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![3.PNG](/uploads/custom-mail-templates/3333.PNG)
+  ![3.PNG](/uploads/custom-mail-templates/3.PNG)
   
 </details>
 
 
 ## Footer Design
+
+### Footer Farbe Hintergrund 1:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![4.PNG](/uploads/custom-mail-templates/4.PNG)
+  
+</details>
+
+### FOoter Farbe Hintergrund 2:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![5.PNG](/uploads/custom-mail-templates/5.PNG)
+  
+</details>
+
 
 # Wiedeherstellung der Originalen Vorlagen
 Die Vorlagen, werden wieder auf den Originalzustand zurückgesetzt, wenn das Modul deaktiviert oder gelöscht wird.
