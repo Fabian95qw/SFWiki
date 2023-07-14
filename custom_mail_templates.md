@@ -1,8 +1,8 @@
 ---
 title: Eigene E-Mail Vorlagen
 description: 
-published: false
-date: 2023-07-14T09:14:33.751Z
+published: true
+date: 2023-07-14T09:23:04.103Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
