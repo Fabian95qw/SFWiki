@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T09:08:51.925Z
+date: 2023-07-14T09:14:33.751Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -96,6 +96,12 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 Die Footer können Angepasst werden, sofern gewünscht. Es kann ein eigener Text hinterlegt werden, oder eigene HTML-Files (txt,html,html) hochgeladen werden.
 
 ![9.PNG](/uploads/custom-mail-templates/9.PNG)
+
+# Test E-Mails versenden
+
+![10.PNG](/uploads/custom-mail-templates/10.PNG)
+
+Das Modul hat eine Eingebaute Möglichkeit, die Verschiedenen Vorlagen für jede Sprache als E-Mail zu verschicken.
 
 # Wiedeherstellung der Originalen Vorlagen
 Die Vorlagen, werden wieder auf den Originalzustand zurückgesetzt, wenn das Modul deaktiviert oder gelöscht wird.
