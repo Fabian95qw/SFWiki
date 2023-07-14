@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:35:57.338Z
+date: 2023-07-14T08:41:20.485Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -38,9 +38,30 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 
 ### Header Farbe Betreff:
 
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![2.PNG](/uploads/custom-mail-templates/2.PNG)
+  
+</details>
+
 ### Header Farbe Hintergrund 1:
 
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![3.PNG](/uploads/custom-mail-templates/3.PNG)
+  
+</details>
+
 ### Header Farbe Hintergrund 2:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![3.PNG](/uploads/custom-mail-templates/3333.PNG)
+  
+</details>
 
 
 ## Footer Design
