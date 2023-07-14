@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:35:57.338Z
+date: 2023-07-14T08:46:23.341Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -27,6 +27,10 @@ Das Modul muss deshalb regelmässig die E-Mail Vorlagen prüfen und ggf. nach ei
 
 # Design
 
+## Farben
+Die Farben müssen im HEX Format angegeben werden.
+Um Farben zu HEX zu Konvertieren kann z.b. der [Google Farbwähler](https://g.co/kgs/fR7nEH) verwendet werden.
+
 ## Header Design
 
 ### Logo 
@@ -38,12 +42,59 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 
 ### Header Farbe Betreff:
 
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![2.PNG](/uploads/custom-mail-templates/2.PNG)
+  
+</details>
+
 ### Header Farbe Hintergrund 1:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![3.PNG](/uploads/custom-mail-templates/3.PNG)
+  
+</details>
 
 ### Header Farbe Hintergrund 2:
 
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![4.PNG](/uploads/custom-mail-templates/4.PNG)
+  
+</details>
+
 
 ## Footer Design
+
+### Footer Farbe Hintergrund 1:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![5.PNG](/uploads/custom-mail-templates/5.PNG)
+  
+</details>
+
+### Footer Farbe Hintergrund 2:
+
+<details>
+  <summary>Bild (Klicken zum Anzeigen)</summary>
+  
+  ![6.PNG](/uploads/custom-mail-templates/6.PNG)
+  
+</details>
+
+## Footer Texte
+Die Footer können mit eigenem Text Befüllt werden, anstatt dem Standardtext
+
+### Footer 1 Text/HTML
+
+### Footer 2 Text/HTML
+
 
 # Wiedeherstellung der Originalen Vorlagen
 Die Vorlagen, werden wieder auf den Originalzustand zurückgesetzt, wenn das Modul deaktiviert oder gelöscht wird.
