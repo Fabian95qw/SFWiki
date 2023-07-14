@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:44:16.351Z
+date: 2023-07-14T08:46:23.341Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -63,7 +63,7 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![3.PNG](/uploads/custom-mail-templates/3.PNG)
+  ![4.PNG](/uploads/custom-mail-templates/4.PNG)
   
 </details>
 
@@ -75,18 +75,25 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![4.PNG](/uploads/custom-mail-templates/4.PNG)
+  ![5.PNG](/uploads/custom-mail-templates/5.PNG)
   
 </details>
 
-### FOoter Farbe Hintergrund 2:
+### Footer Farbe Hintergrund 2:
 
 <details>
   <summary>Bild (Klicken zum Anzeigen)</summary>
   
-  ![5.PNG](/uploads/custom-mail-templates/5.PNG)
+  ![6.PNG](/uploads/custom-mail-templates/6.PNG)
   
 </details>
+
+## Footer Texte
+Die Footer können mit eigenem Text Befüllt werden, anstatt dem Standardtext
+
+### Footer 1 Text/HTML
+
+### Footer 2 Text/HTML
 
 
 # Wiedeherstellung der Originalen Vorlagen
