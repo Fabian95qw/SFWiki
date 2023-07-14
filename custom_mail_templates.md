@@ -2,7 +2,7 @@
 title: Eigene E-Mail Vorlagen
 description: 
 published: false
-date: 2023-07-14T08:46:23.341Z
+date: 2023-07-14T09:08:51.925Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-14T08:25:33.046Z
@@ -32,6 +32,8 @@ Die Farben müssen im HEX Format angegeben werden.
 Um Farben zu HEX zu Konvertieren kann z.b. der [Google Farbwähler](https://g.co/kgs/fR7nEH) verwendet werden.
 
 ## Header Design
+
+  ![7.PNG](/uploads/custom-mail-templates/7.PNG)
 
 ### Logo 
 Das Logo kann jede Grösse haben, empfohlen ist jedoch B:228px, H:63px.
@@ -70,6 +72,8 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 
 ## Footer Design
 
+![8.PNG](/uploads/custom-mail-templates/8.PNG)
+
 ### Footer Farbe Hintergrund 1:
 
 <details>
@@ -89,12 +93,9 @@ Der URL, welcher hinter dem Logo hinterlegt ist.
 </details>
 
 ## Footer Texte
-Die Footer können mit eigenem Text Befüllt werden, anstatt dem Standardtext
+Die Footer können Angepasst werden, sofern gewünscht. Es kann ein eigener Text hinterlegt werden, oder eigene HTML-Files (txt,html,html) hochgeladen werden.
 
-### Footer 1 Text/HTML
-
-### Footer 2 Text/HTML
-
+![9.PNG](/uploads/custom-mail-templates/9.PNG)
 
 # Wiedeherstellung der Originalen Vorlagen
 Die Vorlagen, werden wieder auf den Originalzustand zurückgesetzt, wenn das Modul deaktiviert oder gelöscht wird.
