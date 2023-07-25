@@ -2,7 +2,7 @@
 title: IQueue mehr Nachbearbeitungszeit
 description: 
 published: false
-date: 2023-07-25T09:34:36.957Z
+date: 2023-07-25T09:34:53.480Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-25T09:21:02.421Z
@@ -44,6 +44,8 @@ Es wird ihm erneut die im Modul definierte Nachbearbeitungszeit gewährt.
 Z.b.
 Max Mustermann hat eine Nachbearbeitungszeit von 60 Sekunden. Er hat bereits 30 Sekunden verbraucht, und weiss, dass er mehr Zeit benötigt.
 Das Modul setzt seine Nachbearbeitungszeit wieder auf 60 Sekunden.
+
+### 
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
