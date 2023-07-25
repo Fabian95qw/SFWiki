@@ -2,7 +2,7 @@
 title: IQueue mehr Nachbearbeitungszeit
 description: 
 published: false
-date: 2023-07-25T09:34:53.480Z
+date: 2023-07-25T09:39:54.247Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-25T09:21:02.421Z
@@ -12,6 +12,8 @@ dateCreated: 2023-07-25T09:21:02.421Z
 Ein Modul zum Ändern/Setzen der Nachbearbeitungszeit für einzelne Benutzer.
 
 # Konfiguration
+
+![1.PNG](/uploads/iqueueposteditingtime/1.PNG)
 
 ## Rufnummernzuweisung
 
@@ -45,7 +47,9 @@ Z.b.
 Max Mustermann hat eine Nachbearbeitungszeit von 60 Sekunden. Er hat bereits 30 Sekunden verbraucht, und weiss, dass er mehr Zeit benötigt.
 Das Modul setzt seine Nachbearbeitungszeit wieder auf 60 Sekunden.
 
-### 
+# Beispiel
+
+![2.gif](/uploads/iqueueposteditingtime/2.gif)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
