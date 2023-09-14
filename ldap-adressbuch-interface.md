@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-14T09:39:43.719Z
+date: 2023-09-14T09:40:14.359Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -29,7 +29,7 @@ Folgende Telefone/Systeme wurden von uns gegen das Modul getestet:
 ![ldap-config2.png](/uploads/ldap-adressbuch-interface/ldap-config2.png)
 
 ## Adressbuch neu laden
-Das Adressbuch wird zur bereitstellung per LDAP in den RAM geladen, und ist keine Live-Ansicht, der STARFACE Adressen. Die Adressen müssen also regelmässig aus dem STARFACE Adressbuch neu in den LDAP Server geladen werden.
+Das Adressbuch wird zur bereitstellung per LDAP in den Arbeitsspeicher geladen, und ist keine Live-Ansicht, der STARFACE Adressen. Die Adressen müssen also regelmässig aus dem STARFACE Adressbuch neu in den LDAP Server geladen werden.
 
 ## Arbeitsspeicher-Verbrauch
 Bei den Tests ergab sich etwa das Folgende Verhältnis:
