@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-14T09:39:05.818Z
+date: 2023-09-14T09:39:43.719Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -31,6 +31,14 @@ Folgende Telefone/Systeme wurden von uns gegen das Modul getestet:
 ## Adressbuch neu laden
 Das Adressbuch wird zur bereitstellung per LDAP in den RAM geladen, und ist keine Live-Ansicht, der STARFACE Adressen. Die Adressen müssen also regelmässig aus dem STARFACE Adressbuch neu in den LDAP Server geladen werden.
 
+## Arbeitsspeicher-Verbrauch
+Bei den Tests ergab sich etwa das Folgende Verhältnis:
+
+- 100 Kontakte: 1mb Arbeitsspeicher
+- 1000 Kontakte: 10mb Arbeitsspeicher
+- 10'000 Kontakte:100mb Arbeitsspeicher
+- 100'000 Kontakte:1000mb Arbeitsspeicher
+
 ## Dienst
 Ermöglicht es den internen LDAP Server zu starten/stoppen.
 
@@ -57,14 +65,6 @@ Dazu wird jeweils Links die Adressbuchnummer, und Rechts der Namen für das LDAP
 
 ![gigaset_n720_example.png](/uploads/ldap-adressbuch-interface/ldap-config3.png)
 
-
-## Arbeitsspeicher-Verbrauch
-Bei den Tests ergab sich etwa das Folgende Verhältnis:
-
-- 100 Kontakte: 1mb Arbeitsspeicher
-- 1000 Kontakte: 10mb Arbeitsspeicher
-- 10'000 Kontakte:100mb Arbeitsspeicher
-- 100'000 Kontakte:1000mb Arbeitsspeicher
 
 # Verwendete LDAP Attribute
 Folgende LDAP Atrribute werden Verwendet/Befüllt:
