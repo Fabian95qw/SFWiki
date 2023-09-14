@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-13T11:32:45.490Z
+date: 2023-09-14T09:39:05.818Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -102,7 +102,7 @@ Um nun auf ein spezifisches Adressbuch zu zeigen würden die Base-DN's z.b. so a
 ## Searchstrings
 Als Searchstrings empfehlen wir Folgende:
 
-### Namensfilter
+### Namensfilter Gigaset/Snom
 Namensfilter: (|(cn=%\*)(sn=%\*)(givenname=%\*)(description=%\*))
 Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie Firmennamen nach Begriffen, die mit der Suchanfrage beginnen.
 
