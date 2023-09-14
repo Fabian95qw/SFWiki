@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-14T09:40:14.359Z
+date: 2023-09-14T09:40:53.688Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -41,6 +41,10 @@ Bei den Tests ergab sich etwa das Folgende Verhältnis:
 
 ## Dienst
 Ermöglicht es den internen LDAP Server zu starten/stoppen.
+
+> Der Dienst muss bei Änderungen an den Adressbuch/Logineinstellungen jeweils neu gestartet werden.
+{.is-warning}
+
 
 ## LDAP Port
 Der LDAP Port, auf dem der LDAP Server zur Verfügung stehen soll.
