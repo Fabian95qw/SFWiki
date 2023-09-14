@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-14T09:40:53.688Z
+date: 2023-09-14T09:42:53.440Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -62,7 +62,11 @@ Das Modul lädt die Adressbucheinträge für den LDAP Server im Namen dieses Ben
 ## LDAP Zugriff
 
 **Der LDAP Zugriff muss zwingend durch einen Benutzernamen und Passwort abgesichert sein.**
-Dieser Benutzer wird für den Zugriff durch die Telelfone verwendet. Der Loginname ist immer cn=[Login]
+Dieser Benutzer wird für den Zugriff durch die Telelfone verwendet. 
+
+> Der Loginname ist immer **cn=\[Login\]** also z.b. cn=Phone
+{.is-info}
+
 
 Die einzelnen STARFACE Adressbücher können einzeln als LDAP Adressbücher gemappt werden. 
 Dazu wird jeweils Links die Adressbuchnummer, und Rechts der Namen für das LDAP festgelegt. Mehr informationen dazu gibt es unten bei der Konfiguration des LDAP's auf den Telefonen.
@@ -88,7 +92,7 @@ Folgende LDAP Atrribute werden Verwendet/Befüllt:
 Damit die Telefone auf das LDAP Adressbuch Zugreifen kann, müssen geweisse Einstellungen an den Telefonen konfiguriert werden.
 
 ## Login
-Der im Modul gesetzte Login muss auf den Telefonen in der Form cn=[Login] eingetragen werden.
+Der im Modul gesetzte Login muss auf den Telefonen in der Form cn=\[Login\] eingetragen werden.
 Z.b. cn=Phone
 
 ## Base-DN
