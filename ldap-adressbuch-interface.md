@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-14T09:42:53.440Z
+date: 2023-09-18T05:46:16.428Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -108,7 +108,9 @@ Um nun auf ein spezifisches Adressbuch zu zeigen würden die Base-DN's z.b. so a
 - ou=Interne Benutzer, dc=starface, dc=pbx
 
 ## Searchstrings
-Als Searchstrings empfehlen wir Folgende:
+Für die Filter Empfehlen wir für Yealink/Snom die untenliegenden Filter.
+
+Für Beispiele auf Yealink siehe: [LDAP Configurations on Yealink Phones](https://help.yeastar.com/en/p-series-software-edition/administrator-guide/ldap-configurations-on-yealink-phones.html)
 
 ### Namensfilter Gigaset/Snom
 Namensfilter: (|(cn=%\*)(sn=%\*)(givenname=%\*)(description=%\*))
