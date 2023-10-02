@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: false
-date: 2023-10-02T12:12:37.697Z
+date: 2023-10-02T12:12:46.870Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -38,7 +38,7 @@ Bevor das Widget eingebunden werden kann, muss der Tokengenerator unter dem im M
 
 ![4.PNG](/uploads/lastcaller/4.PNG)
 
-In diesem Beispiel ist der Link: http(s):<zero-width space>//\[STARFACE\]/downloads/f486/tokengen/index.html
+In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downloads/f486/tokengen/index.html
 
  Dort müssen alle Felder mit den Informationen der STARFACE + einem Login ausgefüllt werden.
   
