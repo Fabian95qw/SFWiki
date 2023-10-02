@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: false
-date: 2023-10-02T12:23:12.146Z
+date: 2023-10-02T12:25:21.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -61,7 +61,11 @@ https:<zero-width space/>//testface<zero-width space/>.si-solutions<zero-width s
 
 Dieser URL kann dann in den UCC-Client eingepflegt werden.
 
+![6.PNG](/uploads/lastcaller/6.PNG)
 
+Wenn nun alles korrekt ist, müsste das ganze in der STARFACE App so aussehen, wenn jemand Anruft, der zuvor bereits mal ausgehend Angerufen wurde.
+
+![7.PNG](/uploads/lastcaller/7.PNG)
 
 # Eigenes Design / Logo
 Um ein eigenes Design oder Logo zu verwenden kann das Standard-Webseitenpaket editiert und hochgeladen werden.
