@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: false
-date: 2023-10-02T12:00:48.561Z
+date: 2023-10-02T12:06:20.111Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -24,7 +24,22 @@ Mit diesem Modul lassen sich die letzten \[n\] Benutzer der STARFACE Anzeigen, w
 ## Länge der History
 Definiert, wie viele Einträge ausgegeben werden sollen.
 
+## Webseiten-URL
+Der Webseiten URL wird für das Widget benötigt. Dies wird weiter unten im Detail erklärt.
 
+## Tokengenerator-URL
+Unter diesem URL ist der Tokengenerator für das Widget erreichbar.
+Dieser wird für die Widgeterzeugung benötigt.
+
+# Widget erzeugen
+
+
+
+
+## Webseiten URL
+Unter diesem URL befindet sich die Webseite des Widgets.
+Aber dieser URL alleine Reicht nicht, um das Widget zu verwenden.
+Es muss noch das Token generiert werden.
 
 
 
