@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: false
-date: 2023-10-02T12:12:46.870Z
+date: 2023-10-02T12:23:12.146Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -44,11 +44,22 @@ In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downl
   
 ![5.PNG](/uploads/lastcaller/5.PNG)
 
+Dies Erzeugt dann einen fertigen Token im untersten Feld. Dieser muss kopiert werden.
+Für das obenliegende Beispiel würde dieser so aussehen: https%3A%2F%2Ftestface.<zero-width space/>si-solutions<zero-width space/>.ch%2Fxml-rpc%3Fde.vertico.starface.auth%3D100%3A5123899fe5a452123aeff5217816c06a6f8c85e499e40351426a6855381af44b6584eb9391761960506c081d713876261686d8d5fa3fa96470adb5c6943fead9
 
-## Webseiten URL
-Unter diesem URL befindet sich die Webseite des Widgets.
-Aber dieser URL alleine Reicht nicht, um das Widget zu verwenden.
-Es muss noch das Token generiert werden.
+Dieser muss dann mit dem Webseiten-URL Kombiniert werden, in meinem Beispiel: http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html
+
+Der URL muss um 2 Parameter erweitert werden einmal mit dem Füllwert von der STARFACE-App für Anruferinformationen (callerid) sowie dem generierten Token.
+
+Der URL muss am schluss so aussehen:
+
+http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html?vcallerid=$(callerId)&sfrequrl=\[Token vom Tokengenerator]
+
+In meinem Beispiel:
+
+https:<zero-width space/>//testface<zero-width space/>.si-solutions<zero-width space/>.ch/downloads/f486/index.html?vcallerid=$(callerId)&sfrequrl=https%3A%2F%2Ftestface.<zero-width space/>si-solutions<zero-width space/>.ch%2Fxml-rpc%3Fde.vertico.starface.auth%3D100%3A5123899fe5a452123aeff5217816c06a6f8c85e499e40351426a6855381af44b6584eb9391761960506c081d713876261686d8d5fa3fa96470adb5c6943fead9
+
+Dieser URL kann dann in den UCC-Client eingepflegt werden.
 
 
 
