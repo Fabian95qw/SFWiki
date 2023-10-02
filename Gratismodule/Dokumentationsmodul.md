@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: true
-date: 2023-05-01T07:14:33.242Z
+date: 2023-10-02T09:00:10.504Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -108,6 +108,12 @@ Werden keine eigene Designs hochgeladen, wird ein Standarddesign verwendet.
   ![7.png](/uploads/documentation/7.png)
   
   </details>
+  
+  ### Hilfe! Meine Dokumentation ist auf dem Kopf/Gespiegelt
+  Die Unterliegende Library, PDF Toolbox hat je nach herkunft der .PDF Dateien für Deckblatt/Hochformat/Querformat probleme, die Positionierung zuzuordnen. 
+  
+  Die originalen Vorlagen, sind jeweils im Word erzeugt worden, und anschliessend als .PDF via "Speichern Unter" abgespeichert worden, und nicht als "PDF ausgedruckt". 
+  Wenn die gleichen Vorlagen als "PDF ausgedruckt" wurden, zeigten sie anschliessend das Phänomen auf.
   
  ## Schriftarten 
  
