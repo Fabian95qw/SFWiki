@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: false
-date: 2023-10-02T12:06:20.111Z
+date: 2023-10-02T12:12:46.870Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -33,7 +33,16 @@ Dieser wird für die Widgeterzeugung benötigt.
 
 # Widget erzeugen
 
+## Token für Widget generieren
+Bevor das Widget eingebunden werden kann, muss der Tokengenerator unter dem im Modul erzeugten Link aufgerufen werden.
 
+![4.PNG](/uploads/lastcaller/4.PNG)
+
+In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downloads/f486/tokengen/index.html
+
+ Dort müssen alle Felder mit den Informationen der STARFACE + einem Login ausgefüllt werden.
+  
+![5.PNG](/uploads/lastcaller/5.PNG)
 
 
 ## Webseiten URL
