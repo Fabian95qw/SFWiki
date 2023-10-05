@@ -2,11 +2,17 @@
 title: Letzte Anrufer
 description: 
 published: true
-date: 2023-10-05T06:17:41.139Z
+date: 2023-10-05T13:48:11.712Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
 ---
+
+# DSGVO
+> Dieses Modul verstösst Standardmässig gegen das Datenschutzgesetz, da es einen begrenzten Einblick in die Rufhiestore von anderen Benutzern der Anlage liefert.
+> 
+> Es muss ein Schriftliches Einverständnis von den Benutzern der Anlage eingeholt werden, bevor dieses Modul genutzt werden darf.
+{.is-warning}
 
 # Beschreibung
 Es gibt Kunden, bei denen eine Vielzahl von Mitarbeitern direkt mit der Hauptrufnummer raustelefonieren, und keine Direktwahl Anzeigen.
