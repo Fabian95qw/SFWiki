@@ -2,7 +2,7 @@
 title: Letzte Anrufer
 description: 
 published: true
-date: 2023-10-05T06:14:10.805Z
+date: 2023-10-05T06:17:41.139Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -16,6 +16,9 @@ Die Zentrale kann selten direkt den korrekten Mitarbeiter gerade rausgeben, und 
 
 Dieses Modul/Widget soll dieses Problem lösen.
 Mit diesem Modul lassen sich die letzten [n] Benutzer der STARFACE Anzeigen, welche die Zielnummer/Kunden zuletzt angerufen hatten, wenn dieser zurückruft.
+
+![8.PNG](/uploads/lastcaller/8.PNG)
+
 
 # Konfiguration
 
