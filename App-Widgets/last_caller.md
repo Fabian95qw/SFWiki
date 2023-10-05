@@ -1,8 +1,8 @@
 ---
 title: Letzte Anrufer
 description: 
-published: false
-date: 2023-10-02T12:29:52.719Z
+published: true
+date: 2023-10-02T12:48:08.343Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-02T09:54:02.418Z
@@ -36,7 +36,7 @@ Dieser wird für die Widgeterzeugung benötigt.
 ## Token für Widget generieren
 Bevor das Widget eingebunden werden kann, muss der Tokengenerator unter dem im Modul erzeugten Link aufgerufen werden.
 
-![4.PNG](/uploads/lastcaller/4.PNG)
+![3.PNG](/uploads/lastcaller/3.PNG)
 
 In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downloads/f486/tokengen/index.html
 
@@ -47,7 +47,7 @@ In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downl
 Dies Erzeugt dann einen fertigen Token im untersten Feld. Dieser muss kopiert werden.
 Für das obenliegende Beispiel würde dieser so aussehen: https%3A%2F%2Ftestface.<zero-width space/>si-solutions<zero-width space/>.ch%2Fxml-rpc%3Fde.vertico.starface.auth%3D100%3A5123899fe5a452123aeff5217816c06a6f8c85e499e40351426a6855381af44b6584eb9391761960506c081d713876261686d8d5fa3fa96470adb5c6943fead9
 
-![3.PNG](/uploads/lastcaller/3.PNG)
+![4.PNG](/uploads/lastcaller/4.PNG)
 
 Dieser muss dann mit dem Webseiten-URL Kombiniert werden, in meinem Beispiel: http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html
 
@@ -67,7 +67,7 @@ Dieser URL kann dann in den UCC-Client eingepflegt werden.
 
 Wenn nun alles korrekt ist, müsste das ganze in der STARFACE App so aussehen, wenn jemand Anruft, der zuvor bereits mal ausgehend Angerufen wurde.
 
-![7.PNG](/uploads/lastcaller/7.PNG)
+![7.gif](/uploads/lastcaller/7.gif)
 
 # Eigenes Design / Logo
 Um ein eigenes Design oder Logo zu verwenden kann das Standard-Webseitenpaket editiert und hochgeladen werden.
