@@ -2,7 +2,7 @@
 title: Chatstatus für einen Benutzer setzen.
 description: 
 published: true
-date: 2022-10-14T08:23:05.730Z
+date: 2023-10-09T11:13:20.707Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:08:47.870Z
@@ -14,6 +14,8 @@ In diesem Beispiel wird gezeigt, wie man den Chatstatus für einen Benutzer setz
 
 ## Modulbaustein Lesen der Chatpräsenz
 
+
+## Alte Codebeispiele
 <details>
   <summary> Code 7.3 (Klicken zum Anzeigen)</summary>
   
@@ -140,6 +142,8 @@ In diesem Beispiel wird gezeigt, wie man den Chatstatus für einen Benutzer setz
 
 ## Modulbaustein setzen der Chatpräsenz
 
+
+## Alte Codebeispiele
 <details>
   <summary>Code 7.3 (Klicken zum Anzeigen)</summary>
   
