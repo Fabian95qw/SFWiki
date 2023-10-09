@@ -2,7 +2,7 @@
 title: Chatstatus für einen Benutzer setzen.
 description: 
 published: true
-date: 2023-10-09T11:13:20.707Z
+date: 2023-10-09T11:15:02.942Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:08:47.870Z
@@ -142,6 +142,7 @@ In diesem Beispiel wird gezeigt, wie man den Chatstatus für einen Benutzer setz
 
 ## Modulbaustein setzen der Chatpräsenz
 
+[ChangeUserPresence.java](https://github.com/Fabian95qw/SFWiki/blob/master/uploads/dev_tutorial/sourcecode/chatpresence/ChangeUserPresence.java)
 
 ## Alte Codebeispiele
 <details>
