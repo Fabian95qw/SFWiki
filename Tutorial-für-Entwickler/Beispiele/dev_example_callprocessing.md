@@ -2,7 +2,7 @@
 title: Anrufverarbeitung
 description: 
 published: true
-date: 2023-10-09T09:43:16.505Z
+date: 2023-10-09T09:45:04.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-04T09:53:12.685Z
@@ -14,7 +14,7 @@ In diesem Beispiel wird gezeigt, wie ein Anruf in einem eigenen Modulblock verar
 
 ## Beispielcode
 
-
+[CallProcessingExample.java](/uploads/dev_tutorial/sourcecode/callprocessing/CallProcessingExample.java)
 
 ## Alte Codebeispiele
 
