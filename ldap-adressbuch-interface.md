@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-09-18T05:46:16.428Z
+date: 2023-10-13T11:25:45.269Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -116,9 +116,15 @@ Für Beispiele auf Yealink siehe: [LDAP Configurations on Yealink Phones](https:
 Namensfilter: (|(cn=%\*)(sn=%\*)(givenname=%\*)(description=%\*))
 Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie Firmennamen nach Begriffen, die mit der Suchanfrage beginnen.
 
-### Nummernfilter
+### Nummernfilter Gigaset/Snom
 Nummernfilter: (|(telePhoneNumber=\*%\*)(homePhone=\*%\*)(mobile=\*%\*))
 Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, primärer interner Rufnummer , primärer externer Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
+
+### Namensfilter Yealink
+(|(displayName=%)(givenName=%)(sn=%)(mail=%)(company=%))
+
+### Nummernfilter Yealink
+(|(telephoneNumber=%)(mobile=%)(homePhone=%)(facsimileTelephoneNumber=%))
 
 ## Standardadressbuch bei Gigaset Anpassen
 Damit das LDAP Adressbuch bei den Gigaset Handsets zur Verfügung muss dieses pro Handset einmal die Einstellung für die Adressbuchtaste, sowie INT-Taste angepasst werden.
