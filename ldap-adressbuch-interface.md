@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-10-13T11:25:45.269Z
+date: 2023-10-13T11:34:25.188Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -119,6 +119,15 @@ Erzeugt folgendes Verhalten: Sucht im Anzeigenamen, Vornamen, Nachnamen, sowie F
 ### Nummernfilter Gigaset/Snom
 Nummernfilter: (|(telePhoneNumber=\*%\*)(homePhone=\*%\*)(mobile=\*%\*))
 Erzeugt folgendes Verhalten: Sucht in Rufnummer, privater Rufnummer, Mobiltelefonnummer, primärer interner Rufnummer , primärer externer Rufnummer nach der Rufnummer, die den Suchbegriff irgendwo enthält.
+
+### Beispiel Snom
+![snom_example.png](/uploads/ldap-adressbuch-interface/snom_example.png)
+
+### Namensfilter Snom
+(|(cn=%)(sn=%))
+
+### Nummernfilter Snom
+(|(telephoneNumber=%)(homePhone=%)(mobile=%))
 
 ### Namensfilter Yealink
 (|(displayName=%)(givenName=%)(sn=%)(mail=%)(company=%))
