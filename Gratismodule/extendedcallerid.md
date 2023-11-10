@@ -2,7 +2,7 @@
 title: Erweiterte CallerID
 description: 
 published: true
-date: 2023-11-10T13:20:50.911Z
+date: 2023-11-10T13:24:47.737Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-10T13:11:19.580Z
@@ -11,7 +11,11 @@ dateCreated: 2023-11-10T13:11:19.580Z
 # Beschreibung
 Dieses Modul überschreibt die Standard CallerID der STARFACE mit den in den Modul Konfigurierten, sofern der Benutzer im STARFACE internen Adressbuch existiert
 
+> Dieses Modul Verstösst ggf. gegen die DSGVO, wenn keine Einwilligung eingeholgt wurde, da es die Privaten Kontakte aller Benutzer durchsucht.{.is-warning}
+
 # Konfiguration
+
+![1.PNG](/uploads/extendedcallerid/1.PNG)
 
 ## Timeout
 Während der Anruf aufgelöst wird, wird dieser im Modul gehalten, und es klingelt nicht. Dies definiert, wie lange das Modul maximal auf die Antworten der Adressbücher wartet, bevor es den Anruf unaufgelöst weiterleitet.
@@ -113,11 +117,16 @@ Die CallerID wird entsprechend diesem Feld Formatiert. Werte, die durch Kontakti
 
 Z.b.: #lastname# #firstname# #company# (#number#)
 Erzeugt:
-
-
-
+Mustermann Max Musterfirma GmbH (+41123456789)
 
 ## Maximale Zeichenlänge der Werte
+Um zu verhindern, dass die CallerID zu lang wird, können Werte nach gewissen Buchstaben gekürzt werden.
+
+Z.b. Wenn der Vorname (firstname) auf 1 Stelle gekürzt würde, und der Nachname (lastname) auf 3:
+Mit der CallerID: #firstname#. #lastname#. #company# (#number#)
+M. Mus. Musterfirma GmbH (+41123456789)
+
+Die Punkte müssen in der CallerID manuell eingefügt werden.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
