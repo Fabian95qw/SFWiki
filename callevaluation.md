@@ -2,7 +2,7 @@
 title: Gesprächsbewertung
 description: 
 published: false
-date: 2023-11-13T08:45:47.735Z
+date: 2023-11-13T10:00:17.835Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T08:25:07.419Z
@@ -11,7 +11,14 @@ dateCreated: 2023-11-13T08:25:07.419Z
 # Beschreibung
 Dieses Modul erlaubt es nach einem Gespräch eine Bewertung für den Anruf abzugeben.
 
-# Flow
+# Einschränkungen
+
+> Wenn z.b ein IVR Modul vorgeschaltet ist, darf nicht die ext. Nummer des IVR's im Filter hinterlegt werden, sondern die interne Rufnummer der dahinterliegenden Gruppen
+{.is-warning}
+
+> Wenn Anrufe intern Weitervermittelt wurden, funktioniert dieses Modul nicht mehr, da das Modul die Kontrolle über den Anruf bei vermittlungen verliert und somit den Anruf für die Umfrage nicht mehr zurückkholen kann.
+{.is-danger}
+
 
 # Konfiguration
 
