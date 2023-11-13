@@ -1,8 +1,8 @@
 ---
 title: Gesprächsbewertung
 description: 
-published: false
-date: 2023-11-13T10:31:06.599Z
+published: true
+date: 2023-11-13T10:55:43.103Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T08:25:07.419Z
