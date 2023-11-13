@@ -2,7 +2,7 @@
 title: Gesprächsbewertung
 description: 
 published: false
-date: 2023-11-13T10:00:17.835Z
+date: 2023-11-13T10:17:48.279Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T08:25:07.419Z
@@ -19,12 +19,15 @@ Dieses Modul erlaubt es nach einem Gespräch eine Bewertung für den Anruf abzug
 > Wenn Anrufe intern Weitervermittelt wurden, funktioniert dieses Modul nicht mehr, da das Modul die Kontrolle über den Anruf bei vermittlungen verliert und somit den Anruf für die Umfrage nicht mehr zurückkholen kann.
 {.is-danger}
 
+# Flow
+![Flow.png](/uploads/callevaluation/Flow.png)
 
 # Konfiguration
 
 ![1.PNG](/uploads/callevaluation/1.PNG)
 
 ## Gesprächsbwertung ausführen für
+
 
 
 ## Filtermöglichkeiten
