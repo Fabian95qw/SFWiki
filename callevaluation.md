@@ -2,14 +2,14 @@
 title: Gesprächsbewertung
 description: 
 published: false
-date: 2023-11-13T08:42:36.217Z
+date: 2023-11-13T08:45:47.735Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-13T08:25:07.419Z
 ---
 
 # Beschreibung
-
+Dieses Modul erlaubt es nach einem Gespräch eine Bewertung für den Anruf abzugeben.
 
 # Flow
 
