@@ -2,7 +2,7 @@
 title: TOTP 2 Login
 description: 
 published: false
-date: 2023-12-11T15:05:46.180Z
+date: 2023-12-11T15:06:24.503Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-11T14:52:57.457Z
@@ -16,7 +16,7 @@ Die Benutzer, müssen sich nach aktivierung des Moduls an den Tischtelefonen neu
 
 # Konfiguration
 
-
+![1.PNG](/uploads/totp2login/1.PNG)
 
 ## TOTP aktivieren für
 Bestimmt ob das TOTP für \*77 für alle Benutzer oder eine Gruppe von Benutzern aktiviert werden soll.
@@ -53,6 +53,8 @@ Der Herausgeber, welcher in der TOTP App dargestellt werden soll
 ### Algorithmus, welcher für die Generierung des TOTP Codes verwendet wird.
 
 ## E-Mail Versand
+
+![2.PNG](/uploads/totp2login/2.PNG)
 
 ### QR Code Name
 Name des QR-Code .png's welches an den E-Mails angehängt wird
