@@ -2,7 +2,7 @@
 title: Arbeitsplatzwechsel
 description: 
 published: false
-date: 2023-12-13T10:36:31.748Z
+date: 2023-12-13T10:44:27.922Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-13T10:09:20.694Z
@@ -32,11 +32,27 @@ Ob IFMC Telefone vom Modul ignoriert werden sollen.
 
 ### Primärtelefon umstellen auf
 Bestimmt, welches Telefon als Primärtelefon eingestellt werden soll.
+Bei Softphone wird das Softphone (WinClient/MacClient) ausgewählt.
+Bei Tischtelefon, wird das erste Nicht-Softphone ausgewählt.
+
+> Wenn der Teilnehmer mehr als ein Softphone / Tischtelefon besitzt, muss man den Modus auf "Spezifisches Telefon nach Name" einstellen und den vollständigen SIP-Namen des Telefons eingeben, da sonst ggf. das Falsche Telefon vom Modul ausgewählt wird.
+{.is-warning}
 
 ### Namen des Primärtelefons
+Name des Primärtelefons, wenn die Auswahl auf "Spezifisches Telefon nach Name" steht.
+Genau so wie im Benutzer unter "Telefone" zu finden
+Z.b. SIP/2231.ylnkt54
 
 ### Andere Telefone
+Bestimmt, was mit den anderen Telefonen passieren soll, wenn das Modul umgestellt wird.
 
+- deaktivieren --> Deaktiviert alle anderen Telefone
+- aktivieren --> Aktiviert alle anderen Telefone
+- Aktivierung umkehren --> Aktiviert alle deaktivierten Telefone und deaktiviert alle aktivierten Telefone
+
+## Modul automatisch deaktivieren
+Deaktiviert das Modul zu einem gewissen Zeitpunkt wieder damit z.b. 
+Das Modul um Mitternacht wieder vom Homeoffice aufs Büro umstellt.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
