@@ -1,8 +1,8 @@
 ---
 title: Arbeitsplatzwechsel
 description: 
-published: false
-date: 2023-12-13T10:44:27.922Z
+published: true
+date: 2023-12-13T10:45:20.699Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-13T10:09:20.694Z
