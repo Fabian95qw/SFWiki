@@ -2,7 +2,7 @@
 title: Quelle: Datei Importer
 description: 
 published: true
-date: 2021-08-16T09:42:22.347Z
+date: 2024-01-12T07:06:00.792Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:17.884Z
@@ -73,6 +73,9 @@ In diesem Fall würde der „rohe“ CSV-Code so aussehen:
 Dies kann so in den Menüpunkt „Eigenes Template“ hochgeladen werden. Somit verwendet diese Modulinstanz beim Import dieses Template, um die Kontakte korrekt zu interpretieren.
  
 # http(s) Get
+
+![HTTPSGet.PNG](/uploads/adressbuch-importer/HTTPSGet.PNG)
+
 ##  HTTPS 
 Die http(s) get Funktion erlaubt es eine CSV. Von einem Webhost abzurufen. 
 
@@ -92,13 +95,39 @@ Request Ergebnis
 Das Request Ergebnis gibt das Ergebnis des letzten http(s) Requests zurück. Also Z.b. 404 not found.
 
 # FTP-Konfiguration
+![FTP.PNG](/uploads/adressbuch-importer/FTP.PNG)
+
 ## FTP Status
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
 ## FTP Import Pfad
 Dies ist der Import Pfad zum Adressbuch. Er muss mit einem Slash („/“) beginnen und im letzten Ordner ohne Backslash aufhören. 
 Ein Dateiname darf nicht angehängt werden. (Dieser wird oben im Import gesetzt)
  
+ # SFTP-Konfiguration
+ ![SFTP.PNG](/uploads/adressbuch-importer/SFTP.PNG)
+ 
+ ## SFTP Status
+ Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
+ 
+## Keine strikte Host-Prüfung
+Wenn dieser Haken aktiviert ist wir die Prüfung der Known_Hosts.txt übersprungen und alle Zielserver akzeptiert.
+ 
+## Known Hosts
+Die Known_Hosts Datei, wie sie von allen gängigen SSH Programmen Formatiert ist.
+
+Z.b.
+sftp.example.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdH...
+sftp.example2.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjAKwk3...
+
+### Known Hosts generieren (Windows)
+Wenn man keine Known_Hosts Datei hat, kann man diese via dem cmd Befehl "ssh-keyscan \[IP/DNS des Servers] \> Pfad/zur/Datei.txt" generieren
+Z.b.: ssh-keyscan sftp.si-solutions.ch > C:\Temp\Known_Hosts.txt
+
+Diese Fragt die Fingerprint des Servers ab, und speichert sie im File.
+ 
 # SMB-Konfiguration
+![SMB.PNG](/uploads/adressbuch-importer/SMB.PNG)
+
 ## SMB Status
 Dieses Feld gibt Feedback, ob die aktuelle Konfiguration in Ordnung ist. Dieser Wert wird beim Abspeichern des Moduls vom System überschrieben.
 
