@@ -2,7 +2,7 @@
 title: Erweiterte CallerID
 description: 
 published: true
-date: 2023-11-10T13:38:40.580Z
+date: 2024-01-17T08:20:31.960Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-10T13:11:19.580Z
@@ -23,6 +23,15 @@ Während der Anruf aufgelöst wird, wird dieser im Modul gehalten, und es klinge
 
 ## STARFACE Benutzer für Adressbuchsuche
 Damit das Adressbuch durchsucht werden kann, muss ein Benutzer mitgegeben werden, der Benutzer benötigt keine speziellen Anforderungen
+
+## Bei Direktrufen an Benutzer deren privates Adressbuch durchsuchen
+Dursucht das private Adressbuch eines Benutzer, wenn er auf einer Direktwahl angerufen wird.
+
+> Entfernen sie den Eintrag "private" aus der Tabelle "zu durchsuchende Adressbücher", damit nicht alle privaten Adressbücher durchsucht werden!{.is-warning}
+
+> Wenn der Angerufene nicht anwesend ist, und der Anruf weitergeleitet wird, so sieht auch der Benutzer/Gruppe an welche weitergeleitet wurde den aus dem privaten Adressbuch aufgelösten Kontakt
+{.is-danger}
+
 
 ## Zu durchsuchende Adressbücher
 Definiert welche STARFACE Adressbücher durchsucht werden sollen, dies ist entweder:
