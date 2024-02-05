@@ -2,7 +2,7 @@
 title: Alarmierungsmodul
 description: 
 published: false
-date: 2024-02-05T14:13:33.260Z
+date: 2024-02-05T14:18:19.280Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-05T14:05:22.843Z
@@ -14,7 +14,27 @@ Wenn ein Teilnehmer abnimmt, wird er dazu aufgeforert, eine Taste zu drücken, u
 
 # Konfiguration
 
+![1.png](/uploads/alarmmodule/1.png)
 
+![2.png](/uploads/alarmmodule/2.png)
+
+## Wartemusik Anrufer
+Die Musik, die dem Anrufer abgespielt wird, während er wartet, dass einer der zu Alarmierenden Rufnummern abnimmt
+
+## Anzahl Versuche
+Wie oft alle Rufnummern nacheinander angerufen werden, bevor der Anruf weiter an die bei "Bei Fehlschlag weiter zu Rufnummer" hinterlegte Rufnummer weitergeleitet wird
+
+## Klingelzeit pro Rufnummer \[s\]
+Wie viele Sekunden es pro Rufnummer Klingeln soll
+
+## Zu Alarmierende Rufnummern
+Die Rufnummern, welche nacheinander Angerufen werden sollen.
+Externe Rufnummern müssen vollständig internationalisiert sein.
+
+# Audiotexte
+Es können div. Audiotexte hinterlegt werden.
+Das drücken der DTMF Taste zu einem Belebigen Zeitpunkt innterhalb der Texte führt automatisch zu einer akzeptierten Eingabe!
+Der Resttext wird dann übersprungen, und die zwei Teilnehmer werden sofort zusammengeschaltet.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
