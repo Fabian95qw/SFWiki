@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2023-07-04T13:28:33.468Z
+date: 2024-02-19T13:06:10.154Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -98,13 +98,31 @@ Samstag 12:00-14:00 ==> Gilt jeden Samstag von 12:00 Uhr bis 14:00 Uhr
 
 Es muss auch ein Ziel definiert werden, an welches das Modul weitergeleitet wird.
 
-## Rufnummer / Mailbox (\*9)
-Der Ruf wird an diese Nummer, oder Voicemailbox weitergeleitet. Bei Voicemailboxen muss die Nummer inkl. dem \*9 präfix eingegeben werden
+## Rufnummer / Mailbox (\*9) / 302 Call Deflection
+Der Ruf wird an diese Nummer, oder Voicemailbox weitergeleitet. 
+Bei Voicemailboxen muss die Nummer inkl. dem \*9 präfix eingegeben werden
+Bei 302 Call Deflection wir der Anruf per SIP 302 weitergeleitet.
+
+## 302 Call Deflection
+Folgendes wird beim 302 Call Deflection angegeben:
+
+| Header   | Wert                             |
+|----------|----------------------------------|
+| orig-num | Originale Rufnummer des Anrufers |
+| from-num | Angerufene Rufnummer             |
+| to-num   | Die Zielnummer gemäss Textfeld   |
+
+> Bei gewissen Providern muss 302 Call-Deflection zuerst vom Provider freigegeben werden.
+{.is-warning}
+
+> Mit 302 Umgeleitete Anrufe tauchen immer als verpasste Anrufer mit einer Zeit von 0 Sekunden in der STARFACE auf.
+{.is-danger}
+
 
 ## Ansage
 Spielt eine Ansage ab, und hängt den Anruf anschliessend auf
 
-## Ansage + Rufnummer / Mailbox(\*9)
+## Ansage + Rufnummer / Mailbox(\*9) 
 Eine Kombination der zwei oberen.
 
 ## Benutzer
@@ -112,6 +130,7 @@ Anruf wird an einen Benutzer weitergeleitet
 
 ## Gruppe
 Anruf wird an eine Gruppe weitergeleitet.
+
 
 # Auto-Deaktivierung
 Das Modul kann sich nun zu einem gewissen Zeitpunkt selbt deaktivieren, falls Konfiguriert.
