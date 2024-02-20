@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: false
-date: 2024-02-20T13:27:43.545Z
+date: 2024-02-20T13:31:18.907Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -52,8 +52,8 @@ In welchem Format die Datumsvariable sein soll, gemäss [SimpleDateFormat](https
 # Transfer
 Hier wird definiert, ob die Datei per SMB oder FTP übertragen werden soll.
 
-## Modus
-
+## Variablenunterstüzung
+Hier können die Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
 
 
 # Downloads & Lizenzierung
