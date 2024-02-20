@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: false
-date: 2024-02-20T13:31:18.907Z
+date: 2024-02-20T13:41:30.586Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -13,6 +13,8 @@ dateCreated: 2024-02-20T13:18:54.502Z
 Ermöglicht den CDR Export von Benutzern, Gruppen und IQueues auf SMB/FTP
 
 # Konfiguration
+
+![1.PNG](/uploads/cdr-export/1.PNG)
 
 ## Automatische Ausführung
 Das Modul führt den Export in diesem Intervall aus
@@ -51,6 +53,8 @@ In welchem Format die Datumsvariable sein soll, gemäss [SimpleDateFormat](https
 
 # Transfer
 Hier wird definiert, ob die Datei per SMB oder FTP übertragen werden soll.
+
+![2.PNG](/uploads/cdr-export/2.PNG)
 
 ## Variablenunterstüzung
 Hier können die Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
