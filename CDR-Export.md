@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: false
-date: 2024-02-20T13:41:30.586Z
+date: 2024-02-20T13:42:06.103Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -59,6 +59,13 @@ Hier wird definiert, ob die Datei per SMB oder FTP übertragen werden soll.
 ## Variablenunterstüzung
 Hier können die Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
 
+
+# Experteneinstellungen
+
+> Diese Werte dürfen nicht angepasst werden, ausser es wurde so durch die SI-Solutions GmbH beauftragt
+{.is-danger}
+
+![3.PNG](/uploads/cdr-export/3.PNG)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
