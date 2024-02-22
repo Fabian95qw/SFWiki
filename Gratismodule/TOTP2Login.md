@@ -2,7 +2,7 @@
 title: TOTP 2 Login
 description: 
 published: true
-date: 2024-02-22T12:21:28.472Z
+date: 2024-02-22T12:21:58.950Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-11T14:52:57.457Z
@@ -38,7 +38,7 @@ Wie lange das TOTP-Secret sein soll.
 Wie Lange der TOTP-PIN im Authenticator sein soll
 
 ### Gültigkeit des PINs \[s\]
-Wie viele Sekunden ein TOTP Code jeweils gültig seins oll.
+Wie viele Sekunden ein TOTP Code jeweils gültig sein soll.
 
 ### Erlaubte vorherige/zukünftige PINs mit Zeitdiskrepanz 	
 
