@@ -2,7 +2,7 @@
 title: TOTP 2 Login
 description: 
 published: true
-date: 2023-12-11T15:06:41.499Z
+date: 2024-02-22T12:21:28.472Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-11T14:52:57.457Z
@@ -25,7 +25,7 @@ Bestimmt ob das TOTP für \*77 für alle Benutzer oder eine Gruppe von Benutzern
 Die Gruppe, für welche die TOTP aktiviert werden soll
 
 
-> Benutzer müssen einen TOTP Code eingeben, soalnge sie in der Tabelle "Benutzer und Secrets" noch vorhanden sind, selbst, wenn sie zwischenzeitlich nicht mehr Mitglied der Gruppe sind. Damit sie keinen Code mehr eingeben müssen, muss ihre LoginID manuell aus der Tabelle gelöscht werden.
+> Benutzer müssen einen TOTP Code eingeben, solange sie in der Tabelle "Benutzer und Secrets" noch vorhanden sind, selbst, wenn sie zwischenzeitlich nicht mehr Mitglied der Gruppe sind. Damit sie keinen Code mehr eingeben müssen, muss ihre LoginID manuell aus der Tabelle gelöscht werden.
 {.is-danger}
 
 
