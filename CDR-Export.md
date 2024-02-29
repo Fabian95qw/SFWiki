@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: true
-date: 2024-02-20T13:45:09.570Z
+date: 2024-02-29T07:53:59.536Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -10,7 +10,7 @@ dateCreated: 2024-02-20T13:18:54.502Z
 
 # Beschreibung
 
-Ermöglicht den CDR Export von Benutzern, Gruppen und IQueues auf SMB/FTP
+Ermöglicht den CDR Export von Benutzern, Gruppen und IQueues auf SMB/FTP/SFTP
 
 # Konfiguration
 
@@ -59,6 +59,18 @@ Hier wird definiert, ob die Datei per SMB oder FTP übertragen werden soll.
 ## Variablenunterstüzung
 Hier können die Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
 
+## SFTP Known Hosts
+Die Known_Hosts Datei, wie sie von allen gängigen SSH Programmen Formatiert ist.
+
+Z.b.
+sftp.example.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdH...
+sftp.example2.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCjAKwk3...
+
+### Known Hosts generieren (Windows)
+Wenn man keine Known_Hosts Datei hat, kann man diese via dem cmd Befehl "ssh-keyscan \[IP/DNS des Servers] \> Pfad/zur/Datei.txt" generieren
+Z.b.: ssh-keyscan sftp.si-solutions.ch > C:\Temp\Known_Hosts.txt
+
+Diese Fragt die Fingerprint des Servers ab, und speichert sie im File.
 
 # Experteneinstellungen
 
