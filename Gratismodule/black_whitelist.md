@@ -2,7 +2,7 @@
 title: Ausgehende Black-/White-list
 description: 
 published: false
-date: 2024-03-14T14:31:53.438Z
+date: 2024-03-14T14:32:32.374Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T14:19:58.605Z
@@ -12,6 +12,8 @@ dateCreated: 2024-03-14T14:19:58.605Z
 Ausgehende Anrufe für Gruppen von Benutzern mit einer Black-/White-list mit Wildcard Filtern einschränken. Inkl. E-Mail Alarmierung bei Verstössen.
 
 # Konfiguration
+
+![1.png](/uploads/black_whitelist/1.png)
 
 ## Zu Limitierende Gruppe
 Es werden **alle** Mitglieder Gruppe überprüft, **egal ob sie Aktiv/Inaktiv** sind. 
