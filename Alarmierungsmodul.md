@@ -2,7 +2,7 @@
 title: Alarmierungsmodul
 description: 
 published: true
-date: 2024-02-05T14:38:16.046Z
+date: 2024-03-18T09:17:44.551Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-05T14:05:22.843Z
@@ -17,6 +17,13 @@ Wenn ein Teilnehmer abnimmt, wird er dazu aufgeforert, eine Taste zu drücken, u
 ![1.png](/uploads/alarmmodule/1.png)
 
 ![2.png](/uploads/alarmmodule/2.png)
+
+## Modus Alarmieren solange Anrufer am Telefon ist
+Das Modul klingelt so lange durch, wie der originale Anrufer am Telefon ist.
+
+## Anrufer aufhängen und Alarm auslösen
+Das Modul hängt den Originalen Anrufer sofort auf, und startet danach den Alarmruf, und spielt normal die Ansagen ab, welche im Modul hinterlegt ist.
+
 
 ## Wartemusik Anrufer
 Die Musik, die dem Anrufer abgespielt wird, während er wartet, dass einer der zu Alarmierenden Rufnummern abnimmt
