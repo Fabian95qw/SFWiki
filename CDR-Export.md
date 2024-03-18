@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: true
-date: 2024-02-29T07:53:59.536Z
+date: 2024-03-18T14:50:09.227Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -26,14 +26,23 @@ Dies ist für Testzwecke gedacht.
 > Wenn das Modul übernommen wird, und nicht gespeichert, wir die Deltainformation nicht aktualisiert, dann kann es dazu kommen, dass die gleichen CDR's zweimal in zwei verschiedenen CSV-Dateien aufgelistet werden.
 {.is-warning}
 
+## Modus
+Das Modul hat verschiedene Möglichkeiten für den CDR-Export:
+
+- IQueue Gruppe
+- Gruppe (Leitungsnutzungsdaten)
+- Mitglieder der Gruppe  (Leitungsnutzungsdaten)
+- Gruppe (Verbindungsdaten)
+- Mitglieder der Gruppe (Verbindungsdaten)
+
 ## CDR-Export für IQueue Gruppe
 Generiert einen CDR-Report spezifisch mit den Spalten der IQueue Reports, anstatt den Standard CDR Exports.
 
-## CDR-Export für Gruppe
-Generiert einen CDR-Report für die Anrufe dieser Gruppe
+## CDR-Export für Gruppe 
+Generiert einen CDR-Report für die Anrufe dieser Gruppe entweder im Format der Leitungsnutzungsdaten, oder Verbindungsdaten
 
 ## CDR-Export für Mitglieder der Gruppe
-Generiert einen CDR-Report pro Benutzer in der Gruppe mit seinen individuellen CDR's.
+Generiert einen CDR-Report pro Benutzer in der Gruppe mit seinen individuellen CDR's entweder im Format der Leitungsnutzungsdaten oder Verbindungsdaten
 
 ## Variablen
 Das Modul unterstützt einige Variablen, welche an verschiedenen Orten im Modul gesetzt werden können.
