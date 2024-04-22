@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-04-22T06:45:43.217Z
+date: 2024-04-22T06:46:02.803Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -28,7 +28,7 @@ Die Zeitgesteuerte Umleitung greift sofort.
 ## Modus: Umleitung verzögern
 Die Zeitgesteuerte Umleitung lässt es noch \[n\] Sekunden beim originale Ziel klingeln, bevor die Umleitung greift.
 
-> Es gibt Probleme, wenn der Standard Abwurfplatz der STARFACE definiert ist.
+> Es gibt Probleme, wenn der Standard Abwurfplatz der STARFACE definiert ist, und die Verzögerte Umleitung verwendet wird.
 Wenn der Abwurfplatz benötigt wird, empfehlen wir das Gratismodul [Abwurfplatz](https://wiki.si-solutions.ch/de/Gratismodule/abwurfplatz) zu verwenden.
 {.is-warning}
 
