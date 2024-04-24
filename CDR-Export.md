@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: true
-date: 2024-03-18T14:50:09.227Z
+date: 2024-04-24T09:24:27.105Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -35,8 +35,11 @@ Das Modul hat verschiedene Möglichkeiten für den CDR-Export:
 - Gruppe (Verbindungsdaten)
 - Mitglieder der Gruppe (Verbindungsdaten)
 
-## CDR-Export für IQueue Gruppe
-Generiert einen CDR-Report spezifisch mit den Spalten der IQueue Reports, anstatt den Standard CDR Exports.
+## CDR-Export für IQueue Gruppe (Report)
+Generiert einen Export gemäss der CDR.csv Datei vom IQueue Report ([Aufbau+der+Reportdateien+der+iQueue](https://knowledge.starface.de/display/SWD/Aufbau+der+Reportdateien+der+iQueue))
+
+## CDR-Export für IQueue Gruppe (Report Rohdaten)
+Exportiert die rohen CDR-Daten vom IQueue Reporting.
 
 ## CDR-Export für Gruppe 
 Generiert einen CDR-Report für die Anrufe dieser Gruppe entweder im Format der Leitungsnutzungsdaten, oder Verbindungsdaten
