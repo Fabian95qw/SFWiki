@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2024-04-12T11:16:46.639Z
+date: 2024-04-29T06:42:06.388Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -74,7 +74,7 @@ Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umle
 # Office365 Verbindung
 ![2](/uploads/office365-kalender-connector/2.png "2")
 
-Um eine Verbindung mit dem Office365 herzustellen, muss eine ntsprechender App-Login erstellt werden.
+Um eine Verbindung mit dem Office365 herzustellen, muss ein entsprechender App-Login erstellt werden.
 
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.si-solutions.ch/de/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
