@@ -2,7 +2,7 @@
 title: PIN-Forwarding
 description: 
 published: true
-date: 2024-05-15T09:18:48.796Z
+date: 2024-05-15T09:23:55.715Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-26T08:00:04.375Z
@@ -80,21 +80,32 @@ Hier können bei bedarf auch Manuell weitere PIN's zu Nummernmappings hinzugefü
 ## Sets
 Im Modul können bis zu 10 Sets definiert werden, die den PIN's zugewiesen werden können.
 
-## CSV Format
+## Set-Allgemeines
+![6.png](/uploads/pin-forwarding/6.png)
+
+## Einzelne Sets
+![7.png](/uploads/pin-forwarding/7.png)
+
+### Set Standard Ziel
+Dieses Ziel wird verwendet, wenn kein Zeitraum im Set Zutrifft.
+
+### Set Mapping
+Die Zeiträume fürs Mapping können gemäss Syntax der [Zeitgesteuerte_Umleitung++](https://wiki.si-solutions.ch/de/Gratismodule/Zeitgesteuerte_Umleitung++) verwendet werden.
+
+### Set Upload
+Hier wird die CSV Datei für dieses Set hochgeladen.
+
+#### CSV Format
 Das CSV Format für die Sets muss Zweispalting sein.
 In der ersten Spalte muss jeweils der Zeitraum hinterlegt werden, und in der zweiten Spalte die Zielnummer.
 
-## Set-Allgemeines
+Wenn für mehrere Zeiträume die gleiche Zielnummer gelten soll, so müssen mehrere Spalten mit dem gleichen Ziel definiert werden.
 
-## Set Standard Ziel
+### Set Modus
+Hier wird bestimmt, ob das Set geleert wird, und neu ab der Datei eingelesen wird, oder ob es mit der bestehenden Tabelle zusammengeführt wird.
 
-## Set Mapping
-
-## Set Upload
-
-## Set Modus
-
-## Upload verwenden.
+### Upload verwenden.
+Ist dies nicht aktiviert, so wird die .CSV Datei für dieses Set nicht eingelesen.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
