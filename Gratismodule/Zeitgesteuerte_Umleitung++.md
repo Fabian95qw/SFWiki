@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-04-22T06:46:02.803Z
+date: 2024-05-24T12:34:08.421Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -74,6 +74,24 @@ Er Prüft folgende Nummern:
 - Externe Rufnummer des Anrufers
 - Interne Rufnummer des Anrufers (Falls vorhanden)
 - IFMC Rufnummer des Anrufers (Falls vorhanden)
+
+## Nummer des Anrufers - Adressbuch & Ausnahmen
+
+![8.PNG](/uploads/zeitgesteuerte_umleitung_si/8.PNG)
+
+Die Anrufer können zusätzlich nach Adressbuch gefiltert werden.
+Hierbei kann eine Liste von Adressbüchern, welche geprüft werden sollen mitgegeben werden.
+
+> Falls die LDAP Anbindung aktiviert ist, müssen die Namen gemäss der Adressbucheinstellungen oder "all" für alle LDAP Adressbücher verwendet werden.
+{.is-warning}
+
+> Private Kontakte werden nicht durchsucht.
+{.is-danger}
+
+
+### Benutzer zum durchsuchen des Adressbuchs
+Von STARFACE ist zum durchsuchen des Adressbuchs ein Benutzer vorgegeben, es wird einfach im Namen dieses Benutzers gesucht.
+
 
 ## Nummer des Angerufenen Filter & Ausnahmen
 Filter, welche hier gesetzt werden, werden auf die Angerufene Nummer angewendet.
