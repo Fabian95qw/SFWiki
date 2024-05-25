@@ -2,7 +2,7 @@
 title: STARFACE Dokumentationsmodul
 description: 
 published: true
-date: 2024-02-07T08:25:26.258Z
+date: 2024-05-25T21:35:10.408Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -10,7 +10,8 @@ dateCreated: 2023-03-01T08:50:30.959Z
 
 # Beschreibung
 
-> Das Modul ist mit STARFACE 8.1.X nicht kompatibel, wegen der verwendeten PDF Toolbox der STARFACE.
+> Das Modul ist mit STARFACE 8.1.0-8.1.2 wegen der verwendeten PDF Toolbox der STARFACE nicht kompatibel.
+Mit der 8.1.3.0 ist das Modul wieder funktionsfähig.
 Dort gibt es einen Bug, bei dem PDF's kaputtgehen wenn Seiten im Hoch und Querformat in einem Dokument kombiniert werden.
 Das Modul erhält ein Update für die nächste STARFACE Version, sobald die PDF Toolbox von Seitens STARFACE geupdatet wurde.
 {.is-danger}
