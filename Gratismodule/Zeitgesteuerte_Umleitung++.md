@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-06-05T08:09:41.375Z
+date: 2024-06-05T08:11:00.280Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -111,7 +111,7 @@ Hier wird definiert, in welcher SPrache, die Zeiten im Zeitplan eingetragen werd
 
 ## Zeitplan Rechtes Feld verwenden als.
 Das Rechte Feld des Zeitplans wird Standardmässig als Kommentarfeld verwendet.
-Hier kann umgestellt werden, dass das Kommentarfeld Stattdessen ein spezielles Ziel enthält. welches für diesen Zeitraum zustimmt.
+Hier kann umgestellt werden, dass das Kommentarfeld stattdessen ein spezielles Ziel enthält. welches für diesen Zeitraum statt dem Standardziel verwendet wird..
 Z.b. kann für Einen Wochentag, oder Feiertag ein Spezielles Umleitungsziel definiert werden.
 Mit dem ; kann nach der Zielnummer ein Kommentar hinterlegt werden.
 Zeilen, welche keine spezielle Zielnummer enthalten, fallen automatisch auf die Standardkonfiguration zurück.
