@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2023-02-17T09:09:21.450Z
+date: 2024-06-06T08:29:19.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
@@ -11,6 +11,10 @@ dateCreated: 2023-02-17T08:57:39.954Z
 # Beschreibung
 
 Hier geht es spezifisch um die Konfiguration des SQL-Connectors im Adressbuch Importer
+
+> Ab der STARFACE 8.1 ist die Verschlüsselung standardmässig aktiviert. Um sie zu deaktivieren muss bei den "Zusätzlichen Parameter" der Parameter ";encrypt=false;" hinterlegt werden.
+{.is-danger}
+
 
 # Konfiguration
 
