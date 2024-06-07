@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2024-06-06T08:29:19.597Z
+date: 2024-06-07T06:45:32.774Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
@@ -37,7 +37,8 @@ Falls sie einen anderen Datenbanktyp benötigen, kontaktieren sie uns bitte per 
 Die Verbindungsdaten für die Datenbank.
 
 ## Zusätzliche Parameter
-Gewisse Datenbanken können Optionale/Zusätzliche Parameter annehmen, diese können hier im Format \[Name\]=\[Wert\]&\[Name\]=\[Wert\]... hinterlegt werden.
+Gewisse Datenbanken können Optionale/Zusätzliche Parameter annehmen, hier muss ein Textfile im Format
+;Key=Parameter;Key2=Parameter2;Key3=Parameter3;... hinterlet werden.
 
 ## SQL-Query
 Hier muss eine komplette SQL-Query als .txt Datei hochgeladen werden.
