@@ -2,7 +2,7 @@
 title: Gruppenzuweisung de/aktivieren
 description: 
 published: true
-date: 2024-06-12T06:50:02.292Z
+date: 2024-06-12T06:52:02.021Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-12T06:47:14.928Z
@@ -16,6 +16,11 @@ Dies Unterscheidet sich gegenüber der Normalen Taste dahin, dass man auch ander
 
 ![1.PNG](/uploads/gruppenzuweisung de-aktivieren/1.PNG)
 
+## Benutzer für Aktion
+Dieser Benutzer wird von der Gruppe Ab/Angemeldet
+
+## Gruppe für Aktion
+Die Gruppe von der er Ab/Angemeldet werden soll.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
