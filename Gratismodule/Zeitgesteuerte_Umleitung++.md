@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-05-24T12:34:08.421Z
+date: 2024-06-05T08:11:00.280Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -109,6 +109,18 @@ Bestimmt, ob das Modul Innerhalb, oder ausserhalb des Zeitfensters reagiert.
 ## Sprache von Datum/Uhrzeit
 Hier wird definiert, in welcher SPrache, die Zeiten im Zeitplan eingetragen werden.
 
+## Zeitplan Rechtes Feld verwenden als.
+Das Rechte Feld des Zeitplans wird Standardmässig als Kommentarfeld verwendet.
+Hier kann umgestellt werden, dass das Kommentarfeld stattdessen ein spezielles Ziel enthält. welches für diesen Zeitraum statt dem Standardziel verwendet wird..
+Z.b. kann für Einen Wochentag, oder Feiertag ein Spezielles Umleitungsziel definiert werden.
+Mit dem ; kann nach der Zielnummer ein Kommentar hinterlegt werden.
+Zeilen, welche keine spezielle Zielnummer enthalten, fallen automatisch auf die Standardkonfiguration zurück.
+
+> Die Spezialnummer kann nicht mit allen Umleitungszielen Verwendet werden! 
+Bitte prüfe Tabelle bei "Ziele" für mehr Informationen
+{.is-warning}
+
+
 ## Zeitplan
 Hier werden die Entsprechenden Zeiten definiert.
 
@@ -126,6 +138,20 @@ Samstag 12:00-14:00 ==> Gilt jeden Samstag von 12:00 Uhr bis 14:00 Uhr
 ![5.PNG](/uploads/zeitgesteuerte_umleitung_si/5.PNG)
 
 Es muss auch ein Ziel definiert werden, an welches das Modul weitergeleitet wird.
+
+## Spezialumleitungen
+Die Spezialnummer kann nicht mit allen Umleitungszielen Verwendet werden
+
+| Umleitungsziel | Spezielles Ziel <br/>unterstützt? | Verhalten ohne <br/>spezielles Ziel | Verhalten mit <br/>speziellen Ziel |
+|----------------|------------------------------|--------------------------------|-------------------------------|
+|Rufnummer / Mailbox (\*9)| Ja | Normale Rufnummer / Voicemailbox wird angerufen | Spezielle Rufnummer / Voicemailbox wird angerufen |
+|Ansage| Nein | Ansage wird abgespielt | Ansage wird abgespielt |
+|Ansage + Rufnummer/Mailbox (\*9)| Ja | Ansage wird abgespielt und normale Rufnummer / Voicemailbox wird angerufen | Ansage wird abgespielt und spezielle Rufnummer / Voicemailbox wird angerufen. |
+|Benutzer| Nein | Benutzer wird angerufen | Benutzer wird angerufen |
+|Gruppe| Nein | Gruppe wird angerufen | Gruppe wird angerufen |
+|302 Call Deflection| Ja | Call Deflection auf normale Rufnummer wird ausgeführt | Call Deflection auf spezielle Rufnummer wird ausgeführt |
+|Besetzt anzeigen| Nein | Besetzt | Besetzt |
+
 
 ## Rufnummer / Mailbox (\*9) / 302 Call Deflection
 Der Ruf wird an diese Nummer, oder Voicemailbox weitergeleitet. 

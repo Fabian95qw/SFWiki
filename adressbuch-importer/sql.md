@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2023-02-17T09:09:21.450Z
+date: 2024-06-07T06:45:32.774Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
@@ -11,6 +11,10 @@ dateCreated: 2023-02-17T08:57:39.954Z
 # Beschreibung
 
 Hier geht es spezifisch um die Konfiguration des SQL-Connectors im Adressbuch Importer
+
+> Ab der STARFACE 8.1 ist die Verschlüsselung standardmässig aktiviert. Um sie zu deaktivieren muss bei den "Zusätzlichen Parameter" der Parameter ";encrypt=false;" hinterlegt werden.
+{.is-danger}
+
 
 # Konfiguration
 
@@ -33,7 +37,8 @@ Falls sie einen anderen Datenbanktyp benötigen, kontaktieren sie uns bitte per 
 Die Verbindungsdaten für die Datenbank.
 
 ## Zusätzliche Parameter
-Gewisse Datenbanken können Optionale/Zusätzliche Parameter annehmen, diese können hier im Format \[Name\]=\[Wert\]&\[Name\]=\[Wert\]... hinterlegt werden.
+Gewisse Datenbanken können Optionale/Zusätzliche Parameter annehmen, hier muss ein Textfile im Format
+;Key=Parameter;Key2=Parameter2;Key3=Parameter3;... hinterlet werden.
 
 ## SQL-Query
 Hier muss eine komplette SQL-Query als .txt Datei hochgeladen werden.
