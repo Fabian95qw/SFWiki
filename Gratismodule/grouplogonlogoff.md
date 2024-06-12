@@ -2,7 +2,7 @@
 title: Gruppenzuweisung de/aktivieren
 description: 
 published: true
-date: 2024-06-12T06:52:02.021Z
+date: 2024-06-12T06:53:07.809Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-12T06:47:14.928Z
@@ -14,7 +14,7 @@ Dies Unterscheidet sich gegenüber der Normalen Taste dahin, dass man auch ander
 
 # Konfiguration
 
-![1.PNG](/uploads/gruppenzuweisung de-aktivieren/1.PNG)
+![1.png](/uploads/gruppenzuweisung_de-aktivieren/1.png)
 
 ## Benutzer für Aktion
 Dieser Benutzer wird von der Gruppe Ab/Angemeldet
