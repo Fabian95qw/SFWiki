@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2023-03-02T14:47:12.100Z
+date: 2024-07-05T06:29:35.188Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -17,6 +17,10 @@ Bei jeder Ausführung wird auf Wunsch ein Bericht erstellt und dem Systembetreue
 ### Importtimer
 
 Die Automatisierung ist das Kernstück des Moduls. Hier können die allgemeinen Einstellungen für das Modul festgelegt werden.
+
+> Es sollten keine Zeiträume < als 1 Stunde genommen werden, dies kann langfristig zu div. Problemen führen.
+{.is-danger}
+
 
 ![Automatisierung 1](/uploads/adressbuch-importer/automatisierung-1.png "Automatisierung 1")
 
