@@ -2,7 +2,7 @@
 title: PIN-Forwarding
 description: 
 published: true
-date: 2024-05-15T09:23:55.715Z
+date: 2024-07-08T08:12:24.552Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-26T08:00:04.375Z
@@ -91,6 +91,19 @@ Dieses Ziel wird verwendet, wenn kein Zeitraum im Set Zutrifft.
 
 ### Set Mapping
 Die Zeiträume fürs Mapping können gemäss Syntax der [Zeitgesteuerte_Umleitung++](https://wiki.si-solutions.ch/de/Gratismodule/Zeitgesteuerte_Umleitung++) verwendet werden.
+
+### Set Prioritäten
+Wenn zwei Zeiträume in Konflikt stehen, müssen mir Prioritäten gearbeitet werden hierzu muss der Zeitraum um ein #1 Priorität erweitert werden, wobei 1 die höchste Priorität ist.
+Z.b.
+
+| Zeitraum | Ziel |
+|---|---|
+| 08.07.2024#1 | 200 |
+| 01.07.2024-31.07.2024#3 | 300 |
+| Montag#2 | 400 |
+
+In dem Fall wäre am Montag dem 08.07.2024 das Ziel die 200.
+Sonst im Datumsbereich 01.07.2024-31.07.2024 das Ziel die 300, ausser am Montag, dort ist das Ziel dann die 400.
 
 ### Set Upload
 Hier wird die CSV Datei für dieses Set hochgeladen.
