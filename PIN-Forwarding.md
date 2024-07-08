@@ -2,7 +2,7 @@
 title: PIN-Forwarding
 description: 
 published: true
-date: 2024-07-08T08:12:24.552Z
+date: 2024-07-08T08:12:48.038Z
 tags: 
 editor: markdown
 dateCreated: 2024-04-26T08:00:04.375Z
@@ -110,7 +110,7 @@ Hier wird die CSV Datei für dieses Set hochgeladen.
 
 #### CSV Format
 Das CSV Format für die Sets muss Zweispalting sein.
-In der ersten Spalte muss jeweils der Zeitraum hinterlegt werden, und in der zweiten Spalte die Zielnummer.
+In der ersten Spalte muss jeweils der Zeitraum/Zeitraum#Priorität hinterlegt werden, und in der zweiten Spalte die Zielnummer.
 
 Wenn für mehrere Zeiträume die gleiche Zielnummer gelten soll, so müssen mehrere Spalten mit dem gleichen Ziel definiert werden.
 
