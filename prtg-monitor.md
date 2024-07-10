@@ -2,7 +2,7 @@
 title: PRTG-Monitor
 description: 
 published: true
-date: 2023-05-15T06:31:17.134Z
+date: 2024-07-10T08:43:53.860Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -31,14 +31,15 @@ Die Vorkompillierten SFM-Dateien findet man hier: https://github.com/Fabian95qw/
 ### Sensoren
 Für die Individuellen Sensoren gibt es eigene Artikel:
 
-PRTG Sensor: Anlagenverbund On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-anlagenverbund-on-offline
-PRTG Sensor: Anzahl Gruppenmitglieder: http://wiki.si-solutions.ch/prtg-monitor/sensor-anzahl-gruppenmitglieder
-PRTG Sensor: CPU Verbrauch: http://wiki.si-solutions.ch/prtg-monitor/sensor-cpu-verbrauch
-PRTG Sensor: Freier Speicherplatz: http://wiki.si-solutions.ch/prtg-monitor/sensor-freier-speicherplatz
-PRTG Sensor: Leitungen On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-leitungen-on-offline
-PRTG Sensor: RAM Verbrauch: http://wiki.si-solutions.ch/prtg-monitor/sensor-ram-verbrauch
-PRTG Sensor: Telefone On-/Offline: http://wiki.si-solutions.ch/prtg-monitor/sensor-telefone-on-offline
-PRTG Sensor: Anzahl ungenutzer Lizenzen: http://wiki.si-solutions.ch/prtg-monitor/sensor-ungenutzte-lizenzen
+PRTG Sensor: Anlagenverbund On-/Offline: https://wiki.si-solutions.ch/prtg-monitor/sensor-anlagenverbund-on-offline
+PRTG Sensor: Anzahl Gruppenmitglieder: https://wiki.si-solutions.ch/prtg-monitor/sensor-anzahl-gruppenmitglieder
+PRTG Sensor: CPU Verbrauch: https://wiki.si-solutions.ch/prtg-monitor/sensor-cpu-verbrauch
+PRTG Sensor: Freier Speicherplatz: https://wiki.si-solutions.ch/prtg-monitor/sensor-freier-speicherplatz
+PRTG Sensor: Leitungen On-/Offline: https://wiki.si-solutions.ch/prtg-monitor/sensor-leitungen-on-offline
+PRTG Sensor: RAM Verbrauch: https://wiki.si-solutions.ch/prtg-monitor/sensor-ram-verbrauch
+PRTG Sensor: Telefone On-/Offline: https://wiki.si-solutions.ch/prtg-monitor/sensor-telefone-on-offline
+PRTG Sensor: Anzahl ungenutzer Lizenzen: https://wiki.si-solutions.ch/prtg-monitor/sensor-ungenutzte-lizenzen
+PRTG Sensor: Ausgehende Pings: https://wiki.si-solutions.ch/de/prtg-monitor/sensor-ping
 
 ## Erstellung eigener Add-Ons
 Hierfür wurde ein eigener Artikel erfasst: http://wiki.si-solutions.ch/prtg-monitor/eigene-sensoren-erstellen
