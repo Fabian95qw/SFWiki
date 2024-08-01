@@ -2,11 +2,17 @@
 title: Pin Log In
 description: 
 published: true
-date: 2021-08-16T09:46:43.826Z
+date: 2024-08-01T22:07:41.721Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:36:12.035Z
 ---
+
+# Veraltet
+
+> Dieses Modul wird nur bis 8.X benötigt ab 9.X ist diese Funktion in der STARFACE integriert.
+{.is-danger}
+
 
 # Beschreibung
 Es erlaubt den Login mithilfe von Pins in einer Tabelle zu Kontrollieren
