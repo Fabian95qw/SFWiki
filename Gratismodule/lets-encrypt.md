@@ -2,11 +2,17 @@
 title: Let's Encrypt
 description: 
 published: true
-date: 2023-05-09T14:14:00.065Z
+date: 2024-08-01T22:05:14.349Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
 ---
+
+# Veraltet
+
+> Dieses Modul wird nur bis 8.X benötigt ab 9.X ist diese Funktion in der STARFACE integriert.
+{.is-danger}
+
 
 # Beschreibung
 Modul, welches es erlaubt Let's Encrypt Zertifikate einzurichten inklusive auto-renewal
