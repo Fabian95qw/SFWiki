@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-06-05T08:11:00.280Z
+date: 2024-08-05T06:45:14.079Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -30,7 +30,10 @@ Die Zeitgesteuerte Umleitung lässt es noch \[n\] Sekunden beim originale Ziel k
 
 > Es gibt Probleme, wenn der Standard Abwurfplatz der STARFACE definiert ist, und die Verzögerte Umleitung verwendet wird.
 Wenn der Abwurfplatz benötigt wird, empfehlen wir das Gratismodul [Abwurfplatz](https://wiki.si-solutions.ch/de/Gratismodule/abwurfplatz) zu verwenden.
-{.is-warning}
+{.is-danger}
+
+> Die Verzögerung kann nicht angewendet werden, wenn die Zielnummer eine Umleitung bei Zeitüberschreitung aktiviert hat. Dieses überschreibt immer die Zeit der "Umleitung Verzögern". Dies kann aktuell nicht verhindert werden. 
+{.is-danger}
 
 
 ## Interne Anrufe ingorieren
