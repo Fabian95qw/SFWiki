@@ -2,7 +2,7 @@
 title: Lizenzierung
 description: 
 published: true
-date: 2024-04-08T11:59:27.515Z
+date: 2024-08-08T09:40:44.295Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:14.613Z
@@ -16,7 +16,7 @@ Die Lizenz wird nach der Aktivierung alle 30 Tage online überprüft.
 
 # Kosten für Wartung/Updates?
 Grundsätzlich werden für unsere Module keine Updatekosten/Wartungskosten verrechnet.
-Jeder kann neuere Versionen des Moduls jeweils auf http://module.si-solutions.ch/ beziehen.
+Jeder kann neuere Versionen des Moduls jeweils auf https://module.si-solutions.ch/ beziehen.
 
 **Mit Ausnahme:** wenn z.b. Aufgrund einer Änderung des Starface-Systems (Z.b. Starface 8.X zu Starface 9.X) grosse Teile des Moduls neu programmiert werden müssen, dann nehmen wir uns vor eine einmalige Upgradegebühr von 10% zu verrechnen
 
