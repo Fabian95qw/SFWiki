@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2022-11-28T14:08:32.618Z
+date: 2024-08-15T06:35:10.366Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -126,7 +126,7 @@ Passwort: Pass123
   
  ### Aufbau des URLs
   
-  Der Zugriffsurl für die XML-RPC ist: http|https://\[IP/DNS-der-STARFACE]//xml-rpc?de.vertico.starface.auth=\[Token]
+  Der Zugriffsurl für die XML-RPC ist: http|https://\[IP/DNS-der-STARFACE]/xml-rpc?de.vertico.starface.auth=\[Token]
   
   Beispiel: http://**192.168.200.240**/xml-rpc?de.vertico.starface.auth=**123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced**
   
