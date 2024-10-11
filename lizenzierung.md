@@ -2,7 +2,7 @@
 title: Lizenzierung
 description: 
 published: true
-date: 2024-08-08T09:40:44.295Z
+date: 2024-10-11T06:41:02.166Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:14.613Z
@@ -28,3 +28,4 @@ Ein Modul kann von uns jederzeit auf "End of Life" gesetzt werden, wenn eines de
 - Das Modul ist nicht profitabel
 - Das Modul ist zu instabil, und es gibt keine möglichkeit dies zu Verbessern.
 - Ein Update der STARFACE hat dazu geführt, dass das Modul nicht mehr funktioniert, und die Funktionalität kann nicht mehr wiederhergestellt werden.
+- Die Features des Moduls wurden von der STARFACE integriert
