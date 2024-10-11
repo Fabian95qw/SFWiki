@@ -2,13 +2,13 @@
 title: [EOL] Let's Encrypt
 description: 
 published: true
-date: 2024-10-11T06:41:45.361Z
+date: 2024-10-11T06:41:58.020Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:35:06.671Z
 ---
 
-# Veraltet
+# End of Life
 
 > Dieses Modul wird nur bis 8.X benötigt ab 9.X ist diese Funktion in der STARFACE integriert.
 {.is-danger}
