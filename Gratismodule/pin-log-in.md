@@ -2,7 +2,7 @@
 title: [EOL] Pin Log In
 description: 
 published: true
-date: 2024-10-11T06:42:21.439Z
+date: 2024-10-29T07:06:49.343Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:36:12.035Z
@@ -11,8 +11,7 @@ dateCreated: 2021-04-07T11:36:12.035Z
 # End of Life
 
 > Dieses Modul wird nur bis 8.X benötigt ab 9.X ist diese Funktion in der STARFACE integriert.
-{.is-danger}
-
+{.is-success}
 
 # Beschreibung
 Es erlaubt den Login mithilfe von Pins in einer Tabelle zu Kontrollieren
