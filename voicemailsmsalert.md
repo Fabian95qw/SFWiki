@@ -2,7 +2,7 @@
 title: Voicemail SMS Alarmierung
 description: 
 published: true
-date: 2024-02-05T14:06:11.439Z
+date: 2024-11-18T09:47:56.682Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-22T07:28:36.859Z
@@ -75,7 +75,9 @@ Für die Konfigurationsmöglichkeiten siehe: https://docs.oracle.com/javase/7/do
 # SMS-Dienst Zugangsdaten
 
 ## Websms
-Bei Websms.com muss für das Versenden von SMS der Benutzername & das Passwort des Kontos hinterlegt werden.
+Bei Websms.com muss für das Versenden von SMS ein Access Token hinterlegt werden.
+Dieses kann im Portal unter API ==> API Zugangsdaten ==> API-Tokens erstellt werden. (Benötigt aktive 2FA auf dem Account)
+
 ![websms.com.png](/uploads/voicemailsmsalert/websms.com.png)
 
 ## Testmodus
