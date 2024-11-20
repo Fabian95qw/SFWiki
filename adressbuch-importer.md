@@ -2,7 +2,7 @@
 title: Adressbuch Importer
 description: 
 published: true
-date: 2024-07-05T06:29:35.188Z
+date: 2024-11-20T07:24:45.484Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T12:02:50.899Z
@@ -92,13 +92,14 @@ Das fängt sämtliche Fehler in Bezug auf den Exchange Connector ab.
 
 Für die Konfiguration der individuellen Quellen siehe:
 
-Exchange Connector: http://wiki.si-solutions.ch/adressbuch-importer/exchange-connector
-Office365 Connector: http://wiki.si-solutions.ch/adressbuch-importer/office-365-connector
-Datei Import FTP/SMB/HTTP(S)-Get: http://wiki.si-solutions.ch/adressbuch-importer/datei-import
-Google Contacts: http://wiki.si-solutions.ch/adressbuch-importer/google-contacts
-CardDAV: http://wiki.si-solutions.ch/adressbuch-importer/card-dav
-Multi-VCard:  http://wiki.si-solutions.ch/adressbuch-importer/vcard
-Pipedrive-CRM: http://wiki.si-solutions.ch/adressbuch-importer/pipedrive
+Exchange Connector: https://wiki.si-solutions.ch/adressbuch-importer/exchange-connector
+Office365 Connector: https://wiki.si-solutions.ch/adressbuch-importer/office-365-connector
+Datei Import FTP/SMB/HTTP(S)-Get: https://wiki.si-solutions.ch/adressbuch-importer/datei-import
+Google Contacts: https://wiki.si-solutions.ch/adressbuch-importer/google-contacts
+CardDAV: https://wiki.si-solutions.ch/adressbuch-importer/card-dav
+Multi-VCard:  https://wiki.si-solutions.ch/adressbuch-importer/vcard
+Pipedrive-CRM: https://wiki.si-solutions.ch/adressbuch-importer/pipedrive
+FinCRM: https://wiki.si-solutions.ch/de/adressbuch-importer/fincrm
 
 ## Duplikatserkennung
 
