@@ -1,8 +1,8 @@
 ---
-title: Sensor aktive Rufkanäle
+title: Sensor: Aktive Rufkanäle
 description: 
 published: true
-date: 2024-07-11T07:41:19.275Z
+date: 2024-12-05T09:57:04.931Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-11T07:41:19.275Z
