@@ -1,8 +1,8 @@
 ---
-title: Sensor ungenutzte Lizenzen
+title: Sensor: Ungenutzte Lizenzen
 description: 
 published: true
-date: 2021-08-16T11:00:55.374Z
+date: 2024-12-05T09:59:09.595Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:47.475Z
