@@ -1,8 +1,8 @@
 ---
-title: Sensor ausgehende Pings
+title: Sensor: Ausgehende Pings
 description: 
 published: true
-date: 2024-07-11T07:39:54.101Z
+date: 2024-12-05T09:57:50.186Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-10T08:42:53.924Z
