@@ -1,8 +1,8 @@
 ---
-title: Sensor freier Speicherplatz
+title: Sensor: Freier Speicherplatz
 description: 
 published: true
-date: 2021-08-16T11:00:42.804Z
+date: 2024-12-05T09:58:28.015Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:13.652Z
