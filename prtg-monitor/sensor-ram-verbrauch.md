@@ -1,8 +1,8 @@
 ---
-title: Sensor RAM Verbrauch
+title: Sensor: RAM Verbrauch
 description: 
 published: true
-date: 2021-08-16T11:00:49.888Z
+date: 2024-12-05T09:58:46.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:30.399Z
