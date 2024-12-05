@@ -1,8 +1,8 @@
 ---
-title: Sensor Anzahl Gruppenmitglieder
+title: Sensor: Anzahl Gruppenmitglieder
 description: 
 published: true
-date: 2021-08-16T11:00:34.760Z
+date: 2024-12-05T09:57:39.027Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:40:55.115Z
