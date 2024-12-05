@@ -1,8 +1,8 @@
 ---
-title: Sensor Anlagenverbund On/Offline
+title: Sensor: Anlagenverbund On/Offline
 description: 
 published: true
-date: 2021-08-16T11:00:07.751Z
+date: 2024-12-05T09:57:27.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:40:39.186Z
