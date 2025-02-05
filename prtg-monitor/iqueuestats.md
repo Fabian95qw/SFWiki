@@ -1,19 +1,19 @@
 ---
-title: Sensor: RAM Verbrauch
+title: Sensor: IQueue Statistik
 description: 
 published: true
-date: 2024-12-05T09:58:46.636Z
+date: 2024-12-05T09:55:45.350Z
 tags: 
 editor: markdown
-dateCreated: 2021-04-07T11:41:30.399Z
+dateCreated: 2024-12-05T09:55:45.350Z
 ---
 
 # Beschreibung
-Ein Sensor, der den aktuellen Arbeitsspeicherverbrauch darstellt.
+Listet die Informationen der IQueue aus dem Widget als PRTG-Sensor
 # Konfiguration
-![Ram](/uploads/prtg/ram.png "Ram")
 
-![Ramsensor](/uploads/prtg/ramsensor.png "Ramsensor")
+![iqueuestats](/uploads/prtg/iqueuestats.png "iqueuestats")
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung

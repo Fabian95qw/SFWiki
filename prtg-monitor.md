@@ -2,7 +2,7 @@
 title: PRTG-Monitor
 description: 
 published: true
-date: 2024-07-11T07:41:52.302Z
+date: 2024-12-05T09:56:24.131Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -41,6 +41,7 @@ PRTG Sensor: Telefone On-/Offline: https://wiki.si-solutions.ch/prtg-monitor/sen
 PRTG Sensor: Anzahl ungenutzer Lizenzen: https://wiki.si-solutions.ch/prtg-monitor/sensor-ungenutzte-lizenzen
 PRTG Sensor: Ausgehende Pings: https://wiki.si-solutions.ch/de/prtg-monitor/sensor-ping
 PRTG Sensor: Aktive Rufkanäle: https://wiki.si-solutions.ch/de/prtg-monitor/channelcount
+PRTG Sensor: IQueue Statistik: https://wiki.si-solutions.ch/de/prtg-monitor/iqueuestats
 
 ## Erstellung eigener Add-Ons
 Hierfür wurde ein eigener Artikel erfasst: http://wiki.si-solutions.ch/prtg-monitor/eigene-sensoren-erstellen

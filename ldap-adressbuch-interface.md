@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2023-10-13T11:34:39.902Z
+date: 2024-12-16T09:42:04.837Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -182,7 +182,7 @@ Die Zeilen:
 `		<param name="hs.#IPUI#.IntKeyDir" value="10"/>`
 `		<param name="hs.#IPUI#.DirectAccessDir" value="10"/>`
 
-hinzufügen.
+
 
 ### N870 LDAP Adressbuch Einrichtung Beispiel
 

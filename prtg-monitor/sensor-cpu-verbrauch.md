@@ -1,8 +1,8 @@
 ---
-title: Sensor CPU Verbrauch
+title: Sensor: CPU Verbrauch
 description: 
 published: true
-date: 2021-08-16T11:00:38.664Z
+date: 2024-12-05T09:58:09.920Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:05.127Z
