@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2022-09-30T07:37:31.794Z
+date: 2025-02-18T10:04:54.451Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -69,6 +69,11 @@ Es werden nur auf Teilnehmer dieser Gruppe reagiert.
 
 ### Zu setzende CallerID
 Die CallerID, die für alle gesetzt wird, die dem Filter entsprechen
+Entweder kann hier ein Freitextfeld verwendet werden oder die erste dem Benutzer zugewiesen externe Direktwahl.
+
+> Falls der Benutzer keine Direktwahl besitzt gibts automatisch ein Fallback aufs Freitextfeld.
+{.is-danger}
+
 
 ### Quellnummern Filtern mit Black-/Whitelist
 Dieses gibt einem die Möglichkeit, mehrere Nummernfilter mit den Filtermöglichkeiten zu definieren.
