@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2022-09-30T07:37:31.794Z
+date: 2025-02-18T10:06:15.361Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -69,6 +69,11 @@ Es werden nur auf Teilnehmer dieser Gruppe reagiert.
 
 ### Zu setzende CallerID
 Die CallerID, die für alle gesetzt wird, die dem Filter entsprechen
+Entweder kann hier ein Freitextfeld verwendet werden oder die erste dem Benutzer zugewiesen externe Direktwahl.
+
+> Falls der Benutzer keine Direktwahl besitzt gibts automatisch ein Fallback aufs Freitextfeld.
+{.is-danger}
+
 
 ### Quellnummern Filtern mit Black-/Whitelist
 Dieses gibt einem die Möglichkeit, mehrere Nummernfilter mit den Filtermöglichkeiten zu definieren.
@@ -107,6 +112,7 @@ Mögliche Formate:
 .2. ==> Alle dreistelligen Nummern, die mit einem Beliebigen Zeichen beginnen, eine zwei in der Mitte haben, und mit einem Beliebigen zeichen Aufhören.
 ... ==> Alle dreistelligen Nummern
 .23\* ==> Alle Zahlen, die mit einer Zahl beginnen, darauf mit 23 Folgen, und danach mit Beliebig vielen Zeichen aufhören 
+AB/\[Adressbuchname] ==> Nur für Angerufene, prüft ob die Rufnummer in diesem Adressbuch vorhanden ist. Hier kann "users", "all", "private" oder die Verzeichnisnummern 0-9 verwendet werden.
 
 ### Zielnummern Filterdatei
 Ermöglicht es, eine Liste von Rufnummern im internationalen Format hochzuladen, welche dann ebenfalls für das Black/Whitelist Filtern benützt werden kann.
