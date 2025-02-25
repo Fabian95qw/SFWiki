@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2025-02-25T12:54:50.959Z
+date: 2025-02-25T13:10:01.703Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -64,6 +64,8 @@ Standard: **\[#DATE#\] Neue Voicemail von #CALLERNUMBER# #CALLERNAME#**
 Hängt die .wav Datei des Voicemails direkt am E-Mail an.
 
 # Sprache zu Text
+![3.png](/uploads/voicemail2mail/3.png)
+
 Das Modul kann die Audiodateien der Voicemail direkt in Text umwandeln, welche wiederum im Titel oder E-Mail Text hinzugefügt werden kann.
 
 ## OpenAI
