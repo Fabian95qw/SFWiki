@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2022-12-07T08:52:38.104Z
+date: 2025-02-25T12:54:50.959Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -47,6 +47,7 @@ Der E-Mail Betreff & Text kann mit div. Parametern befüllt werden:
 #ID# ==> ID dieser Voicemail
 #MAILBOXID# ==> ID der Voicemailbox
 #MAILBOXNAME# ==> Name der Voicemailbox
+#TEXT# ==> Text von Sprache zu Text (Falls aktiviert)
 
 ## E-Mail Absender
 Der Absendername, welcher angezeigt werden soll
@@ -61,6 +62,19 @@ Standard: **\[#DATE#\] Neue Voicemail von #CALLERNUMBER# #CALLERNAME#**
 
 ## Voicemail Anhängen
 Hängt die .wav Datei des Voicemails direkt am E-Mail an.
+
+# Sprache zu Text
+Das Modul kann die Audiodateien der Voicemail direkt in Text umwandeln, welche wiederum im Titel oder E-Mail Text hinzugefügt werden kann.
+
+## OpenAI
+Bei OpenAI muss ein API-Key mit Guthaben mitgegeben werden.
+
+## Whisper (STARFACE Cloud)
+> Das von STARFACE zur Verfügung gestellte Whisper Modell funktioniert nur in den STARFACE-Clouds ansonsten muss ein eigener Whisper Server zur Verfügung gestellt werden.
+{.is-warning}
+
+## Whisper (Eigener Server)
+Hier kann ein eigener Whisper Server angegeben werden, die Parameter werden gemäss der in der GUI gesetzten Variablen mitgegeben.
 
 # Voicemaillog
 Alle ausgeführten Voicemails werden im Modul Voicemaillog Dokumentiert.
