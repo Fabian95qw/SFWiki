@@ -2,7 +2,7 @@
 title: Arbeitsplatzwechsel
 description: 
 published: true
-date: 2023-12-13T10:46:51.861Z
+date: 2025-03-03T10:59:24.396Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-13T10:09:20.694Z
@@ -14,7 +14,7 @@ Das Modul soll es ermöglichen, per Tastendruck am Telefon zwischen "Standorten"
 Z.b. bei einer Taste "Homeoffice, soll das Bürotelefon nicht mehr klingeln, sondern nur noch das Softphone, und das Primärtelefon soll entsprechend umgestellt werden"
 Wenn nun die Taste wieder deaktiviert wird, soll das Büro wieder klingeln, und das Primärtelefon zurückgestellt werden.
 
-Es soll zusätzlich die Möglichkeit gegeben werden, diese Einstellungen Zeitgesteuert wieder anzuwenden, z.b. dass um Mitternacht die Einstellungen wieder aufs Büro zurückgestellt werden.
+Es gibt zusätzlich die Möglichkeit, diese Einstellungen Zeitgesteuert wieder anzuwenden, z.b. dass um Mitternacht die Einstellungen wieder aufs Büro zurückgestellt werden.
 
 ![1.gif](/uploads/switchphones/1.gif)
 
