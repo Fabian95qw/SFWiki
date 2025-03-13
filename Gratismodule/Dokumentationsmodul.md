@@ -2,7 +2,7 @@
 title:  Dokumentationsmodul 4 STARFACE
 description: 
 published: true
-date: 2024-10-15T06:29:43.202Z
+date: 2025-03-13T10:46:27.321Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z
@@ -15,7 +15,7 @@ Dort gibt es einen Bug, bei dem PDF's kaputtgehen wenn Seiten im Hoch und Querfo
 Das Modul erhält ein Update für die nächste STARFACE Version, sobald die PDF Toolbox von Seitens STARFACE geupdatet wurde.
 {.is-danger}
 
-> Mit der 8.1.3.0 ist das Modul wieder funktionsfähig.
+> Mit der 8.1.3.0 und neuer ist das Modul wieder funktionsfähig.
 {.is-success}
 
 
