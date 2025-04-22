@@ -2,7 +2,7 @@
 title: Ansage vor Melden mit dynamischem Text
 description: 
 published: true
-date: 2024-10-18T05:38:45.498Z
+date: 2025-04-22T11:51:45.948Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-04T07:39:58.495Z
@@ -26,6 +26,8 @@ Hier kann der Sprecher gewählt werden, es gibt zwei STARFACE Stimmen (nur STARF
 ## OpenAI Key
 Der Schlüssel für die API der OpenAi.
 Dieser kann unter: https://platform.openai.com/settings/profile?tab=api-keys erzeugt werden.
+
+Das Projekt muss auf V1 gesetzt werden, und es muss ggf. Guthaben bei der OpenAI vorhanden sein.
 
 ## STARFACE Benutzer für Adressbuchsuche
 Das Adressbuch wird im Namen dieses Benutzers durchsucht.
