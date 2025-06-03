@@ -2,7 +2,7 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2023-04-14T07:16:46.444Z
+date: 2025-06-03T09:07:48.866Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
@@ -20,7 +20,7 @@ Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge ges
 ## Lookup Timeout \[s\]
 Definiert wie viel Zeit das Modul maximal aufwenden darf, um die Rufnummer gegen externe Telefonbücher aufzulösen. Sollte der Timeout erreicht werden, so wird der Anruf unaufgelöst weitergegeben.
 
-##Adressbuch Prioritäten
+## Adressbuch Prioritäten
 Definiert, welches Adressbuch die höhere Priorität hat. 
 Die Standardeinstellung ist: 
 1. STARFACE
