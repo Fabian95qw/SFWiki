@@ -1,8 +1,8 @@
 ---
-title: Gruppenabmeldung blockieren
+title: Gruppen an/-ab-meldung blockieren
 description: 
 published: true
-date: 2022-09-08T09:42:42.843Z
+date: 2025-08-08T07:25:29.003Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:57.054Z
