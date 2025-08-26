@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2025-08-26T09:55:01.219Z
+date: 2025-08-26T10:04:05.903Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -133,8 +133,12 @@ Die Zielnummer wird basierend auf der Nummer gesetzt,auf die die aktuell angeruf
     - Hole die Rufnummer, auf die dieser Kunde zuletzt angerufen hat
     - Vergleiche diese Rufnummer mit den Nummernbereich 1 / 2 "Druch Kunden angerufene Nummern"
     - Wenn der Nummernblock 1 oder 2 passt.
-        - Nimm die Kopfnummer vom Block
-        - Ausser 
+        - Nimm die Kopfnummer vom Block und merkt sich diese
+        - Prüft  noch ob der Anrufende User im Speziellen Rufnummernfilter ist
+            - Wenn ja, setzt er die spezielle Rufnummer
+            - Wenn nein, setzt er die Kopfnummer
+            
+
 
 ![3.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/3.PNG)
 
