@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2025-08-26T10:04:05.903Z
+date: 2025-08-26T11:12:03.166Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -138,9 +138,16 @@ Die Zielnummer wird basierend auf der Nummer gesetzt,auf die die aktuell angeruf
             - Wenn ja, setzt er die spezielle Rufnummer
             - Wenn nein, setzt er die Kopfnummer
             
-
-
 ![3.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/3.PNG)
+
+### Durch Kunden angerufene Nummern
+Auf diese Nummern muss der Kunde eingehend zuvor angerufen haben, damit reagiert wird.
+
+### Anzuzeigende Rufnummer
+Die Kopfnummer, die angezeigt wird.
+
+### Spezielle Rufnummern pro User
+Diese User zeigen eine Spezielle Rufnummer unterscheidend von der Kopfnummer an.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
