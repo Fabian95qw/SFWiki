@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2025-02-18T10:06:15.361Z
+date: 2025-08-26T09:55:01.219Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -12,7 +12,10 @@ dateCreated: 2021-08-27T09:55:24.018Z
 Das Modul ermöglicht es die Rufnummernsignalisierung von Benutzer mit möglichen Quell, sowie Zielnummernfiltern zu setzen.
 
 # Wahl der Logik
-Das Modul kann zwei verschiedene Logiken: Nummernmapping mit Filtermöglichkeit, oder Nummernfilter mit einer CallerID.
+Das Modul kann drei verschiedene Logiken: 
+- Nummernmapping mit Filtermöglichkeit,
+- Nummernfilter mit einer CallerID
+- Letzte durch Kunden angerufene Rufnummer
 
 ## Nummernmapping mit Filtermöglichkeit
 
@@ -122,6 +125,18 @@ Die Rufnummer darf keine Leerzeichen o.ä. enthalten, also Z.b.:
 0041715951062
 0041715951061
 
+## Letzte durch Kunden angerufene Rufnummer
+Die Zielnummer wird basierend auf der Nummer gesetzt,auf die die aktuell angerufene Nummer zuletzt angerufen hat.
+
+- Bei einem ausgehendem Anruf
+    - Wenn die Angerufene Nummer zuvor schonmal eingehend Angerufen hat
+    - Hole die Rufnummer, auf die dieser Kunde zuletzt angerufen hat
+    - Vergleiche diese Rufnummer mit den Nummernbereich 1 / 2 "Druch Kunden angerufene Nummern"
+    - Wenn der Nummernblock 1 oder 2 passt.
+        - Nimm die Kopfnummer vom Block
+        - Ausser 
+
+![3.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/3.PNG)
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
