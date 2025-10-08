@@ -2,7 +2,7 @@
 title: Statusgesteuerte Umleitung
 description: 
 published: true
-date: 2022-10-17T12:14:35.615Z
+date: 2025-10-08T08:30:59.809Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:23.912Z
@@ -18,6 +18,10 @@ Man muss dem Modul Mitteilen, wie lange die internen Rufnummern sind, damit er d
 
 ### Zu Überwachende Gruppe
 Die Gruppe, dessen Mitglieder überwacht werden soll
+
+> Der User muss aktiv in der Gruppe angemeldet sein!
+{.is-warning}
+
 
 ### Gruppenumleitungen des Benutzers miteinbeziehen 	
 Im Falle, dass die Umleitung für einen Benutzer gewählt wird, werden dessen Gruppenumleitungen miteinbezogen.
