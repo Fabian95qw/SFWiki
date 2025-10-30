@@ -2,14 +2,14 @@
 title: Swiss-Lookup
 description: 
 published: true
-date: 2025-06-03T09:07:48.866Z
+date: 2025-10-30T07:08:51.790Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-02T14:18:05.809Z
 ---
 
 # Beschreibung
-Dieses Modul macht einen Lookup gegen Schweizer Telefonbücher. Aktuell wird nur das Tel.Search<span></span>.ch (Swissdirectories) unterstützt, es ist noch die Unterstützung für weitere Telefonbücher geplant.
+Dieses Modul macht einen Lookup gegen Schweizer Telefonbücher. 
 
 Das Modul hat eine interne Datenbank, in denen bereits aufgerufene Einträge gespeichert werden können, damit sie nicht wiederholt bei den Telefonbuchanbietern abgefragt werden, da es dort Limitierungen zu den Anzahl anfragen pro Stunde/Tag/Monat gibt.
 
