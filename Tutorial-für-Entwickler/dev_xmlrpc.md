@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2024-08-15T06:35:10.366Z
+date: 2026-02-03T08:40:59.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -16,8 +16,67 @@ Es besteht die möglichkeit bei Modulen RPC-Einstiegspunkte zu definieren, welch
 > Wir Empfehlen deshalb die Einstiegspunkte mit einem Zusätzlichem Passwort im Modul, zu schützen, so dass selbst mit gültigen STARFACE Zugangsdaten die Endpunkte nicht missbraucht werden können.
 {.is-danger}
 
-## Token berechnen
-Zur Authentifizierung des Benutzers wird nicht ein Benutzernamen und Passwort benötigt, sondern man muss bereit sein Token draus berechnen.
+## JWT Token via OAuth Anfordern
+Mit der STARFACE 10 wurde OAuth eingeführt, hierfür ist ein anderer Flow für Tokenrequests nötig.
+
+Zur Anforderung des JWT Tokens muss ein Login via dem URL: `http|https://[IP/DNS-der-STARFACE]/auth/realms/pbx/oauth2/token` ausgeführt werden.
+
+> Der Request-Header 'Content-Type nuss auf application/x-www-form-urlencoded' stehen
+{.is-warning}
+
+
+- client_id=rest-client-headless
+- grant_type=password
+- scope=login
+- username=\[Loginid zb. 0001]
+- password=\[Passwort des Users]
+- client_secret=\[Das Passwort von der Adminonberfläche => Server => Status => REST-API]
+
+  ![dev_rest_client_headless.png](/uploads/dev_tutorial/dev_rest_client_headless.png)
+
+Zusätzlich muss der User das Recht «API Zugriff mit OAuth Password Grant» haben.
+
+  ![dev_permission_oauth.png](/uploads/dev_tutorial/dev_permission_oauth.png)
+
+
+Ein Finaler URL sieht z.b. so aus: 
+`https://192.168.200.240/auth/realms/pbx/oauth2/token?client_id=rest-client-headless&grant_type=password&scope=login&username=0001&password=Password1234&client_secret=rest-client-headless-XXXXXXXX.....`
+
+<details>
+  <summary>Beispielantwort</summary>
+{ <br/>
+    "access_token": "eyJraWQiOiJrZXktMSIsI....",<br/>
+    "expires_in": 300,<br/>
+    "refresh_token": "eyJraWQiOiJrZXktMSIsInR5c...",<br/>
+    "refresh_expires_in": 21600,<br/>
+    "token_type": "Bearer",<br/>
+    "scope": "login"<br/>
+}<br/>
+  
+</details>
+
+Das access_token kann dann im XML-RPC Request verwendet werden, ist aber nur 5 Minuten gültig. 
+Dieses muss regelmässig via dem refresh_token erneuert werden.
+
+### OAuth Token erneuern (Refresh)
+Um ein neues Token via dem Refresh Token anzufordern muss man erneut auf den URL `http|https://[IP/DNS-der-STARFACE]/auth/realms/pbx/oauth2/token` losgehen.
+
+Für den Refresh müssen folgende Parameter mitgesendet werden:
+
+- client_id=rest-client-headless
+- grant_type=refresh_token
+- client_secret=\[Das Passwort von der Adminonberfläche => Server => Status => REST-API]
+- refresh_token=\[Der refresh_token von der Originalen Anforderung.]
+
+
+
+
+## Legacy-Token berechnen
+> Dies ist der alte Weg zur Token berechnung, es ist unter STARFACE 10 noch unterstützt, ausser es sind externe IDP angebunden. Langfristig wird dieses Token komplett durch die JWT Token ersetzt.
+{.is-warning}
+
+
+Zur Authentifizierung des Benutzers wird nicht ein Benutzernamen und Passwort benötigt, sondern man muss ein Token draus berechnen.
 
 Zur Berechnung des Tokens wird die LoginID, und das Passwort des Benutzers benötigt.
 Das Token wird folgendermassen erzeugt:
@@ -124,11 +183,24 @@ Passwort: Pass123
   
 ![dev_module_xml_rpc_function_name.png](/uploads/dev_tutorial/dev_module_xml_rpc_function_name.png)
   
- ### Aufbau des URLs
+   ### Aufbau des URLs mit JWT Token
   
-  Der Zugriffsurl für die XML-RPC ist: http|https://\[IP/DNS-der-STARFACE]/xml-rpc?de.vertico.starface.auth=\[Token]
+  Der Zugriffsurl für die XML-RPC ist: 
+`  http|https://[IP/DNS-der-STARFACE]/xml-rpc?de.vertico.starface.jwt=\[JWT-Token]`
   
-  Beispiel: http://**192.168.200.240**/xml-rpc?de.vertico.starface.auth=**123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced**
+  Beispiel:
+`  http://192.168.200.240/xml-rpc?de.vertico.starface.jwt=eyJraWQiOiJrZXktMSIsInR5cCI6IkpXVC...`
+  
+ ### Aufbau des URLs mit Legacy-Token
+  
+  Der Zugriffsurl für die XML-RPC ist:
+`  http|https://[IP/DNS-der-STARFACE]/xml-rpc?de.vertico.starface.auth=\[Token]`
+  
+  Beispiel: 
+`  http://192.168.200.240/xml-rpc?de.vertico.starface.auth=123:81d8af78c98b153485f7d48e3437eb735ba37f0f013c5e06ba74536776c5945694e7cde71e2effbed7b5a1d1a4566fadcd847ef4098c234052fdfd288e8b6ced`
+  
+  
+  
   
  ### Aufbau eines XML-RPC Requests
   <details>
