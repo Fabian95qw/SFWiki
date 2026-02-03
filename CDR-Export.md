@@ -2,7 +2,7 @@
 title: CDR Export
 description: 
 published: true
-date: 2024-04-24T09:24:27.105Z
+date: 2025-11-27T09:21:24.416Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-20T13:18:54.502Z
@@ -29,23 +29,33 @@ Dies ist für Testzwecke gedacht.
 ## Modus
 Das Modul hat verschiedene Möglichkeiten für den CDR-Export:
 
-- IQueue Gruppe
+- IQueue Gruppe (Report)
+- IQueue Gruppe  (Report Rohdaten)
 - Gruppe (Leitungsnutzungsdaten)
 - Mitglieder der Gruppe  (Leitungsnutzungsdaten)
+- Alle Gruppen (Leitungsnutzungsdaten)
 - Gruppe (Verbindungsdaten)
 - Mitglieder der Gruppe (Verbindungsdaten)
+- Alle Gruppen (Verbindungsdaten)
+- Gruppe (Rohdaten)
+- Mitglieder der Gruppe (Rohdaten)
+- Alle Gruppen (Rohdaten)
 
-## CDR-Export für IQueue Gruppe (Report)
+## IQueue Gruppe (Report)
 Generiert einen Export gemäss der CDR.csv Datei vom IQueue Report ([Aufbau+der+Reportdateien+der+iQueue](https://knowledge.starface.de/display/SWD/Aufbau+der+Reportdateien+der+iQueue))
 
-## CDR-Export für IQueue Gruppe (Report Rohdaten)
+## IQueue Gruppe (Report Rohdaten)
 Exportiert die rohen CDR-Daten vom IQueue Reporting.
 
-## CDR-Export für Gruppe 
-Generiert einen CDR-Report für die Anrufe dieser Gruppe entweder im Format der Leitungsnutzungsdaten, oder Verbindungsdaten
+## Rohdaten
+Exportiert alle Tabellenspalten, die in der Datenbank zur Verfügung steht
 
-## CDR-Export für Mitglieder der Gruppe
-Generiert einen CDR-Report pro Benutzer in der Gruppe mit seinen individuellen CDR's entweder im Format der Leitungsnutzungsdaten oder Verbindungsdaten
+# Leitungsnutzungsdaten
+Export die Daten gemäss dem Format unter Auswertungen ==> Leitungsnutzungsdaten.
+
+## Verbindungsdaten
+Export die Daten gemäss dem Format unter Auswertungen ==> Leitungsnutzungsdaten.
+
 
 ## Variablen
 Das Modul unterstützt einige Variablen, welche an verschiedenen Orten im Modul gesetzt werden können.
@@ -64,12 +74,23 @@ Der Dateiname der Exportierten CSV Datei. Unterstützt Variablen.
 In welchem Format die Datumsvariable sein soll, gemäss [SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
 
 # Transfer
-Hier wird definiert, ob die Datei per SMB oder FTP übertragen werden soll.
 
 ![2.PNG](/uploads/cdr-export/2.PNG)
 
-## Variablenunterstüzung
-Hier können die Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
+## Transfermöglichkeiten
+
+Folgende Transfermöglichkeiten stehen zur Verfügung:
+
+- E-Mail (CSV Anhang)
+- FTP
+- SFTP
+- SMB
+- SQL
+
+## Variablenunterstüzung SMB/FTP
+Es können Variablen beim SMB-Unterverzeichnis sowie FTP-Unterverzeichnis verwendet werden.
+
+Z.b.: /Example/#LOGINID#/Path
 
 ## SFTP Known Hosts
 Die Known_Hosts Datei, wie sie von allen gängigen SSH Programmen Formatiert ist.
@@ -88,6 +109,16 @@ Diese Fragt die Fingerprint des Servers ab, und speichert sie im File.
 
 > Diese Werte dürfen nicht angepasst werden, ausser es wurde so durch die SI-Solutions GmbH beauftragt
 {.is-danger}
+
+| Wert | Beschreibung |
+|---|---|
+| DELTA_KEY_CDR_RAW  | Die ID des letzten exportierten EIntrags der Rohdaten.  |
+|  DELTA_KEY_CDR_STATISTICS 	 | Die ID des letzten exportierten Eintrags der Verbindungsdaten  |
+| DELTA_KEY_CDR_LINEUSAGE  | Die ID des letzten exportierten Eintrags der Leitungsnutzungsdaten|
+|  DELTA_KEY_IQUEUE | Die ID des neusten exportierten IQueue Eintrags |
+| DELTA_DATE_IQUEUE  | Das Datum des neusten exportierten IQueue Eintrags |
+| USER_ACCOUNTIDRESOLVER  | Fügt neue Spalten für calleraccountid, calledaccountid, sowie login hinzu in denen diese in den Vor/Nachnamen aufgelöst werden.|
+| CSV_APPEND  | Die .CSV wird nicht überschrieben, sondern neue Zeilen werden angehängt. |
 
 ![3.PNG](/uploads/cdr-export/3.PNG)
 
