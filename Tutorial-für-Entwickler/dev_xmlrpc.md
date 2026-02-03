@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2026-02-03T08:40:59.902Z
+date: 2026-02-03T08:44:31.281Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -68,7 +68,22 @@ Für den Refresh müssen folgende Parameter mitgesendet werden:
 - client_secret=\[Das Passwort von der Adminonberfläche => Server => Status => REST-API]
 - refresh_token=\[Der refresh_token von der Originalen Anforderung.]
 
+Der URL sieht dann so aus:
+`
+https://192.168.200.240/auth/realms/pbx/oauth2/token?client_id=rest-client-headless&grant_type=refresh_token&client_secret=rest-client-headless-XXXXXXXX.....&refresh_token=eyJraWQiOiJrZXktMSIsInR5cCI6IkpXVCIsImFsZyI6I...`
 
+<details>
+  <summary>Beispielantwort</summary>
+{ <br/>
+    "access_token": "eyJraWQiOiJrZXktMSIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0....",<br/>
+    "expires_in": 300,<br/>
+    "refresh_token": "eyJraWQiOiJrZXktMSIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0....",<br/>
+    "refresh_expires_in": 21600,<br/>
+    "token_type": "Bearer",<br/>
+    "scope": "login"<br/>
+}<br/>
+  
+</details>
 
 
 ## Legacy-Token berechnen
