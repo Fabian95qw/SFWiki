@@ -2,7 +2,7 @@
 title: VIP zu Funktionstaste kopieren
 description: 
 published: true
-date: 2026-02-12T15:40:46.921Z
+date: 2026-02-12T15:42:43.610Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -36,6 +36,10 @@ Ob die Tischtelefone der User neu provisioniert werden sollen.
 Ein Basisoffset vom Start der Funktionstasten für alle Tasten
 
 ![3.png](/uploads/vop2functionkey/3.png)
+
+# Self-Service für User
+Wenn dem Modul eine Rufnummer zugewiesen wird, können User dort anrufen.
+Das Modul beantwortet den Anruf mit einem "O.K" und Kopiert danach die VIP Tasten zu den Funktionstasten gemäss der Modulkonfiguration.
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
