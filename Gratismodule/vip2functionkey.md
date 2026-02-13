@@ -2,14 +2,14 @@
 title: App-Favoriten zu Telefon-Funktionstasten kopieren
 description: 
 published: true
-date: 2026-02-13T14:12:19.486Z
+date: 2026-02-13T14:12:45.935Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
 ---
 
 # Beschreibung
-Das Modul erlaubt das Kopieren von VIP Tasten zu Telefon Funktionstasten für Alle User, einzelne Gruppen, oder für User-Self Service via Anruf.
+Das Modul erlaubt das Kopieren von Favoriten Tasten zu Telefon Funktionstasten für Alle User, einzelne Gruppen, oder für User-Self Service via Anruf.
 
 # Konfiguration
 
