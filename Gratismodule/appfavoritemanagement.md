@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-17T12:32:46.559Z
+date: 2026-02-17T12:33:19.502Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -63,8 +63,6 @@ Eine oder mehrere Kategorienamen, welche für den Kopiervorgang genommen werden.
 
 ## Favoriten kopieren:
 Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle Favoriten's kopiert werden.
-
-![4.png](/uploads/appfavoritemanagement/4.png)
 
 ## Offset
 Definiert den Offset der neuen Kategorien gegenüber bestehenden.
