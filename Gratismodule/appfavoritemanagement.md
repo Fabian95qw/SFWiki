@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-17T12:21:42.452Z
+date: 2026-02-17T12:22:40.031Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -13,7 +13,7 @@ Das Modul erlaubt das Kopieren von Favoriten Tasten zu Telefon Funktionstasten f
 
 # Konfiguration
 
-![1.png](/uploads/vip2functionkey/1.png)
+![1.png](/uploads/appfavoritemanagement/1.png)
 
 ## Beim Speichern / Übernehmen anwenden
 Wendet die Einstellungen sofort an, statt Zeitgesteuert
@@ -24,7 +24,7 @@ Definiert ob die VIP's für alle Benutzer oder nur für eine Gruppe von Benutzer
 ## Favoriten kopieren:
 Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle VIP's kopiert werden.
 
-![2.png](/uploads/vip2functionkey/2.png)
+![2.png](/uploads/appfavoritemanagement/2.png)
 
 ## Kategoriename
 Der Name der Kategorie, falls nicht alle Kategorien kopiert werden sollen
@@ -35,7 +35,7 @@ Ob die Tischtelefone der User neu provisioniert werden sollen.
 ## Offset
 Ein Basisoffset vom Start der Funktionstasten für alle Tasten
 
-![3.png](/uploads/vip2functionkey/3.png)
+![3.png](/uploads/appfavoritemanagement/3.png)
 
 # Self-Service für User
 Wenn dem Modul eine Rufnummer zugewiesen wird, können User dort anrufen.
