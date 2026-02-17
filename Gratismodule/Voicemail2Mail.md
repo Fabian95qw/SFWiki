@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2026-02-17T06:54:32.082Z
+date: 2026-02-17T08:34:52.917Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -17,6 +17,8 @@ Die E-Mail kann mit eigenem Betreff und Text versehen werden und unterstützt da
 
 Dies ist gedacht um bei Gruppen-Voicemails eine spezifische E-Mail Adresse hinterlegen zu können.
 
+> Transkribieren ist erst ab STARFACE 10.X Verfügbar.
+{.is-warning}
 
 # Konfiguration
 

@@ -1,8 +1,8 @@
 ---
-title: App-Favoriten zu Telefon-Funktionstasten kopieren
+title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-13T14:13:32.247Z
+date: 2026-02-17T12:21:42.452Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
