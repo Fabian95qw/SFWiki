@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-17T12:22:40.031Z
+date: 2026-02-17T12:32:46.559Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -11,7 +11,9 @@ dateCreated: 2026-02-12T15:33:00.743Z
 # Beschreibung
 Das Modul erlaubt das Kopieren von Favoriten Tasten zu Telefon Funktionstasten für Alle User, einzelne Gruppen, oder für User-Self Service via Anruf.
 
-# Konfiguration
+Zusätzlich erlaubt das Modul ein oder mehrere Gruppen von Favoriten von einem Benutzer zu einer Abteilung zu übertragen.
+
+# Konfiguration App-Favoriten zu Telefon-FK
 
 ![1.png](/uploads/appfavoritemanagement/1.png)
 
@@ -19,10 +21,10 @@ Das Modul erlaubt das Kopieren von Favoriten Tasten zu Telefon Funktionstasten f
 Wendet die Einstellungen sofort an, statt Zeitgesteuert
 
 ## Favoriten zu Funktionstasten übertragen für:
-Definiert ob die VIP's für alle Benutzer oder nur für eine Gruppe von Benutzern auf die Funktionstasten übertragen werden soll.
+Definiert ob die Favoriten für alle Benutzer oder nur für eine Gruppe von Benutzern auf die Funktionstasten übertragen werden soll.
 
 ## Favoriten kopieren:
-Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle VIP's kopiert werden.
+Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle Favoriten's kopiert werden.
 
 ![2.png](/uploads/appfavoritemanagement/2.png)
 
@@ -37,9 +39,43 @@ Ein Basisoffset vom Start der Funktionstasten für alle Tasten
 
 ![3.png](/uploads/appfavoritemanagement/3.png)
 
-# Self-Service für User
+## Self-Service für User
 Wenn dem Modul eine Rufnummer zugewiesen wird, können User dort anrufen.
-Das Modul beantwortet den Anruf mit einem "O.K" und Kopiert danach die VIP Tasten zu den Funktionstasten gemäss der Modulkonfiguration.
+Das Modul beantwortet den Anruf mit einem "O.K" und Kopiert danach die App Tasten zu den Funktionstasten gemäss der Modulkonfiguration.
+
+# Konfiguration App-Favoriten Management
+
+![4.png](/uploads/appfavoritemanagement/4.png)
+
+## Beim Speichern / Übernehmen anwenden
+Wendet die Einstellungen sofort an, statt Zeitgesteuert
+
+## Quellbenutzer
+Der Benutzer, dessen Favoriten als Vorlage geltens sollen.
+
+## Quell-App-Favoriten übertragen zu:
+Definiert ob die Favoriten für alle Benutzer oder nur für eine Gruppe von Benutzern kopiert werden.
+
+## Kategorienamen
+Eine oder mehrere Kategorienamen, welche für den Kopiervorgang genommen werden.
+
+![2.png](/uploads/appfavoritemanagement/2.png)
+
+## Favoriten kopieren:
+Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle Favoriten's kopiert werden.
+
+![4.png](/uploads/appfavoritemanagement/4.png)
+
+## Offset
+Definiert den Offset der neuen Kategorien gegenüber bestehenden.
+Z.b. wenn der User eine eigene Kategorie Pflegt, und ein Offset von 1 besteht, so wird die neue Kategorie unter der alten angelegt.
+
+![2.png](/uploads/appfavoritemanagement/5.png)
+
+
+## Telefon-Funktionstasten gemäss Einstellungen im anderen Tab updaten
+Updatet auch die Telefon-Funktionstasten gemäss einstellungen im anderen Tab nachdem die Favoriten kopiert wurden.
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
