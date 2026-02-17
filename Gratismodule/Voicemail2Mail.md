@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2025-02-25T13:10:01.703Z
+date: 2026-02-17T06:54:32.082Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -12,6 +12,8 @@ dateCreated: 2022-12-07T08:49:03.552Z
 
 Dieses Modul überwacht eine spezifische Voicemailbox auf neue Voicemails.
 Wenn eine neue Voicemail ankommt, wird eine E-Mail versendet.
+
+Die E-Mail kann mit eigenem Betreff und Text versehen werden und unterstützt das Transkribieren das E-Mails Texts mithilfe von OpenAI, dem Whisper Server der STARFACE (Cloud) oder einem eigenen Whisper Server.
 
 Dies ist gedacht um bei Gruppen-Voicemails eine spezifische E-Mail Adresse hinterlegen zu können.
 
