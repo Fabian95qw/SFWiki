@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-17T12:33:19.502Z
+date: 2026-02-17T12:36:53.237Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -68,7 +68,7 @@ Definiert, ob nur eine gewisse Kategorie gemäss dessen Namen oder alle Favorite
 Definiert den Offset der neuen Kategorien gegenüber bestehenden.
 Z.b. wenn der User eine eigene Kategorie Pflegt, und ein Offset von 1 besteht, so wird die neue Kategorie unter der alten angelegt.
 
-![2.png](/uploads/appfavoritemanagement/5.png)
+![5.png](/uploads/appfavoritemanagement/5.png)
 
 
 ## Telefon-Funktionstasten gemäss Einstellungen im anderen Tab updaten
