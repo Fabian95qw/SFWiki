@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-17T12:36:53.237Z
+date: 2026-02-23T09:46:42.365Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -46,6 +46,10 @@ Das Modul beantwortet den Anruf mit einem "O.K" und Kopiert danach die App Taste
 # Konfiguration App-Favoriten Management
 
 ![4.png](/uploads/appfavoritemanagement/4.png)
+
+> Der Client muss aktuell neu gestartet werden, damit die neuen Favoriten/Kategorien auftauchen.
+{.is-warning}
+
 
 ## Beim Speichern / Übernehmen anwenden
 Wendet die Einstellungen sofort an, statt Zeitgesteuert
