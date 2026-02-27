@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-27T09:58:33.148Z
+date: 2026-02-27T10:00:07.459Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z
@@ -82,6 +82,10 @@ Updatet auch die Telefon-Funktionstasten gemäss einstellungen im anderen Tab na
 
 # Telefon-Funktionstasten zu App-Favoriten
 In diesem Modus werden die Telefon-Funktionstasten von einem Benutzer auf eine Gruppe, oder für jeden in der Gruppe die eigenen Tasten kopiert.
+
+> Es werden nur Benutzertasten / Gruppentasten und Direktwahlen kopiert, da nur dieser Unterstützt werden.
+{.is-danger}
+
 
 ![6.png](/uploads/appfavoritemanagement/6.png)
 
