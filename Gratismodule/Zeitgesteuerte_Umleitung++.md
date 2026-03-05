@@ -2,7 +2,7 @@
 title: Zeitgesteuerte Umleitung ++
 description: 
 published: true
-date: 2024-08-05T06:45:14.079Z
+date: 2026-03-05T09:11:50.468Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-05T13:59:29.102Z
@@ -91,6 +91,13 @@ Hierbei kann eine Liste von Adressbüchern, welche geprüft werden sollen mitgeg
 > Private Kontakte werden nicht durchsucht.
 {.is-danger}
 
+### Fehlerfall: Anonyme Anrufer werden als "im Adressbuch" erkannt
+
+Anonyme Anrufer werden je nach Provider unbeabsichtigt, als Kontakt erkannt, da sie mit einer "0" daherkommen
+Die STARFACE durchsuchst das Adressbuch nicht mit ich suche nach Nummer "0049XX", sondern Nummer enthält "0049XXX". 
+Bei Anonymen Anrufen bedeutet dies, Suche nach Nummer die "0" enthält. Jeder Kontakt beginnt im Normalfall internationalisiert mit der 00, somit wird ein Zufälliger Kontakt gewählt und erkannt.
+
+Um die zum umgehen, muss bei den **"Nummer des Anrufers"** filter die **"0"** als Ausnahme hinzugefügt. werden.
 
 ### Benutzer zum durchsuchen des Adressbuchs
 Von STARFACE ist zum durchsuchen des Adressbuchs ein Benutzer vorgegeben, es wird einfach im Namen dieses Benutzers gesucht.
