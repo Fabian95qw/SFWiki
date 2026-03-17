@@ -2,7 +2,7 @@
 title: Ausgehende Rufnummernsignalisierung
 description: 
 published: true
-date: 2025-08-26T11:12:03.166Z
+date: 2026-03-17T09:44:29.022Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T09:55:24.018Z
@@ -16,6 +16,7 @@ Das Modul kann drei verschiedene Logiken:
 - Nummernmapping mit Filtermöglichkeit,
 - Nummernfilter mit einer CallerID
 - Letzte durch Kunden angerufene Rufnummer
+- Nummernmappig mit Adressbuch
 
 ## Nummernmapping mit Filtermöglichkeit
 
@@ -148,6 +149,35 @@ Die Kopfnummer, die angezeigt wird.
 
 ### Spezielle Rufnummern pro User
 Diese User zeigen eine Spezielle Rufnummer unterscheidend von der Kopfnummer an.
+
+ ## Nummernmapping mit Adressbuch
+ Die Zielnummer wird basierend auf der Adressbuchzugehörigkeit der angerufenen Rufnummer gesetzt.
+ 
+### Zu reagierende Gruppe für Nummernmapping  
+Es werden nur auf Teilnehmer dieser Gruppe reagiert.
+
+> Falls keine Gruppe gewählt wird, werden auf alle augehenden Anrufe reagiert.
+{.is-danger}
+
+### User zum durchsuchen des Adressbuchs
+Das Adressbuch wird im Namen dieses Users durchsucht.
+
+> Private Kontakte sind von der Suche ausgeschlossen.
+{.is-warning}
+
+### Adressbuchmapping
+Definiert, welche Rufnummer angezeigt werden, soll, wenn sich der User im entsprechenden Adressbuch befindet.
+
+Hierbei muss die Adressbuchnummer angegeben werden, die im Tab Admin ==> Adressbuch angegeben wurde.
+
+> LDAP Adressbücher sind nicht unterstützt.
+{.is-warning}
+
+### Standardrufnummer setzen, wenn in keinem Adressbuch vorhanden 	
+Wenn aktiviert, wird die unter "Standardrufnummer" gesetzte Rufnummer gesetzt, wenn die Zielnummer in keinem Adressbuch gefunden wurde, oder wenn es in einem Adressbuch gefunden wird, für die keine Rufnummer definiert wurde.
+ 
+ ![4.PNG](/uploads/zielabhaengige-rufnummernsignalisierung/4.PNG)
+ 
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
