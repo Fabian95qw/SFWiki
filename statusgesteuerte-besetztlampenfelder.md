@@ -2,7 +2,7 @@
 title: Statusgesteuerte Besetztlampenfelder
 description: 
 published: true
-date: 2022-10-17T12:20:24.040Z
+date: 2026-03-24T13:27:33.018Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:37:04.000Z
@@ -24,6 +24,13 @@ Z.b. soll nur auf "Abwesend" mit dem Text "Ausser Haus" reagiert werden.
 
 # Beispiel
 ![Stateblf 2](/uploads/stateblf/stateblf-2.gif "Stateblf 2")
+
+# Dienste
+> Das Modul registriert spezielle Dienste, die es Erfoderlich machen, dass man das Modul vor dem Update entweder deaktiviert, oder im Tab Dienste den Dienst auf "Stoppen" stellt und dann Speichert.
+> Wird das nicht gemacht, wird sich das Modul inkorrekt verhalten, da die alte Version und die neue Version der Dienste im Konflikt stehen.
+{.is-warning}
+
+
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
 Für Infos über die Lizenzierung siehe: http://wiki.si-solutions.ch/de/lizenzierung
