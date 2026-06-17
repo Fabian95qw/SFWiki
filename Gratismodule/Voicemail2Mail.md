@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2026-02-17T08:34:52.917Z
+date: 2026-06-17T13:19:05.456Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z
@@ -31,6 +31,9 @@ Prüft beim Speichern die Voicemailbox auf neue Nachrichten, und löst ggf. den 
 Es muss eine Zielvoicemailbox für das Modul gewählt werden.
 > Es überwacht nur den "Neu" Tab, der "Privat" und "Alt" Tab werden nicht überwacht.
 {.is-warning}
+
+## Nur Voicemails länger als \[n\] Sekunden Berücksichtigen
+Verhindert dass potenziell leere Voicemails versendet werden, indem es prüft, wie lange die Audiodateien in den Voicemails effektiv sind.
 
 ## Auszuführender User
 Voicemailboxen können nur im Namen eines Benutzers abgerufen werden, das Modul versucht in Namen dieses Benutzers auf die Voicemailbox zuzugreifen.
