@@ -2,7 +2,7 @@
 title: XML-RPC Aufrufe an Module ausführen
 description: 
 published: true
-date: 2026-02-03T08:44:31.281Z
+date: 2026-06-18T07:50:52.668Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-03T10:43:29.587Z
@@ -86,7 +86,7 @@ https://192.168.200.240/auth/realms/pbx/oauth2/token?client_id=rest-client-headl
 </details>
 
 
-## Legacy-Token berechnen
+## Legacy-Token berechnen (STARFACE 9.X oder älter)
 > Dies ist der alte Weg zur Token berechnung, es ist unter STARFACE 10 noch unterstützt, ausser es sind externe IDP angebunden. Langfristig wird dieses Token komplett durch die JWT Token ersetzt.
 {.is-warning}
 
