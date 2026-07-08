@@ -2,7 +2,7 @@
 title: Arbeitsplatzwechsel
 description: 
 published: true
-date: 2026-07-08T08:04:27.916Z
+date: 2026-07-08T08:14:20.433Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-13T10:09:20.694Z
@@ -101,6 +101,8 @@ Die Subnetze müssen immer im Format IP/SUBNET angegeben werden, z.b. 192.168.1.
 Einzelne IP's müssen mit dem /32 Subnetz versehen werden.
 
 # Telefonumstellung
+![4.PNG](/uploads/switchphones/4.png)
+
 In diesem Modus müssen die User das Modul über bestimmte Rufnummern Anrufen, um den entsprechenden User am Telefon anzumelden. 
 Pro User muss hier dem Modul eine Direktwahl zugesprochen werden, welche dann als Taste auf das Telefon gelegt wird.
 
@@ -109,7 +111,7 @@ Der User der aktuell am Telefon ist wird abgemeldet und je nach Tabelle wird sei
 > Die Anmeldung erfolgt ganz ohne die PIN-Anfrage die z.b. bei einem normalen \*77\[Interne Nummer] erfolgt.
 {.is-warning}
 
-![4.PNG](/uploads/switchphones/4.png)
+
 
 ## User für abgemeldete Telefone
 Wenn ein User in der Tabelle "Rufnummer zu LoginID mit Logout Telefone" ist, und sich an einem zweiten Telefon anmeldet, wird sein altes Telefon abgemeldet und diesem User angemeldet.
