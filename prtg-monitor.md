@@ -2,7 +2,7 @@
 title: PRTG-Monitor
 description: 
 published: true
-date: 2026-08-06T10:02:02.360Z
+date: 2026-08-06T10:02:23.565Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:58:36.781Z
@@ -54,8 +54,8 @@ Um den Sensor auf dem PRTG-Monitor Verfügbar zu machen, muss man ihn zuerst Run
 
 
 Standardpfad: "C:\Programme(x86)\PRTG Network Monitor\Custom Sensors\EXEXML
-Vorkompilliertes Installationspaket 9.X oder älter: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClientV9).rar (muss noch entpackt werden)
-Vorkompilliertes Installationspaket 10.X oder neuer: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClient).rar (muss noch entpackt werden)
+Vorkompilliertes Installationspaket 9.X oder älter: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClientV9.rar (muss noch entpackt werden)
+Vorkompilliertes Installationspaket 10.X oder neuer: https://github.com/Fabian95qw/PRTG-2-Starface/raw/master/bin/client/PRTGClient.rar (muss noch entpackt werden)
 
 ![Install](/uploads/prtg/install.png "Install")
 
