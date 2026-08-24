@@ -2,7 +2,7 @@
 title: Letzte Anrufer (Ab STARFACE 10.X)
 description: 
 published: true
-date: 2026-08-24T10:03:56.357Z
+date: 2026-08-24T10:04:58.191Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-24T09:51:25.485Z
@@ -49,7 +49,7 @@ In meinem Beispiel nehme ich den URL: http(s):<zero-width space/>//\[STARFACE]/d
 
 Und das Passwort: Test1234
 
-Der URL muss um 3 erweitert werden einmal mit dem Füllwert von der STARFACE-App für Anruferinformationen (callerid) sowie dem Passwort und dem Namen der Instanz.
+Der URL muss um 3 Parameter erweitert werden einmal mit dem Füllwert von der STARFACE-App für Anruferinformationen (callerid) sowie dem Passwort und dem Namen der Instanz.
 
 Der URL muss am schluss so aussehen:
 
