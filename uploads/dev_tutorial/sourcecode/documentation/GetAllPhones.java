@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.apache.logging.log4j.Logger;
 
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.config.phone.forms.PhoneListBean;
 import de.vertico.starface.config.phone.forms.SnomUserListBean;
 import de.vertico.starface.module.core.model.VariableType;
@@ -20,7 +20,7 @@ import de.vertico.starface.persistence.connector.SipAndPhonesHandler;
 import de.vertico.starface.persistence.connector.SipAndPhonesHandler.DeviceFunctionType;
 import io.jsonwebtoken.lang.Objects;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class GetAllPhones implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -28,7 +28,7 @@ public class GetAllPhones implements IBaseExecutable
 	@OutputVar(label="Phones", description="",type=VariableType.LIST)
 	public List<Map<String, String>> Phones = new ArrayList<Map<String, String>>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -39,7 +39,7 @@ public class GetAllPhones implements IBaseExecutable
 
 		log.debug("Extracting Phonedata");
 		
-		SipAndPhonesHandler SIPH = context.provider().fetch(SipAndPhonesHandler.class);
+		SipAndPhonesHandler SIPH = context.springApplicationContext().getBean(SipAndPhonesHandler.class);
 		
 		for(PhoneListBean PLB : SIPH.getPhoneListWithAssignedUser("", ""))
 		{

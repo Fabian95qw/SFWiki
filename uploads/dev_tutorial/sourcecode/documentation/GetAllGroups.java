@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.logging.log4j.Logger;
 
 import de.starface.bo.UserBusinessObject;
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IBaseExecutable;
@@ -18,14 +18,14 @@ import de.vertico.starface.module.core.runtime.annotations.InputVar;
 import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.module.core.runtime.functions.entities.GetUsersOfGroup2;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL;
-import de.vertico.starface.persistence.connector.GroupHandler;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL.TelephoneNumberType;
+import de.vertico.starface.persistence.connector.GroupHandler;
 import de.vertico.starface.persistence.databean.core.ExtendedUserData;
 import de.vertico.starface.persistence.databean.core.Group;
 import de.vertico.starface.persistence.databean.core.PhoneNumberBean;
 import io.jsonwebtoken.lang.Objects;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class GetAllGroups implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -36,7 +36,7 @@ public class GetAllGroups implements IBaseExecutable
 	@OutputVar(label="Groups", description="",type=VariableType.LIST)
 	public List<Map<String, Object>> Groups = new ArrayList<Map<String, Object>>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -47,8 +47,8 @@ public class GetAllGroups implements IBaseExecutable
 
 		log.debug("Extracting Groupdata");
 		
-		GroupHandler GH = context.provider().fetch(GroupHandler.class);
-		CATConnectorPGSQL CAT = context.provider().fetch(CATConnectorPGSQL.class);
+		GroupHandler GH = context.springApplicationContext().getBean(GroupHandler.class);
+		CATConnectorPGSQL CAT = context.springApplicationContext().getBean(CATConnectorPGSQL.class);
 				
 		for(Group G : GH.getGroups()) //For each Group
 		{
@@ -145,7 +145,7 @@ public class GetAllGroups implements IBaseExecutable
 	
 	private List<Map<String, String>> ExtractUsers(List<Integer> AllUsers, List<Integer> ActiveUsers, IRuntimeEnvironment context) 
 	{
-		UserBusinessObject UBO = context.provider().fetch(UserBusinessObject.class);
+		UserBusinessObject UBO = context.springApplicationContext().getBean(UserBusinessObject.class);
 		List<Map<String, String>>Users = new ArrayList<Map<String, String>>();
 		for(Integer I : AllUsers)
 		{

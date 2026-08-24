@@ -2,10 +2,9 @@ package si.module.examples.documentation;
 
 import java.text.SimpleDateFormat;
 
-import de.starface.core.component.StarfaceComponentProvider;
+import de.starface.bo.license.UserLicenseType;
 import de.starface.license.manager.LicenseComponent;
 import de.starface.license.manager.LicenseComponent.Features;
-import de.vertico.starface.config.server.forms.LicenseInfoForm;
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IBaseExecutable;
@@ -14,8 +13,9 @@ import de.vertico.starface.module.core.runtime.annotations.Function;
 import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.persistence.connector.PersonAndAccountHandler;
 import de.vertico.starface.persistence.databean.core.Permission;
+import java.util.Date;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class LicenseInformation implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -41,7 +41,7 @@ public class LicenseInformation implements IBaseExecutable
 	@OutputVar(label="Serverlicensekey", description="",type=VariableType.STRING)
 	public String Serverlicensekey="";
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -49,32 +49,41 @@ public class LicenseInformation implements IBaseExecutable
 	public void execute(IRuntimeEnvironment context) throws Exception 
 	{
 		
-		LicenseComponent LC = (LicenseComponent)StarfaceComponentProvider.getInstance().fetch(LicenseComponent.class);
-		LicenseInfoForm LIF = new LicenseInfoForm(StarfaceComponentProvider.getInstance());
-		PersonAndAccountHandler PAH = (PersonAndAccountHandler)StarfaceComponentProvider.getInstance().fetch(PersonAndAccountHandler.class);
+		LicenseComponent LC = (LicenseComponent)context.springApplicationContext().getBean(LicenseComponent.class);
 		
-		LicensedUsers = LIF.getLicensedUsers()-LIF.getAvailableUsers()+"/"+LIF.getLicensedUsers();
-		LicensedUsersLight = LIF.getLicensedLightUsers()-LIF.getAvailableLightUsers()+"/"+LIF.getLicensedLightUsers();
-		LicensedUsersPremium = LIF.getLicensedUcc()-LIF.getAvailableUcc()+"/"+LIF.getLicensedUcc();
-			
-
+		
+		PersonAndAccountHandler PAH = (PersonAndAccountHandler)context.springApplicationContext().getBean(PersonAndAccountHandler.class);
+		
+		Integer AvailableUsers = PAH.getAvailableLicensesCount(UserLicenseType.USER);
+		Integer AvailableUsersLight = PAH.getAvailableLicensesCount(UserLicenseType.USERLIGHT);
+		Integer AvailableUCC = PAH.countSettedPermission(Permission.UCI_AUTOPROVISIONING);
+		
+		LicensedUsers = LC.getMaxUsers()-AvailableUsers+"/"+LC.getMaxUsers();
+		LicensedUsersLight = LC.getMaxLightUsers()-AvailableUsersLight+"/"+LC.getMaxLightUsers();
+		LicensedUsersPremium = LC.getLicensedUsersOfFeature(LicenseComponent.Features.UCI_AUTOPROVISIONING)-AvailableUCC+"/"+LC.getLicensedUsersOfFeature(LicenseComponent.Features.UCI_AUTOPROVISIONING);
+					
 		Integer TotalTerminalserverLicenses = LC.getLicensedUsersOfFeature(Features.WINCLIENT_TERMINAL_SERVER);//Bei der Lizenzkomponente Anfragen, wie viele Lizenzen vom Typ "WINCLIENT_TERMINAL_SERVER", also TS Lizenzen dass es gibt.
-		Integer UsedTerminalserverLicenses= PAH.getAccountsWithPermission(Permission.WINCLIENT_TERMINAL_SERVER.getPermissionid()).size();
+		Integer UsedTerminalserverLicenses= PAH.countSettedPermission(Permission.WINCLIENT_TERMINAL_SERVER);
 
 		LicensedUsersTS = UsedTerminalserverLicenses +"/"+TotalTerminalserverLicenses; //Ergebnis zusammenbauen
 		
 		SimpleDateFormat SDF = new SimpleDateFormat("dd.MM.yyyy");
-		if(LIF.getUpdateOptionExpireDate() != null && LIF.getUpdateOptionExpireDate().getTime() != 0L)
+		if(LC.getServerLicense() != null && LC.getServerLicense().getUpdateOption() != null && LC.getServerLicense().getUpdateOption().getExpireDate() != 0L)
+		//if(LC.getServerLicense().getUpdateOption().getExpireDate() != null && LIF.getUpdateOptionExpireDate().getTime() != 0L)
 		{
-			Updateexpiredate = SDF.format(LIF.getUpdateOptionExpireDate());
+			Date D = new Date(LC.getServerLicense().getUpdateOption().getExpireDate());
+			Updateexpiredate = SDF.format(D);
 		}
 		else
 		{
 			Updateexpiredate = "-";
 		}
 		
-		UserUpdateOption = LIF.getUpdateOptionUsers();
-		
+		if(LC.getServerLicense() != null && LC.getServerLicense().getUpdateOption() != null)
+		{
+				UserUpdateOption = LC.getServerLicense().getUpdateOption().getUsers();
+		}
+				
 		if(LC.getServerLicense() != null)
 		{
 			Serverlicensekey = LC.getServerLicense().getLicenseKey();

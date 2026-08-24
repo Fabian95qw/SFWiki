@@ -1,8 +1,10 @@
 package si.module.examples.moduleinstances;
 
 import java.util.List;
+
 import org.apache.logging.log4j.Logger;
-import de.starface.core.component.StarfaceComponentProvider;
+
+
 import de.vertico.starface.module.core.ModuleRegistry;
 import de.vertico.starface.module.core.model.Module;
 import de.vertico.starface.module.core.model.ModuleInstance;
@@ -14,7 +16,7 @@ import de.vertico.starface.module.core.runtime.IRuntimeEnvironment;
 import de.vertico.starface.module.core.runtime.annotations.Function;
 import de.vertico.starface.module.core.runtime.annotations.InputVar;
 
-@Function(visibility = Visibility.Private, rookieFunction = false, description = "")
+@Function(visibility = Visibility.Private,  description = "")
 public class EnableDisableModuleInstancebyName implements IBaseExecutable
 {
 //##########################################################################################
@@ -25,7 +27,7 @@ public class EnableDisableModuleInstancebyName implements IBaseExecutable
 	@InputVar(label = "Disable", description = "If Instance should be Disabled", type = VariableType.BOOLEAN)
 	public Boolean Disable = false;
 
-	StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance();
+	
 	// ##########################################################################################
 
 //###################      Code Execution      ############################
@@ -40,7 +42,7 @@ public class EnableDisableModuleInstancebyName implements IBaseExecutable
 			return;
 		}
 
-		ModuleRegistry MR = (ModuleRegistry) context.provider().fetch(ModuleRegistry.class); // Fetch Moduleregistry
+		ModuleRegistry MR = (ModuleRegistry) context.springApplicationContext().getBean(ModuleRegistry.class); // Fetch Moduleregistry
 
 		List<Module> Modules = MR.getModules(); // Fetch all currently installed Modules
 

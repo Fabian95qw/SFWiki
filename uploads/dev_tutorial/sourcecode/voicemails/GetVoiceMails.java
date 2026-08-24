@@ -12,7 +12,7 @@ import org.apache.commons.lang.time.DateUtils;
 import org.apache.logging.log4j.Logger;
 
 import de.starface.bo.VoicemailListBusinessObject;
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.starface.integration.uci.java.v30.types.VoicemailList;
 import de.starface.integration.uci.java.v30.types.VoicemailListEntry;
 import de.starface.integration.uci.java.v30.values.OrderDirection;
@@ -29,7 +29,7 @@ import de.vertico.starface.persistence.connector.VoiceboxHandler;
 import de.vertico.starface.persistence.databean.voicemail.Account2VoicemailuserBean;
 import de.vertico.starface.persistence.databean.voicemail.VoicemailUserList;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class GetVoiceMails implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -46,7 +46,7 @@ public class GetVoiceMails implements IBaseExecutable
 	@OutputVar(label="Voicemails", description="",type=VariableType.LIST)
 	List<Map<String,Object>> Voicemails = new ArrayList<Map<String, Object>>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -66,7 +66,7 @@ public class GetVoiceMails implements IBaseExecutable
 			return;
 		}
 		
-		VoiceboxHandler VOB = (VoiceboxHandler)context.provider().fetch(VoiceboxHandler.class); //Fetch the Voiceboxhandler
+		VoiceboxHandler VOB = (VoiceboxHandler)context.springApplicationContext().getBean(VoiceboxHandler.class); //Fetch the Voiceboxhandler
 		log.debug("Using ID: "+STARFACE_ACCOUNT + " with target: "+ Voicemailno);
 		
 		VoicemailUserList VBs = VOB.getVoicemailBoxesForAccountId(STARFACE_ACCOUNT); //List all Voicemailboxes this User/Group is allowed to See
@@ -91,7 +91,7 @@ public class GetVoiceMails implements IBaseExecutable
 		}
 		
 	
-		VoicemailListBusinessObject VBO = (VoicemailListBusinessObject)context.provider().fetch(VoicemailListBusinessObject.class);
+		VoicemailListBusinessObject VBO = (VoicemailListBusinessObject)context.springApplicationContext().getBean(VoicemailListBusinessObject.class);
 		Date D = new Date();
 		
 		

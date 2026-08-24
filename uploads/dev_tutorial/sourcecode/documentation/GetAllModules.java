@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.apache.logging.log4j.Logger;
 
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.ModuleRegistry;
 import de.vertico.starface.module.core.model.Module;
 import de.vertico.starface.module.core.model.ModuleInstance;
@@ -20,7 +20,7 @@ import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL;
 import de.vertico.starface.persistence.databean.core.PhoneNumberInfoBean;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class GetAllModules implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -28,7 +28,7 @@ public class GetAllModules implements IBaseExecutable
 	@OutputVar(label="Modules", description="",type=VariableType.LIST)
 	public List<Map<String, Object>> Modules = new ArrayList<Map<String, Object>>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -39,8 +39,8 @@ public class GetAllModules implements IBaseExecutable
 
 		log.debug("Extracting Modules");
 		
-		ModuleRegistry MR = (ModuleRegistry)context.provider().fetch(ModuleRegistry.class);		
-    	CATConnectorPGSQL CAT = (CATConnectorPGSQL)context.provider().fetch(CATConnectorPGSQL.class);
+		ModuleRegistry MR = (ModuleRegistry)context.springApplicationContext().getBean(ModuleRegistry.class);		
+    	CATConnectorPGSQL CAT = (CATConnectorPGSQL)context.springApplicationContext().getBean(CATConnectorPGSQL.class);
     	
 		for(Module M : MR.getModules())
 		{

@@ -13,7 +13,7 @@ import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.general.DefaultPieDataset;
 
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IBaseExecutable;
@@ -23,7 +23,7 @@ import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.module.core.runtime.functions.lang.string.StripEnd;
 import de.vertico.starface.module.core.runtime.functions.system.Execute4;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class HDDInformation implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -40,7 +40,7 @@ public class HDDInformation implements IBaseExecutable
 	@OutputVar(label="HDDChart", description="",type=VariableType.STRING)
 	public String HDDChart="";
 			
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	

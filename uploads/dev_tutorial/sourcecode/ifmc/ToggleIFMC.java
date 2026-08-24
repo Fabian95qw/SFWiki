@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.Logger;
 
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IBaseExecutable;
@@ -15,7 +15,7 @@ import de.vertico.starface.module.core.runtime.annotations.InputVar;
 import de.vertico.starface.persistence.connector.SipAndPhonesHandler;
 import de.vertico.starface.persistence.databean.config.phone.FMCBean;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class ToggleIFMC implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -32,7 +32,7 @@ public class ToggleIFMC implements IBaseExecutable
 	@InputVar(label="isBlacklist", description="", type=VariableType.BOOLEAN)
 	public boolean isBlacklist=true;
 
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -42,7 +42,7 @@ public class ToggleIFMC implements IBaseExecutable
 	{
 		Logger log = context.getLog();
 
-		SipAndPhonesHandler SIPH = (SipAndPhonesHandler)context.provider().fetch((SipAndPhonesHandler.class));
+		SipAndPhonesHandler SIPH = (SipAndPhonesHandler)context.springApplicationContext().getBean((SipAndPhonesHandler.class));
 		List<String> FilterList = null; 
 		try
 		{

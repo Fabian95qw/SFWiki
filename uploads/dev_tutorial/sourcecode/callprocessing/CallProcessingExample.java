@@ -4,7 +4,7 @@ import org.apache.logging.log4j.Logger;
 
 import de.starface.bo.callhandling.actions.ModuleBusinessObject;
 import de.starface.callhandling.enums.HangupCause;
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IAGIJavaExecutable;
@@ -15,7 +15,7 @@ import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.module.core.runtime.functions.callHandling.call.CallPhonenumber2;
 import de.vertico.starface.module.core.runtime.functions.callHandling.call.GetCaller2;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class CallProcessingExample implements IAGIJavaExecutable //IAGIJavaExecutable for call processing!
 {
 	//##########################################################################################
@@ -29,7 +29,7 @@ public class CallProcessingExample implements IAGIJavaExecutable //IAGIJavaExecu
 	@OutputVar(label="Success", description="If the call was sucessfully redirected",type=VariableType.BOOLEAN)
 	public boolean Success=false;
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -38,7 +38,7 @@ public class CallProcessingExample implements IAGIJavaExecutable //IAGIJavaExecu
 	public void execute(IAGIRuntimeEnvironment context) throws Exception 
 	{
 		Logger log = context.getLog();
-		ModuleBusinessObject MBO = (ModuleBusinessObject)context.provider().fetch(ModuleBusinessObject.class);
+		ModuleBusinessObject MBO = (ModuleBusinessObject)context.springApplicationContext().getBean(ModuleBusinessObject.class);
 	
 		if(context.getCallerChannelName() == null || context.getCallerChannelName().isEmpty()) //Check if Module has active channel
 		{

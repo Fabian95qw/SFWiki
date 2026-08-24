@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.logging.log4j.Logger;
 
 import de.starface.bo.UserBusinessObject;
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.module.core.model.VariableType;
 import de.vertico.starface.module.core.model.Visibility;
 import de.vertico.starface.module.core.runtime.IBaseExecutable;
@@ -17,9 +17,9 @@ import de.vertico.starface.module.core.runtime.annotations.Function;
 import de.vertico.starface.module.core.runtime.annotations.InputVar;
 import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL;
-import de.vertico.starface.persistence.connector.PersonAndAccountHandler;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL.DataDefault;
 import de.vertico.starface.persistence.connector.CATConnectorPGSQL.TelephoneNumberType;
+import de.vertico.starface.persistence.connector.PersonAndAccountHandler;
 import de.vertico.starface.persistence.databean.config.phone.PhoneBeanLite;
 import de.vertico.starface.persistence.databean.core.ExtendedUserData;
 import de.vertico.starface.persistence.databean.core.Permission;
@@ -27,7 +27,7 @@ import de.vertico.starface.persistence.databean.core.PhoneNumberBean;
 import de.vertico.starface.persistence.databean.core.PhoneNumberBeanLite;
 import io.jsonwebtoken.lang.Objects;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class GetAllUsers implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -38,7 +38,7 @@ public class GetAllUsers implements IBaseExecutable
 	@OutputVar(label="Users", description="",type=VariableType.LIST)
 	public List<Map<String, String>> Users = new ArrayList<Map<String, String>>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -49,12 +49,12 @@ public class GetAllUsers implements IBaseExecutable
 
 		log.debug("Extracting Userdata");
 		
-		PersonAndAccountHandler PAH = context.provider().fetch(PersonAndAccountHandler.class);
-		UserBusinessObject UBO = context.provider().fetch(UserBusinessObject.class);
-		CATConnectorPGSQL CAT = context.provider().fetch(CATConnectorPGSQL.class);
+		PersonAndAccountHandler PAH = context.springApplicationContext().getBean(PersonAndAccountHandler.class);
+		UserBusinessObject UBO = context.springApplicationContext().getBean(UserBusinessObject.class);
+		CATConnectorPGSQL CAT = context.springApplicationContext().getBean(CATConnectorPGSQL.class);
 		
-		List<Integer> UCIPremium = PAH.getAccountsWithPermission(Permission.UCI_AUTOPROVISIONING.getPermissionid());
-		List<Integer> TS = PAH.getAccountsWithPermission(Permission.WINCLIENT_TERMINAL_SERVER.getPermissionid());
+		List<Integer> UCIPremium = PAH.getAccountsWithPermission(Permission.UCI_AUTOPROVISIONING.getPermissionId());
+		List<Integer> TS = PAH.getAccountsWithPermission(Permission.WINCLIENT_TERMINAL_SERVER.getPermissionId());
 		
 		for(ExtendedUserData EUD : UBO.getUsers())
 		{

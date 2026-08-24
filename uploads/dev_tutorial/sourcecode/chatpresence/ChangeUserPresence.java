@@ -2,9 +2,9 @@ package si.module.examples.chatpresence;
 
 import org.apache.logging.log4j.Logger;
 
-import de.starface.bo.BusinessObjects;
+import de.starface.bo.UserStateBusinessObject;
 import de.starface.bo.events.NewUserStateEvent;
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.starface.core.component.events.StarfaceEventService;
 import de.starface.integration.uci.java.v30.types.UserState;
 import de.starface.integration.uci.java.v30.values.ChatPresence;
@@ -16,7 +16,7 @@ import de.vertico.starface.module.core.runtime.annotations.Function;
 import de.vertico.starface.module.core.runtime.annotations.InputVar;
 import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="Changes the User's Chatstate")
+@Function(visibility=Visibility.Private, description="Changes the User's Chatstate")
 public class ChangeUserPresence implements IBaseExecutable
 {
 //##########################################################################################
@@ -36,7 +36,7 @@ public class ChangeUserPresence implements IBaseExecutable
   @OutputVar(label="Success", description="If setting the status was sucessful",type=VariableType.BOOLEAN)
   public boolean Success=false;
 
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance();
+    
     //##########################################################################################
 
 
@@ -46,10 +46,10 @@ public class ChangeUserPresence implements IBaseExecutable
   {
     Logger log  = context.getLog();
     //Fetch the Required Components
-    BusinessObjects BO = (BusinessObjects)context.provider().fetch(BusinessObjects.class);
-    StarfaceEventService ES = (StarfaceEventService)context.provider().fetch(StarfaceEventService.class);
+    UserStateBusinessObject USBO = (UserStateBusinessObject)context.springApplicationContext().getBean(UserStateBusinessObject.class);
+    StarfaceEventService ES = (StarfaceEventService)context.springApplicationContext().getBean(StarfaceEventService.class);
 
-    UserState userState = BO.getUserStateBO().getUserState(AccountID); //Fetch the current UserState for the accountid
+    UserState userState = USBO.getUserState(AccountID); //Fetch the current UserState for the accountid
     if(userState == null) //If AccountID is invalid/user does not exist
     {
       log.error("User with AccountID: "+ AccountID+ " does not exist!");

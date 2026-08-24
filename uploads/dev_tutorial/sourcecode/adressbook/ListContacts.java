@@ -8,12 +8,14 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
 import org.apache.logging.log4j.Logger;
-import de.starface.core.component.StarfaceComponentProvider;
+
+
 import de.vertico.starface.frontend.addressbook.form.AddressbookContact;
 import de.vertico.starface.frontend.addressbook.form.DataEntry;
 import de.vertico.starface.frontend.addressbook.form.SearchResultWithEstimate;
@@ -27,9 +29,8 @@ import de.vertico.starface.module.core.runtime.annotations.InputVar;
 import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.persistence.connector.addressbook.AddressBookHandler;
 import de.vertico.starface.persistence.connector.addressbook.AddressBookInterface;
-import java.util.HashMap;
 
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class ListContacts implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -49,7 +50,7 @@ public class ListContacts implements IBaseExecutable
 	@OutputVar(label="Success", description="",type=VariableType.BOOLEAN)
 	public Boolean Success = false;
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
@@ -58,7 +59,7 @@ public class ListContacts implements IBaseExecutable
 	{
 		Logger log = context.getLog();
 		
-		AddressBookHandler ABH = (AddressBookHandler)context.provider().fetch(AddressBookHandler.class); //Fetch the Adressbookhandler
+		AddressBookHandler ABH = (AddressBookHandler)context.springApplicationContext().getBean(AddressBookHandler.class); //Fetch the Adressbookhandler
 		
 		AddressBookInterface ABI = ABH.getAddressBookInterface(); //Fetch the Interface, this Example Only works if the Returned Interface is the Local Adressbook. If its LDAP this example will not work
 		
@@ -77,12 +78,12 @@ public class ListContacts implements IBaseExecutable
 		log.debug("Executing Search: " + STARFACE_USER+"-"+Foldername);
 		SearchResultWithEstimate SR = ABI.search(SB, "", true); //Search the Folder with no Searchterm defined, so it will return all Users
 				
-	    
+		List<AddressbookContact> srfiltered = new ArrayList<AddressbookContact>(); // Setup new List for Filter
 	    if(isPrivate) //If the Search is private, there is a separate list of ACL's which lists, which contact can only be seen by which user
 	    {
 			//Even if the Folder "private" is searched, it will return all Private Contacts of all users, unless filtered
 			List<List<Object>> ACLList = GetACLforPerson(STARFACE_USER, log);
-			List<AddressbookContact> srfiltered = new ArrayList<AddressbookContact>();
+			
 			String PersonID=null;
 			
 		    for (AddressbookContact AC : SR.getContacts()) //Check for each Contact, if the ACL List contains it's UUID
@@ -98,18 +99,21 @@ public class ListContacts implements IBaseExecutable
 		      		}    		
 		      	}  
 		    }
-	    	SR.setContacts(srfiltered); //Replace Contacts with the Filtered list of Contacts
+	    }
+	    else
+	    {
+	    	srfiltered = SR.getContacts();
 	    }
 	    
-		if(SR.getContacts().size() == 0)
+		if(srfiltered.size() == 0)
 		{
 			log.debug("Search returned 0 Contacts.");
 			return;
 		}
 		
-		log.debug("Found: " + SR.getContacts().size() + " Contacts");
+		log.debug("Found: " + srfiltered.size() + " Contacts");
 
-		for(AddressbookContact AC: SR.getContacts()) //Turning the Contact into a Map
+		for(AddressbookContact AC: srfiltered) //Turning the Contact into a Map
 		{
 			//This is just a basic Example with some basic attributes.
 			Map<String, Object> Contact = new HashMap<String, Object>();

@@ -1,10 +1,11 @@
 package si.module.examples.documentation;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.starface.core.component.StarfaceComponentProvider;
+
 import de.vertico.starface.config.server.forms.NetworkDataForm;
 import de.vertico.starface.config.server.forms.NetworkInterfaceForm;
 import de.vertico.starface.helpers.network.NetworkConfigurationComponent;
@@ -18,9 +19,7 @@ import de.vertico.starface.module.core.runtime.annotations.OutputVar;
 import de.vertico.starface.module.core.runtime.functions.system.Execute4;
 import io.jsonwebtoken.lang.Objects;
 
-import java.util.HashMap;
-
-@Function(visibility=Visibility.Private, rookieFunction=false, description="")
+@Function(visibility=Visibility.Private, description="")
 public class NetworkInformation implements IBaseExecutable 
 {
 	//##########################################################################################
@@ -28,14 +27,14 @@ public class NetworkInformation implements IBaseExecutable
 	@OutputVar(label="Networkdata", description="",type=VariableType.MAP)
 	public Map<String, Object> Networkdata = new HashMap<String, Object>();
 	
-    StarfaceComponentProvider componentProvider = StarfaceComponentProvider.getInstance(); 
+     
     //##########################################################################################
 	
 	//###################			Code Execution			############################	
 	@Override
 	public void execute(IRuntimeEnvironment context) throws Exception 
 	{
-		NetworkConfigurationComponent NCC = (NetworkConfigurationComponent)context.provider().fetch(NetworkConfigurationComponent.class);
+		NetworkConfigurationComponent NCC = (NetworkConfigurationComponent)context.springApplicationContext().getBean(NetworkConfigurationComponent.class);
 		NetworkDataForm NDF = NCC.loadNetworkDataFromDB();
 		
 		Execute4 Command = new Execute4();
