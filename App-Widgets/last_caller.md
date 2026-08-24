@@ -2,7 +2,7 @@
 title: Letzte Anrufer (Ab STARFACE 10.X)
 description: 
 published: true
-date: 2026-08-24T09:53:26.349Z
+date: 2026-08-24T10:03:56.357Z
 tags: 
 editor: markdown
 dateCreated: 2026-08-24T09:51:25.485Z
@@ -28,7 +28,7 @@ Mit diesem Modul lassen sich die letzten [n] Benutzer der STARFACE Anzeigen, wel
 
 # Konfiguration
 
-![1.PNG](/uploads/lastcaller/1.PNG)
+![9.PNG](/uploads/lastcaller/9.PNG)
 
 ## Länge der History
 Definiert, wie viele Einträge ausgegeben werden sollen.
@@ -36,39 +36,28 @@ Definiert, wie viele Einträge ausgegeben werden sollen.
 ## Webseiten-URL
 Der Webseiten URL wird für das Widget benötigt. Dies wird weiter unten im Detail erklärt.
 
-## Tokengenerator-URL
-Unter diesem URL ist der Tokengenerator für das Widget erreichbar.
-Dieser wird für die Widgeterzeugung benötigt.
+## Passwortschutz Webseite 	
+Hier muss ein Passwort für den Zugriff auf die Webseite definiert werden, dieses wird später beim Widget erzeugen benötigt.
 
 # Widget erzeugen
-
-## Token für Widget generieren
-Bevor das Widget eingebunden werden kann, muss der Tokengenerator unter dem im Modul erzeugten Link aufgerufen werden.
-
-![3.PNG](/uploads/lastcaller/3.PNG)
-
-In diesem Beispiel ist der Link: http(s):<zero-width space/>//\[STARFACE\]/downloads/f486/tokengen/index.html
-
- Dort müssen alle Felder mit den Informationen der STARFACE + einem Login ausgefüllt werden.
   
-![5.PNG](/uploads/lastcaller/5.PNG)
+![10.PNG](/uploads/lastcaller/10.PNG)
 
-Dies Erzeugt dann einen fertigen Token im untersten Feld. Dieser muss kopiert werden.
-Für das obenliegende Beispiel würde dieser so aussehen: https%3A%2F%2Ftestface.<zero-width space/>si-solutions<zero-width space/>.ch%2Fxml-rpc%3Fde.vertico.starface.auth%3D100%3A5123899fe5a452123aeff5217816c06a6f8c85e499e40351426a6855381af44b6584eb9391761960506c081d713876261686d8d5fa3fa96470adb5c6943fead9
+Es wird der Webseiten URL Benötigt und das Passwort, welches im Modul hinterlegt wurde.
 
-![4.PNG](/uploads/lastcaller/4.PNG)
+In meinem Beispiel nehme ich den URL: http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html
 
-Dieser muss dann mit dem Webseiten-URL Kombiniert werden, in meinem Beispiel: http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html
+Und das Passwort: Test1234
 
-Der URL muss um 2 Parameter erweitert werden einmal mit dem Füllwert von der STARFACE-App für Anruferinformationen (callerid) sowie dem generierten Token.
+Der URL muss um 3 erweitert werden einmal mit dem Füllwert von der STARFACE-App für Anruferinformationen (callerid) sowie dem Passwort und dem Namen der Instanz.
 
 Der URL muss am schluss so aussehen:
 
-http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html?vcallerid=$(callerId)&sfrequrl=\[Token vom Tokengenerator]
+http(s):<zero-width space/>//\[STARFACE]/downloads/f486/index.html?vcallerid=$(callerId)&modulekey=\[Passwort aus Modul\]&instancename=\[Name der Instanz\]
 
 In meinem Beispiel:
 
-https:<zero-width space/>//testface<zero-width space/>.si-solutions<zero-width space/>.ch/downloads/f486/index.html?vcallerid=$(callerId)&sfrequrl=https%3A%2F%2Ftestface.<zero-width space/>si-solutions<zero-width space/>.ch%2Fxml-rpc%3Fde.vertico.starface.auth%3D100%3A5123899fe5a452123aeff5217816c06a6f8c85e499e40351426a6855381af44b6584eb9391761960506c081d713876261686d8d5fa3fa96470adb5c6943fead9
+https:<zero-width space/>//testface<zero-width space/>.si-solutions<zero-width space/>.ch/downloads/41f1/index.html?vcallerid=$(callerId)&modulekey=Test1234&instancename=LetzteAnrufeSISolutions
 
 Dieser URL kann dann in den UCC-Client eingepflegt werden.
 
