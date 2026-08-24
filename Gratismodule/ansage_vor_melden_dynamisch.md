@@ -2,7 +2,7 @@
 title: Ansage vor Melden mit dynamischem Text
 description: 
 published: true
-date: 2025-04-22T11:51:45.948Z
+date: 2025-04-22T11:51:57.039Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-04T07:39:58.495Z

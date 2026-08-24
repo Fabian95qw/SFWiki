@@ -2,7 +2,7 @@
 title: Ausgehende Black-/White-list
 description: 
 published: true
-date: 2024-03-14T14:32:42.845Z
+date: 2024-03-14T14:32:47.691Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-14T14:19:58.605Z

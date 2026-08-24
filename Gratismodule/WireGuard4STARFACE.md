@@ -2,7 +2,7 @@
 title: Wireguard 4 STARFACE
 description: 
 published: true
-date: 2024-01-24T14:53:49.543Z
+date: 2024-01-24T14:53:53.989Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-24T09:22:28.739Z

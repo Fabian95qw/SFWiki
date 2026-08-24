@@ -2,7 +2,7 @@
 title: Rückrufbitte mit E-Mail Versand
 description: 
 published: true
-date: 2022-05-17T10:04:53.536Z
+date: 2022-05-17T10:04:59.261Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-17T09:41:31.411Z

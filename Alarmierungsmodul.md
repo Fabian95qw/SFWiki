@@ -2,7 +2,7 @@
 title: Alarmierungsmodul
 description: 
 published: true
-date: 2024-03-18T09:17:44.551Z
+date: 2024-03-18T09:17:51.618Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-05T14:05:22.843Z

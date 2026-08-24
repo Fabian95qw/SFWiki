@@ -2,7 +2,7 @@
 title: Mail 2 Call - Meldungstexte
 description: 
 published: true
-date: 2022-06-20T07:22:56.847Z
+date: 2022-06-20T07:23:05.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-16T10:58:11.274Z

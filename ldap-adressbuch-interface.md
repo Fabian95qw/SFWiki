@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2024-12-16T09:42:04.837Z
+date: 2024-12-16T09:42:14.165Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z

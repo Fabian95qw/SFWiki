@@ -2,7 +2,7 @@
 title: Div. Informationen beziehen
 description: 
 published: true
-date: 2023-10-09T11:35:21.287Z
+date: 2023-10-09T11:35:25.827Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-09T11:35:21.287Z

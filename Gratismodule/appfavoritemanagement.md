@@ -2,7 +2,7 @@
 title: App-Favoriten Management
 description: 
 published: true
-date: 2026-02-27T10:00:07.459Z
+date: 2026-02-27T10:00:14.843Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-12T15:33:00.743Z

@@ -2,7 +2,7 @@
 title:  Dokumentationsmodul 4 STARFACE
 description: 
 published: true
-date: 2025-04-01T08:09:01.948Z
+date: 2025-04-01T08:09:12.368Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-01T08:50:30.959Z

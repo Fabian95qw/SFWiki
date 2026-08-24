@@ -2,7 +2,7 @@
 title: Erweiterter Konferenzraum
 description: 
 published: true
-date: 2025-05-14T08:56:28.360Z
+date: 2025-05-14T08:56:43.146Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-14T08:43:53.398Z

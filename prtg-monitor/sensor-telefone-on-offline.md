@@ -2,7 +2,7 @@
 title: Sensor: Telefone On/Offline
 description: 
 published: true
-date: 2024-12-05T09:59:44.253Z
+date: 2024-12-05T09:59:49.027Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:41:38.919Z

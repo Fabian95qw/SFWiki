@@ -2,7 +2,7 @@
 title: Quelle: Office365 Connector
 description: 
 published: true
-date: 2026-07-29T06:41:59.742Z
+date: 2026-07-29T06:42:13.704Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:38:44.513Z

@@ -2,7 +2,7 @@
 title: Entwicklung eines Modulbausteins
 description: 
 published: true
-date: 2022-08-08T14:06:08.800Z
+date: 2022-08-08T14:06:18.088Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:40:24.642Z

@@ -2,7 +2,7 @@
 title: Quelle: finCRM
 description: 
 published: true
-date: 2024-11-20T07:23:55.217Z
+date: 2024-11-20T07:24:03.656Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-20T07:23:55.217Z

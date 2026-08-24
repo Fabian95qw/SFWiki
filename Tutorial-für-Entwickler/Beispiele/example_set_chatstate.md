@@ -2,7 +2,7 @@
 title: Chatstatus für einen Benutzer setzen.
 description: 
 published: true
-date: 2023-10-09T11:15:31.410Z
+date: 2023-10-09T11:15:37.554Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T14:08:47.870Z

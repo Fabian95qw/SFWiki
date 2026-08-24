@@ -2,7 +2,7 @@
 title: Voicemail als E-Mail
 description: 
 published: true
-date: 2026-06-17T13:19:05.456Z
+date: 2026-06-17T13:19:15.547Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-07T08:49:03.552Z

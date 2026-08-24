@@ -2,7 +2,7 @@
 title: Datenlöscher
 description: 
 published: true
-date: 2024-09-19T09:19:20.881Z
+date: 2024-09-19T09:19:28.629Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-09T09:34:45.458Z

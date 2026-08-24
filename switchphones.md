@@ -2,7 +2,7 @@
 title: Arbeitsplatzwechsel
 description: 
 published: true
-date: 2026-07-08T08:14:20.433Z
+date: 2026-07-08T08:14:30.833Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-13T10:09:20.694Z

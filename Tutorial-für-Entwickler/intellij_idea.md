@@ -2,7 +2,7 @@
 title: Einrichtung der Entwicklungsumgebung (IntelliJ)
 description: 
 published: true
-date: 2022-03-03T09:35:46.387Z
+date: 2026-08-24T05:40:56.121Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-23T13:38:44.905Z
@@ -33,6 +33,8 @@ Man startet ein neues Projekt vom Typ "Java" und wählt als Project SDK die zur 
 
 **v6.x → Java 1.7
 v7.x → Java 1.8**
+
+Die für die aktuelle STARFACE Version relevante STARFACE Version kann mit **java -version** per SSH abgefragt werden.
 
 > Achtung! Wenn die falsche Java Version gewählt wird können die Bausteine auf der Anlage nicht geladen werden. 
 > {.is-danger}

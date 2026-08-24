@@ -2,7 +2,7 @@
 title: Abwurfplatz
 description: 
 published: true
-date: 2023-02-27T15:57:54.559Z
+date: 2023-02-27T15:57:58.881Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-07T11:33:08.231Z

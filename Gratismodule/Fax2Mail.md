@@ -2,7 +2,7 @@
 title: Fax2Mail
 description: 
 published: true
-date: 2025-04-03T10:55:27.628Z
+date: 2025-04-03T10:55:33.164Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-03T10:54:00.623Z

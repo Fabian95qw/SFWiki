@@ -2,7 +2,7 @@
 title: Sensor: IQueue Statistik
 description: 
 published: true
-date: 2024-12-05T09:55:45.350Z
+date: 2024-12-05T09:55:53.072Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-05T09:55:45.350Z

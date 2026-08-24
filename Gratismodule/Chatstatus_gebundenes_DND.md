@@ -2,7 +2,7 @@
 title: Chatstatus gebundenes DND
 description: 
 published: true
-date: 2022-01-17T10:07:57.542Z
+date: 2022-01-17T10:08:02.650Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-17T10:02:04.295Z

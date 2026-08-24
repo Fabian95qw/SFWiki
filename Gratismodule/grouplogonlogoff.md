@@ -2,7 +2,7 @@
 title: Gruppenzuweisung de/aktivieren
 description: 
 published: true
-date: 2024-06-12T06:53:07.809Z
+date: 2024-06-12T06:53:12.017Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-12T06:47:14.928Z

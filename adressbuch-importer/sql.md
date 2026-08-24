@@ -2,7 +2,7 @@
 title: Quelle: SQL-Datenbanken
 description: 
 published: true
-date: 2024-06-07T06:45:32.774Z
+date: 2024-06-07T06:45:39.152Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T08:57:39.954Z
