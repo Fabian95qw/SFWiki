@@ -2,7 +2,7 @@
 title: Einrichtung der Entwicklungsumgebung (Eclipse)
 description: 
 published: true
-date: 2022-03-04T09:46:32.883Z
+date: 2026-08-24T05:40:44.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-18T09:55:31.658Z
@@ -32,6 +32,9 @@ Diese Daten müssen nicht im Projektverzeichnis abgelegt werden.
 Man eröffnet ein ganz normales Java Project mit der Java-Version der Anlage 
 **v6.x → Java 1.7
 v7.x → Java 1.8**
+
+Die für die aktuelle STARFACE Version relevante STARFACE Version kann mit **java -version** per SSH abgefragt werden.
+
 > Achtung! Wenn die falsche Java Version gewählt wird können die Bausteine auf der Anlage nicht geladen werden. 
 {.is-danger}
 
