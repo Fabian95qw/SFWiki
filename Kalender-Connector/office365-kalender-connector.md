@@ -2,7 +2,7 @@
 title: Office365 Kalender Connector
 description: 
 published: true
-date: 2024-04-29T06:42:13.376Z
+date: 2026-10-27T10:40:32.007Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T12:11:18.220Z
@@ -21,7 +21,7 @@ Oder kurz Ausgedrückt:
 
 
 # Vorsicht Abhängigkeit!
-> **Dieses Modul setzt vorraus, dass das Modul "Microsoft Graph API Library" installiert ist.**
+> **Dieses Modul setzt für alle Versionen älter als 953 (27.10.2026) vorraus, dass das Modul "Microsoft Graph API Library" installiert ist. Ansonsten ist es in der Modul-Library rot gekennzeichnet**
 {.is-danger}
 
 Dieses finden sie auf http://module.si-solutions.ch
@@ -66,7 +66,7 @@ Folgende Variablen stehen zur Verfügung:
 !time! ==> Uhrzeit Von-Bis
 !title! ==> Titel des Eintrags, oder "Privat", falls der Eintrag auf Privat gesetzt ist.
 !type! ==> Der Typ des Eintrags Gebucht/Ausser Haus usw...
-Das vordefinierte Format ist: [!time!] [!type!] !title!  welches so aussehen würde: [07:00-12:00] [Gebucht] Kunde ABC
+Das vordefinierte Format ist: [!time!] [!type!] !title!  welches so aussehen würde: \[07:00-12:00] \[Gebucht] Kunde ABC
 
 ## Alarme
 Es gibt die Möglichkeit bei Problemen mit dem Exchange Connector, oder mit Umleitungszeieln eine E-Mail zu alamieren.
@@ -79,10 +79,8 @@ Um eine Verbindung mit dem Office365 herzustellen, muss ein entsprechender App-L
 Wie ein App-Login für Microsoft Exchange erstellt wird sehen sie http://wiki.si-solutions.ch/de/office-365-client-app
 Dieses Modul benötigt zur korrekten ausführung folgende API-Permissions:
 
-full_access_as_app (https://outlook.office365.com/full_access_as_app):Zugriff auf alle Exchange Web Services. 
-> Diese Permission ist zu finden unter: "Von meiner Organisation verwendete APIs" --> 
-> Office 365 Exchange Online --> Anwendungsberechtigungen
-{.is-info}
+- User.Read.All . Zu finden unter Microsoft Graph -> Users
+- Calendars.Read. Zu finden unter Microsoft Graph -> Calendars
 
 ### Maximale Terminlänge
 Definiert, wie lange ein Termin maximal sein darf. Je grösser dieser Wert ist, umso grösser ist der Bereich, in dem das Modul nach gültigen Kalendereinträgen suchen muss.
@@ -156,15 +154,15 @@ Erlaubt es Umleitungen für die externen Rufnummern zu aktivieren.
 ## Erlaubte Parametisierung
 Ob die Parametisierung von Zielen durch setzen von @@Intern/@@Extern für Umleitungen erlaubt ist
 ### @@Extern: 		
-Erlauben von Parametisierung des externen Umleitungsziels durch Platzieren des Tags @@Extern:[Nummer] im Text des Kalendereintrags
+Erlauben von Parametisierung des externen Umleitungsziels durch Platzieren des Tags @@Extern:\[Nummer] im Text des Kalendereintrags
 
-> Ab STARFACE 7.0 muss die Rufnummer mit 00 anstatt mit + beginnen.
+> Die Rufnummer muss immer mit 00 anstatt mit + beginnen.
 {.is-warning}
 
 ### @@Intern:
-Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des Tags @@Intern:[Nummer] im Text des Kalendereintrags
+Erlauben von Parametisierung des internen Umleitungsziels durch Platzieren des Tags @@Intern:\[Nummer] im Text des Kalendereintrags
 
-> Ab STARFACE 7.0 muss die Rufnummer mit 00 anstatt mit + beginnen.
+> Die Rufnummer muss immer mit 00 anstatt mit + beginnen.
 {.is-warning}
 
 
