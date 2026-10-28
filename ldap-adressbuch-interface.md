@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2026-10-28T10:37:42.555Z
+date: 2026-10-28T10:47:08.849Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -193,6 +193,20 @@ Die Zeilen:
   ![gigaset_n870_example](/uploads/ldap-adressbuch-interface/gigaset_n870_example.png)
   
 </details>
+
+## Externer LDAP Server
+Das Modul hat die möglichkeit mit einem Standalone-LDAP Server zu arbeiten. Dies ist z.b. für die neuen STARFACE-Clouds nötig.
+
+Der Standalone Server kann hier heruntergeladen werden: https://module.si-solutions.ch/ldap/LDAP-Server-Standalone/LDAP-Server-Standalone.zip
+
+### Schnittstelle aktivieren
+Aktiviert die Schnittstelle, die der externe LDAP Server für die Verbindung verwendet.
+
+### Passwort für Schnittstelle
+Dieses Passwort wird vom LDAP Server für den Zugriff auf die Adressbuchdaten auf der STARFACE benötigt.
+
+### Setup
+
 
 # Downloads & Lizenzierung
 Für Downloads besuchen sie bitte http://module.si-solutions.ch/
