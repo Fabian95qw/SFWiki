@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2026-10-28T13:15:20.398Z
+date: 2026-10-28T13:27:43.880Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -219,6 +219,8 @@ Das Setup verlangt beim ersten mal folgende Parameter:
 - Wie oft die Kontakte neu abgeglichen werden sollen in Stunden.
 
 ### Video
+
+![ldap-standalone.gif](/uploads/ldap-adressbuch-interface/ldap-standalone.gif)
 
 ### LDAP Konfiguration auf den Telefonen
 Es funktioniert genau gleich, wie bei dem normalen Setup: [LDAP Konfiguration auf Telefonen](#ldap-konfiguration-auf-telefonen) nur dass Server / Port / Login vom externen LDAP Server genommen werden müssen. Base-DN, Loginformat, Abfrageformate ect. bleiben gleich.
