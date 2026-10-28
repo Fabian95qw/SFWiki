@@ -2,7 +2,7 @@
 title: LDAP Adressbuch Interface für das STARFACE Adressbuch
 description: 
 published: true
-date: 2026-10-28T10:47:08.849Z
+date: 2026-10-28T13:14:35.680Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-04T09:26:18.627Z
@@ -93,7 +93,7 @@ Folgende LDAP Atrribute werden Verwendet/Befüllt:
 Damit die Telefone auf das LDAP Adressbuch Zugreifen kann, müssen geweisse Einstellungen an den Telefonen konfiguriert werden.
 
 ## Login
-Der im Modul gesetzte Login muss auf den Telefonen in der Form cn=\[Login\] eingetragen werden.
+Der im Modul oder externen LDAP Server gesetzte Login muss auf den Telefonen in der Form cn=\[Login\] eingetragen werden.
 Z.b. cn=Phone
 
 ## Base-DN
@@ -194,18 +194,34 @@ Die Zeilen:
   
 </details>
 
-## Externer LDAP Server
+# Externer LDAP Server
 Das Modul hat die möglichkeit mit einem Standalone-LDAP Server zu arbeiten. Dies ist z.b. für die neuen STARFACE-Clouds nötig.
 
 Der Standalone Server kann hier heruntergeladen werden: https://module.si-solutions.ch/ldap/LDAP-Server-Standalone/LDAP-Server-Standalone.zip
 
-### Schnittstelle aktivieren
+## Schnittstelle aktivieren
 Aktiviert die Schnittstelle, die der externe LDAP Server für die Verbindung verwendet.
 
-### Passwort für Schnittstelle
+## Passwort für Schnittstelle
 Dieses Passwort wird vom LDAP Server für den Zugriff auf die Adressbuchdaten auf der STARFACE benötigt.
 
-### Setup
+## Setup
+
+### Parameter
+Das Setup verlangt beim ersten mal folgende Parameter:
+- IP / DNS der STARFACE
+- Https Port der STARFACE
+- Instanznamen des Moduls
+- Passwort für Schnittstelle
+- LDAP Login, für den Zugriff der Telefone (cn=\[Login])
+- LDAP Passwort für den Zugriff der Telefone
+- LDAP Port auf dem der Dienst gehosttet wird
+- Wie oft die Kontakte neu abgeglichen werden sollen in Stunden.
+
+### Video
+
+### LDAP Konfiguration auf den Telefonen
+Es funktioniert genau gleich, wie bei dem normalen Setup: [LDAP Konfiguration auf Telefonen](#ldap-konfiguration-auf-telefonen)
 
 
 # Downloads & Lizenzierung
